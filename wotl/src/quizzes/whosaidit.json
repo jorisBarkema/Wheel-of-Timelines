@@ -1,0 +1,216 @@
+{
+    "type": "score",
+    "title": "Who Said This Quote?",
+    "titleImageSource": "quizzes/whosaidit/tfoh-cover.jpg",
+    "titleImageCredit": "https://www.pinterest.de/pin/566679565590788196/",
+    "titleImageArtist": "Darrell K. Sweet",
+    "endMessageBad": "The Wheel weaves as the Wheel wills, better luck on the next turning!",
+    "endMessageGood": "Good job!",
+    "endMessagePerfect": "Perfect! A True Wheel of Time expert!",
+    "questions": [
+        {
+            "question": "\"Almost dead yesterday, maybe dead tomorrow, but alive, gloriously alive, today.\"",
+            "images": true,
+            "showValues": true,
+            "options": [
+                {
+                    "value": "Rand al'Thor",
+                    "imageSource": "character-portraits/rand-crown-of-swords.jpg",
+                    "imageCredit": "https://twitter.com/artarielb",
+                    "imageArtist": "Ariel Burgess"
+                },
+                {
+                    "value": "Matrim Cauthon",
+                    "imageSource": "character-portraits/mat.png",
+                    "imageCredit": "https://wot.fandom.com/wiki/Matrim_Cauthon?file=Avendesora.png",
+                    "imageArtist": "Sam Weber"
+                },
+                {
+                    "value": "Perrin Aybarra",
+                    "imageSource": "character-portraits/perrin.jpg",
+                    "imageCredit": "https://wallhere.com/en/wallpaper/1029172",
+                    "imageArtist": "Unknown"
+                }
+            ],
+            "answer": "Matrim Cauthon",
+            "explanation": ""
+        },
+        {
+            "question": "\"I will hate the man you choose because he isn’t me, and love him if he makes you smile.\"",
+            "images": true,
+            "showValues": true,
+            "options": [
+                {
+                    "value": "Lan Mandragoran",
+                    "imageSource": "character-portraits/Lan.jpg",
+                    "imageCredit": "https://vignette.wikia.nocookie.net/wot/images/e/ea/Lan_saliba.jpg/revision/latest?cb=20091219034741",
+                    "imageArtist": "Jeremy Saliba"
+                },
+                {
+                    "value": "Thom Merrilin",
+                    "imageSource": "character-portraits/Thom.png",
+                    "imageCredit": "https://vignette.wikia.nocookie.net/wot/images/2/20/Thom.png/revision/latest?cb=20090804062307",
+                    "imageArtist": "Jeremy Saliba"
+                },
+                {
+                    "value": "Rand al'Thor",
+                    "imageSource": "character-portraits/rand-crown-of-swords.jpg",
+                    "imageCredit": "https://twitter.com/artarielb",
+                    "imageArtist": "Ariel Burgess"
+                }
+            ],
+            "answer": "Lan Mandragoran",
+            "explanation": ""
+        },
+        {
+            "question": "\"If you must mount the gallows, give a jest to the crowd, a coin to the hangman, and make the drop with a smile on your lips.\"",
+            "images": true,
+            "showValues": true,
+            "options": [
+                {
+                    "value": "Siuan Sanche",
+                    "imageSource": "character-portraits/Siuan.jpg",
+                    "imageCredit": "https://wot.fandom.com/wiki/Siuan_Sanche?file=Siuan2.jpg",
+                    "imageArtist": "John Seamas Gallagher"
+                },
+                {
+                    "value": "Birgitte Trahelion",
+                    "imageSource": "character-portraits/Birgitte.jpg",
+                    "imageCredit": "https://vignette.wikia.nocookie.net/wot/images/6/65/Birgitte.jpg/revision/latest?cb=20091211145707",
+                    "imageArtist": "John Seamas Gallagher"
+                },
+                {
+                    "value": "Thom Merrilin",
+                    "imageSource": "character-portraits/Thom.png",
+                    "imageCredit": "https://vignette.wikia.nocookie.net/wot/images/2/20/Thom.png/revision/latest?cb=20090804062307",
+                    "imageArtist": "Jeremy Saliba"
+                }
+            ],
+            "answer": "Birgitte Trahelion",
+            "explanation": ""
+        },
+        {
+            "question": "\"I would not mind you in my head, if you were not so clearly mad.\"",
+            "images": true,
+            "showValues": true,
+            "options": [
+                {
+                    "value": "Rand al'Thor",
+                    "imageSource": "character-portraits/rand-crown-of-swords.jpg",
+                    "imageCredit": "https://twitter.com/artarielb",
+                    "imageArtist": "Ariel Burgess"
+                },
+                {
+                    "value": "Lews Therin Telamon",
+                    "imageSource": "character-portraits/lews-therin.png",
+                    "imageCredit": "https://vignette.wikia.nocookie.net/wot/images/6/64/TEOTW_-0_cover.PNG/revision/latest/scale-to-width-down/335?cb=20090804174947",
+                    "imageArtist": "Chase Conley"
+                }
+            ],
+            "answer": "Lews Therin Telamon",
+            "explanation": ""
+        },
+        {
+            "question": "\"Kneel and swear to the Lord Dragon, or you will be knelt.\"",
+            "images": true,
+            "showValues": true,
+            "options": [
+                {
+                    "value": "Mazrim Taim",
+                    "imageSource": "character-portraits/Taim.jpg",
+                    "imageCredit": "https://vignette.wikia.nocookie.net/wot/images/2/25/Taim.jpg/revision/latest?cb=20091211114701",
+                    "imageArtist": "John Seamas Gallagher"
+                },
+                {
+                    "value": "Logain",
+                    "imageSource": "character-portraits/Logain.jpg",
+                    "imageCredit": "https://wot-tidbits.tumblr.com/post/188007747265/updated-logain-by-ariel-burgess-updated-cadsuane",
+                    "imageArtist": "Ariel Burgess"
+                },
+                {
+                    "value": "Rand al'Thor",
+                    "imageSource": "character-portraits/rand-crown-of-swords.jpg",
+                    "imageCredit": "https://twitter.com/artarielb",
+                    "imageArtist": "Ariel Burgess"
+                }
+            ],
+            "answer": "Mazrim Taim",
+            "explanation": ""
+        },
+        {
+            "question": "\"Death comes for us all. We can only choose how to face it when it comes.\"",
+            "images": true,
+            "showValues": true,
+            "options": [
+                {
+                    "value": "Lan Mandragoran",
+                    "imageSource": "character-portraits/Lan.jpg",
+                    "imageCredit": "https://vignette.wikia.nocookie.net/wot/images/e/ea/Lan_saliba.jpg/revision/latest?cb=20091219034741",
+                    "imageArtist": "Jeremy Saliba"
+                },
+                {
+                    "value": "Moiraine Damodred",
+                    "imageSource": "character-portraits/Moiraine.jpg",
+                    "imageCredit": "https://wot.fandom.com/wiki/Moiraine_Damodred?file=Moiraine_Damodred.JPG",
+                    "imageArtist": "Dan Dos Santos"
+                },
+                {
+                    "value": "Aviendha",
+                    "imageSource": "character-portraits/Aviendha.jpg",
+                    "imageCredit": "https://vignette.wikia.nocookie.net/wot/images/2/25/Aviendha.jpg/revision/latest?cb=20091211213304",
+                    "imageArtist": "John Seamas Gallagher"
+                }
+            ],
+            "answer": "Aviendha",
+            "explanation": ""
+        },
+        {
+            "question": "\"If you fell head first into a pigsty, you’d try to convince everybody you did it on purpose.\"",
+            "images": true,
+            "showValues": true,
+            "options": [
+                {
+                    "value": "Nynaeve al'Meara",
+                    "imageSource": "character-portraits/Nynaeve.jpg",
+                    "imageCredit": "https://vignette.wikia.nocookie.net/wot/images/0/09/Wot-_nynaeve.jpg/revision/latest?cb=20160605154102",
+                    "imageArtist": "Jeremy Saliba"
+                },
+                {
+                    "value": "Egwene al'Vere",
+                    "imageSource": "character-portraits/Egwene.jpg",
+                    "imageCredit": "https://vignette.wikia.nocookie.net/wot/images/e/e2/Wot-_egwene.jpg/revision/latest?cb=20160605153945",
+                    "imageArtist": "John Seamas Gallagher"
+                }
+            ],
+            "answer": "Egwene al'Vere",
+            "explanation": ""
+        },
+        {
+            "question": "\"He came like the wind, like the wind touched everything, and like the wind was gone.\"",
+            "images": true,
+            "showValues": true,
+            "options": [
+                {
+                    "value": "Thom Merrilin",
+                    "imageSource": "character-portraits/Thom.png",
+                    "imageCredit": "https://vignette.wikia.nocookie.net/wot/images/2/20/Thom.png/revision/latest?cb=20090804062307",
+                    "imageArtist": "Jeremy Saliba"
+                },
+                {
+                    "value": "Loial",
+                    "imageSource": "character-portraits/Loial.jpg",
+                    "imageCredit": "https://wot.fandom.com/wiki/Treesinging?file=Treesinging.jpg",
+                    "imageArtist": "Ken Walker"
+                },
+                {
+                    "value": "Moiraine Damodred",
+                    "imageSource": "character-portraits/Moiraine.jpg",
+                    "imageCredit": "https://wot.fandom.com/wiki/Moiraine_Damodred?file=Moiraine_Damodred.JPG",
+                    "imageArtist": "Dan Dos Santos"
+                }
+            ],
+            "answer": "Loial",
+            "explanation": ""
+        }
+    ]
+}

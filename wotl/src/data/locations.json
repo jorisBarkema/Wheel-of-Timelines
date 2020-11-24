@@ -1,0 +1,1553 @@
+{
+    "locations": {
+        "al'Thor Farm": {
+            "x": 5146,
+            "y": 4124,
+            "radius": 40,
+            "description": "A Farm in the Westwood where Rand al'Thor was raised by his father Tam."
+        },
+        "Emond's Field": {
+            "x": 5194,
+            "y": 4114,
+            "radius": 80,
+            "description": "Emond's Field is a village in the Two Rivers region of Andor. However, the region is part of Andor in name only and its inhabitants have never seen a Queen's guard in their lives.",
+            "image": "Emonds_Field.jpg",
+            "imageSource": "https://i.redd.it/f3mwkybs8m441.jpg",
+            "imageCredit": "/u/aeddub",
+            "wikiLink": "https://wot.fandom.com/wiki/Emond's_Field"
+        },
+        "Taren Ferry": {
+            "x": 5218,
+            "y": 4036,
+            "radius": 80,
+            "description": "The most northern village in the Two Rivers, here the influence of the outside world was most obious. Other Two Rivers people found them to be different than them.",
+            "wikiLink": "https://wot.fandom.com/wiki/Taren_Ferry"
+        },
+        "Baerlon": {
+            "x": 5198,
+            "y": 3818,
+            "radius": 120,
+            "description": "Baerlon is a city in far eastern Andor. It is important for the mines in the Mountains of Mist.",
+            "wikiLink": "https://wot.fandom.com/wiki/Baerlon"
+        },
+        "Aridhol": {
+            "x": 5620,
+            "y": 3824,
+            "radius": 140,
+            "description": "Aridhol used to be the capital city of one of the Ten Nations and a great ally to Manetheren. During the trolloc wars, as the situation became more desparate, the city was corupted from within. Eventually this evil transformed the ciy into the ruin now known as Shadar Logoth.",
+            "image": "Shadar_Logoth.jpg",
+            "imageSource": "https://imgur.com/a/4gRdvZg#gzkjP6p",
+            "imageCredit": "Lightwaved",
+            "wikiLink": "https://wot.fandom.com/wiki/Shadar_Logoth"
+        },
+        "Whitebridge": {
+            "x": 6338,
+            "y": 4423,
+            "radius": 120,
+            "description": "Named for the famous White Bridge, believed to be from the age of legends. The bridge seems impossibly thin to be as strong as it is, and does not get slick from the rain.",
+            "image": "Whitebridge.jpg",
+            "imageCredit": "unknown",
+            "imageSource": "https://www.google.com/search?q=whitebridge+wot&bih=722&biw=1536&hl=en&sxsrf=ALeKk029pAh9JKhzvmf3r8_Uhr9I1Id_pw:1588515565208&tbm=isch&source=iu&ictx=1&fir=fTC1bnx0JbeQnM%253A%252CsxeETP2ptGV_lM%252C_&vet=1&usg=AI4_-kRQ_cfmmrsOSVTz1ZXYWhbvrY5koQ&sa=X&ved=2ahUKEwi2yu_P8ZfpAhVOLewKHQJHBTcQ9QEwA3oECAkQGA#imgrc=fTC1bnx0JbeQnM:",
+            "wikiLink": "https://wot.fandom.com/wiki/Whitebridge"
+        },
+        "Four Kings": {
+            "x": 7334,
+            "y": 4430,
+            "radius": 120,
+            "description": "Four Kings is a town near Caemlyn on the crossroads of the road to Lugard.",
+            "wikiLink": "https://wot.fandom.com/wiki/Four_Kings"
+        },
+        "Caemlyn": {
+            "x": 7719,
+            "y": 4446,
+            "radius": 180,
+            "description": "Capital of the great nation of Andor, Caemlyn is famed for its great white inner city and palace.",
+            "image": "Caemlyn.jpg",
+            "imageCredit": "WoT comic",
+            "imageSource": "https://vignette.wikia.nocookie.net/wot/images/8/8d/WoT255.jpg/revision/latest?cb=20130308214103",
+            "wikiLink": "https://wot.fandom.com/wiki/Caemlyn"
+        },
+        "Domon's boat": {
+            "x": 5660,
+            "y": 3829,
+            "radius": 80,
+            "hidden": true
+        },
+        "ch21": {
+            "x": 5676,
+            "y": 3825,
+            "radius": 80,
+            "hidden": true
+        },
+        "ch22": {
+            "x": 5660,
+            "y": 3799,
+            "radius": 80,
+            "hidden": true
+        },
+        "Meet Elyas": {
+            "x": 6023,
+            "y": 3624,
+            "radius": 80,
+            "hidden": true
+        },
+        "Abandoned stedding": {
+            "x": 6479,
+            "y": 3860,
+            "radius": 100,
+            "description": "An abandoned stedding where the ancient conqueror Artur Hawkwing wanted to build a city safe from the One Power. Before it could be finished however, he was killed. All that remains of the plans is a part of a massive statue sticking out of the ground."
+        },
+        "Market Sheran": {
+            "x": 7468,
+            "y": 4428,
+            "radius": 80,
+            "description": "A small village near Caemlyn.",
+            "wikiLink": "https://wot.fandom.com/wiki/Market_Sheran"
+        },
+        "Rescue site": {
+            "x": 7084,
+            "y": 4155,
+            "radius": 80,
+            "hidden": true
+        },
+        "Breen's Spring": {
+            "x": 7534,
+            "y": 4436,
+            "radius": 80,
+            "description": "A small village near Caemlyn.",
+            "wikiLink": "https://wot.fandom.com/wiki/Breen%27s_Spring"
+        },
+        "Carysford": {
+            "x": 7596,
+            "y": 4445,
+            "radius": 80,
+            "description": "A village near Caemlyn, at the crossing of the Caemlyn road of the river Cary.",
+            "wikiLink": "https://wot.fandom.com/wiki/Carysford"
+        },
+        "Arien": {
+            "x": 7043,
+            "y": 4415,
+            "radius": 80,
+            "description": "A small village on the Caemlyn road.",
+            "wikiLink": "https://wot.fandom.com/wiki/Arien"
+        },
+        "Danabar": {
+            "x": 7157,
+            "y": 4563,
+            "radius": 80,
+            "description": "Home to some Trakand estates in the rough and mountainous countryside",
+            "wikiLink": "https://wot.fandom.com/wiki/Danabar"
+        },
+        "Fal Dara": {
+            "x": 9636,
+            "y": 1538,
+            "radius": 120,
+            "description": "Fal Dara is the northernmost city of Shienar. It was built on the place where Mafal Dadaranell used to be before the Trolloc Wars. Mafal Dadaarnell was the capital of one of the Ten Nations, Aramaelle.",
+            "image": "Fal_Dara.jpg",
+            "imageCredit": "Lightwaved",
+            "imageSource": "https://imgur.com/a/4gRdvZg#gzkjP6p",
+            "wikiLink": "https://wot.fandom.com/wiki/Fal_Dara"
+        },
+        "The Eye of the World": {
+            "x": 9837,
+            "y": 594,
+            "radius": 180,
+            "description": "The Eye of the World is an artificial pool filled with the essence of pure, cleansed sai'din built in the age of legends after the Dark One tainted sai'din. It is guarded by the Green Man and never found in the same place twice.",
+            "image": "Eye_of_the_World.png",
+            "imageCredit": "Lightwaved",
+            "imageSource": "https://imgur.com/a/4gRdvZg#gzkjP6p",
+            "wikiLink": "https://wot.fandom.com/wiki/Eye_of_the_World"
+        },
+        "Tarwin's Gap Mountain": {
+            "x": 10296,
+            "y": 1286,
+            "radius": 80,
+            "hidden": true
+        },
+        "Erinin crossing": {
+            "x": 9749,
+            "y": 1958,
+            "radius": 80,
+            "hidden": true
+        },
+        "Medo": {
+            "x": 9175,
+            "y": 1639,
+            "radius": 80,
+            "description": "A small Shienaran village on the river Mora.",
+            "wikiLink": "https://wot.fandom.com/wiki/Medo"
+        },
+        "Moiraine's exit": {
+            "x": 9281,
+            "y": 1654,
+            "radius": 80,
+            "hidden": true
+        },
+        "Fal Eisen": {
+            "x": 9052,
+            "y": 1786,
+            "radius": 80,
+            "description": "A City-fortress in Shienar",
+            "wikiLink": "https://wot.fandom.com/wiki/Fal_Eisen"
+        },
+        "Camron Caan": {
+            "x": 9958,
+            "y": 1583,
+            "radius": 80,
+            "description": "A City-fortress in Shienar",
+            "wikiLink": "https://wot.fandom.com/wiki/Camron_Caan"
+        },
+        "Fal Sion": {
+            "x": 9884,
+            "y": 1721,
+            "radius": 80,
+            "description": "A City-fortress in Shienar",
+            "wikiLink": "https://wot.fandom.com/wiki/Fal_Sion"
+        },
+        "Mos Shirare": {
+            "x": 9714,
+            "y": 1679,
+            "radius": 80,
+            "description": "A City-fortress in Shienar",
+            "wikiLink": "https://wot.fandom.com/wiki/Mos_Shirare"
+        },
+        "Ankor Dail": {
+            "x": 10129,
+            "y": 1901,
+            "radius": 80,
+            "description": "A City-fortress in the east of Shienar near the origin of the river Erinin.",
+            "wikiLink": "https://wot.fandom.com/wiki/Ankor_Dail"
+        },
+        "Talidar": {
+            "x": 9633,
+            "y": 2631,
+            "radius": 80,
+            "description": "On this place, Artur Hawkwing defeated an invasion of Shadowspawn. As a tribute to the fallen soldiers, a monument was placed in the form of a spire with each falllen soldier's name and a hawk on top. However, this monument was torn down by people who wanted to forget Hawkwing's existence.",
+            "wikiLink": "https://wot.fandom.com/wiki/Battle_of_Talidar"
+        },
+        "Tremonsien": {
+            "x": 9027,
+            "y": 3184,
+            "radius": 80,
+            "description": "Tremonsien is a village in northern Cairhien. Near Tremonsien the male Choedan Kal, a pair of the two most powerful sa'angreal ever made, is being excavated.",
+            "wikiLink": "https://wot.fandom.com/wiki/Tremonsien"
+        },
+        "Male Choedan Kal": {
+            "x": 9068,
+            "y": 3092,
+            "radius": 140,
+            "description": "The male half of the Choedan Kal, the most powerful sa'angreal ever made. Meant to be used by an access key which was stolen by the Shadow in the war of power. Currently, the massive structure is being excavated.",
+            "image": "Male_Choedan_Kal.jpg",
+            "imageSource": "https://www.pinterest.com/pin/137148751139005414/",
+            "imageCredit": "Gal Or",
+            "wikiLink": "https://wot.fandom.com/wiki/Choedan_Kal"
+        },
+        "Cairhien": {
+            "x": 8825,
+            "y": 3570,
+            "radius": 180,
+            "description": "Cairhien is the capital of tha nation of the same name. It is most famous for its Topless Toweres, which burned down in the Aiel War.",
+            "image": "Cairhien.jpg",
+            "imageSource": "https://wot.fandom.com/wiki/Cairhien_(city)?file=Topless_Towers.jpg",
+            "imageCredit": "Richard Sardinha",
+            "wikiLink": "https://wot.fandom.com/wiki/Cairhien_(city)"
+        },
+        "Tar Valon": {
+            "x": 8307,
+            "y": 2889,
+            "radius": 180,
+            "description": "Tar Valon is the home of the White Tower, headquarters of the legendary Aes Sedai. From this impenetrable island city the Aes Sedai practice their magic and influence the entire world.",
+            "image": "Tar_Valon.jpg",
+            "imageSource": "https://vignette.wikia.nocookie.net/wot/images/4/44/Tar_Valon.jpg",
+            "imageCredit": "Mike S. Miller",
+            "wikiLink": "https://wot.fandom.com/wiki/Tar_Valon"
+        },
+        "Stedding Tsofu": {
+            "x": 9071,
+            "y": 3610,
+            "radius": 80,
+            "description":"An Ogier stedding near the city of Cairhien.",
+            "wikiLink": "https://wot.fandom.com/wiki/Stedding_Tsofu"
+        },
+        "Stedding Toman Head": {
+            "x": 3437,
+            "y": 3959,
+            "radius": 80,
+            "description": "An Ogier stedding on Toman Head"
+        },
+        "Portal Stone Toman Head": {
+            "x": 3455,
+            "y": 3735,
+            "radius": 80,
+            "hidden": true
+        },
+        "Falme": {
+            "x": 3162,
+            "y": 4015,
+            "radius": 180,
+            "description": "Falme is an independent city on Toman Head. It was previously known as Miereallen and is the biggest city on the Almoth Plain, although still not very big.",
+            "wikiLink": "https://wot.fandom.com/wiki/Falme"
+        },
+        "Atuan's Mill": {
+            "x": 3319,
+            "y": 3882,
+            "radius": 80,
+            "description": "A small village on Toman Head.",
+            "wikiLink": "https://wot.fandom.com/wiki/Atuan's_Mill"
+        },
+        "Tobin's Hollow": {
+            "x": 3636,
+            "y": 3735,
+            "radius": 80,
+            "description": "A small village on Toman Head.",
+            "wikiLink": "https://wot.fandom.com/wiki/The_Wheel_of_Time_Roleplaying_Game"
+        },
+        "Aturo's Orchard": {
+            "x": 3805,
+            "y": 3636,
+            "radius": 80,
+            "description": "A small village on Toman Head.",
+            "wikiLink": "https://wot.fandom.com/wiki/The_Wheel_of_Time_Roleplaying_Game"
+        },
+        "Dragon Camp": {
+            "x": 4953,
+            "y": 5097,
+            "radius": 80,
+            "hidden": true
+        },
+        "Jarra": {
+            "x": 5208,
+            "y": 5085,
+            "radius": 80,
+            "description": "Jarra is a village in Ghealdan, just nort of Amadicia.",
+            "wikiLink": "https://wot.fandom.com/wiki/Jarra_(village)"
+        },
+        "Sidon": {
+            "x": 5526,
+            "y": 5069,
+            "radius": 80,
+            "description": "Jarra is a village in Ghealdan, on the river Boern.",
+            "wikiLink": "https://wot.fandom.com/wiki/Sidon"
+        },
+        "Samaha": {
+            "x": 5788,
+            "y": 5093,
+            "radius": 80,
+            "description": "Samaha is a village in Ghealdan.",
+            "wikiLink": "https://wot.fandom.com/wiki/Jarra_(village)"
+        },
+        "Tallan": {
+            "x": 5846,
+            "y": 5103,
+            "radius": 80,
+            "description": "Tallan is a village in Ghealdan.",
+            "wikiLink": "https://wot.fandom.com/wiki/Tallan"
+        },
+        "Fyall": {
+            "x": 5904,
+            "y": 5110,
+            "radius": 80,
+            "description": "Fyall is a village in Ghealdan.",
+            "wikiLink": "https://wot.fandom.com/wiki/Fyall"
+        },
+        "Remen": {
+            "x": 6464,
+            "y": 5206,
+            "radius": 80,
+            "description": "Remen is a village in Altara on the banks of the Manatherendrelle.",
+            "wikiLink": "https://wot.fandom.com/wiki/Remen"
+        },
+        "Near Jurene": {
+            "x": 8227,
+            "y": 3922,
+            "radius": 80,
+            "hidden": true
+        },
+        "Aringill": {
+            "x": 8299,
+            "y": 4475,
+            "radius": 120,
+            "description": "Aringill is Andor's most important port. It forms a connection over water with Tar Valon and Tear and lies on the border with Cairhien.",
+            "wikiLink": "https://wot.fandom.com/wiki/Aringill"
+        },
+        "Near Caemlyn": {
+            "x": 8002,
+            "y": 4484,
+            "radius": 80,
+            "hidden": true
+        },
+        "Tear": {
+            "x": 8337,
+            "y": 6127,
+            "radius": 180,
+            "description": "Tear is the capital of the nation of the same name. It is most famous for the massive fortress the Stone of Tear and the delta it lies next to, the Fingers of the Dragon.",
+            "image": "Tear.jpg",
+            "imageSource": "https://i.pinimg.com/originals/23/31/72/233172edec2e207214fb323c8fd4c55a.jpg",
+            "imageCredit": "Phil Lowe",
+            "wikiLink": "https://wot.fandom.com/wiki/Tear#City_of_Tear"
+        },
+        "Illian": {
+            "x": 7015,
+            "y": 6749,
+            "radius": 180,
+            "description": "The capital of the nation of the same name, Illian is one of the grand cities of the south. Notable locations in Illian are the Square of Tammaz where the Hunt for the Horn starts, the palace of the king, and an identical but two feet smaller palace for the Council of Nine.",
+            "image": "Illian.jpg",
+            "imageSource": "https://www.reddit.com/r/WoT/comments/f1arhz/the_kings_palace_in_illian/",
+            "imageCredit": "/u/aeddub",
+            "wikiLink": "https://wot.fandom.com/wiki/Illian"
+        },
+        "Portal Stone Tear": {
+            "x": 8359,
+            "y": 6007,
+            "radius": 80,
+            "hidden": true
+        },
+        "Chaendaer": {
+            "x": 10723,
+            "y": 3927,
+            "radius": 180,
+            "description": "Chaendaer is the mountain near Rhuidean from where aspiring Aiel Wise Ones and Clan Chiefs go to Rhuidean.",
+            "wikiLink": "https://wot.fandom.com/wiki/Chaendaer"
+        },
+        "Tanchico": {
+            "x": 3390,
+            "y": 4928,
+            "radius": 180,
+            "description": "Tanchico is the capital of Tarabon. It is built on three peninsulas, each with their own circle. One circle for entertainment, and one for both of its rulers, the Panarch and the King.",
+            "image": "Tanchico.jpg",
+            "imageSource": "https://www.reddit.com/r/WoT/comments/e45dkm/tanchico/",
+            "imageCredit": "/u/aeddub",
+            "wikiLink": "https://wot.fandom.com/wiki/Tanchico"
+        },
+        "Rhuidean": {
+            "x": 10520,
+            "y": 3814,
+            "radius": 200,
+            "description": "The home of the now-extinct Jenn Aiel, Rhuidean is a city forever shrouded in mist in the Aiel Waste. Here Aiel come to face what they must face in order to become a Wise One or Clan Chief.",
+            "image": "Rhuidean.jpg",
+            "imageSource": "https://www.deviantart.com/fee-absinthe/art/Craptastic-Rhuidean-252151269",
+            "imageCredit": "fee-absinthe",
+            "wikiLink": "https://wot.fandom.com/wiki/Rhuidean"
+        },
+        "Manetheren Waygate": {
+            "x": 5011,
+            "y": 4076,
+            "radius": 80,
+            "rhuidean": "The waygate for the lost nation of Manetheren."
+        },
+        "Watch Hill": {
+            "x": 5193,
+            "y": 4081,
+            "radius": 80,
+            "description": "A village in the Two Rivers region of Andor.",
+            "wikiLink": "https://wot.fandom.com/wiki/Watch_Hill"
+        },
+        "Imre Stand": {
+            "x": 10811,
+            "y": 3710,
+            "radius": 80,
+            "description": "A watering hole in the Aiel Waste.",
+            "wikiLink": "https://wot.fandom.com/wiki/Imre_Stand"
+        },
+        "Cold Rocks Hold": {
+            "x": 11378,
+            "y": 3450,
+            "radius": 120,
+            "description": "Cold Rocks Hold of the Taardad Aiel thanks its name to the rocks that lie deep in the hold, where the sun never reaches.",
+            "wikiLink": "https://wot.fandom.com/wiki/Cold_Rocks_Hold"
+        },
+        "Alcair Dal": {
+            "x": 11243,
+            "y": 2945,
+            "radius": 180,
+            "description": "The meeting place for the Aiel clan chiefs. It means \"The Golden Bowl\" in the Old Tongue.",
+            "wikiLink": "https://wot.fandom.com/wiki/Alcair_Dal"
+        },
+        "Kore Springs": {
+            "x": 7610,
+            "y": 3965,
+            "radius": 80,
+            "description": "A town in northern Andor, home of the Bryne family.",
+            "wikiLink": "https://wot.fandom.com/wiki/Kore_Springs"
+        },
+        "Jornhill": {
+            "x": 7683,
+            "y": 3869,
+            "radius": 80,
+            "description": "A town in northern Andor.",
+            "wikiLink": "https://wot.fandom.com/wiki/Jornhill"
+        },
+        "New Braem": {
+            "x": 7758,
+            "y": 4076,
+            "radius": 120,
+            "description": "New Braem lies in the Braem Wood, near the ruins of Braem, an ogier-built city from Coremanda, one of the Ten Nations.",
+            "wikiLink": "https://wot.fandom.com/wiki/New_Braem"
+        },
+        "Lugard": {
+            "x": 6744,
+            "y": 5077,
+            "radius": 180,
+            "description": "The capital of Murandy and home of its king.",
+            "wikiLink": "https://wot.fandom.com/wiki/Lugard"
+        },
+        "Minde": {
+            "x": 7005,
+            "y": 4926,
+            "radius": 120,
+            "description": "Minde is a city in Murandy",
+            "wikiLink": "https://wot.fandom.com/wiki/Minde"
+        },
+        "Inishlinn": {
+            "x": 7168,
+            "y": 5148,
+            "radius": 120,
+            "description": "Inishlinn is a city in Murandy",
+            "wikiLink": "https://wot.fandom.com/wiki/Inishlinn"
+        },
+        "Salidar": {
+            "x": 5722,
+            "y": 5741,
+            "radius": 80,
+            "description": "A small abandoned village in western Altara, near the border with Amadicia.",
+            "wikiLink": "https://wot.fandom.com/wiki/Salidar"
+        },
+        "Sehar": {
+            "x": 5748,
+            "y": 5606,
+            "radius": 80,
+            "description": "Sehar is a illage in Altara, near the river Eldar and the border with Amadicia.",
+            "wikiLink": "https://wot.fandom.com/wiki/Sehar"
+        },
+        "Cormaed": {
+            "x": 5695,
+            "y": 5643,
+            "radius": 80,
+            "description": "Cormaed is a illage in Altara, near the river Eldar and the border with Amadicia.",
+            "wikiLink": "https://wot.fandom.com/wiki/Cormaed"
+        },
+        "So Eban": {
+            "x": 5747,
+            "y": 5892,
+            "radius": 80,
+            "description": "So Eban is a illage in Altara, near the river Eldar and the border with Amadicia.",
+            "wikiLink": "https://wot.fandom.com/wiki/So_Eban"
+        },
+        "Sienda": {
+            "x": 5139,
+            "y": 5482,
+            "radius": 80,
+            "description": "A town in Amadicia.",
+            "wikiLink": "https://wot.fandom.com/wiki/Sienda"
+        },
+        "Taien": {
+            "x": 10435,
+            "y": 3096,
+            "radius": 80,
+            "description": "A small Cairhienin town in the Jangai pass of the Spine of the World.",
+            "wikiLink": "https://wot.fandom.com/wiki/Taien"
+        },
+        "Selean": {
+            "x": 9952,
+            "y": 3101,
+            "radius": 80,
+            "description": "A Cairhienin town in the Jangai pass of the Spine of the World.",
+            "wikiLink": "https://wot.fandom.com/wiki/Selean"
+        },
+        "Eianrod": {
+            "x": 9534,
+            "y": 3376,
+            "radius": 80,
+            "description": "A village in Cairhien.",
+            "wikiLink": "https://wot.fandom.com/wiki/Eianrod"
+        },
+        "ToSeanchan": {
+            "x": 448,
+            "y": 4200,
+            "radius": 40,
+            "hidden": true
+        },
+        "GhealdanBorder": {
+            "x": 5277,
+            "y": 5172,
+            "radius": 80,
+            "hidden": true
+        },
+        "Samara": {
+            "x": 5305,
+            "y": 5150,
+            "radius": 120,
+            "description": "A decently sized village in Ghealdan on the river Eldar.",
+            "wikiLink": "https://wot.fandom.com/wiki/Samara"
+        },
+        "Mardecin": {
+            "x": 4655,
+            "y": 5551,
+            "radius": 80,
+            "description": "A small village in Amadicia.",
+            "wikiLink": "https://wot.fandom.com/wiki/Mardecin"
+        },
+        "Ebou Dar": {
+            "x": 5445,
+            "y": 6409,
+            "radius": 180,
+            "description": "Ebou Dar is the capital of Altara, located on the southern coast. The river Eldar splits the city in two parts, on the western side are palaces, shops and the homes of upper and middle class residents. On the eastern side the lower classes of Ebou Dar live in the chaotic Rahad.",
+            "image": "EbouDar.png",
+            "imageSource": "https://wot.fandom.com/wiki/Ebou_Dar?file=Edoudarmap.png",
+            "imageCredit": "Ellisa Mitchell",
+            "wikiLink": "https://wot.fandom.com/wiki/Ebou_Dar"
+        },
+        "Mat near Tear": {
+            "x": 8369,
+            "y": 5800,
+            "radius": 80,
+            "hidden": true
+        },
+        "Gateway Altara": {
+            "x": 5802,
+            "y": 5782,
+            "radius": 80,
+            "hidden": true
+        },
+        "Out of Cairhien": {
+            "x": 8719,
+            "y": 3502,
+            "radius": 80,
+            "hidden": true
+        },
+        "Further out of Cairhien": {
+            "x": 8626,
+            "y": 3390,
+            "radius": 80,
+            "hidden": true
+        },
+        "Dumai's Wells": {
+            "x": 8592,
+            "y": 3223,
+            "radius": 90,
+            "description": "A resting place for travelers between Tar Valon and Cairhien. NOTE: Wiki link contains big spoilers for book 6: Lord of Chaos.",
+            "wikiLink": "https://wot.fandom.com/wiki/Battle_of_Dumai's_Wells"
+        },
+        "Maerone": {
+            "x": 8361,
+            "y": 4470,
+            "radius": 80,
+            "description": "Cairhien's port on the river Erinin, establishing a connection with Tar Valon to the north and Tear to the south.",
+            "wikiLink": "https://wot.fandom.com/wiki/Maerone"
+        },
+        "Fal Moran": {
+            "x": 9527,
+            "y": 1691,
+            "radius": 180,
+            "description": "The capital city of Shienar.",
+            "wikiLink": "https://wot.fandom.com/wiki/Fal_Moran"
+        },
+        "Tifan's Well": {
+            "x": 8931,
+            "y": 1722,
+            "radius": 80,
+            "description": "A small village in Arafel.",
+            "wikiLink": "https://wot.fandom.com/wiki/Tifan's_Well"
+        },
+        "Shol Arbela": {
+            "x": 8485,
+            "y": 1649,
+            "radius": 180,
+            "description": "The capital city of Arafel.",
+            "wikiLink": "https://wot.fandom.com/wiki/Shol_Arbela"
+        },
+        "Chachin": {
+            "x": 7448,
+            "y": 1668,
+            "radius": 180,
+            "description": "The capital city of Kandor.",
+            "wikiLink": "https://wot.fandom.com/wiki/Chachin"
+        },
+        "Ravinda": {
+            "x": 7592,
+            "y": 1679,
+            "radius": 80,
+            "description": "A village in Kandor.",
+            "wikiLink": "https://wot.fandom.com/wiki/Ravinda"
+        },
+        "South Hill": {
+            "x": 7652,
+            "y": 1748,
+            "radius": 80,
+            "description": "A village in Kandor."
+        },
+        "Manala": {
+            "x": 7766,
+            "y": 1756,
+            "radius": 80,
+            "description": "A village in Kandor.",
+            "wikiLink": "https://wot.fandom.com/wiki/Manala"
+        },
+        "Maradon": {
+            "x": 6214,
+            "y": 1593,
+            "radius": 180,
+            "description": "The capital city of Saldaea.",
+            "wikiLink": "https://wot.fandom.com/wiki/Maradon"
+        },
+        "South Mettler": {
+            "x": 7290,
+            "y": 1522,
+            "radius": 80,
+            "description": "A village in Kandor."
+        },
+        "Denhuir": {
+            "x": 7629,
+            "y": 2329,
+            "radius": 80,
+            "description": "A village near the Black Hills.",
+            "wikiLink": "https://wot.fandom.com/wiki/Denhuir"
+        },
+        "Mehar": {
+            "x": 5831,
+            "y": 2056,
+            "radius": 80,
+            "description": "A village in Saldaea.",
+            "wikiLink": "https://wot.fandom.com/wiki/Mehar"
+        },
+        "Silverwall Keeps": {
+            "x": 8092,
+            "y": 1774,
+            "radius": 120,
+            "description": "A great fortress on the border of Kandor and Arafel. ",
+            "wikiLink": "https://wot.fandom.com/wiki/Silverwall_Keeps"
+        },
+        "Maredo Tear side": {
+            "x": 8003,
+            "y": 6242,
+            "radius": 80,
+            "hidden": true
+        },
+        "Amador": {
+            "x": 4877,
+            "y": 5579,
+            "radius": 180,
+            "description": "The capital of Amadicia. Here the king rules, but only in name, while the Lord Captain Commander of the Children of the Light actually rules Amadicia from their headquarters, the FOrtress of the Light.",
+            "image": "Amador.jpg",
+            "imageSource": "https://www.reddit.com/r/WoT/comments/e5ofu2/fortress_of_the_light/",
+            "imageCredit": "u/aeddub",
+            "wikiLink": "https://wot.fandom.com/wiki/Amador"
+        },
+        "Nassad": {
+            "x": 4601,
+            "y": 5414,
+            "radius": 80,
+            "description": "A town in Tarabon, near the border with Amadicia.",
+            "wikiLink": "https://wot.fandom.com/wiki/Nassad"
+        },
+        "Bellon": {
+            "x": 5071,
+            "y": 5599,
+            "radius": 80,
+            "description": "A town in Amadicia.",
+            "wikiLink": "https://wot.fandom.com/wiki/Bellon"
+        },
+        "Jeramel": {
+            "x": 5028,
+            "y": 5307,
+            "radius": 80,
+            "description": "A town in Amadicia.",
+            "wikiLink": "https://wot.fandom.com/wiki/Jeramel"
+        },
+        "Serana": {
+            "x": 4393,
+            "y": 5338,
+            "radius": 80,
+            "description": "A village in Tarabon that functions as a popular resting point between Tanchico and Amador.",
+            "wikiLink": "https://wot.fandom.com/wiki/Serana"
+        },
+        "Maracru": {
+            "x": 4538,
+            "y": 4929,
+            "radius": 80,
+            "description": "A village in Tarabon.",
+            "wikiLink": "https://wot.fandom.com/wiki/Maracru"
+        },
+        "Spire Black Hills": {
+            "x": 7059,
+            "y": 2221,
+            "radius": 80,
+            "hidden": true
+        },
+        "Cairhien woods": {
+            "x": 9089,
+            "y": 3656,
+            "radius": 80,
+            "hidden": true
+        },
+        "The Farm": {
+            "x": 5577,
+            "y": 6469,
+            "radius": 60,
+            "description": "Hidden from the Aes Sedai, runaways from the White Tower intermittently live here and in Ebou Dar, in a group known as the Kin.",
+            "wikiLink": "https://wot.fandom.com/wiki/Kin%27s_Farm"
+        },
+        "Hornwell estate": {
+            "x": 7558,
+            "y": 4809,
+            "radius": 80,
+            "hidden": true
+        },
+        "Near Bethal": {
+            "x": 5659,
+            "y": 4893,
+            "radius": 80,
+            "hidden": true
+        },
+        "Bethal": {
+            "x": 5600,
+            "y": 4915,
+            "radius": 80,
+            "description": "A town in Ghealdan.",
+            "wikiLink": "https://wot.fandom.com/wiki/Bethal"
+        },
+        "Willar": {
+            "x": 5513,
+            "y": 4779,
+            "radius": 80,
+            "description": "A village in Ghealdan near the river Boern.",
+            "wikiLink": "https://wot.fandom.com/wiki/Willar"
+        },
+        "Forel Market": {
+            "x": 7702,
+            "y": 4632,
+            "radius": 80,
+            "description": "A small village in Andor.",
+            "wikiLink": "https://wot.fandom.com/wiki/Forel_Market"
+        },
+        "Nemarellin Mountains": {
+            "x": 6947,
+            "y": 6239,
+            "radius": 80,
+            "hidden": true
+        },
+        "North Illian": {
+            "x": 7011,
+            "y": 6615,
+            "radius": 80,
+            "hidden": true
+        },
+        "East Ebou Dar": {
+            "x": 5715,
+            "y": 6361,
+            "radius": 80,
+            "hidden": true
+        },
+        "Venir Mountains": {
+            "x": 6074,
+            "y": 6205,
+            "radius": 80,
+            "hidden": true
+        },
+        "Abila": {
+            "x": 5322,
+            "y": 5312,
+            "radius": 80,
+            "description": "A small village in Amadicia.",
+            "wikiLink": "https://wot.fandom.com/wiki/Abila"
+        },
+        "Jurene": {
+            "x": 8276,
+            "y": 3963,
+            "radius": 80,
+            "description": "A village in Cairhien.",
+            "wikiLink": "https://wot.fandom.com/wiki/Jurene"
+        },
+        "Shayol Ghul": {
+            "x": 9051,
+            "y": 536,
+            "radius": 140,
+            "description": "This used to be a tropical island and popular vacation spot. Now it is the place where the Dark One's power is greatest. Within this huge, dark mountain is the Pit of Doom. Below the mountain lies Thakan'dar, where shadow-forgers craft the myrddraal blades requiring human sacrifice.",
+            "image": "ShayolGhul.jpg",
+            "imageSource": "https://wot.fandom.com/wiki/Tarmon_Gai%27don",
+            "imageCredit": "unknown",
+            "wikiLink": "https://wot.fandom.com/wiki/Shayol_Ghul"
+        },
+        "Far Madding": {
+            "x": 7855,
+            "y": 5316,
+            "radius": 180,
+            "description": "An independent city-state located on an island in the middle of a lake. Nobody can channel in Far Madding because of a giant ter'angreal which is called The Guardian. It is an important trade center because of its central position between Caemlyn, Illian and Tear.",
+            "image": "FarMadding.png",
+            "imageSource": "https://wot.fandom.com/wiki/Far_Madding?file=Handandsword-icon.svg",
+            "imageCredit": "Matthew C. Nielsen",
+            "wikiLink": "https://wot.fandom.com/wiki/Far_Madding"
+        },
+        "Tremalking Choedan Kal": {
+            "x": 2257,
+            "y": 6621,
+            "radius": 180,
+            "description": "The female Choedan Kal, the most powerful sa'angreal ever made.",
+            "image": "Female_Choedan_Kal.jpg",
+            "imageSource": "https://wot.fandom.com/wiki/Choedan_Kal?file=Female_Choedan_Kal.jpg",
+            "imageCredit": "Stephen Daniele",
+            "wikiLink": "https://wot.fandom.com/wiki/Choedan_Kal"
+        },
+        "Ice meeting place": {
+            "x": 6661,
+            "y": 5231,
+            "radius": 80,
+            "hidden": true
+        },
+        "Camp near ice": {
+            "x": 6602,
+            "y": 5273,
+            "radius": 80,
+            "hidden": true
+        },
+        "North Ghealdan": {
+            "x": 5676,
+            "y": 4826,
+            "radius": 80,
+            "hidden": true
+        },
+        "Near Tar Valon": {
+            "x": 8319,
+            "y": 2939,
+            "radius": 80,
+            "hidden": true
+        },
+        "Braem Wood": {
+            "x": 8011,
+            "y": 3889,
+            "radius": 80,
+            "hidden": true
+        },
+        "Amadicia manor": {
+            "x": 4958,
+            "y": 5242,
+            "radius": 80,
+            "hidden": true
+        },
+        "So Habor": {
+            "x": 5676,
+            "y": 5428,
+            "radius": 80,
+            "description": "A town in Altara.",
+            "wikiLink": "https://wot.fandom.com/wiki/So_Habor"
+        },
+        "Jurador": {
+            "x": 5755,
+            "y": 6146,
+            "radius": 80,
+            "description": "A large town in Altara, rich because of its salt exports.",
+            "wikiLink": "https://wot.fandom.com/wiki/Jurador"
+        },
+        "Runnien Crossing": {
+            "x": 5822,
+            "y": 6068,
+            "radius": 80,
+            "description": "A village in Altara.",
+            "wikiLink": "https://wot.fandom.com/wiki/Runnien_Crossing"
+        },
+        "Weesin": {
+            "x": 5581,
+            "y": 6289,
+            "radius": 80,
+            "description": "A small village in Altara on the Great North Road.",
+            "wikiLink": "https://wot.fandom.com/wiki/Weesin"
+        },
+        "So Tehar": {
+            "x": 5546,
+            "y": 6388,
+            "radius": 80,
+            "description": "A village in Altara.",
+            "wikiLink": "https://wot.fandom.com/wiki/So_Tehar"
+        },
+        "Mosra": {
+            "x": 5693,
+            "y": 6105,
+            "radius": 80,
+            "description": "A village in Altara near the border with Amadicia and the river Eldar.",
+            "wikiLink": "https://wot.fandom.com/wiki/Mosra"
+        },
+        "Perrin Seanchan meeting": {
+            "x": 5593,
+            "y": 5551,
+            "radius": 80,
+            "hidden": true
+        },
+        "near Maderin": {
+            "x": 5926,
+            "y": 5975,
+            "radius": 80,
+            "hidden": true
+        },
+        "Maderin": {
+            "x": 5985,
+            "y": 5919,
+            "radius": 80,
+            "description": "A town in Altara.",
+            "wikiLink": "https://wot.fandom.com/wiki/Maderin"
+        },
+        "Manor Spine of the World": {
+            "x": 9962,
+            "y": 6160,
+            "radius": 80,
+            "hidden": true
+        },
+        "Camp of the Band": {
+            "x": 6165,
+            "y": 5893,
+            "radius": 80,
+            "hidden": true
+        },
+        "Aqueduct Malden": {
+            "x": 5964,
+            "y": 5351,
+            "radius": 80,
+            "hidden": true
+        },
+        "Malden": {
+            "x": 5935,
+            "y": 5325,
+            "radius": 80,
+            "description": "A city in Altara. It is connected to the river through an aqueduct.",
+            "wikiLink": "https://wot.fandom.com/wiki/Malden"
+        },
+        "Brytan": {
+            "x": 5847,
+            "y": 5301,
+            "radius": 80,
+            "description": "A small village in Altara.",
+            "wikiLink": "https://wot.fandom.com/wiki/Brytan"
+        },
+        "Deirdru Manor": {
+            "x": 5873,
+            "y": 5487,
+            "radius": 80,
+            "hidden": true
+        },
+        "Seanchan camps": {
+            "x": 6345,
+            "y": 5705,
+            "radius": 80,
+            "hidden": true
+        },
+        "Elayne's rescue": {
+            "x": 7828,
+            "y": 4459,
+            "radius": 80,
+            "hidden": true
+        },
+        "Londaren Cor": {
+            "x": 5783,
+            "y": 5977,
+            "radius": 180,
+            "description": "Londaren Cor used to be the capital of Eharon, one of the Ten Nations. However, it ws destroyed in the Trolloc wars and now only ruins remain.",
+            "wikiLink": "https://wot.fandom.com/wiki/Londaren_Cor"
+        },
+        "Almizar": {
+            "x": 4467,
+            "y": 5692,
+            "radius": 80,
+            "description": "A town in Amadicia.",
+            "wikiLink": "https://wot.fandom.com/wiki/Almizar"
+        },
+        "World's End": {
+            "x": 5460,
+            "y": 1625,
+            "radius": 80,
+            "hidden": true
+        },
+        "Kayacun": {
+            "x": 5803,
+            "y": 1750,
+            "radius": 80,
+            "description": "A village in Saldaea.",
+            "wikiLink": "https://wot.fandom.com/wiki/Kayacun"
+        },
+        "Near Malvide Narrows": {
+            "x": 6384,
+            "y": 5528,
+            "radius": 80,
+            "hidden": true
+        },
+        "Blight Eastern Fortress": {
+            "x": 13521,
+            "y": 501,
+            "radius": 180,
+            "description": "An ancient fortress in the eastern blight."
+        },
+        "Manor East Arad Doman": {
+            "x": 4755,
+            "y": 3069,
+            "radius": 80,
+            "hidden": true
+        },
+        "Hinderstap": {
+            "x": 6619,
+            "y": 4841,
+            "radius": 80,
+            "description": "A village in northern Murandy.",
+            "wikiLink": "https://wot.fandom.com/wiki/Hinderstap"
+        },
+        "Trustair": {
+            "x": 6716,
+            "y": 4792,
+            "radius": 80,
+            "description": "A village in Murandy.",
+            "wikiLink": "https://wot.fandom.com/wiki/Trustair"
+        },
+        "Stedding Ituralde": {
+            "x": 4157,
+            "y": 3558,
+            "radius": 80,
+            "hidden": true
+        },
+        "Ituralde Near Maradon": {
+            "x": 6186,
+            "y": 1506,
+            "radius": 80,
+            "hidden": true
+        },
+        "Natrin's Barrow": {
+            "x": 4926,
+            "y": 3308,
+            "radius": 180,
+            "description": "A beautiful fortress in the Mountains of Mist. It has not been used for millitary purposes since it was used to protect Manetheren in the Trolloc Wars.",
+            "wikiLink": "https://wot.fandom.com/wiki/Natrin's_Barrow"
+        },
+        "Dorlan": {
+            "x": 8516,
+            "y": 2847,
+            "radius": 80,
+            "description": "A village near Tar Valon.",
+            "wikiLink": "https://wot.fandom.com/wiki/Dorlan"
+        },
+        "Dragonmount": {
+            "x": 8167,
+            "y": 2878,
+            "radius": 80,
+            "description": "Created by Lews Therin Telamon during the breaking of the world when Ishamael healed the madness caused buy the taint of saidin, causing him to see that he murdered his entire family. In his grief, he commited suicide and raised a huge volcano.",
+            "image": "Dragonmount.jpg",
+            "imageSource": "https://www.reddit.com/r/WoT/comments/er2ddk/tar_valon/",
+            "imageCredit": "/u/aeddub",
+            "wikiLink": "https://wot.fandom.com/wiki/Dragonmount"
+        },
+        "Outside Far Madding": {
+            "x": 7850,
+            "y": 5360,
+            "radius": 80,
+            "hidden": true
+        },
+        "Merrilor": {
+            "x": 8861,
+            "y": 1988,
+            "radius": 80,
+            "hidden": true
+        },
+        "Elayne's tent north Caemlyn": {
+            "x": 8113,
+            "y": 4223,
+            "radius": 80,
+            "hidden": true
+        },
+        "Lan's camp Shienar": {
+            "x": 9838,
+            "y": 1517,
+            "radius": 80,
+            "hidden": true
+        },
+        "Jehannah road Perrin": {
+            "x": 6202,
+            "y": 5178,
+            "radius": 80,
+            "hidden": true
+        },
+        "Perrin near Whitebridge": {
+            "x": 6282,
+            "y": 4481,
+            "radius": 80,
+            "hidden": true
+        },
+        "Whitecloak ambush": {
+            "x": 6257,
+            "y": 5194,
+            "radius": 80,
+            "hidden": true
+        },
+        "The Tower of Ghenjei": {
+            "x": 6064,
+            "y": 4039,
+            "radius": 180,
+            "description": "An access portal to the world of the Aelfinn and the Eelfinn.",
+            "image": "Ghenjei.jpg",
+            "imageSource": "https://wot.fandom.com/wiki/Tower_of_Ghenjei?file=Tower.jpg",
+            "imageCredit": "Darrell K. Sweet",
+            "wikiLink": "https://wot.fandom.com/wiki/Tower_of_Ghenjei"
+        },
+        "Black Tower": {
+            "x": 7612,
+            "y": 4528,
+            "radius": 100,
+            "description": "In the Black Tower, men learn how to channel saidin and become asha'man.",
+            "wikiLink": "https://wot.fandom.com/wiki/Black_Tower"
+        },
+        "Kandor battlefield": {
+            "x": 7927,
+            "y": 1581,
+            "radius": 80,
+            "hidden": true
+        },
+        "Battlefield Cairhien": {
+            "x": 8611,
+            "y": 3674,
+            "radius": 80,
+            "hidden": true
+        },
+        "Battlefield Shienar": {
+            "x": 9148,
+            "y": 1716,
+            "radius": 80,
+            "hidden": true
+        },
+        "Blight Horn of Valere": {
+            "x": 9560,
+            "y": 525,
+            "radius": 80,
+            "hidden": true
+        },
+        "Bandar Eban": {
+            "x": 3512,
+            "y": 2957,
+            "radius": 180,
+            "description": "The capital of Arad Doman. It is home to one of the greatest libraries in the world, the Terhana library.",
+            "image": "Bandar_Eban.jpg",
+            "imageSource": "https://wot.fandom.com/wiki/Bandar_Eban?file=Bandar_Eban.jpg",
+            "imageCredit": "Ellisa Mitchell",
+            "wikiLink": "https://wot.fandom.com/wiki/Bandar_Eban"
+        },
+        "Sea of Storms": {
+            "x": 7837,
+            "y": 6789,
+            "radius": 80,
+            "hidden": true
+        },
+        "Elmora": {
+            "x": 4139,
+            "y": 5103,
+            "radius": 120,
+            "description": "A major town in Tarabon on the route to Amador.",
+            "wikiLink": "https://wot.fandom.com/wiki/Elmora"
+        },
+        "Katar": {
+            "x": 4733,
+            "y": 3505,
+            "radius": 120,
+            "description": "The second largest city in Arad Doman. Because of its location far away from the capital, the lords of Katar sometimes need to be convinced they are still a part of the kingdom.",
+            "wikiLink": "https://wot.fandom.com/wiki/Katar"
+        },
+        "Mayene": {
+            "x": 10074,
+            "y": 6697,
+            "radius": 180,
+            "description": "Although the nation of Mayene is small, the city is rich and its rulers claim to be descendants of Artur Hawkwing.",
+            "wikiLink": "https://wot.fandom.com/wiki/Mayene"
+        },
+        "Godan": {
+            "x": 9847,
+            "y": 6407,
+            "radius": 120,
+            "description": "Godan is a large town on the coast of Tear. It has been given some extra privilige to let it grow with the intention from the lords of Tear to keep Mayene in check.",
+            "wikiLink": "https://wot.fandom.com/wiki/Godan"
+        },
+        "Coramen": {
+            "x": 5637,
+            "y": 6235,
+            "radius": 80,
+            "description": "A town in Altara on the eastern bank of the river Eldar.",
+            "wikiLink": "https://wot.fandom.com/wiki/Coramen"
+        },
+        "Alkindar": {
+            "x": 5584,
+            "y": 6215,
+            "radius": 80,
+            "description": "A town in Altara on the western bank of the river Eldar.",
+            "wikiLink": "https://wot.fandom.com/wiki/Alkindar"
+        },
+        "Jehannah": {
+            "x": 5230,
+            "y": 4744,
+            "radius": 40,
+            "description": "Jehannah is the capital city of Ghealdan. Here, the king or queen of Ghealdan lives in the Jheda palace.",
+            "wikiLink": "https://wot.fandom.com/wiki/Jehannah" 
+        },
+        "Canluum": {
+            "x": 7862,
+            "y": 1810,
+            "radius": 80,
+            "description": "Canluum is a village in Kandor.",
+            "wikiLink": "https://wot.fandom.com/wiki/Canluum"
+        },
+        "Coron Ford": {
+            "x": 4073,
+            "y": 3172,
+            "radius": 80,
+            "description": "A village in Arad Doman.",
+            "wikiLink": "https://wot.fandom.com/wiki/Coron_Ford"
+        },
+        "Kandelmar": {
+            "x": 4199,
+            "y": 3329,
+            "radius": 80,
+            "description": "A village in Arad Doman.",
+            "wikiLink": "https://wot.fandom.com/wiki/Kandelmar"
+        },
+        "Solanje": {
+            "x": 4403,
+            "y": 3221,
+            "radius": 80,
+            "description": "A village in Arad Doman.",
+            "wikiLink": "https://wot.fandom.com/wiki/Solanje"
+        },
+        "Eldone Market": {
+            "x": 8331,
+            "y": 2712,
+            "radius": 80,
+            "description": "A town near Tar Valon.",
+            "wikiLink": "https://wot.fandom.com/wiki/Eldone_Market"
+        },
+        "Negin Bridge": {
+            "x": 8296,
+            "y": 3046,
+            "radius": 80,
+            "description": "A village near Dragonmount.",
+            "wikiLink": "https://wot.fandom.com/wiki/Negin_Bridge"
+        },
+        "Gorien Springs": {
+            "x": 8495,
+            "y": 2100,
+            "radius": 80,
+            "description": "A village on the road between Shol Arbela and Tar Valon, south of Arafel.",
+            "wikiLink": "https://wot.fandom.com/wiki/Gorien_Springs"
+        },
+        "Jakanda": {
+            "x": 8704,
+            "y": 1615,
+            "radius": 80,
+            "description": "A village in Arafel.",
+            "wikiLink": "https://wot.fandom.com/wiki/Jakanda"
+        },
+        "The Town": {
+            "x": 9012,
+            "y": 565,
+            "radius": 80,
+            "description": "A dark and ruthless home of darkfriends and slaves in the Blight, on the foot of Shayol Ghul.",
+            "wikiLink": "https://wot.fandom.com/wiki/Town"
+        },
+        "Nor Chasen": {
+            "x": 5602,
+            "y": 6554,
+            "radius": 80,
+            "description": "A small port village in Altara.",
+            "wikiLink": "https://wot.fandom.com/wiki/Nor_Chasen"
+        },
+        "Darluna": {
+            "x": 3855,
+            "y": 3375,
+            "radius": 120,
+            "description": "A quite large walled town in southern Arad Doman.",
+            "wikiLink": "https://wot.fandom.com/wiki/Darluna"
+        },
+        "Maseen": {
+            "x": 4221,
+            "y": 2859,
+            "radius": 80,
+            "description": "A village in Arad Doman.",
+            "wikiLink": "https://wot.fandom.com/wiki/Maseen"
+        },
+        "Alcruna": {
+            "x": 4375,
+            "y": 4529,
+            "radius": 80,
+            "description": "A village in Tarabon on the river Andahar.",
+            "wikiLink": "https://wot.fandom.com/wiki/Alcruna"
+        },
+        "Cosamelle": {
+            "x": 5452,
+            "y": 4636,
+            "radius": 80,
+            "description": "A village in Ghealdan.",
+            "wikiLink": "https://wot.fandom.com/wiki/Cosamelle"
+        },
+        "Boannda": {
+            "x": 5578,
+            "y": 5405,
+            "radius": 120,
+            "description": "A large town in Ghealdan, where the rivers Boern and Eldar join.",
+            "wikiLink": "https://wot.fandom.com/wiki/Boannda"
+        },
+        "Marella": {
+            "x": 6227,
+            "y": 5429,
+            "radius": 80,
+            "description": "A village in Altara.",
+            "wikiLink": "https://wot.fandom.com/wiki/Marella"
+        },
+        "Ionin Spring": {
+            "x": 6036,
+            "y": 5524,
+            "radius": 80,
+            "description": "A village in Altara.",
+            "wikiLink": "https://wot.fandom.com/wiki/Ionin_Spring"
+        },
+        "Sabinel": {
+            "x": 6776,
+            "y": 5444,
+            "radius": 80,
+            "description": "A village in Murandy."
+        },
+        "Tween Forest": {
+            "x": 7100,
+            "y": 5377,
+            "radius": 80,
+            "description": "A village in Murandy."
+        },
+        "Daigan": {
+            "x": 7793,
+            "y": 5360,
+            "radius": 80,
+            "description": "A village at the end of the Ikane Bridge leading from Far Madding to Illian.",
+            "wikiLink": "https://wot.fandom.com/wiki/Far_Madding#Geography"
+        },
+        "South Bridge": {
+            "x": 7877,
+            "y": 5387,
+            "radius": 80,
+            "description": "A village at the end of the Goim bridge leading from Far Madding to Tear.",
+            "wikiLink": "https://wot.fandom.com/wiki/Far_Madding#Geography"
+        },
+        "Glancor": {
+            "x": 7850,
+            "y": 5260,
+            "radius": 80,
+            "description": "A village at the end of the Ajalon bridge leading from Far Madding to Caemlyn.",
+            "wikiLink": "https://wot.fandom.com/wiki/Far_Madding#Geography"
+        },
+        "Morelle": {
+            "x": 9005,
+            "y": 4268,
+            "radius": 80,
+            "description": "A village at the southern border of Cairhien.",
+            "wikiLink": "https://wot.fandom.com/wiki/Morelle"
+        },
+        "Deven Ride": {
+            "x": 5199,
+            "y": 4152,
+            "radius": 80,
+            "description": "The southernmost village in the Two Rivers region.",
+            "wikiLink": "https://wot.fandom.com/wiki/Deven_Ride"
+        },
+        "Grafendale": {
+            "x": 7155,
+            "y": 4256,
+            "radius": 80,
+            "description": "A village in Andor."
+        },
+        "Damelien": {
+            "x": 7634,
+            "y": 4727,
+            "radius": 80,
+            "description": "A village in Andor.",
+            "wikiLink": "https://wot.fandom.com/wiki/Damelien"
+        },
+        "Buryhill": {
+            "x": 7642,
+            "y": 4687,
+            "radius": 80,
+            "description": "A village in Andor.",
+            "wikiLink": "https://wot.fandom.com/wiki/Buryhill"
+        },
+        "Harlon Bridge": {
+            "x": 7694,
+            "y": 4580,
+            "radius": 80,
+            "description": "A village in Andor.",
+            "wikiLink": "https://wot.fandom.com/wiki/Harlon_Bridge"
+        },
+        "Cullen's Crossing": {
+            "x": 7760,
+            "y": 4509,
+            "radius": 80,
+            "description": "A village in Andor.",
+            "wikiLink": "https://wot.fandom.com/wiki/Cullen's_Crossing"
+        },
+        "Daghain": {
+            "x": 8363,
+            "y": 2848,
+            "radius": 80,
+            "description": "A village at the end of the middle bridge from Tar Valon on the eastern side of the river Erinin.",
+            "wikiLink": "https://wot.fandom.com/wiki/Daghain"
+        },
+        "Lugagde": {
+            "x": 8273,
+            "y": 2808,
+            "radius": 80,
+            "description": "A village at the end of the northern bridge from Tar Valon on the eastern side of the river Erinin.",
+            "wikiLink": "https://wot.fandom.com/wiki/Lugagde"
+        },
+        "Osenrein": {
+            "x": 8377,
+            "y": 2938,
+            "radius": 80,
+            "description": "A village at the end of the southern bridge from Tar Valon on the eastern side of the river Erinin.",
+            "wikiLink": "https://wot.fandom.com/wiki/Osenrein"
+        },
+        "Alindaer": {
+            "x": 8273,
+            "y": 2938,
+            "radius": 80,
+            "description": "A village at the end of the southern bridge from Tar Valon on the western side of the river Erinin.",
+            "wikiLink": "https://wot.fandom.com/wiki/Alindaer"
+        },
+        "Darein": {
+            "x": 8242,
+            "y": 2900,
+            "radius": 80,
+            "description": "A village at the end of the middle bridge from Tar Valon on the western side of the river Erinin.",
+            "wikiLink": "https://wot.fandom.com/wiki/Darein"
+        },
+        "Jualdhe": {
+            "x": 8242,
+            "y": 2859,
+            "radius": 80,
+            "description": "A village at the end of the northern bridge from Tar Valon on the western side of the river Erinin.",
+            "wikiLink": "https://wot.fandom.com/wiki/Jualdhe"
+        },
+        "The Seven Towers": {
+            "x": 9488,
+            "y": 1099,
+            "radius": 120,
+            "description": "The capital of Malkier used to be famous for the seven towers along its walls. Since Malkier's fall to he blight, all that remains of the capital are ruins.",
+            "wikiLink": "https://wot.fandom.com/wiki/Seven_Towers"
+        },
+        "Berndt Crossroads": {
+            "x": 7160,
+            "y": 1430,
+            "radius": 80,
+            "description": "A small village in Kandor."
+        },
+        "Irinjavar": {
+            "x": 6601,
+            "y": 1729,
+            "radius": 80,
+            "description": "A village in Saldaea.",
+            "wikiLink": "https://wot.fandom.com/wiki/Irinjavar"
+        },
+        "Warrior Queen of Shiota Statue": {
+            "x": 5974,
+            "y": 6301,
+            "radius": 160,
+            "description": "The ruins of a statue of an old Warrior Queen from the kingdom of Shiota.",
+            "image": "Shiota_statue.jpg",
+            "imageSource": "https://www.tor.com/2012/04/20/a-darrell-k-sweet-wheel-of-time-tribute-including-a-memory-of-light-sketch/",
+            "imageCredit": "Darrell K. Sweet"
+        }
+    }
+}

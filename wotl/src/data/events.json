@@ -1,0 +1,4408 @@
+{
+	"events": [
+        {
+            "type": "minor",
+            "date": "3/20/998",
+            "book": "1",
+            "description": "Mat sees a myrddraal outside Emond's Field",
+            "people": ["Mat"]
+        },
+        {
+            "type": "minor",
+            "date": "3/22/998",
+            "book": "1",
+            "description": "Perrin sees a myrddraal outside Emond's Field",
+            "people": ["Perrin"]
+        },
+        {
+            "type": "minor",
+            "date": "3/22/998",
+            "book": "1",
+            "description": "Moiraine and Lan arrive in Emond's Field",
+            "people": ["Moiraine", "Lan"]
+        },
+        {
+            "type": "minor",
+            "date": "3/22/998",
+            "book": "1",
+            "description": "Thom arrives in Emond's Field in the night",
+            "people": ["Thom"]
+        },
+        {
+            "type": "meta",
+            "date": "3/22/998",
+            "title": "1 - The Eye of the World",
+            "book": "1",
+            "image": "DKSweet-covers/Wheel-of-Time-DKS-Eye-of-the-World.jpg",
+            "imageArtist": "Darrell K. Sweet",
+            "imageSource": "https://www.tor.com/2012/04/20/a-darrell-k-sweet-wheel-of-time-tribute-including-a-memory-of-light-sketch/"
+        },
+        {
+            "type": "major",
+			"id": 0,
+			"date": "3/23/998",
+            "location": "Emond's Field",
+            "title": "Winternight",
+            "description": "Emond's field is attacked by trollocs coming seemingly out of nowhere. Moiraine and Lan are instrumental in rallying the villagers and withstanding the attack.",
+            "people": ["Mat", "Perrin", "Egwene", "Nynaeve", "Moiraine", "Lan", "Thom"],
+            "book": "1",
+            "icon": "Wheel-icon.svg",
+            "sponsor": "Lauren from Unraveling the Pattern",
+            "paths": []
+        },
+        {
+            "type": "major",
+			"id": 1,
+			"date": "3/23/998",
+            "location": "al'Thor Farm",
+            "title": "Winternight",
+            "description": "Rand and Tam are attacked by trollocs on their farm. After Tam is hurt in the fight Rand drags a delirious Tam to Emond's field through the night.",
+            "people": ["Rand"],
+            "book": "1",
+            "icon": "Wheel-icon.svg",
+            "paths": [
+                {
+                    "people": ["Rand"],
+                    "route": "M 5146 4124 L 5194 4114",
+                    "style": "standard"
+                }
+            ]
+        },
+        {
+            "type": "major",
+			"id": 2,
+			"date": "3/24/998",
+            "location": "Taren Ferry",
+            "title": "Across the Taren",
+            "description": "The party crosses the ferry across the Taren under the cover of a Power-wrought mist by Moiraine.",
+            "people": ["Mat", "Perrin", "Egwene", "Moiraine", "Lan", "Thom", "Rand"],
+            "book": "1",
+            "icon": "Staff-icon.svg",
+            "paths": [
+                {
+                    "people": ["Rand", "Mat", "Perrin", "Egwene", "Moiraine", "Lan", "Thom"],
+                    "route": "M 5194 4114 C 5185 4074 5221 4057 5218 4036",
+                    "style": "standard"
+                }
+            ]
+        },
+        {
+            "type": "major",
+			"id": 3,
+			"date": "3/30/998",
+            "location": "Baerlon",
+            "title": "Baerlon",
+            "description": "The party arrives in Baerlon where Rand meets Min who unsettles him by telling him some of her viewings of the party. Nynaeve catches up to the Emond's fielders, determined to see them safely home.",
+            "people": ["Mat", "Perrin", "Egwene", "Nynaeve", "Moiraine", "Lan", "Thom", "Rand"],
+            "book": "1",
+            "icon": "Wheel-icon.svg",
+            "paths": [
+                {
+                    "people": ["Rand", "Mat", "Perrin", "Egwene", "Moiraine", "Lan", "Thom"],
+                    "route": "M 5218 4036 L 5226 4021 C 5234 3964 5184 3863 5198 3818",
+                    "style": "standard"
+                },
+                {
+                    "people": ["Nynaeve"],
+                    "route": "M 5194 4114 C 5185 4074 5221 4057 5218 4036",
+                    "style": "standard"
+                },
+                {
+                    "people": ["Nynaeve"],
+                    "route": "M 5218 4036 L 5226 4021 C 5234 3964 5184 3863 5198 3818",
+                    "style": "standard"
+                }
+            ]
+        },
+        {
+            "type": "major",
+			"id": 4,
+			"date": "4/3/998",
+            "location": "Aridhol",
+            "title": "Shadow's Waiting",
+            "description": "Desparate after the trollocs have caught up with them, the party seeks refuge in Shadar Logoth. Rand, Mat and Perrin encounter Mordeth, who attacks them. Mat steals a ruby dagger, not heeding Moiraine's warnings.",
+            "people": ["Mat", "Perrin", "Egwene", "Nynaeve", "Moiraine", "Lan", "Thom", "Rand"],
+            "book": "1",
+            "icon": "Dagger-icon.svg",
+            "paths": [
+                {
+                    "people": ["Rand", "Mat", "Perrin", "Egwene", "Moiraine", "Lan", "Thom", "Nynaeve"],
+                    "route": "M 5198 3818 C 5287 3823 5402 3901 5448 3870 C 5494 3849 5572 3822 5620 3824",
+                    "style": "standard"
+                }
+            ]
+        },
+        {
+            "type": "major",
+			"id": 5,
+			"date": "4/3/998",
+            "location": "Aridhol",
+            "title": "Mashadar",
+            "description": "The curse of Shadar Logoth reveals itself as the party tries to flee the incoming trollocs and fades. During the flight the party is scattered.",
+            "people": ["Mat", "Perrin", "Egwene", "Nynaeve", "Moiraine", "Lan", "Thom", "Rand"],
+            "book": "1",
+            "icon": "Wheel-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 6,
+			"date": "4/3/998",
+            "location": "Domon's boat",
+            "title": "Riverflight",
+            "description": "Rand and Mat, together with Thom, board Bayle Domon's boat while fleeing the trollocs. They convince him to let them ride along until Whitebridge.",
+            "people": ["Mat", "Thom", "Rand"],
+            "book": "1",
+            "icon": "Anchor-icon.svg",
+            "paths": [
+                {
+                    "people": ["Rand", "Mat", "Thom"],
+                    "route": "M 5620 3824 L 5660 3829",
+                    "style": "standard"
+                }
+            ]
+        },
+        {
+            "type": "major",
+			"id": 7,
+			"date": "4/4/998",
+            "location": "ch21",
+            "title": "A Path chosen",
+            "description": "Nynaeve finds Moiraine and Lan and they set off together downriver to find the others.",
+            "people": ["Nynaeve", "Moiraine", "Lan"],
+            "book": "1",
+            "icon": "Wheel-icon.svg",
+            "paths": [
+                {
+                    "people": ["Moiraine", "Lan", "Nynaeve"],
+                    "route": "M 5620 3824 L 5676 3825",
+                    "style": "standard"
+                }
+            ]
+        },
+        {
+            "type": "major",
+			"id": 8,
+			"date": "4/4/998",
+            "location": "ch22",
+            "title": "A Path chosen",
+            "description": "Perrin finds Egwene on the other side of the river. They decide to travel directly to Caemlyn together.",
+            "people": ["Perrin", "Egwene"],
+            "book": "1",
+            "icon": "Wheel-icon.svg",
+            "paths": [
+                {
+                    "people": ["Perrin", "Egwene"],
+                    "route": "M 5620 3824 L 5660 3799",
+                    "style": "standard"
+                }
+            ]
+        },
+        {
+            "type": "minor",
+            "date": "4/6/998",
+            "book": "1",
+            "description": "Rand and Mat see a strange metal tower.",
+            "people": ["Rand", "Mat"]
+        },
+        {
+            "type": "major",
+			"id": 9,
+			"date": "4/7/998",
+            "location": "Meet Elyas",
+            "title": "Wolfbrother",
+            "description": "Perrin and Egwene meet Elyas, a former warder who can speak to wolves. Perrin reluctantly learns he can talk with wolves as well.",
+            "people": ["Perrin", "Egwene"],
+            "book": "1",
+            "icon": "Wolf-icon.svg",
+            "paths": [
+                {
+                    "people": [ "Perrin", "Egwene"],
+                    "route": "M 5660 3799 C 5790 3760 5949 3684 6023 3624",
+                    "style": "standard"
+                }
+            ]
+        },
+        {
+            "type": "major",
+			"id": 10,
+			"date": "4/10/998",
+            "location": "Whitebridge",
+            "title": "Whitebridge",
+            "description": "Rand, Mat and Thom arrive at whitebridge and ask after the whereabouts of the rest of the party. A fade finds them and Thom goes to fight it ordering Rand and Mat to flee.",
+            "people": ["Mat", "Thom", "Rand"],
+            "book": "1",
+            "icon": "Harp-icon.svg",
+            "paths": [
+                {
+                    "people": ["Rand", "Mat", "Thom"],
+                    "route": "M 5660 3829 C 5670 3830 5702 3901 5760 3896 C 5785 3897 5863 3868 5894 3883 C 5959 3911 5973 3979 6033 3981 C 6134 3976 6135 3997 6141 4047 C 6140 4098 6182 4108 6267 4137 C 6351 4171 6358 4231 6357 4267 C 6356 4288 6321 4339 6314 4362 C 6309 4372 6303 4415 6309 4420 L 6338 4423",
+                    "style": "standard"
+                }
+            ]
+        },
+        {
+            "type": "minor",
+            "date": "4/17/998",
+            "book": "1",
+            "description": "Moiraine, Lan and Nynaeve arrive at Whitebridge",
+            "people": ["Moiraine", "Lan", "Nynaeve"]
+        },
+        {
+            "type": "major",
+			"id": 11,
+			"date": "4/22/998",
+            "location": "Abandoned stedding",
+            "title": "Eyes without pity",
+            "description": "Perrin, Egwene and Elyas are attacked by a massive flock of ravens. They find shelter in a stedding with remainders of a massive statue of Artur Hawkwing.",
+            "people": ["Perrin", "Egwene"],
+            "book": "1",
+            "icon": "Tree-icon.svg",
+            "paths": [
+                {
+                    "people": ["Perrin", "Egwene"],
+                    "route": "M 6023 3624 C 6245 3726 6306 3804 6479 3860",
+                    "style": "standard"
+                }
+            ]
+        },
+        {
+            "type": "major",
+			"id": 12,
+			"date": "4/22/998",
+            "location": "Abandoned stedding",
+            "title": "Children of Shadow",
+            "description": "Perrin and Egwene are captured by Children of the Light led by Geofram Bornhald. Hopper the wolf is killed in the fight, Elyas escapes.",
+            "people": ["Perrin", "Egwene"],
+            "book": "1",
+            "icon": "Cotl-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 13,
+			"date": "4/27/998",
+            "location": "Four Kings",
+            "title": "Four Kings",
+            "description": "On the road to Caemlyn, Rand and Mat earn their money by playing in inns using the training Thom gave them on the boat. In Four Kings they are approached by a darkfriend but manage to get away.",
+            "people": ["Mat", "Rand"],
+            "book": "1",
+            "icon": "Fang-icon.svg",
+            "paths": [
+                {
+                    "people": ["Rand", "Mat"],
+                    "route": "M 6338 4423 C 6350 4445 6420 4440 6485 4430 C 6602 4408 6678 4408 6816 4426 C 7021 4462 7172 4439 7334 4430",
+                    "style": "standard"
+                }
+            ]
+        },
+        {
+            "type": "major",
+			"id": 14,
+			"date": "4/27/998",
+            "location": "Market Sheran",
+            "title": "The Dark Waits",
+            "description": "Another darkfriend tries to kill Rand and Mat. They manage to lock her up and continue their journey to Caemlyn.",
+            "people": ["Mat", "Rand"],
+            "book": "1",
+            "icon": "Fang-icon.svg",
+            "paths": [
+                {
+                    "people": ["Rand", "Mat"],
+                    "route": "M 7334 4430 C 7372 4426 7426 4426 7468 4428",
+                    "style": "standard"
+                }
+            ]
+        },
+        {
+            "type": "major",
+			"id": 15,
+			"date": "5/2/998",
+            "location": "Caemlyn",
+            "title": "Caemlyn",
+            "description": "Rand and Mat arrive in Caemlyn and find lodging at The Queen's Blessing. Rand meets Loial the ogier in the inn's library.",
+            "people": ["Mat", "Rand"],
+            "book": "1",
+            "icon": "Andoran-icon.svg",
+            "paths": [
+                {
+                    "people": ["Rand", "Mat"],
+                    "route": "M 7468 4428 C 7567 4431 7655 4439 7719 4446",
+                    "style": "standard"
+                }
+            ]
+        },
+        {
+            "type": "major",
+			"id": 16,
+			"date": "5/2/998",
+            "location": "Rescue site",
+            "title": "Rescue",
+            "description": "Moiraine, Lan and Nynaeve rescue Perrin and Egwene from the Whitecloaks.",
+            "people": ["Perrin", "Egwene", "Nynaeve", "Moiraine", "Lan"],
+            "book": "1",
+            "icon": "Aessedai-icon.svg",
+            "paths": [
+                {
+                    "people": ["Perrin", "Egwene"],
+                    "route": "M 6479 3860 C 6724 3953 6819 4024 7084 4155",
+                    "style": "standard"
+                },
+                {
+                    "people": ["Moiraine", "Lan", "Nynaeve"],
+                    "route": "M 5676 3825 C 5731 3845 5851 3857 5902 3870 C 5977 3891 6050 3963 6101 3966 C 6143 3969 6211 4072 6314 4133 C 6363 4156 6384 4253 6372 4316 L 6338 4423",
+                    "style": "standard"
+                },
+                {
+                    "people": ["Moiraine", "Lan", "Nynaeve"],
+                    "route": "M 6338 4423 C 6428 4315 6550 4241 6696 4226 C 6818 4213 7056 4172 7084 4155",
+                    "style": "standard"
+                }
+            ]
+        },
+        {
+            "type": "major",
+			"id": 17,
+			"date": "5/5/998",
+            "location": "Caemlyn",
+            "title": "Reunited",
+            "description": "While looking at Logain Ablar, Rand accidentally falls in the royal garden and meets Elayne, Gawyn and Galad. He is brought to queen Morgase and Elaida. Once released he returns to the inn, where the party is reunited. They decide to use the Ways to reach the Eye of the World, under protest from Loial who joins them.",
+            "people": ["Mat", "Perrin", "Egwene", "Nynaeve", "Moiraine", "Lan", "Rand"],
+            "book": "1",
+            "icon": "Andoran-icon.svg",
+            "paths": [
+                {
+                    "people": ["Perrin", "Egwene", "Moiraine", "Lan", "Nynaeve"],
+                    "route": "M 7084 4155 C 7394 4238 7593 4384 7719 4446",
+                    "style": "standard"
+                }
+            ]
+        },
+        {
+            "type": "major",
+			"id": 18,
+			"date": "5/7/998",
+            "location": "Fal Dara",
+            "title": "Fal Dara",
+            "description": "The party exits the Ways after a chilling encounter of Machin Shin in sight of Fal Dara and make their way to the borderland city.",
+            "people": ["Mat", "Perrin", "Egwene", "Nynaeve", "Moiraine", "Lan", "Rand"],
+            "book": "1",
+            "icon": "Leaves-icon.svg",
+            "paths": [
+                {
+                    "people": ["Rand", "Mat", "Perrin", "Egwene", "Moiraine", "Lan", "Nynaeve"],
+                    "route": "M 7719 4446 L 9752 1590",
+                    "style": "ways"
+                },
+                {
+                    "people": ["Rand", "Mat", "Perrin", "Egwene", "Moiraine", "Lan", "Nynaeve"],
+                    "route": "M 9752 1590 C 9713 1585 9677 1552 9636 1538",
+                    "style": "standard"
+                }
+            ]
+        },
+        {
+            "type": "major",
+			"id": 19,
+			"date": "5/9/998",
+            "location": "The Eye of the World",
+            "title": "The Eye of the World",
+            "description": "The party find the Green Man, but also two forsaken, at the Eye of the World. The Green Man dies in an encounter with the Balthamel but manages to destroy him. Rand and Aginor fight over the power of the Eye but Aginor draws too much and dies.",
+            "people": ["Mat", "Perrin", "Egwene", "Nynaeve", "Moiraine", "Lan", "Rand"],
+            "book": "1",
+            "icon": "Tree-icon.svg",
+            "paths": [
+                {
+                    "people": ["Rand", "Mat", "Perrin", "Egwene", "Moiraine", "Lan", "Nynaeve"],
+                    "route": "M 9636 1538 C 9696 1422 9706 1163 9747 1023 C 9790 864 9856 716 9850 620",
+                    "style": "standard"
+                }
+            ]
+        },
+        {
+            "type": "major",
+			"id": 20,
+			"date": "5/9/998",
+            "location": "Tarwin's Gap Mountain",
+            "title": "Against the Shadow",
+            "description": "Rand suddenly finds himself at Tarwin's Gap while fleeing after watching Aginor die. Seeing the borderlanders battle the invading trollocs, he blasts the trollocs with lightning.",
+            "people": ["Rand"],
+            "book": "1",
+            "icon": "Wheel-icon.svg",
+            "paths": [
+                {
+                    "people": ["Rand"],
+                    "route": "M 9850 620 L 10296 1286",
+                    "style": "gateway"
+                }
+            ]
+        },
+        {
+            "type": "major",
+			"id": 21,
+			"date": "5/9/998",
+            "location": "The Eye of the World",
+            "title": "The Wheel Turns",
+            "description": "Where the Eye used to be, the party find a broken seal, the Horn of Valere and the Dragon Banner.",
+            "people": ["Mat", "Perrin", "Egwene", "Nynaeve", "Moiraine", "Lan", "Rand"],
+            "book": "1",
+            "icon": "Valere-icon.svg",
+            "paths": [
+                {
+                    "people": ["Rand"],
+                    "route": "M 10296 1286 L 9850 620",
+                    "style": "gateway"
+                }
+            ]
+        },
+        {
+            "type": "major",
+			"id": 22,
+			"date": "5/11/998",
+            "location": "Fal Dara",
+            "title": "The Wheel Turns",
+            "description": "The party arrives back at Fal Dara. Moiraine tells lord Agelmar, who wants to use the Horn of Valere against the shadow, that it must be taken to Illian where it belongs.",
+            "people": ["Mat", "Perrin", "Egwene", "Nynaeve", "Moiraine", "Lan", "Rand"],
+            "book": "1",
+            "icon": "Valere-icon.svg",
+            "paths": [
+                {
+                    "people": ["Rand", "Mat", "Perrin", "Egwene", "Moiraine", "Lan", "Nynaeve"],
+                    "route": "M 9850 620 C 9820 711 9825 848 9786 1061 C 9720 1241 9698 1414 9636 1538",
+                    "style": "standard"
+                }
+            ]
+        },
+        {
+            "type": "minor",
+            "date": "",
+            "book": "2",
+            "description": "Logain, Elayne and Gawyn arrive at Tar Valon.",
+            "people": []
+        },
+        {
+            "type": "meta",
+            "date": "6/7/998",
+            "title": "2 - The Great Hunt",
+            "book": "2",
+            "image": "DKSweet-covers/Wheel-of-Time-DKS-Great-Hunt.jpg",
+            "imageArtist": "Darrell K. Sweet",
+            "imageSource": "https://www.tor.com/2012/04/20/a-darrell-k-sweet-wheel-of-time-tribute-including-a-memory-of-light-sketch/"
+        },
+        {
+            "type": "major",
+			"id": 23,
+			"date": "6/9/998",
+            "location": "Fal Dara",
+            "title": "The Flame of Tar Valon",
+            "description": "The Amyrlin seat Siuan Sanche arrives in Fal Dara. Trollocs attack Fal Dara, Padan Fain escapes and the Horn of Valere and Mat's dagger are stolen.",
+            "people": ["Mat", "Perrin", "Egwene", "Nynaeve", "Moiraine", "Lan", "Rand"],
+            "book": "2",
+            "icon": "Flame-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 24,
+			"date": "6/10/998",
+            "location": "Fal Dara",
+            "title": "The Dragon Reborn",
+            "description": "Siuan and Moiraine tell Rand he is the dragon reborn. Rand, Mat and Perrin accompany Ingtar and his men to recapture the horn, and Mat's dagger.",
+            "people": ["Mat", "Perrin", "Moiraine", "Lan", "Rand"],
+            "book": "2",
+            "icon": "Dragonoriginal-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 25,
+			"date": "6/10/998",
+            "location": "Fal Dara",
+            "title": "Leavetakings",
+            "description": "Egwene and Nynaeve accompany the Amyrlin's party to Tar Valon",
+            "people": ["Egwene", "Nynaeve", "Moiraine", "Lan"],
+            "book": "2",
+            "icon": "Aessedai-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 26,
+			"date": "6/14/998",
+            "location": "Moiraine's exit",
+            "title": "Woven in the pattern",
+            "description": "Moiraine and Lan stealthily leave the Amyrlin's party.",
+            "people": ["Moiraine", "Lan"],
+            "book": "2",
+            "icon": "Staff-icon.svg",
+            "paths": [
+                {
+                    "people": ["Egwene", "Moiraine", "Lan", "Nynaeve"],
+                    "route": "M 9636 1538 C 9610 1594 9566 1657 9527 1692 C 9426 1692 9325 1666 9281 1654",
+                    "style": "standard"
+                }
+            ]
+        },
+        {
+            "type": "major",
+			"id": 27,
+			"date": "6/16/998",
+            "location": "Erinin crossing",
+            "title": "The Hunt Begins",
+            "description": "After crossing the river Erinin the hunters find a Fade slowly dying nailed to the door in an abandoned village. Rand discovers Moiraine put the dragon banner in his bags.",
+            "people": ["Mat", "Perrin", "Rand"],
+            "book": "2",
+            "icon": "Fang-icon.svg",
+            "paths": [
+                {
+                    "people": ["Rand", "Mat", "Perrin"],
+                    "route": "M 9636 1538 C 9611 1629 9638 1709 9657 1787 C 9658 1793 9663 1795 9675 1792 C 9683 1790 9690 1797 9691 1806 C 9697 1826 9699 1831 9717 1832 C 9728 1833 9736 1840 9739 1875 C 9742 1911 9742 1945 9749 1958",
+                    "style": "standard"
+                }
+            ]
+        },
+        {
+            "type": "major",
+			"id": 28,
+			"date": "6/16/998",
+            "location": "Medo",
+            "title": "To the White Tower",
+            "description": "The Amyrlin's party continues their journey to Tar Valon on the river.",
+            "people": ["Egwene", "Nynaeve"],
+            "book": "2",
+            "icon": "Fang-icon.svg",
+            "paths": [
+                {
+                    "people": ["Egwene", "Nynaeve"],
+                    "route": "M 9281 1654 C 9214 1633 9193 1627 9175 1639",
+                    "style": "standard"
+                }
+            ]
+        },
+        {
+            "type": "major",
+			"id": 29,
+			"date": "6/17/998",
+            "location": "Erinin crossing",
+            "title": "From Stone to Stone",
+            "description": "Rand, Loial and thief-catcher Hurin wake up in another world. Hurin can still sense the darkfriend's trail, so they decide to follow it.",
+            "people": ["Rand"],
+            "book": "2",
+            "icon": "Portal-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 30,
+			"date": "6/17/998",
+            "location": "Erinin crossing",
+            "title": "From Stone to Stone",
+            "description": "Finding Rand and the others vanished, Ingtar needs a new way to follow the darkfriends. Perrin poses as a sniffer using his wolf senses.",
+            "people": ["Mat", "Perrin"],
+            "book": "2",
+            "icon": "Wolf-icon.svg"
+        },
+        {
+            "type": "minor",
+            "date": "6/17/998",
+            "book": "2",
+            "description": "Verin joins the search party for the Horn.",
+            "people": []
+        },
+        {
+            "type": "major",
+			"id": 31,
+			"date": "6/18/998",
+            "location": "Talidar",
+            "title": "In the Mirror of Darkness",
+            "description": "Rand, Loial and Hurin find a monument on the field of Talidar depicting an alternate history where the trollocs beat Artur Hawkwing. Rand rescues Selene and uses another portal stone to bring them back to their own world.",
+            "people": ["Rand"],
+            "book": "2",
+            "icon": "Portal-icon.svg",
+            "paths": [
+                {
+                    "people": ["Rand"],
+                    "route": "M 9749 1958 C 9782 2018 9750 2112 9756 2197 C 9764 2315 9740 2472 9633 2631",
+                    "style": "portalstone"
+                }
+            ]
+        },
+        {
+            "type": "major",
+			"id": 32,
+			"date": "6/22/998",
+            "location": "Talidar",
+            "title": "Beneath the Dagger",
+            "description": "Rand's party finds Fain's camp and Rand steals back the dagger and the Horn of Valere.",
+            "people": ["Rand"],
+            "book": "2",
+            "icon": "Valere-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 33,
+			"date": "6/24/998",
+            "location": "Male Choedan Kal",
+            "title": "The Nine Rings",
+            "description": "Rand's party stumbles upon the excavation of a massive ancient statue of a man holding a sphere near the village of Tremonsien.",
+            "people": ["Rand"],
+            "book": "2",
+            "icon": "Wheel-icon.svg",
+            "paths": [
+                {
+                    "people": ["Rand"],
+                    "route": "M 9633 2631 C 9575 2837 9456 2645 9398 2940 C 9394 3024 9207 3033 9098 3130",
+                    "style": "standard"
+                }
+            ]
+        },
+        {
+            "type": "major",
+			"id": 34,
+			"date": "6/24/998",
+            "location": "Tar Valon",
+            "title": "The Testing",
+            "description": "Nynaeve passes the test and becomes an Accepted.",
+            "people": ["Nynaeve"],
+            "book": "2",
+            "icon": "Star-icon.svg",
+            "paths": [
+                {
+                    "people": ["Egwene", "Nynaeve"],
+                    "route": "M 9175 1639 C 9151 1625 9144 1633 9138 1641 C 9124 1654 9131 1694 9119 1706 C 9113 1714 9100 1757 9057 1769 C 9031 1779 8965 1781 8928 1811 C 8876 1846 8859 1868 8857 1907 C 8858 1922 8844 1946 8811 1965 C 8789 1978 8749 1992 8691 2014 C 8656 2024 8611 2023 8579 2019 C 8544 2017 8503 2014 8484 2020 C 8471 2026 8421 2026 8400 2020 C 8380 2015 8334 2013 8267 2013 C 8228 2015 8168 2046 8154 2077 C 8136 2105 8118 2149 8099 2192 C 8087 2231 8097 2262 8092 2298 C 8091 2325 8104 2386 8100 2424 C 8097 2440 8073 2502 8079 2530 C 8082 2563 8098 2594 8124 2636 C 8182 2712 8220 2789 8279 2859 L 8307 2889",
+                    "style": "standard"
+                }
+            ]
+        },
+        {
+            "type": "major",
+			"id": 35,
+			"date": "6/24/998",
+            "location": "Tar Valon",
+            "title": "A Beginning",
+            "description": "Egwene becomes a Novice.",
+            "people": ["Egwene"],
+            "book": "2",
+            "icon": "Aessedai-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 36,
+			"date": "6/25/998",
+            "location": "Cairhien",
+            "title": "Cairhien",
+            "description": "Rand meets Thom, who he thought died fighting the fade. Later on he and the others are attacked in the Foregate by trollocs. They hide in an Illuminator's house which gets burned down by the fireworks in the chaos.",
+            "people": ["Thom", "Rand"],
+            "book": "2",
+            "icon": "Wheel-icon.svg",
+            "paths": [
+                {
+                    "people": ["Rand"],
+                    "route": "M 9098 3130 C 9072 3150 9055 3173 9027 3184 C 8982 3199 8934 3315 8856 3399 C 8792 3477 8743 3524 8756 3535 C 8774 3548 8799 3564 8825 3570",
+                    "style": "standard"
+                }
+            ]
+        },
+        {
+            "type": "major",
+			"id": 37,
+			"date": "6/25/998",
+            "location": "Tar Valon",
+            "title": "New Friends",
+            "description": "Egwene meets Elayne, who takes her to see Min, who tells her about the visions she sees. Egwene also meets Gawyn and Galad in the tower garden.",
+            "people": ["Egwene"],
+            "book": "2",
+            "icon": "Aessedai-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 38,
+			"date": "6/25/998",
+            "location": "Cairhien",
+            "title": "A New Thread",
+            "description": "Ingtar's party enters Cairhien.",
+            "people": ["Mat", "Perrin"],
+            "book": "2",
+            "icon": "Wheel-icon.svg",
+            "paths": [
+                {
+                    "people": ["Perrin", "Mat"],
+                    "route": "M 9749 1958 C 9731 2052 9740 2166 9704 2364 C 9686 2452 9530 2610 9395 2777 C 9255 2953 9066 3012 8905 3250 C 8805 3374 8740 3458 8741 3492 C 8744 3536 8785 3556 8825 3570",
+                    "style": "standard"
+                }
+            ]
+        },
+        {
+            "type": "minor",
+            "date": "",
+            "book": "2",
+            "description": "Bayle Domon is captured by the Seanchan.",
+            "people": []
+        },
+        {
+            "type": "major",
+			"id": 39,
+			"date": "7/1/998",
+            "location": "Cairhien",
+            "title": "Daes Dae'mar",
+            "description": "After a series of increasingly highly ranked nobles send party invitations to Rand he is forced to accept one of them when the horn and dagger are stolen again and Hurin tracks the horn to the mansion of lord Barthanes Damodred.",
+            "people": ["Mat", "Perrin", "Rand"],
+            "book": "2",
+            "icon": "Fang-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 40,
+			"date": "7/2/998",
+            "location": "Cairhien",
+            "title": "Dangerous Words",
+            "description": "Rand attends the party and receives a threat from Padan Fain telling him to go to Toman Head. When trying to open the waygate Machin Shin is waiting for them.",
+            "people": ["Mat", "Perrin", "Thom", "Rand"],
+            "book": "2",
+            "icon": "Fang-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 41,
+			"date": "7/4/998",
+            "location": "Stedding Tsofu",
+            "title": "Stedding Tsofu",
+            "description": "After Machin Shin is once again waiting for them at the waygate at stedding Tsofu, Rand uses another portal stone to travel to Toman's head.",
+            "people": ["Mat", "Perrin", "Rand"],
+            "book": "2",
+            "icon": "Portal-icon.svg",
+            "paths": [
+                {
+                    "people": ["Rand", "Mat", "Perrin"],
+                    "route": "M 8825 3570 C 8972 3563 9017 3591 9071 3610",
+                    "style": "standard"
+                }
+            ]
+        },
+        {
+            "type": "major",
+			"id": 42,
+			"date": "9/23/998",
+            "location": "Tar Valon",
+            "title": "Flight from the Tower",
+            "description": "Liandrin tells Egwene and Nynaeve that Rand is in danger. Min and Elayne, who overheard, travel with them into the ways.",
+            "people": ["Egwene", "Nynaeve"],
+            "book": "2",
+            "icon": "Leaves-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 43,
+			"date": "9/24/998",
+            "location": "Stedding Toman Head",
+            "title": "Flight from the Tower",
+            "description": "Liandrin and the girls arrive on Toman Head. Liandrin betrays them to the Seanchan causing Egwene and Min to get captured.",
+            "people": ["Egwene", "Nynaeve"],
+            "book": "2",
+            "icon": "A'dam-icon.svg",
+            "paths": [
+                {
+                    "people": ["Egwene", "Nynaeve"],
+                    "route": "M 8307 2889 L 3437 3959",
+                    "style": "ways"
+                }
+            ]
+        },
+        {
+            "type": "major",
+			"id": 44,
+			"date": "11/14/998",
+            "location": "Portal Stone Toman Head",
+            "title": "What Might Be",
+            "description": "After seeing many alternate lives while traveling with the portal stone Rand's party arrive at Toman Head only to discover that months have passed since when they left.",
+            "people": ["Mat", "Perrin", "Rand"],
+            "book": "2",
+            "icon": "Portal-icon.svg",
+            "paths": [
+                {
+                    "people": ["Rand", "Mat", "Perrin"],
+                    "route": "M 9071 3610 L 3455 3735",
+                    "style": "portalstone"
+                },
+                {
+                    "people": ["Egwene", "Nynaeve"],
+                    "route": "M 3437 3959 C 3334 3972 3270 4013 3162 4015",
+                    "style": "standard"
+                }
+            ]
+        },
+        {
+            "type": "major",
+			"id": 45,
+			"date": "11/20/998",
+            "location": "Falme",
+            "title": "Falme",
+            "description": "Hurin finds the trail of the horn to the Seanchan-controlled city Falme.",
+            "people": [],
+            "book": "2",
+            "icon": "Seanchan-icon.svg",
+            "paths": [
+                {
+                    "people": ["Rand", "Mat", "Perrin"],
+                    "route": "M 3455 3735 C 3425 3738 3379 3843 3319 3882 C 3312 3887 3309 3909 3275 3952",
+                    "style": "standard"
+                }
+            ]
+        },
+        {
+            "type": "major",
+			"id": 46,
+			"date": "11/21/998",
+            "location": "Falme",
+            "title": "Five Will Ride Forth",
+            "description": "Rand, Mat, Perrin, Ingtar and Hurin enter Falme to retrieve the horn and the dagger. Rand kills the Seanchan lord keeping it, earning the title of blademaster. They try to escape with the horn and the dagger.",
+            "people": ["Mat", "Perrin", "Rand"],
+            "book": "2",
+            "icon": "Wheel-icon.svg",
+            "paths": [
+                {
+                    "people": ["Rand", "Mat", "Perrin"],
+                    "route": "M 3275 3952 C 3251 3982 3212 4021 3162 4015",
+                    "style": "standard"
+                }
+            ]
+        },
+        {
+            "type": "major",
+			"id": 47,
+			"date": "11/21/998",
+            "location": "Falme",
+            "title": "Rescue",
+            "description": "Elayne and Nynaeve, together with Min who was released because she could not channel, rescue Egwene from the Seanchan.",
+            "people": ["Egwene", "Nynaeve"],
+            "book": "2",
+            "icon": "A'dam-icon.svg"
+        },
+        {
+            "type": "minor",
+            "date": "11/21/998",
+            "book": "2",
+            "description": "Ingtar reveals he was a darkfriend, but as a last sacrifice for the light sacrifices himself so the others can get away.",
+            "people": []
+        },
+        {
+            "type": "major",
+			"id": 48,
+			"date": "11/21/998",
+            "location": "Falme",
+            "title": "The Horn's Call",
+            "description": "In the escape Mat blows the horn of Valere and summons the Heroes of the Horn. The Seanchan are driven away, Rand has a massive battle in the sky with Ba'alzamon and kills him after being wounded in the side. He falls unconscious.",
+            "people": ["Mat", "Perrin", "Rand"],
+            "book": "2",
+            "icon": "Valere-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 49,
+			"date": "11/22/998",
+            "location": "Falme",
+            "title": "What Was Meant to Be",
+            "description": "Egwene, Elayne, Nynaeve, Mat and Hurin leave for Tar Valon where Mat can be healed from the dagger and the girls can continue their training.",
+            "people": ["Mat", "Egwene", "Nynaeve"],
+            "book": "2",
+            "icon": "Aessedai-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 50,
+			"date": "11/26/998",
+            "location": "Falme",
+            "title": "What Was Meant to Be",
+            "description": "Rand wakes up. Moiraine has arrived in Falme and tells him he must declare himself the Dragon Reborn. She shows him two broken seals.",
+            "people": ["Moiraine", "Rand"],
+            "book": "2",
+            "icon": "Dragonoriginal-icon.svg"
+        },
+        {
+            "type": "minor",
+            "date": "",
+            "book": "4",
+            "description": "Suroth assumes command of the Hailene, or the Return.",
+            "people": []
+        },
+        {
+            "type": "meta",
+            "date": "2/26/999",
+            "title": "3 - The Dragon Reborn",
+            "book": "3",
+            "image": "DKSweet-covers/Wheel-of-Time-DKS-Dragon-Reborn.jpg",
+            "imageArtist": "Darrell K. Sweet",
+            "imageSource": "https://www.tor.com/2012/04/20/a-darrell-k-sweet-wheel-of-time-tribute-including-a-memory-of-light-sketch/"
+        },
+        {
+            "type": "minor",
+            "date": "",
+            "book": "3",
+            "description": "Padan fain arrives in Amador as Ordeith.",
+            "people": []
+        },
+        {
+            "type": "minor",
+            "date": "2/26/999",
+            "book": "3",
+            "description": "Jaichim Carridin is ordered by Lord Captain Commander Pedron Niall to allow the Dragon Reborn free rein over Almoth Plain, and by a myrddraal to kill him within a month.",
+            "people": []
+        },
+        {
+            "type": "minor",
+            "date": "3/10/999",
+            "book": "3",
+            "description": "Morgase visits Tar Valon to bring Elayne back to Caemlyn. When she returns empty-handed, Elaida stays behind in Tar Valon.",
+            "people": []
+        },
+        {
+            "type": "major",
+			"id": 51,
+			"date": "3/12/999",
+            "location": "Dragon Camp",
+            "title": "Shadows Sleeping",
+            "description": "Perrin overhears a conference of some of the Forsaken in the dream world Tel'Aran'rhiod.",
+            "people": ["Perrin"],
+            "book": "3",
+            "icon": "Wolf-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 52,
+			"date": "3/12/999",
+            "location": "Dragon Camp",
+            "title": "Nightmares Walking",
+            "description": "Trollocs and Fades attack the camp in the night.",
+            "people": ["Rand", "Perrin", "Moiraine", "Lan"],
+            "book": "3",
+            "icon": "Wheel-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 53,
+			"date": "3/13/999",
+            "location": "Dragon Camp",
+            "title": "Nightmares Walking",
+            "description": "When perrin wakes up he discovers Rand is gone. Loial, Moiraine, Lan and Perrin follow Rand.",
+            "people": ["Perrin", "Moiraine", "Lan"],
+            "book": "3",
+            "icon": "Wheel-icon.svg"
+        },
+        {
+            "type": "minor",
+            "date": "",
+            "book": "3",
+            "description": "Rand passes through Jarra, his ta'veren presence causing a large number of weddings.",
+            "people": ["Rand"]
+        },
+        {
+            "type": "major",
+			"id": 54,
+			"date": "3/20/999",
+            "location": "Jarra",
+            "title": "Jarra",
+            "description": "Perrin's party find signs that Rand has recently traveled through Jarra. Perrin meets another man who can speak to wolves, but he has lost his humanity.",
+            "people": ["Perrin", "Moiraine", "Lan"],
+            "book": "3",
+            "icon": "Wolf-icon.svg"
+        },
+        {
+            "type": "minor",
+            "date": "3/20/999",
+            "book": "3",
+            "description": "Rand kills a darkhound using balefire.",
+            "people": ["Rand"]
+        },
+        {
+            "type": "minor",
+            "date": "4/8/999",
+            "book": "3",
+            "description": "Dain Bornhaldt tries to block Egwene, Mat and the others from entering Tar Valon, but Verin stops him.",
+            "people": ["Egwene", "Nynaeve", "Mat"]
+        },
+        {
+            "type": "major",
+			"id": 55,
+			"date": "4/8/999",
+            "location": "Tar Valon",
+            "title": "Tar Valon",
+            "description": "Egwene, Elayne, Nynaeve, Verin and Mat arrive in Tar Valon.",
+            "people": ["Egwene", "Nynaeve", "Mat"],
+            "book": "3",
+            "icon": "Aessedai-icon.svg"
+        },
+        {
+            "type": "minor",
+            "date": "4/8/999",
+            "book": "3",
+            "description": "Verin meets with Siuan the Amyrlin and gives her the Horn of Valere.",
+            "people": []
+        },
+        {
+            "type": "major",
+			"id": 56,
+			"date": "4/8/999",
+            "location": "Tar Valon",
+            "title": "The Amyrlin",
+            "description": "Egwene and Nynaeve are assigned by the Amyrlin Seat to chase the Black Ajah. They are attacked by a Gray Man on the tower grounds.",
+            "people": ["Egwene", "Nynaeve"],
+            "book": "3",
+            "icon": "Flame-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 57,
+			"date": "4/8/999",
+            "location": "Tar Valon",
+            "title": "Healing",
+            "description": "Mat is healed from the influence of the cursed dagger from Shadar Logoth.",
+            "people": ["Mat"],
+            "book": "3",
+            "icon": "Dagger-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 58,
+			"date": "4/9/999",
+            "location": "Tar Valon",
+            "title": "Sealed",
+            "description": "Egwene receives a Ter'angreal with which she can enter the dream world. Egwene and Elayne are tested and raised to Accepted.",
+            "people": ["Egwene"],
+            "book": "3",
+            "icon": "Aessedai-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 59,
+			"date": "4/10/999",
+            "location": "Tar Valon",
+            "title": "Scouting and Discoveries",
+            "description": "Mat encounters Gawyn and Galad in the training yard and beats them one on two using a quarterstaff.",
+            "people": ["Mat"],
+            "book": "3",
+            "icon": "Dice-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 60,
+			"date": "4/11/999",
+            "location": "Tar Valon",
+            "title": "A Way Out",
+            "description": "Egwene, Nynaeve and Elayne give Mat a letter to deliver to queen Morgase and then leave for Tear to chase the black ajah.",
+            "people": ["Egwene", "Nynaeve", "Mat"],
+            "book": "3",
+            "icon": "Wheel-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 62,
+			"date": "4/11/999",
+            "location": "Tar Valon",
+            "title": "The First Toss",
+            "description": "Mat wins a great deal of money gambling in Tar Valon. He encounters Thom and they travel to Caemlyn together to deliver the letter.",
+            "people": ["Mat", "Thom"],
+            "book": "3",
+            "icon": "Dice-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 63,
+			"date": "4/19/999",
+            "location": "Remen",
+            "title": "The Falcon",
+            "description": "Perrin meets Faile in Remen. Perrin and the others leave Remen by river after Perrin rescues the aiel prisoner Gaul. Faile joins them.",
+            "people": ["Perrin", "Moiraine", "Lan"],
+            "book": "3",
+            "icon": "Falcon-icon.svg"
+        },
+        {
+            "type": "minor",
+            "date": "4/19/999",
+            "book": "3",
+            "description": "Rand kills a group of darkfriends in a quite disturbing way.",
+            "people": ["Rand"]
+        },
+        {
+            "type": "major",
+			"id": 64,
+			"date": "4/26/999",
+            "location": "Near Jurene",
+            "title": "Maidens of the Spear",
+            "description": "Egwene, Elayne and Nynaeve abandon their ship after it is run aground and walk to Jurene to find a new one. They meet Aviendha and some Maidens of the Spear.",
+            "people": ["Egwene", "Nynaeve"],
+            "book": "3",
+            "icon": "Wheel-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 65,
+			"date": "4/27/999",
+            "location": "Aringill",
+            "title": "A Hero in the Night",
+            "description": "Tom and Mat arrive in Aringill. They save Aludra the illuminator, who gives them some fireworks as a token of thanks.",
+            "people": ["Thom", "Mat"],
+            "book": "3",
+            "icon": "Wheel-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 66,
+			"date": "5/2/999",
+            "location": "Illian",
+            "title": "Shadowbrothers",
+            "description": "Perrin's party arrives in Illian. Moiraine finds out Illian is ruled by one of the forsaken and they leave in the night, chased and attacked by Darkhounds.",
+            "people": ["Perrin", "Moiraine", "Lan"],
+            "book": "3",
+            "icon": "Fang-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 67,
+			"date": "5/2/999",
+            "location": "Near Caemlyn",
+            "title": "Hunted",
+            "description": "While on the road to Caemlyn, Mat and Thom are attacked by darkfriends.",
+            "people": ["Mat", "Thom"],
+            "book": "3",
+            "icon": "Fang-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 68,
+			"date": "5/3/999",
+            "location": "Caemlyn",
+            "title": "Message out of Shadow",
+            "description": "While delivering the letter to Morgase, Mat overhears a plot to kill Egwene, Nynaeve and Elayne. Immediately, Thom and Mat leave towards Tear to help them.",
+            "people": ["Mat", "Thom"],
+            "book": "3",
+            "icon": "Dice-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 69,
+			"date": "5/8/999",
+            "location": "Aringill",
+            "title": "Message out of Shadow",
+            "description": "Mat and Thom board a ship bound for Tear.",
+            "people": ["Mat", "Thom"],
+            "book": "3",
+            "icon": "Dice-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 70,
+			"date": "5/14/999",
+            "location": "Tear",
+            "title": "Following the Craft",
+            "description": "Egwene's party arrives in Tear. They find a thief-catcher to help them track the black ajah down.",
+            "people": ["Egwene", "Nynaeve"],
+            "book": "3",
+            "icon": "Wheel-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 71,
+			"date": "5/14/999",
+            "location": "Tear",
+            "title": "To Race the Shadow",
+            "description": "Mat and Thom arrive in Tear and start searching for the girls.",
+            "people": ["Mat", "Thom"],
+            "book": "3",
+            "icon": "Wheel-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 72,
+			"date": "5/18/999",
+            "location": "Tear",
+            "title": "To Race the Shadow",
+            "description": "Perrin's party arrives in Tear.",
+            "people": ["Perrin", "Moiraine", "Lan"],
+            "book": "3",
+            "icon": "Wheel-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 73,
+			"date": "5/19/999",
+            "location": "Tear",
+            "title": "Bait for the Net",
+            "description": "Nynaeve just misses Rand when the Black Ajah captures Egwene, Nynaeve and Elayne.",
+            "people": ["Nynaeve", "Egwene"],
+            "book": "3",
+            "icon": "Fang-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 74,
+			"date": "5/19/999",
+            "location": "Tear",
+            "title": "To Race the Shadow",
+            "description": "After Thom falls ill Mat continues to search for the girls alone. When he finds out where they had been staying and that they have been imprisoned in the Stone of Tear, he goes to rescue them.",
+            "people": ["Mat", "Thom"],
+            "book": "3",
+            "icon": "Dice-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 75,
+			"date": "5/19/999",
+            "location": "Tear",
+            "title": "A Flow of the Spirit",
+            "description": "Perrin enters the dream world to rescue Faile after she fell in a trap from the black ajah meant for Moiraine.",
+            "people": ["Perrin", "Moiraine"],
+            "book": "3",
+            "icon": "Falcon-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 76,
+			"date": "5/19/999",
+            "location": "Tear",
+            "title": "Into the Stone",
+            "description": "Mat uses his fireworks which he adapted to blast his way into the Stone of Tear. He just misses Rand, who is on his way to the Heart of the Stone.",
+            "people": ["Mat"],
+            "book": "3",
+            "icon": "Dice-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 77,
+			"date": "5/19/999",
+            "location": "Tear",
+            "title": "Into the Stone",
+            "description": "Mat breaks the girls out of their prison, but as they had already almost escaped by themselves they are not thankful.",
+            "people": ["Mat", "Egwene", "Nynaeve"],
+            "book": "3",
+            "icon": "Wheel-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 78,
+			"date": "5/19/999",
+            "location": "Tear",
+            "title": "Written in Prophecy",
+            "description": "Rand fights with Ba'alzamon and the forsaken Be'lal until Moiraine kills Be'lal. Then Rand fulfills the prophecy of the Karaethon Cycle by retrieving the legendary sword and Sa'Angreal Callandor.",
+            "people": ["Rand", "Moiraine"],
+            "book": "3",
+            "icon": "Dragonoriginal-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 79,
+			"date": "5/19/999",
+            "location": "Tear",
+            "title": "Written in Prophecy",
+            "description": "Using Callandor, Rand chases Ba'alzamon through the dream world until he kills him and declares himself the Dragon Reborn.",
+            "people": ["Rand"],
+            "book": "3",
+            "icon": "Dragonoriginal-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 80,
+			"date": "5/19/999",
+            "location": "Tear",
+            "title": "Written in Prophecy",
+            "description": "Moiraine reveals to Mat, Egwene, Nynaeve and Elayne that Ba'alzamon was not really Ba'alzamon, but someone posing as him. They discover that the Aiel are the prophesied People of the Dragon.",
+            "people": ["Moiraine", "Mat", "Egwene", "Nynaeve"],
+            "book": "3",
+            "icon": "Dragonoriginal-icon.svg"
+        },
+        {
+            "type": "meta",
+            "date": "5/22/999",
+            "title": "4 - The Shadow Rising",
+            "book": "4",
+            "image": "DKSweet-covers/Wheel-of-Time-DKS-Shadow-Rising.jpg",
+            "imageArtist": "Darrell K. Sweet",
+            "imageSource": "https://www.tor.com/2012/04/20/a-darrell-k-sweet-wheel-of-time-tribute-including-a-memory-of-light-sketch/"
+        },
+        {
+            "type": "minor",
+            "date": "",
+            "book": "4",
+            "description": "Min arrives in Tar Valon",
+            "people": []
+        },
+        {
+            "type": "minor",
+            "date": "",
+            "book": "4",
+            "description": "Dain Bornhaldt enters the Two Rivers with a troupe of Whitecloaks",
+            "people": []
+        },
+        {
+            "type": "major",
+			"id": 81,
+			"date": "6/4/999",
+            "location": "Tear",
+            "title": "Whirlpools in the Pattern",
+            "description": "Bubbles of evil strike the three ta'veren. Rand is attacked by his reflection, Mat by playing cards and Perrin by his axe.",
+            "people": ["Rand", "Mat", "Perrin"],
+            "book": "4",
+            "icon": "Web-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 82,
+			"date": "6/4/999",
+            "location": "Tear",
+            "title": "Questioners",
+            "description": "Egwene, Nynaeve and Aviendha find out there is a great danger to Rand hidden somewhere in Tanchico",
+            "people": ["Egwene", "Nynaeve"],
+            "book": "4",
+            "icon": "Wheel-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 83,
+			"date": "6/7/999",
+            "location": "Tear",
+            "title": "The Stone Stands",
+            "description": "The stone of Tear is attacked by gray men and other shadowspawn. Rand destroys them all and tries to bring a little girl who died back to life, but fails.",
+            "people": ["Rand", "Mat", "Perrin", "Moiraine", "Lan", "Thom", "Egwene", "Nynaeve"],
+            "book": "4",
+            "icon": "Fang-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 84,
+			"date": "6/7/999",
+            "location": "Tear",
+            "title": "What Lies Hidden",
+            "description": "Egwene meets Amys in Tel'aran'rhiod who invites her to come to the waste to learn from the dreamwalkers.",
+            "people": ["Egwene"],
+            "book": "4",
+            "icon": "Telaran-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 85,
+			"date": "6/8/999",
+            "location": "Tear",
+            "title": "Into the Ways",
+            "description": "Perrin and Faile, accompanied by Loial, Gaul, Bain and Chiad enter the ways to go to the Two Rivers after rumours of trouble with Whitecloaks arrive in Tear.",
+            "people": ["Perrin"],
+            "book": "4",
+            "icon": "Leaves-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 86,
+			"date": "6/8/999",
+            "location": "Tear",
+            "title": "The Wavedancer",
+            "description": "Elayne and Nynaeve leave for Tanchico on a Sea Folk ship and find out the sea folk windfinders can channel. Thom and Juilin accompany them.",
+            "people": ["Nynaeve", "Thom"],
+            "book": "4",
+            "icon": "Gulls-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 87,
+			"date": "6/8/999",
+            "location": "Portal Stone Tear",
+            "title": "Into the Heart and Out of the Stone",
+            "description": "After driving Callandor into the Heart of the Stone, Rand leaves Tear with Mat, Egwene, Moiraine and Lan using a portal stone.",
+            "people": ["Rand", "Mat", "Egwene", "Moiraine", "Lan"],
+            "book": "4",
+            "icon": "Portal-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 88,
+			"date": "6/8/999",
+            "location": "Chaendaer",
+            "title": "Beyond the Stone",
+            "description": "After the journey with the Portal Stone the party arrives at Chaendaer where Rand demands the right to enter Rhuidean.",
+            "people": ["Rand", "Mat", "Egwene", "Moiraine", "Lan"],
+            "book": "4",
+            "icon": "Portal-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 89,
+			"date": "6/8/999",
+            "location": "Rhuidean",
+            "title": "The Road to the Spear",
+            "description": "Rand and Mat enter Rhuidean. Rand enters the glass columns and sees the lives of his Aiel ancestors and witnesses the drilling in the bore of the Dark One's prison.",
+            "people": ["Rand", "Mat"],
+            "book": "4",
+            "icon": "Aessedai-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 90,
+			"date": "6/8/999",
+            "location": "Rhuidean",
+            "title": "The Road to the Spear",
+            "description": "Mat enters a doorway ter'angreal and encounters the Eelfinn.",
+            "people": ["Mat"],
+            "book": "4",
+            "icon": "Finn-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 91,
+			"date": "6/9/999",
+            "location": "Manetheren Waygate",
+            "title": "To the Tower of Ghenjei",
+            "description": "Perrin's party leaves the Ways at the Manetheren waygate. In his dreams he chases Slayer to the Tower of Ghenjei",
+            "people": ["Perrin"],
+            "book": "4",
+            "icon": "Leaves-icon.svg"
+        },
+        {
+            "type": "minor",
+            "date": "6/12/999",
+            "book": "4",
+            "description": "Perrin sees the burnt and abandoned al'Thor farm.",
+            "people": ["Perrin"]
+        },
+        {
+            "type": "major",
+			"id": 92,
+			"date": "6/13/999",
+            "location": "Emond's Field",
+            "title": "Homecoming",
+            "description": "Perrin arrives in Emond's Field and finds out his entire family has been murdered. He is taken to Verin, Alanna, Tam and Abell Cauthon who are hiding in the woods.",
+            "people": ["Perrin"],
+            "book": "4",
+            "icon": "Cotl-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 93,
+			"date": "6/14/999",
+            "location": "Watch Hill",
+            "title": "A New Weave in the Pattern",
+            "description": "After meeting Lord Luc and convincing some farmers to seek refuge from the trollocs in Emond's Field Perrin rescues the captured Luhhan and Cauthon families from the Whitecloaks.",
+            "people": ["Perrin"],
+            "book": "4",
+            "icon": "Cotl-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 94,
+			"date": "6/14/999",
+            "location": "Rhuidean",
+            "title": "The Dedicated",
+            "description": "Rand comes back from the glass columns and finds Mat hanging from a branch of Avendesora. He revives him and they leave Rhuidean",
+            "people": ["Rand", "Mat"],
+            "book": "4",
+            "icon": "Aessedai-icon.svg"
+        },
+        {
+            "type": "minor",
+            "date": "6/15/999",
+            "book": "4",
+            "description": "The Wise Ones make Aviendha keep an eye on Rand.",
+            "people": []
+        },
+        {
+            "type": "major",
+			"id": 95,
+			"date": "6/16/999",
+            "location": "Imre Stand",
+            "title": "Imre Stand",
+            "description": "On their way to Cold Rocks Hold, the Aiel are attacked by trollocs at Imre Stand.",
+            "people": ["Rand", "Mat", "Egwene", "Moiraine", "Lan"],
+            "book": "4",
+            "icon": "Fang-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 96,
+			"date": "6/18/999",
+            "location": "Tanchico",
+            "title": "Hidden Faces",
+            "description": "Elayne, Nynaeve, Thom and Juilin arrive in Tanchico, where they encounter Bayle Domon.",
+            "people": ["Nynaeve", "Thom"],
+            "book": "4",
+            "icon": "Anchor-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 97,
+			"date": "6/20/999",
+            "location": "Emond's Field",
+            "title": "Hunter of Trollocs",
+            "description": "After some time spent chasing and killing trollocs, Perrin visits his family's grave. In the Wolf Dream he finds out Slayer re-opened the waygate.",
+            "people": ["Perrin"],
+            "book": "4",
+            "icon": "Wolf-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 98,
+			"date": "6/21/999",
+            "location": "Taren Ferry",
+            "title": "The Fall of Taren Ferry",
+            "description": "Taren Ferry is completely destroyed by trollocs",
+            "people": [],
+            "book": "4",
+            "icon": "Fang-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 99,
+			"date": "6/22/999",
+            "location": "Emond's Field",
+            "title": "A Missing Leaf",
+            "description": "Loial and Gaul leave to close the Waygate. Emond's Field is attacked by over 500 trollocs, but the people manage to hold them off following Perrin as their leader.",
+            "people": ["Perrin"],
+            "book": "4",
+            "icon": "Wolf-icon.svg"
+        },
+        {
+            "type": "minor",
+            "date": "6/22/999",
+            "book": "4",
+            "description": "Bornhald and the Whitecloaks attempt to arrest Perrin as a darkfriend.",
+            "people": ["Perrin"]
+        },
+        {
+            "type": "major",
+			"id": 100,
+			"date": "6/23/999",
+            "location": "Tanchico",
+            "title": "Veils",
+            "description": "Nynaeve and Elayne are attacked on the streets of Tanchico but manage to escape with the help of Egeanin Tamarath.",
+            "people": ["Nynaeve"],
+            "book": "4",
+            "icon": "Anchor-icon.svg"
+        },
+        {
+            "type": "minor",
+            "date": "6/23/999",
+            "book": "4",
+            "description": "Moghedien comes to Nynaeve and Elayne's room and asks them questions under compulsion.",
+            "people": ["Nynaeve"]
+        },
+        {
+            "type": "major",
+			"id": 101,
+			"date": "6/24/999",
+            "location": "Tar Valon",
+            "title": "The Truth of a Viewing",
+            "description": "Aes Sedai lead by Elaida depose Siuan Sanche, stilling her and Leane.",
+            "people": [],
+            "book": "4",
+            "icon": "Fish-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 102,
+			"date": "6/25/999",
+            "location": "Tar Valon",
+            "title": "The Truth of a Viewing",
+            "description": "Min rescues Siuan and Leane, and with Gawyn's help they escape Tar Valon together with Logain.",
+            "people": [],
+            "book": "4",
+            "icon": "Fish-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 103,
+			"date": "6/28/999",
+            "location": "Cold Rocks Hold",
+            "title": "Cold Rocks Hold",
+            "description": "Rand's party arrives at Cold Rocks Hold and are attacked by shadowspawn. They leave again almost immediately for Alcair Dal.",
+            "people": ["Rand", "Mat", "Egwene", "Moiraine", "Lan"],
+            "book": "4",
+            "icon": "Fang-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 104,
+			"date": "6/29/999",
+            "location": "Tanchico",
+            "title": "Need",
+            "description": "Bayle Domon reveals Egeanin is Seanchan. Nynaeve finds what they have been searching for in the Tel'aran'rhiod, where she meets the legendary Birgitte and finds out the forsaken Moghedien is also on the hunt.",
+            "people": ["Nynaeve"],
+            "book": "4",
+            "icon": "Telaran-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 105,
+			"date": "6/30/999",
+            "location": "Tanchico",
+            "title": "Into the Palace",
+            "description": "In the Panarch's palace Nynaeve and Elayne find a seal to the Dark One's prison and the Sad Bracelets, A'dam made for men. Nynaeve duels Moghedien and wins, but Moghedien manages to escape.",
+            "people": ["Nynaeve"],
+            "book": "4",
+            "icon": "Aessedai-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 106,
+			"date": "6/30/999",
+            "location": "Emond's Field",
+            "title": "Goldeneyes",
+            "description": "Emond's field is attacked by a massive force of trollocs. They manage to hold out with help arriving just in time from Watch Hill and Deven Ride.",
+            "people": ["Perrin"],
+            "book": "4",
+            "icon": "Wolf-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 107,
+			"date": "7/1/999",
+            "location": "Alcair Dal",
+            "title": "A Breaking in the Three-Fold Land",
+            "description": "Rand arrives at Alcair Dal and is accepted as the Aiel Chief of Chiefs: The Car'a'carn after revealing what he saw in the glass columns. Lanfear reveals she and Asmodean had been traveling with them for some time, but now Asmodean has fled to Rhuidean.",
+            "people": ["Rand", "Mat", "Egwene", "Moiraine", "Lan"],
+            "book": "4",
+            "icon": "Dragonoriginal-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 108,
+			"date": "7/1/999",
+            "location": "Rhuidean",
+            "title": "The Traps of Rhuidean",
+            "description": "Rand chases Asmodean to Rhuidean and defeats him. Lanfear shields Asmodean and leaves him to be Rand's teacher in the One Power.",
+            "people": ["Rand"],
+            "book": "4",
+            "icon": "Snake-icon.svg"
+        },
+        {
+            "type": "meta",
+            "date": "7/30/999",
+            "title": "5 - The Fires of Heaven",
+            "book": "5",
+            "image": "DKSweet-covers/Wheel-of-Time-DKS-Fires-of-Heaven.jpg",
+            "imageArtist": "Darrell K. Sweet",
+            "imageSource": "https://www.tor.com/2012/04/20/a-darrell-k-sweet-wheel-of-time-tribute-including-a-memory-of-light-sketch/"
+        },
+        {
+            "type": "minor",
+            "date": "",
+            "book": "5",
+            "description": "Padan Fain arrives in Tar Valon.",
+            "people": []
+        },
+        {
+            "type": "major",
+			"id": 109,
+			"date": "8/3/999",
+            "location": "Kore Springs",
+            "title": "Fanning the Sparks",
+            "description": "After they are convicted of burning a barn, Siuan, Leane and Min give oaths to serve the local lord, Gareth Bryne. However, after they do this Logain helps them escape.",
+            "people": [],
+            "book": "5",
+            "icon": "Bull-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 110,
+			"date": "8/12/999",
+            "location": "Rhuidean",
+            "title": "Pale Shadows",
+            "description": "After darkhounds attack the Aiel camp, the Shaido leave for the Jangai Pass. Rand decides to follow them.",
+            "people": ["Rand", "Mat", "Egwene", "Moiraine", "Lan"],
+            "book": "5",
+            "icon": "Fang-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 111,
+			"date": "8/15/999",
+            "location": "Mardecin",
+            "title": "Figs and Mice",
+            "description": "Nynaeve and Elayne are drugged with the plant Forkroot, and are to be brought to the White Tower. Thom and Juilin help them escape.",
+            "people": ["Nynaeve", "Thom"],
+            "book": "5",
+            "icon": "Harp-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 112,
+			"date": "8/16/999",
+            "location": "Lugard",
+            "title": "The Nine Horse Hitch",
+            "description": "Using her old intelligence network, Siuan discovers a gathering of Aes Sedai in the village of Salidar.",
+            "people": [],
+            "book": "5",
+            "icon": "Fish-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 113,
+			"date": "8/18/999",
+            "location": "Sienda",
+            "title": "An Unexpected Offer",
+            "description": "Nynaeve meets Egwene in Tel'aran'rhiod and learns that Siuan has been deposed. After encountering Galad, Elayne and Nynaeve decide to change disguises and join Valan Luca's menagerie.",
+            "people": ["Nynaeve", "Egwene"],
+            "book": "5",
+            "icon": "Sredit-icon.svg"
+        },
+        {
+            "type": "minor",
+            "date": "8/20/999",
+            "book": "5",
+            "description": "Moghedien takes command of the black ajah runaways.",
+            "people": []
+        },
+        {
+            "type": "major",
+			"id": 114,
+			"date": "8/20/999",
+            "location": "Taien",
+            "title": "Jangai Pass",
+            "description": "Couladin and the Shaido devastate the town of Taien.",
+            "people": [],
+            "book": "5",
+            "icon": "Aiel-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 115,
+			"date": "8/22/999",
+            "location": "Caemlyn",
+            "title": "Memories",
+            "description": "Morgase manages to free herself of Rahvin's compulsion and flees Caemlyn with a small group of loyal followers.",
+            "people": [],
+            "book": "5",
+            "icon": "Andoran-icon.svg"
+        },
+        {
+            "type": "minor",
+            "date": "",
+            "book": "5",
+            "description": "Padan Fain finds the cursed dagger from Shadar Logoth and leaves Tar Valon.",
+            "people": []
+        },
+        {
+            "type": "minor",
+            "date": "8/27/999",
+            "book": "5",
+            "description": "Aviendha gives Rand the sword of the late King of Cairhien resonsible for starting the Aiel war, Laman Damodred",
+            "people": ["Rand"]
+        },
+        {
+            "type": "major",
+			"id": 116,
+			"date": "8/27/999",
+            "location": "Taien",
+            "title": "Birdcalls by Night",
+            "description": "Rand's army arrives at Taien. At night, the camp is attacked by Trollocs and Darkfriends, Rand and Aviendha are attacked by Draghkar.",
+            "people": ["Rand", "Mat", "Egwene", "Moiraine", "Lan"],
+            "book": "5",
+            "icon": "Fang-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 117,
+			"date": "8/31/999",
+            "location": "Selean",
+            "title": "The Fifth, I Give You",
+            "description": "Rand and his army find Selean also destroyed by the Shaido.",
+            "people": ["Rand", "Mat", "Egwene", "Moiraine", "Lan"],
+            "book": "5",
+            "icon": "Dragon-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 118,
+			"date": "9/1/999",
+            "location": "Salidar",
+            "title": "The Practice of Diffidence",
+            "description": "Siuan and the others arrive in Salidar. Gareth Bryne, who followed them, agrees to lead the rebel army against Elaida.",
+            "people": [],
+            "book": "5",
+            "icon": "Bull-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 119,
+			"date": "9/1/999",
+            "location": "Eianrod",
+            "title": "The Fifth, I Give You",
+            "description": "Rand and his forces arrive at Eianrod to find it had already been abandoned before Couladin got there.",
+            "people": ["Rand", "Mat", "Egwene", "Moiraine", "Lan"],
+            "book": "5",
+            "icon": "Aiel-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 120,
+			"date": "9/1/999",
+            "location": "ToSeanchan",
+            "title": "The Far Snows",
+            "description": "In a panic after Rand sees her naked, Aviendha travels to somewhere in Seanchan. Rand follows her into the snows, and trying to keep her warm leads to them making love.",
+            "people": ["Rand"],
+            "book": "5",
+            "icon": "Ravens-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 121,
+			"date": "9/8/999",
+            "location": "GhealdanBorder",
+            "title": "A Silver Arrow",
+            "description": "Moghedien rips Birgitte from Tel'aran'rhiod. To save her life, Elayne bonds her as her warder.",
+            "people": ["Nynaeve"],
+            "book": "5",
+            "icon": "Telaran-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 122,
+			"date": "9/9/999",
+            "location": "Samara",
+            "title": "Encounters in Samara",
+            "description": "The menagerie enters Samara. Nynaeve meets Uno who leads her to Masema, now known as The Prophet. She asks him to secure a boat for her. She also meets Galad, and asks him to secure a boat as well.",
+            "people": ["Nynaeve", "Thom"],
+            "book": "5",
+            "icon": "Sredit-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 123,
+			"date": "9/9/999",
+            "location": "Cairhien",
+            "title": "The Craft of Kin Tovere",
+            "description": "Rand assembles his forces near Cairhien and plans to use a watchtower to channel from in the coming fight.",
+            "people": ["Rand", "Mat", "Egwene", "Moiraine", "Lan"],
+            "book": "5",
+            "icon": "Cairhien-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 124,
+			"date": "9/10/999",
+            "location": "Cairhien",
+            "title": "The Battle of Cairhien",
+            "description": "Rand and his Aiel defeat the Shaido. Every Aiel except the Shaido are now united under him. Mat kills Couladin in the fight.",
+            "people": ["Rand", "Mat", "Egwene", "Moiraine", "Lan"],
+            "book": "5",
+            "icon": "Dragon-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 125,
+			"date": "9/12/999",
+            "location": "Samara",
+            "title": "The Price of a Ship",
+            "description": "After leaving the menagerie, Nynaeve's party manages to board the River Serpent in complete chaos and leaves Samara.",
+            "people": ["Nynaeve", "Thom"],
+            "book": "5",
+            "icon": "Sredit-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 126,
+			"date": "9/17/999",
+            "location": "Salidar",
+            "title": "To Teach, and Learn",
+            "description": "Elayne and the others arrive at Salidar. Min tells Elayne that she loves Rand.",
+            "people": ["Nynaeve", "Thom"],
+            "book": "5",
+            "icon": "Flame-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 127,
+			"date": "9/20/999",
+            "location": "Cairhien",
+            "title": "News Comes to Cairhien",
+            "description": "After learning of Morgase's supposed death, Rand decides to kill Rahvin. After Mat's remarkable adventures during the battle of Cairhien, his army the Band of the Red Hand grows quickly.",
+            "people": ["Rand", "Mat"],
+            "book": "5",
+            "icon": "Dice-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 128,
+			"date": "9/21/999",
+            "location": "Cairhien",
+            "title": "Choices",
+            "description": "Lanfear discovers Rand slept with another woman and she is furious. When she attacks, Moiraine sacrifices herself and tackles Lanfear into a doorway ter'angreal.",
+            "people": ["Rand", "Mat", "Egwene", "Moiraine", "Lan"],
+            "book": "5",
+            "icon": "Lanfear-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 129,
+			"date": "9/21/999",
+            "location": "Cairhien",
+            "title": "Fading Words",
+            "description": "Lan says he cannot sense Moiraine any more and Rand blames himself for her death. He discovers Moiraine already knew part of what would happen today. Despite the events of the day, he decides to follow through with the attack on Rahvin.",
+            "people": ["Rand", "Mat", "Egwene", "Moiraine", "Lan"],
+            "book": "5",
+            "icon": "Staff-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 130,
+			"date": "9/21/999",
+            "location": "Caemlyn",
+            "title": "To Caemlyn",
+            "description": "Rand kills Rahvin with balefire and Nynaeve captures Moghedien in Tel'aran'rhiod. Later, Asmodean is killed by an unknown assailant. Davram Bashere arrives in Caemlyn in his chase of Mazrim Taim, but Rand announces an amnesty for all men who can channel.",
+            "people": ["Rand", "Mat", "Nynaeve"],
+            "book": "5",
+            "icon": "Snake-icon.svg"
+        },
+        {
+            "type": "meta",
+            "date": "9/22/999",
+            "title": "6 - Lord of Chaos",
+            "book": "6",
+            "image": "DKSweet-covers/Wheel-of-Time-DKS-Lord-of-Chaos.jpg",
+            "imageArtist": "Darrell K. Sweet",
+            "imageSource": "https://www.tor.com/2012/04/20/a-darrell-k-sweet-wheel-of-time-tribute-including-a-memory-of-light-sketch/"
+        },
+        {
+            "type": "minor",
+            "date": "9/22/999",
+            "book": "6",
+            "description": "Demandred visits Shayol Ghul and meets Shaidar Haran.",
+            "people": []
+        },
+        
+        {
+            "type": "minor",
+            "date": "",
+            "book": "6",
+            "description": "The rebel Aes Sedai embassy leaves Salidar, heading to Caemlyn.",
+            "people": []
+        },
+        {
+            "type": "major",
+			"id": 131,
+			"date": "10/28/999",
+            "location": "Caemlyn",
+            "title": "Lion on the Hill",
+            "description": "Mazrim Taim arrives in Caemlyn. Rand makes him the leader of The Farm, a training ground for male channelers.",
+            "people": ["Rand"],
+            "book": "6",
+            "icon": "Dragon-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 132,
+			"date": "10/31/999",
+            "location": "Maerone",
+            "title": "A Different Dance",
+            "description": "Mat leads the Band of the Red Hand away from Maerone, towards Tear.",
+            "people": ["Mat"],
+            "book": "6",
+            "icon": "Dice-icon.svg"
+        },
+        
+        {
+            "type": "minor",
+            "date": "10/31/999",
+            "book": "6",
+            "description": "Sammael meets with Graendal in her palace.",
+            "people": []
+        },
+        {
+            "type": "major",
+			"id": 133,
+			"date": "11/2/999",
+            "location": "Caemlyn",
+            "title": "Lessons and Teachers",
+            "description": "Verin and Alanna arrive in Caemlyn with a group of Two Rivers girls wanting to become novices.",
+            "people": [],
+            "book": "6",
+            "icon": "Aessedai-icon.svg"
+        },
+        
+        {
+            "type": "minor",
+            "date": "11/2/999",
+            "book": "6",
+            "description": "An emisarry from Elaida arrives in Salidar.",
+            "people": []
+        },
+        {
+            "type": "major",
+			"id": 134,
+			"date": "11/4/999",
+            "location": "Caemlyn",
+            "title": "Lessons and Teachers",
+            "description": "Rand visits the Two Rivers girls. Alanna bonds him as her warder against his will.",
+            "people": ["Rand"],
+            "book": "6",
+            "icon": "Aessedai-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 135,
+			"date": "11/5/999",
+            "location": "Ebou Dar",
+            "title": "Questions and Answers",
+            "description": "Nynaeve searches for a ter'angreal that can fix the weather in tel'aran'rhiod and finds the Bowl of Winds in Ebou Dar.",
+            "people": ["Nynaeve"],
+            "book": "6",
+            "icon": "Telaran-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 136,
+			"date": "11/6/999",
+            "location": "Caemlyn",
+            "title": "The Wheel of a Life",
+            "description": "A messenger from Sammael arrives in Caemlyn asking for a truce. Rand rejects the offer and the messenger dies.",
+            "people": ["Rand"],
+            "book": "6",
+            "icon": "Fang-icon.svg"
+        },
+        
+        {
+            "type": "minor",
+            "date": "11/6/999",
+            "book": "6",
+            "description": "Rand goes to Cairhien, where he is forced to hang Mangin for murder.",
+            "people": ["Rand"]
+        },
+        {
+            "type": "major",
+			"id": 137,
+			"date": "11/7/999",
+            "location": "Aridhol",
+            "title": "To Shadar Logoth",
+            "description": "Rand seals the Waygate at Shadar Logoth. While in the city, one of the Maidens of the Spear is lost.",
+            "people": ["Rand"],
+            "book": "6",
+            "icon": "Aiel-icon.svg"
+        },
+        
+        {
+            "type": "minor",
+            "date": "11/11/999",
+            "book": "6",
+            "description": "Mat comes across a killed caravan of Tinkers.",
+            "people": ["Mat"]
+        },
+        {
+            "type": "major",
+			"id": 138,
+			"date": "11/15/999",
+            "location": "Caemlyn",
+            "title": "Connecting Lines",
+            "description": "Whitecloacks try to assasinate Rand.",
+            "people": ["Rand"],
+            "book": "6",
+            "icon": "Cotl-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 139,
+			"date": "11/16/999",
+            "location": "Cairhien",
+            "title": "Gifts",
+            "description": "Rand meets with a delegation of Aes Sedai from the White Tower",
+            "people": ["Rand"],
+            "book": "6",
+            "icon": "Aessedai-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 140,
+			"date": "11/17/999",
+            "location": "Caemlyn",
+            "title": "Letters",
+            "description": "Back in Caemlyn, Rand receives several letters, among them one of the queen of Ghealdan expressing worry about Masema, the self proclaimed Prophet of the Dragon. After receiving them he is attacked by a Gray Man, but Taim kills it.",
+            "people": ["Rand"],
+            "book": "6",
+            "icon": "Wheel-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 141,
+			"date": "11/17/999",
+            "location": "Salidar",
+            "title": "To Heal Again",
+            "description": "Nynaeve invents a way to heal Stilling. She heals Logain, Leane and Siuan.",
+            "people": ["Nynaeve"],
+            "book": "6",
+            "icon": "Aessedai-icon.svg"
+        },
+        {
+            "type": "minor",
+            "date": "6",
+            "book": "11/22/999",
+            "description": "Eamon Valda arrives in Amador. Morgase signs a treaty allowing the whitecloaks in Andor.",
+            "people": []
+        },
+        {
+            "type": "major",
+			"id": 142,
+			"date": "11/23/999",
+            "location": "Cairhien",
+            "title": "Summoned in Haste",
+            "description": "In a meeting in Tel'aran'rhiod, Egwene is summond to the Aes Sedai in Salidar.",
+            "people": ["Egwene"],
+            "book": "6",
+            "icon": "Aessedai-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 143,
+			"date": "11/23/999",
+            "location": "Mat near Tear",
+            "title": "Courage to Strengthen",
+            "description": "After he finally learns the location of the rebel Aes Sedai, Rand sends Mat to them to lead Elayne to Andor.",
+            "people": ["Rand", "Mat"],
+            "book": "6",
+            "icon": "Dice-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 144,
+			"date": "11/24/999",
+            "location": "Salidar",
+            "title": "Summoned in Haste",
+            "description": "Egwene travels through Tel'aran'rhiod in the flesh and arrives in Salidar. She is raised to the Amyrlin Seat.",
+            "people": ["Egwene"],
+            "book": "6",
+            "icon": "Flame-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 145,
+			"date": "11/27/999",
+            "location": "Salidar",
+            "title": "Possibilities",
+            "description": "Mat arrives in Salidar only to discover that Egwene is the Amyrlin Seat. Aviendha meets Elayne, who refuses to come with him to Caemlyn.",
+            "people": ["Mat", "Egwene", "Nynaeve"],
+            "book": "6",
+            "icon": "Dice-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 146,
+			"date": "11/27/999",
+            "location": "Caemlyn",
+            "title": "A Threat",
+            "description": "Min arrives in Caemlyn with an embassy of Aes Sedai to the Dragon Reborn from the rebel group in Salidar.",
+            "people": ["Rand"],
+            "book": "6",
+            "icon": "Andoran-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 147,
+			"date": "11/30/999",
+            "location": "Gateway Altara",
+            "title": "The Color of Trust",
+            "description": "Elayne makes a gateway to Altara, near Ebou Dar, for her, Nynaeve and Mat accompanied by some of his armsmen.",
+            "people": ["Nynaeve", "Mat"],
+            "book": "6",
+            "icon": "Wheel-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 148,
+			"date": "11/30/999",
+            "location": "Caemlyn",
+            "title": "A Bitter Thought",
+            "description": "Perrin and Faile arrive in Caemlyn together with the Two Rivers men. Perrin meets Faile's parents, Davram Bashere and his wife Deira.",
+            "people": ["Perrin"],
+            "book": "6",
+            "icon": "Wheel-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 149,
+			"date": "12/4/999",
+            "location": "Ebou Dar",
+            "title": "The Wandering Woman",
+            "description": "Mat and the others arrive in Ebou Dar. Elayne and Nynave take rooms in the Tarasin Palace and talk with Queen Tylin while Mat finds a room in the inn the Wandering Woman.",
+            "people": ["Nynaeve", "Mat"],
+            "book": "6",
+            "icon": "Wheel-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 150,
+			"date": "12/5/999",
+            "location": "Cairhien",
+            "title": "The Mirror of Mists",
+            "description": "More Aes Sedai arrive in Caemlyn, bringing the number of Aes Sedai in the rebel embassy to 13. Rand had forbidden this, so he leaves for Cairhien with Min, Perrin and Faile.",
+            "people": ["Rand", "Perrin"],
+            "book": "6",
+            "icon": "Dragon-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 151,
+			"date": "12/15/999",
+            "location": "Cairhien",
+            "title": "The Taking",
+            "description": "The Tower Aes Sedai embassy captures Rand and Min.",
+            "people": ["Rand"],
+            "book": "6",
+            "icon": "Aessedai-icon.svg"
+        },
+        {
+            "type": "minor",
+            "date": "12/15/999",
+            "book": "6",
+            "description": "Lan comes to Myrelle.",
+            "people": ["Lan"]
+        },
+        {
+            "type": "minor",
+            "date": "12/15/999",
+            "book": "6",
+            "description": "Egwene lets Logain escape.",
+            "people": ["Egwene"]
+        },
+        {
+            "type": "major",
+			"id": 152,
+			"date": "12/20/999",
+            "location": "Out of Cairhien",
+            "title": "The Taking",
+            "description": "When Rand discovers Min was also taken by the Aes Sedai he gets into a rage and kills two warders.",
+            "people": ["Rand"],
+            "book": "6",
+            "icon": "Dragon-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 153,
+			"date": "12/21/999",
+            "location": "Further out of Cairhien",
+            "title": "The Feast of Lights",
+            "description": "The Aes Sedai display Rand to Sevanna.",
+            "people": ["Rand"],
+            "book": "6",
+            "icon": "Aiel-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 153,
+			"date": "12/21/999",
+            "location": "Cairhien",
+            "title": "The Feast of Lights",
+            "description": "Perrin discovers that Rand has been kidnapped.",
+            "people": ["Perrin"],
+            "book": "6",
+            "icon": "Wolf-icon.svg"
+        },
+        
+        {
+            "type": "minor",
+            "date": "12/25/999",
+            "book": "7",
+            "description": "Calavaere is crowned as the queen of Cairhien.",
+            "people": []
+        },
+        {
+            "type": "major",
+			"id": 154,
+			"date": "1/1/1000",
+            "location": "Tar Valon",
+            "title": "Lightnings",
+            "description": "Elaida orders Toveine Gazal to capture the men at the Black Tower with 50 sisters.",
+            "people": [],
+            "book": "7",
+            "icon": "Flame-icon.svg"
+        },
+        {
+            "type": "minor",
+            "date": "1/1/1000",
+            "book": "7",
+            "description": "Eamon Valda becomes Lord Captain Commander as Pedron Niall is assasinated.",
+            "people": []
+        },
+        {
+            "type": "major",
+			"id": 155,
+			"date": "1/1/1000",
+            "location": "Dumai's Wells",
+            "title": "Dumai's Wells",
+            "description": "Rand's rescuers engage the Aes Sedai force allied with the Shaido Aiel at Dumai's wells. He manages to break free of the shield that is holding him and stills a few Aes Sedai. During the battle, Taim arrives with men from the Black Tower and they absolutely decimate the Shaido in a violent display of the One Power.",
+            "people": ["Rand", "Perrin"],
+            "book": "6",
+            "icon": "Wheel-icon.svg"
+        },
+        {
+            "type": "meta",
+            "date": "1/2/999",
+            "title": "7 - A Crown of Swords",
+            "book": "7",
+            "image": "DKSweet-covers/Wheel-of-Time-DKS-Crown-of-Swords.jpg",
+            "imageArtist": "Darrell K. Sweet",
+            "imageSource": "https://www.tor.com/2012/04/20/a-darrell-k-sweet-wheel-of-time-tribute-including-a-memory-of-light-sketch/"
+        },
+        {
+            "type": "major",
+			"id": 156,
+			"date": "1/2/1000",
+            "location": "Cairhien",
+            "title": "A Broken Crown",
+            "description": "Rand hands the captured Aes Sedai over to te Aiel Wise Ones. Upon returning to Cairhien, he exiles Colavaere, who plotted with the Aes Sedai to take the throne.",
+            "people": ["Rand", "Perrin"],
+            "book": "7",
+            "icon": "Dragon-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 157,
+			"date": "1/2/1000",
+            "location": "Caemlyn",
+            "title": "Pitfalls and Tripwire",
+            "description": "Rand visits Bashere in Caemlyn who is building an army from the men who come to the Black Tower but cannot channel.",
+            "people": ["Rand"],
+            "book": "7",
+            "icon": "Lans_helmet-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 158,
+			"date": "1/2/1000",
+            "location": "Maredo Tear side",
+            "title": "Pitfalls and Tripwire",
+            "description": "Rand visits his armies and plans to give the order to advance on Illian.",
+            "people": ["Rand"],
+            "book": "7",
+            "icon": "Dragon-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 159,
+			"date": "1/2/1000",
+            "location": "Rhuidean",
+            "title": "Pitfalls and Tripwire",
+            "description": "Rand retrieves the two access keys to the Choedan Kal from Rhuidean.",
+            "people": ["Rand"],
+            "book": "7",
+            "icon": "Wheel-icon.svg"
+        },
+        {
+            "type": "minor",
+            "date": "1/3/1000",
+            "book": "6",
+            "description": "Aran'gar releases Moghedien from her captors and Moghedien is sent to Shayol Ghul.",
+            "people": []
+        },
+        {
+            "type": "major",
+			"id": 160,
+			"date": "1/4/1000",
+            "location": "Salidar",
+            "title": "An Oath",
+            "description": "Faolain and Theodrin swear fealty to Egwene. Egwene discovers that Lan's warder bond was passed over from Moiraine to Myrelle. As this is strongly against custom, she uses this to force Myrelle and Nisao to swear to her as well. Finally she sends Lan to Ebou Dar.",
+            "people": ["Egwene", "Lan"],
+            "book": "7",
+            "icon": "Flame-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 161,
+            "date": "1/4/1000",
+            "location": "Ebou Dar",
+            "title": "A Touch on the Cheek",
+            "description": "Mat recognizes a darkfriend and follows her to Jaichim Carridin's house. He meets queen Tylin and later he is attacked in the Wandering Woman.",
+            "people": ["Mat"],
+            "book": "7",
+            "icon": "Dice-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 162,
+            "date": "1/4/1000",
+            "location": "Cairhien",
+            "title": "Diamonds and Stars",
+            "description": "Cadsuane arrives and immediately challenges Rand.",
+            "people": ["Rand"],
+            "book": "7",
+            "icon": "Ornaments-icon.svg"
+        },
+        {
+            "type": "minor",
+            "date": "1/4/1000",
+            "book": "7",
+            "description": "Sevanna meets with Sammael and Graendal in disguise.",
+            "people": []
+        },
+        {
+            "type": "major",
+			"id": 163,
+            "date": "1/4/1000",
+            "location": "Ebou Dar",
+            "title": "Swovan Night",
+            "description": "Mat is attacked once again on Swovan Night and realizes that Birgitte is the actual legendary archer Birgitte.",
+            "people": ["Mat"],
+            "book": "7",
+            "icon": "Dice-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 164,
+            "date": "1/5/1000",
+            "location": "Ebou Dar",
+            "title": "Small Sacrifices",
+            "description": "Nynaeve and Elayne apologize for how they have been treating Mat and accept his help with finding the Bowl of the Winds. Mat moves into the palace and Tylin starts chasing him.",
+            "people": ["Nynaeve", "Mat"],
+            "book": "7",
+            "icon": "Dice-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 165,
+            "date": "1/5/1000",
+            "location": "Amador",
+            "title": "The Irrevocable Words",
+            "description": "The Seanchan attack and conquer Amador and the Fortress of the Light.",
+            "people": [],
+            "book": "7",
+            "icon": "Seanchan-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 166,
+            "date": "1/6/1000",
+            "location": "Amador",
+            "title": "The Irrevocable Words",
+            "description": "Morgase abdicates the throne of Andor and meets the High Lady Suroth. Former spymaster of the children of the light Balwer helps her escape from Amador.",
+            "people": [],
+            "book": "7",
+            "icon": "Andoran-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 167,
+            "date": "1/6/1000",
+            "location": "North Ghealdan",
+            "title": "To Be Alone",
+            "description": "Rand and Perrin stage a fight to confuse their enemies. Perrin leads an army together with Faile and Berelain to Ghealdan in order to confront the Prophet.",
+            "people": ["Rand", "Perrin"],
+            "book": "7",
+            "icon": "Wolf-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 168,
+            "date": "1/7/1000",
+            "location": "Spire Black Hills",
+            "title": "Deceptive Appearances",
+            "description": "The rulers of the borderlands unite and decide to ride south to confront the Dragon Reborn.",
+            "people": [],
+            "book": "8",
+            "icon": "Wheel-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 169,
+            "date": "1/8/1000",
+            "location": "Ebou Dar",
+            "title": "The First Cup",
+            "description": "Moghedien uses balefire on Nynaeve's ship and she almost drowns. While trying to escape the sinking ship Nynaeve breaks free from her block and eventually she is rescued by Lan.",
+            "people": ["Nynaeve", "Lan"],
+            "book": "7",
+            "icon": "Lans_helmet-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 170,
+            "date": "1/8/1000",
+            "location": "Ebou Dar",
+            "title": "Mashiara",
+            "description": "Nynaeve and Lan get married on a Sea Folk ship.",
+            "people": ["Nynaeve", "Lan"],
+            "book": "7",
+            "icon": "Gulls-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 171,
+            "date": "1/9/1000",
+            "location": "Cairhien woods",
+            "title": "Into the Woods",
+            "description": "Rand is wounded by Padan Fain using the ruby dagger from Shadar Logoth.",
+            "people": ["Rand"],
+            "book": "7",
+            "icon": "Dagger-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 172,
+            "date": "1/9/1000",
+            "location": "Cairhien",
+            "title": "Blades",
+            "description": "Flinn manages to partially heal Rand by making his two unhealable wounds fight each other.",
+            "people": ["Rand"],
+            "book": "7",
+            "icon": "Wheel-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 173,
+            "date": "1/9/1000",
+            "location": "Ebou Dar",
+            "title": "Promises to Keep",
+            "description": "Mat, Nynaeve and Elayne find the Bowl of the Winds and have a tense encounter with a gholam. Elayne and Nynaeve evacuate with the Bowl to the Kin's farm. While Mat is looking for Olver the Seanchan invade Ebou Dar.",
+            "people": ["Nynaeve", "Mat", "Lan"],
+            "book": "7",
+            "icon": "Dice-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 174,
+            "date": "1/9/1000",
+            "location": "The Farm",
+            "title": "To Keep the Bargain",
+            "description": "Elayne, Nynaeve and Aviendha use the Bowl of the Winds with the help of the Kin and the Sea Folk.",
+            "people": ["Nynaeve"],
+            "book": "8",
+            "icon": "Gulls-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 175,
+            "date": "1/9/1000",
+            "location": "Hornwell estate",
+            "title": "Unweaving",
+            "description": "When the Seanchan attack the farm they flee to Andor, leaving behind a massive explosion due to a partially unwoven gateway.",
+            "people": ["Nynaeve", "Lan"],
+            "book": "8",
+            "icon": "Seanchan-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 176,
+            "date": "1/11/1000",
+            "location": "Caemlyn",
+            "title": "A Crown of Swords",
+            "description": "Rand gathers his Asha'man and Bashere's army to invade Illian.",
+            "people": ["Rand"],
+            "book": "7",
+            "icon": "Dragon-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 177,
+            "date": "1/11/1000",
+            "location": "Illian",
+            "title": "A Crown of Swords",
+            "description": "Rand invades Illian with his Asha'man and Bashere's army.",
+            "people": ["Rand"],
+            "book": "7",
+            "icon": "Dragon-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 178,
+            "date": "1/11/1000",
+            "location": "Aridhol",
+            "title": "A Crown of Swords",
+            "description": "The invasion is succesful and Rand follows Sammael to Shadar Logoth. He encounters a mysterious male channeler and Sammael is apparently killed by Mashadar.",
+            "people": ["Rand"],
+            "book": "7",
+            "icon": "Dragon-icon.svg"
+        },
+        {
+            "type": "meta",
+            "date": "1/15/1000",
+            "title": "8 - The Path of Daggers",
+            "book": "8",
+            "image": "DKSweet-covers/Wheel-of-Time-DKS-Path-of-Daggers.jpg",
+            "imageArtist": "Darrell K. Sweet",
+            "imageSource": "https://www.tor.com/2012/04/20/a-darrell-k-sweet-wheel-of-time-tribute-including-a-memory-of-light-sketch/"
+        },
+        {
+            "type": "major",
+			"id": 179,
+            "date": "1/15/1000",
+            "location": "Near Bethal",
+            "title": "A Simple Country Woman",
+            "description": "Perrin sends a delegation into the city of Bethal to gather information. He rescues Morgase (in disguise) and her followers from the Prophet's thugs and they take service as Faile's attendants.",
+            "people": ["Perrin"],
+            "book": "8",
+            "icon": "Wolf-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 180,
+            "date": "1/16/1000",
+            "location": "Near Bethal",
+            "title": "Tangles",
+            "description": "After Elyas arrives at Perrin's camp, Berelain brings Queen Alliandre of Ghealdan with her from Bethal. She swears fealty to him and accompanies them southward to deal with the Prophet.",
+            "people": ["Perrin"],
+            "book": "8",
+            "icon": "Wolf-icon.svg"
+        },
+        {
+            "type": "minor",
+            "date": "1/20/1000",
+            "book": "8",
+            "description": "Cadsuane and Sorilea decide to work together to teach Rand to laugh again. Sorilea teaches Cadsuane Traveling.",
+            "people": []
+        },
+        {
+            "type": "major",
+			"id": 181,
+            "date": "1/21/1000",
+            "location": "North Illian",
+            "title": "Answering the Summons",
+            "description": "Asha'man begin to arrive and Rand travels to somewhere north of Illian. Narishma returns with Callandor, for which Rand sent him to Tear to retrieve from the Stone.",
+            "people": ["Rand"],
+            "book": "8",
+            "icon": "Wheel-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 182,
+            "date": "1/22/1000",
+            "location": "Nemarellin Mountains",
+            "title": "Answering the Summons",
+            "description": "Rand gathers more forces from Lords and Ladies he does not trust to be left alone to ue them against the Seanchan.",
+            "people": ["Rand"],
+            "book": "8",
+            "icon": "Wheel-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 183,
+            "date": "1/27/1000",
+            "location": "Ice meeting place",
+            "title": "Out on the Ice",
+            "description": "Egwene meets with leaders of Andoran and Murandian armies. Talmanes tells her that the Band made a deal with King Roedran will stay in Murandy waiting for Mat to return from Ebou Dar.",
+            "people": ["Egwene"],
+            "book": "8",
+            "icon": "Aessedai-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 184,
+            "date": "1/27/1000",
+            "location": "Camp near ice",
+            "title": "The Law",
+            "description": "Egwene seizes control of the rebel force by tricking them into declaring war upon Elaida, which gives the Amyrlin full authority on matters involving the war.",
+            "people": ["Egwene"],
+            "book": "8",
+            "icon": "Flame-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 185,
+            "date": "1/29/1000",
+            "location": "Nemarellin Mountains",
+            "title": "Answering the Summons",
+            "description": "Davram Bashere arrives at Rand's camp.",
+            "people": [],
+            "book": "8",
+            "icon": "Wheel-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 186,
+            "date": "1/29/1000",
+            "location": "Venir Mountains",
+            "title": "Gathering Clouds",
+            "description": "Rand's army begins searching for Seanchan troops. Rand survives an assasination attempt.",
+            "people": ["Rand"],
+            "book": "8",
+            "icon": "Dragon-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 187,
+            "date": "1/29/1000",
+            "location": "East Ebou Dar",
+            "title": "Fog of War, Storm of Battle",
+            "description": "Rand battles the Seanchan army east of Ebou Dar. In the fight, he uses Callandor and completely loses control, inflicting large casualties on the Seanchan as well as his own army causing both sides retreat.",
+            "people": ["Rand"],
+            "book": "8",
+            "icon": "Dragon-icon.svg"
+        },
+        {
+            "type": "minor",
+            "date": "2/7/1000",
+            "book": "8",
+            "description": "The Aes Sedai from the White Tower arrive at the Black Tower and are captured.",
+            "people": []
+        },
+        {
+            "type": "major",
+			"id": 188,
+            "date": "2/7/1000",
+            "location": "Cairhien",
+            "title": "The Bargain",
+            "description": "Rand returns to Cairhien and is punished by the Maidens of the Spear for going to battle without letting them protect him.",
+            "people": ["Rand"],
+            "book": "8",
+            "icon": "Wheel-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 189,
+            "date": "2/8/1000",
+            "location": "Caemlyn",
+            "title": "The Lion Throne",
+            "description": "Elayne arrives in Caemlyn and announces her claim for the throne of Andor.",
+            "people": [],
+            "book": "8",
+            "icon": "Andoran-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 190,
+            "date": "2/9/1000",
+            "location": "Cairhien",
+            "title": "A Cup of Sleep",
+            "description": "Rand is attacked by a few of his Asha'man. He manages to escape just in time before a massive explosion destroys a large part of the Sun Palace.",
+            "people": ["Rand"],
+            "book": "8",
+            "icon": "Fang-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 191,
+            "date": "2/9/1000",
+            "location": "Rhuidean",
+            "title": "Snow",
+            "description": "In an effort to confuse his enemies, Rand takes Min and travels to Rhuidean inquiring about Shara.",
+            "people": ["Rand"],
+            "book": "9",
+            "icon": "Wheel-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 192,
+            "date": "2/11/1000",
+            "location": "Caemlyn",
+            "title": "Sisters",
+            "description": "Aviendha and Elayne are bonded as first-sisters.",
+            "people": [],
+            "book": "9",
+            "icon": "Aiel-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 193,
+            "date": "2/11/1000",
+            "location": "Tear",
+            "title": "Snow",
+            "description": "In an effort to confuse his enemies, Rand takes Min and travels to Tear inquiring about Chachin.",
+            "people": ["Rand"],
+            "book": "9",
+            "icon": "Wheel-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 194,
+            "date": "2/15/1000",
+            "location": "Abila",
+            "title": "Beginnings",
+            "description": "Perrin convinces Masema to travel with him to Cairhien to meet Rand. However, Masema refuses to use a gateway and insists on taking his whole army.",
+            "people": ["Perrin"],
+            "book": "8",
+            "icon": "Wolf-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 195,
+            "date": "2/15/1000",
+            "location": "Abila",
+            "title": "Beginnings",
+            "description": "Faile, Morgase and Alliandra are captured by the Shaido.",
+            "people": [],
+            "book": "8",
+            "icon": "Falcon-icon.svg"
+        },
+        {
+            "type": "meta",
+            "date": "2/15/1000",
+            "title": "9 - Winter's Heart",
+            "book": "9",
+            "image": "DKSweet-covers/Wheel-of-Time-DKS-Winters-Heart.jpg",
+            "imageArtist": "Darrell K. Sweet",
+            "imageSource": "https://www.tor.com/2012/04/20/a-darrell-k-sweet-wheel-of-time-tribute-including-a-memory-of-light-sketch/"
+        },
+        {
+            "type": "minor",
+            "date": "2/16/1000",
+            "book": "9",
+            "description": "Faile and the others are marked as Sevanna's personal gai'shain and ordered to spy on her.",
+            "people": []
+        },
+        {
+            "type": "major",
+			"id": 196,
+            "date": "2/16/1000",
+            "location": "Abila",
+            "title": "The Scent of Madness",
+            "description": "Perrin decides to follow the Aiel southward to free Faile. Masema and his army come with him.",
+            "people": ["Perrin"],
+            "book": "9",
+            "icon": "Wolf-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 197,
+            "date": "2/16/1000",
+            "location": "Caemlyn",
+            "title": "A Cup of Tea",
+            "description": "Dyelin tells Elayne of a massive borderland army gathering in Braem Wood. After Doiln Mellar saves Elayne from a fake assasination attempt, she promotes him to Captain.",
+            "people": [],
+            "book": "9",
+            "icon": "Andoran-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 198,
+            "date": "2/17/1000",
+            "location": "Caemlyn",
+            "title": "Ideas of Importance",
+            "description": "Rand and Min arrive in Caemlyn. Rand convinces Nynaeve to help him cleanse saidin. Elayne, Aviendha and Min use a modified warder bond to allow all three of them to bond him.",
+            "people": ["Rand", "Nynaeve", "Lan"],
+            "book": "9",
+            "icon": "Dragon-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 199,
+            "date": "2/17/1000",
+            "location": "Shayol Ghul",
+            "title": "Wonderful News",
+            "description": "Moridin commands Demandred, Graendal, Cyndane, Aran'gar and Osan'gar to meet near Shayol Ghul. They discuss Rand's plan to use the Choedan Kal to cleanse saidin.",
+            "people": [],
+            "book": "9",
+            "icon": "Snake-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 200,
+            "date": "2/17/1000",
+            "location": "Ebou Dar",
+            "title": "What a Veil Hides",
+            "description": "Tuon arrives in Ebou Dar along with a giant flood of Seanchan settlers.",
+            "people": [],
+            "book": "9",
+            "icon": "Seanchan-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 201,
+            "date": "2/17/1000",
+            "location": "Ebou Dar",
+            "title": "In Need of a Bellfounder",
+            "description": "Mat negotiates passage out of Ebou Dar with Valan Luca's menagerie. In the city he is attacked by the gholam, but Noal Charin appears and rescues him.",
+            "people": ["Mat"],
+            "book": "9",
+            "icon": "Dice-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 202,
+            "date": "2/22/1000",
+            "location": "Ebou Dar",
+            "title": "Three Women",
+            "description": "Mat agrees to help Joline, Teslyn and Edesina flee from the Seanchan when he leaves.",
+            "people": ["Mat"],
+            "book": "9",
+            "icon": "Dice-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 203,
+            "date": "2/22/1000",
+            "location": "Far Madding",
+            "title": "Out of Thin Air",
+            "description": "On his mission to kill the asha'man who tried to assasinate him in Cairhien, Rand kills Rochaid in Far Madding where channeling is impossible. Kisman manages to escape Rand, but Padan Fain kills him with his dagger.",
+            "people": ["Rand"],
+            "book": "9",
+            "icon": "Dragon-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 204,
+            "date": "2/23/1000",
+            "location": "Far Madding",
+            "title": "To Lose the Sun",
+            "description": "Cadsuane and other Aes Sedai arrive in Far Madding.",
+            "people": [],
+            "book": "9",
+            "icon": "Ornaments-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 205,
+            "date": "2/23/1000",
+            "location": "Ebou Dar",
+            "title": "News in a Cloth Sack",
+            "description": "When Tylin and Suroth leave for a tour of Altara, Mat begins planning his escape.",
+            "people": ["Mat", "Thom"],
+            "book": "9",
+            "icon": "Dice-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 206,
+            "date": "2/24/1000",
+            "location": "Near Tar Valon",
+            "title": "Beginnings",
+            "description": "Egwene and her rebel army travel to Tar Valon and begin the siege of the city.",
+            "people": ["Egwene"],
+            "book": "8",
+            "icon": "Flame-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 207,
+            "date": "2/24/1000",
+            "location": "Braem Wood",
+            "title": "To Surprise Queens and Kings",
+            "description": "Elayne meets with the borderland rulers. She convinces them that they should search for Rand in Murandy.",
+            "people": [],
+            "book": "9",
+            "icon": "Andoran-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 208,
+            "date": "3/1/1000",
+            "location": "Ebou Dar",
+            "title": "Another Plan",
+            "description": "Bayle Domon arranges a meeting between Mat and Egeanin. She joins his escape and agrees to provide three sul'dam to get the Aes Sedai out of the city.",
+            "people": ["Mat"],
+            "book": "9",
+            "icon": "Anchor-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 209,
+            "date": "3/2/1000",
+            "location": "Ebou Dar",
+            "title": "What the Aelfinn Said",
+            "description": "While freeing the captured Aes Sedai Mat also frees the Sea Folk damane. When he leaves the palace he is surprised by Tuon and finds out that she is the Daughter of the Nine Moons, who he is destined to marry. He decides to take her with him.",
+            "people": ["Mat", "Thom"],
+            "book": "9",
+            "icon": "Wheel-icon.svg"
+        },
+        {
+            "type": "meta",
+            "date": "3/2/1000",
+            "title": "10 - Crossroads of Twilight",
+            "book": "10",
+            "image": "DKSweet-covers/Wheel-of-Time-DKS-Crossroads-of-Twilight.jpg",
+            "imageArtist": "Darrell K. Sweet",
+            "imageSource": "https://www.tor.com/2012/04/20/a-darrell-k-sweet-wheel-of-time-tribute-including-a-memory-of-light-sketch/"
+        },
+        {
+            "type": "major",
+			"id": 210,
+            "date": "3/2/1000",
+            "location": "Ebou Dar",
+            "title": "Glimmers of the Pattern",
+            "description": "Mat's party succesfully escapes from Ebou Dar.",
+            "people": ["Mat", "Thom"],
+            "book": "10",
+            "icon": "Dice-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 211,
+            "date": "3/3/1000",
+            "location": "Caemlyn",
+            "title": "Glimmers of the Pattern",
+            "description": "When a contender for the throne arrives the siege of Caemlyn begins.",
+            "people": [],
+            "book": "10",
+            "icon": "Andoran-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 212,
+            "date": "3/7/1000",
+            "location": "Far Madding",
+            "title": "A Portion of Wisdom",
+            "description": "Rand accepts Cadsuane as his advisor.",
+            "people": ["Rand"],
+            "book": "9",
+            "icon": "Ornaments-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 213,
+            "date": "3/7/1000",
+            "location": "Far Madding",
+            "title": "Blue Carp Street",
+            "description": "Thinking he has finally found the remaining darkfriend Asha'man, Rand falls in a trap laid by Padan Fain. Rand wounds Fain who manages to escape. Lan and Rand are taken as prisoners to the Counsels.",
+            "people": ["Rand", "Lan", "Nynaeve"],
+            "book": "9",
+            "icon": "Fang-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 214,
+            "date": "3/7/1000",
+            "location": "Far Madding",
+            "title": "The Hummingbird's Secret",
+            "description": "Cadsuane and Nynaeve intimidate the Counsels into letting Rand and Lan go by using special ter'angreal allowing them to channel where it was thought to be impossible.",
+            "people": ["Rand", "Lan", "Nynaeve"],
+            "book": "9",
+            "icon": "Ornaments-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 215,
+            "date": "3/8/1000",
+            "location": "Aridhol",
+            "title": "With the Choedan Kal",
+            "description": "Rand and Nynaeve begin channeling absolutely massive amounts of saidin and saidar to cleanse the Dark One's taint.",
+            "people": ["Rand", "Nynaeve"],
+            "book": "9",
+            "icon": "Dragon-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 216,
+            "date": "3/8/1000",
+            "location": "Aridhol",
+            "title": "With the Choedan Kal",
+            "description": "Cadsuane protects Rand and Nynaeve as some Forsaken begin to arrive.",
+            "people": [],
+            "book": "9",
+            "icon": "Ornaments-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 217,
+            "date": "3/8/1000",
+            "location": "Aridhol",
+            "title": "With the Choedan Kal",
+            "description": "Demandred arrives and notes a black dome over Shadar Logoth. He is intent on stopping Rand but is quickly attacked with huge flames. Realizing that women must have developed ter'angreal to track channeling men, he runs.",
+            "people": [],
+            "book": "9",
+            "icon": "Snake-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 218,
+            "date": "3/8/1000",
+            "location": "Aridhol",
+            "title": "With the Choedan Kal",
+            "description": "More forsaken come and go but the defense holds strong. Suddenly the black dome collapses in on itself: the taint has been cleansed. The female access key has melted.",
+            "people": ["Rand", "Lan", "Nynaeve"],
+            "book": "9",
+            "icon": "Dragon-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 219,
+            "date": "3/8/1000",
+            "location": "Tremalking Choedan Kal",
+            "title": "With the Choedan Kal",
+            "description": "When the destruction of the Choedan Kal is discovered, word spreads that the Time of Illusions has come to an end.",
+            "people": [],
+            "book": "9",
+            "icon": "Wheel-icon.svg"
+        },
+        {
+            "type": "minor",
+            "date": "3/8/1000",
+            "book": "10",
+            "description": "Perrin finds traces of darkhounds around his camp. Berelain gives him a letter from Suroth taken from Masema, giving permission for anything the bearer wants.",
+            "people": ["Perrin"]
+        },
+        {
+            "type": "minor",
+            "date": "3/12/1000",
+            "book": "10",
+            "description": "Blackguard Furyk Karede leaves Ebou Dar searching for Tuon",
+            "people": []
+        },
+        {
+            "type": "major",
+			"id": 220,
+            "date": "3/16/1000",
+            "location": "Manor Spine of the World",
+            "title": "A Strengthening Storm",
+            "description": "Rand confronts Logain about the bonding of the sisters, and he decides to seek a truce with the Seanchan.",
+            "people": ["Rand"],
+            "book": "10",
+            "icon": "Wheel-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 221,
+            "date": "3/18/1000",
+            "location": "Amadicia manor",
+            "title": "Embers Falling on Dry Grass",
+            "description": "Galad kills Eamon Valda in a duel over the torture of his mother Morgase. He then becomes Lord Captain Commander of the Children of the Light and leads them away from the Seanchan.",
+            "people": [],
+            "book": "11",
+            "icon": "Cotl-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 222,
+            "date": "3/18/1000",
+            "location": "So Habor",
+            "title": "In So Habor",
+            "description": "Perrin goes to So Habor to buy food for his people.",
+            "people": ["Perrin"],
+            "book": "10",
+            "icon": "Wolf-icon.svg"
+        },
+        {
+            "type": "minor",
+            "date": "3/19/1000",
+            "book": "11",
+            "description": "Rodel Ituralde begins his raiding against the Seanchan, trying to bait them into a trap.",
+            "people": []
+        },
+        {
+            "type": "minor",
+            "date": "3/20/1000",
+            "book": "11",
+            "description": "Semirhage tells Suroth that the entire Seanchan noble family has been killed, the Seanchan continent is in Chaos and Suroth can be the Empress.",
+            "people": []
+        },
+        {
+            "type": "major",
+			"id": 223,
+            "date": "3/29/1000",
+            "location": "Jurador",
+            "title": "Something Flickers",
+            "description": "One of the sul'dam with Mat flees while Mat takes Tuon and Selucia shopping in Jurador. They chase her and eventually ave to kill her right before she reaces Coramen to prevent her from betraying them.",
+            "people": ["Mat", "Thom"],
+            "book": "10",
+            "icon": "Dice-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 224,
+            "date": "3/29/1000",
+            "location": "Tar Valon",
+            "title": "What the Oath Rod Can Do",
+            "description": "On a mission to turn the harbor chains of Tar Valon into cuendillar so that they can not be opened any more, Egwene is captured by the Tower Aes Sedai.",
+            "people": ["Egwene"],
+            "book": "10",
+            "icon": "Flame-icon.svg"
+        },
+        {
+            "type": "meta",
+            "date": "3/29/1000",
+            "title": "11 - Knife of Dreams",
+            "book": "11",
+            "image": "DKSweet-covers/Wheel-of-Time-DKS-Knife-of-Dreams.jpg",
+            "imageArtist": "Darrell K. Sweet",
+            "imageSource": "https://www.tor.com/2012/04/20/a-darrell-k-sweet-wheel-of-time-tribute-including-a-memory-of-light-sketch/"
+        },
+        {
+            "type": "major",
+			"id": 225,
+            "date": "3/30/1000",
+            "location": "Tar Valon",
+            "title": "Honey in the Tea",
+            "description": "Egwene decides to not escape and hatches a plan to undermine Elaida from within the Tower.",
+            "people": ["Egwene"],
+            "book": "11",
+            "icon": "Flame-icon.svg"
+        },
+        {
+            "type": "minor",
+            "date": "3/30/1000",
+            "book": "11",
+            "description": "Beonin defects from the rebels and teaches Elaida and Tarna how to travel.",
+            "people": []
+        },
+        {
+            "type": "major",
+			"id": 226,
+            "date": "3/31/1000",
+            "location": "Runnien Crossing",
+            "title": "Dragon's Eggs",
+            "description": "Mat convinces Aludra to use her fireworks as weapons for the Band.",
+            "people": ["Mat"],
+            "book": "11",
+            "icon": "Dice-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 227,
+            "date": "4/3/1000",
+            "location": "Perrin Seanchan meeting",
+            "title": "A Deal",
+            "description": "Perrin meets with a Seanchan Banner-General and makes a deal to attack the Shaido together.",
+            "people": ["Perrin"],
+            "book": "11",
+            "icon": "Seanchan-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 228,
+            "date": "4/4/1000",
+            "location": "Londaren Cor",
+            "title": "Londaren Cor",
+            "description": "While out riding with Tuon on the horse Mat gave her, they encounter the ruins of what used to be Londaren Cor. Mat comes to he realization that he is still linked to the Eelfinn.",
+            "people": ["Mat", "Thom"],
+            "book": "11",
+            "icon": "Dice-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 229,
+            "date": "4/5/1000",
+            "location": "near Maderin",
+            "title": "A Village in Shiota",
+            "description": "Mat agrees to help Thom rescue Moiraine from the Tower of Ghenjei.",
+            "people": ["Mat", "Thom"],
+            "book": "11",
+            "icon": "Finn-icon.svg"
+        },
+        {
+            "type": "minor",
+            "date": "4/5/1000",
+            "book": "11",
+            "description": "Egwene sees Beonin in the tower and accuses her of betraying he rebels. Convincing Beonin she is still the amyrlin, Egwene convinces her to help undermine Elaida.",
+            "people": ["Egwene"]
+        },
+        {
+            "type": "major",
+			"id": 230,
+            "date": "4/6/1000",
+            "location": "Maderin",
+            "title": "A Hell in Maderin",
+            "description": "Thom discovers that the gholam is still after Mat. In Maderin they learn that Tuon has been betrayed and is being hunted. Mat's party leaves the menagerie to travel faster.",
+            "people": ["Mat", "Thom"],
+            "book": "11",
+            "icon": "Dice-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 231,
+            "date": "4/6/1000",
+            "location": "Almizar",
+            "title": "A Manufactory",
+            "description": "Perrin and his Seanchan ally gather a large amount of Forkroot.",
+            "people": ["Perrin"],
+            "book": "11",
+            "icon": "Wolf-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 232,
+            "date": "4/6/1000",
+            "location": "Manor Spine of the World",
+            "title": "News for the Dragon",
+            "description": "A giant swarm of trollocs and shades attack the manor house. Lews Therin Telamon seizes control of saidin from Rand and uses complicated and extremely deadly weaves to decimate the enemy force. After the attack Bashere returns with word that the Seanchan Daughter of the Nune moons is willing to meet Rand.",
+            "people": ["Rand", "Nynaeve", "Lan"],
+            "book": "11",
+            "icon": "Dragon-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 233,
+            "date": "4/6/1000",
+            "location": "World's End",
+            "title": "The Golden Crane",
+            "description": "Nynaeve takes Lan to World's End when he tells her he will ride to Malkier.",
+            "people": ["Nynaeve", "Lan"],
+            "book": "11",
+            "icon": "Lans_helmet-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 234,
+            "date": "4/6/1000",
+            "location": "Kayacun",
+            "title": "The Golden Crane",
+            "description": "Nynaeve begins recruiting people to ride with Lan to Tarwin's Gap.",
+            "people": ["Nynaeve"],
+            "book": "11",
+            "icon": "Aessedai-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 235,
+            "date": "4/7/1000",
+            "location": "Tear",
+            "title": "Within the Stone",
+            "description": "Rand visits Tear where Darlin is crowned King after negotations with the rebels. He then sends some nobles to Arad Doman to restore order.",
+            "people": ["Rand", "Nynaeve"],
+            "book": "11",
+            "icon": "Dragon-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 236,
+            "date": "4/7/1000",
+            "location": "Illian",
+            "title": "To Make an Anchor Weep",
+            "description": "Logain, on Rand's behalf, instructs the Sea Folk to bring food to Arad Doman. The Sea Folk learn that the Amayar have commited mass suicide upon the destruction of the female Choedan Kal.",
+            "people": [],
+            "book": "11",
+            "icon": "Gulls-icon.svg"
+        },
+        {
+            "type": "minor",
+            "date": "4/7/1000",
+            "book": "11",
+            "description": "Delana and Halima, who was Aran'gar in disguise, escape the rebel Aes Sedai before they are captured.",
+            "people": []
+        },
+        {
+            "type": "major",
+			"id": 237,
+            "date": "4/8/1000",
+            "location": "Camp of the Band",
+            "title": "Reunited with the Band",
+            "description": "Mat is informed by Vanin, who also brought Talmanes with him, that the pass he wanted to take is blocked. Talmanes finds him and takes him to the camp of the Band. Mat begins to study the positions of the Seanchan armies.",
+            "people": ["Mat"],
+            "book": "11",
+            "icon": "Dice-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 238,
+            "date": "4/8/1000",
+            "location": "Aqueduct Malden",
+            "title": "As If the World Were Fog",
+            "description": "Perrin dumps the forkroot in the aqueduct leading to Malden.",
+            "people": ["Perrin"],
+            "book": "11",
+            "icon": "Wolf-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 239,
+            "date": "4/9/1000",
+            "location": "Deirdru Manor",
+            "title": "A Plain Wooden Box",
+            "description": "Rand arrives for his negotiation with the Daughter of the Nine Moons. However, Lews Therin recognizes her as Semirhage. She attacks him with a fireball and his left hand is burned off. Then Semirhage is captured and Rand sends the Seanchan back, still looking for peace.",
+            "people": ["Rand", "Nynaeve"],
+            "book": "11",
+            "icon": "Snake-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 240,
+            "date": "4/9/1000",
+            "location": "Seanchan camps",
+            "title": "To the Molvaine Gap",
+            "description": "In order to lure a Seanchan army away from his escape route, Mat attacks several Seanchan camps and a group of lancers.",
+            "people": ["Mat", "Thom"],
+            "book": "11",
+            "icon": "Seanchan-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 241,
+            "date": "4/10/1000",
+            "location": "Malden",
+            "title": "The Last Knot",
+            "description": "Perrin and the Seanchan defeat the Shaido and rescue Faile. Perrin is attacked by Aram, who was incluenced by the Prophet. The Prophet's army is mostly broken.",
+            "people": ["Perrin"],
+            "book": "11",
+            "icon": "Aiel-icon.svg"
+        },
+        {
+            "type": "minor",
+            "date": "4/10/1000",
+            "book": "11",
+            "description": "Faile and her followers kill Masema.",
+            "people": []
+        },
+        {
+            "type": "major",
+			"id": 242,
+            "date": "4/14/1000",
+            "location": "Blight Eastern Fortress",
+            "title": "What the Storm Means",
+            "description": "Moridin summons Graendal, Demandred and Mesaana to meet with him in a tower in the Blight. Moridin forbids the others to rescue Semirhage. He tells Graendal of Rand's intention to bring peace to Arad Doman, and orders her to stop him.",
+            "people": [],
+            "book": "12",
+            "icon": "Snake-icon.svg"            
+        },
+        {
+            "type": "minor",
+            "date": "4/15/1000",
+            "book": "11",
+            "description": "Rodel Ituralde lures a large army of Seanchan in a trap and defeats it with his own much smaller army.",
+            "people": []
+        },
+        {
+            "type": "major",
+			"id": 243,
+            "date": "4/17/1000",
+            "location": "Caemlyn",
+            "title": "The House on Full Moon Street",
+            "description": "After following Doilin Mellar, Elayne discovers darkfriend Aes Sedai in Caemlyn. While trying to capture them Vandene is killed when she avenges her killed sister and Elayne is kidnapped.",
+            "people": [],
+            "book": "11",
+            "icon": "Fang-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 244,
+            "date": "4/18/1000",
+            "location": "Elayne's rescue",
+            "title": "To Keep the Bargain",
+            "description": "Birgitte rescues Elayne with soldiers she gathered and help from the Sea Folk channelers still in Caemlyn. The darkfriends are captured, and Elayne attacks the besiegers of Caemlyn from behind, clearing the siege.",
+            "people": [],
+            "book": "11",
+            "icon": "Andoran-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 245,
+            "date": "4/19/1000",
+            "location": "Caemlyn",
+            "title": "The Importance of Dyelin",
+            "description": "More nobles arrive in Caemlyn and Elayne manages to convince enough of them to support her, finally gaining the throne of Andor.",
+            "people": [],
+            "book": "11",
+            "icon": "Andoran-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 246,
+            "date": "4/22/1000",
+            "location": "Near Malvide Narrows",
+            "title": "Prince of the Ravens",
+            "description": "Men loyal to Tuon have found Mat's army. After she says she trusts them, Mat lets her go with them back to Ebou Dar. Tuon completes the ceremony Mat unknowingly started in Ebou Dar, officially marrying them and making Mat the Prince of the Ravens. Mat succesfully baits a troop of horsemen into a fight to buy Tuon time to get away.",
+            "people": ["Mat", "Thom"],
+            "book": "11",
+            "icon": "Ravens-icon.svg"
+        },
+        {
+            "type": "meta",
+            "date": "",
+            "title": "12 - The Gathering Storm",
+            "book": "12",
+            "image": "DKSweet-covers/Wheel-of-Time-DKS-Gathering-Storm.jpg",
+            "imageArtist": "Darrell K. Sweet",
+            "imageSource": "https://www.tor.com/2012/04/20/a-darrell-k-sweet-wheel-of-time-tribute-including-a-memory-of-light-sketch/"
+        },
+        {
+            "type": "major",
+			"id": 247,
+            "date": "",
+            "location": "Manor East Arad Doman",
+            "title": "Tears From Steel",
+            "description": "Rand arrives in Arad Doman",
+            "people": ["Rand", "Nynaeve"],
+            "book": "12",
+            "icon": "Dragon-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 248,
+            "date": "5/1/1000",
+            "location": "Hinderstap",
+            "title": "On a Broken Road",
+            "description": "Mat and the band come across the village of Hinderstap, and are almost killed when a massive brutal fight breaks out at sundown. The following morning, all of the townspeople are alive again and explain that this happens to them every night.",
+            "people": ["Mat", "Thom"],
+            "book": "12",
+            "icon": "Dice-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 249,
+            "date": "5/4/1000",
+            "location": "Trustair",
+            "title": "Legends",
+            "description": "Mat finds out that Verin is the one who has been searching for him. She agrees to maek a gateway for Mat to go to Caemlyn, if he agrees to either wait 30 days in Caemlyn and not open her letter, or not wait and do whatever it says.",
+            "people": ["Mat", "Thom"],
+            "book": "12",
+            "icon": "Dice-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 250,
+            "date": "",
+            "location": "Stedding Ituralde",
+            "title": "The Last of the Tabac",
+            "description": "Rand finds Ituralde in an abandoned stedding and convinces him to join him. He intends to move Ituralde's forces to Saldaea.",
+            "people": ["Rand"],
+            "book": "12",
+            "icon": "Dragon-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 251,
+            "date": "",
+            "location": "Manor East Arad Doman",
+            "title": "A Place to Begin",
+            "description": "Rand encounters Moridin in Tel'aran'rhiod. He recognises him as Ishamael, and realises that the non-balefired dead Forsaken are being reincarnated. Afterwards, he tells Min of the encounter, and of the voice of Lews Therin in his head. Min tells him of her belief that he will need to break the Seals.",
+            "people": ["Rand"],
+            "book": "12",
+            "icon": "Dragon-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 252,
+            "date": "",
+            "location": "Manor East Arad Doman",
+            "title": "The Last That Could Be Done",
+            "description": "Semirhage is freed by Shaidar Haran. Elza gives her the Domination Band to capture Rand.",
+            "people": [],
+            "book": "12",
+            "icon": "Snake-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 253,
+            "date": "",
+            "location": "Ituralde Near Maradon",
+            "title": "The Last That Could Be Done",
+            "description": "Rand inspects Ituralde's troops in Saldaea near the Blight.",
+            "people": ["Rand"],
+            "book": "12",
+            "icon": "Wheel-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 254,
+            "date": "",
+            "location": "Manor East Arad Doman",
+            "title": "The Last That Could Be Done",
+            "description": "Upon Rand's return, Semirhage traps him with the Domination Band, and starts forcing him to kill Min. He frees himself using the True Power, using balefire on both Semirhage and Elza. Afterwards he exiles Cadsuane for losing the Domination Band.",
+            "people": ["Rand"],
+            "book": "12",
+            "icon": "Fang-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 255,
+            "date": "",
+            "location": "Cold Rocks Hold",
+            "title": "A Crack in the Stone",
+            "description": "Aviendha finally declares herself ready to become a Wise One. She is accepted by the others, and Travels to Cold Rocks Hold, on her way to Rhuidean.",
+            "people": [],
+            "book": "12",
+            "icon": "Aiel-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 256,
+            "date": "",
+            "location": "Bandar Eban",
+            "title": "Into Bandar Eban",
+            "description": "Rand makes a ceremonial entrance into Bandar Eban.",
+            "people": ["Rand", "Nynaeve"],
+            "book": "12",
+            "icon": "Dragon-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 257,
+            "date": "",
+            "location": "Caemlyn",
+            "title": "Talk of Dragons",
+            "description": "Mat meets with Elayne and they agree to a deal concerning the Dragons. Mass production of the new weapons begins straight away.",
+            "people": ["Mat"],
+            "book": "13",
+            "icon": "Dice-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 258,
+            "date": "",
+            "location": "Bandar Eban",
+            "title": "Rivers of Shadow",
+            "description": "Nynaeve finds out where a messenger supposedly from the king was brought, and brings him to Rand. She attempts to remove the compulsion from his brain, and before he dies of shock, he manages to say \"Natrin's Barrow\".",
+            "people": ["Rand", "Nynaeve"],
+            "book": "12",
+            "icon": "Aessedai-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 259,
+            "date": "",
+            "location": "Falme",
+            "title": "A Halo of Blackness",
+            "description": "Rand meets with Tuon and attempts to impose an alliance, but Tuon manages to resist. After Rand leaves, Tuon assumes the title of Empress and orders general Galgan to prepare a strike against the White Tower.",
+            "people": ["Rand"],
+            "book": "12",
+            "icon": "Seanchan-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 260,
+            "date": "",
+            "location": "Natrin's Barrow",
+            "title": "A Force of Light",
+            "description": "Rand sends Lord Ramshalan as an emissary to Natrin's Barrow. When he returns under Compulsion, Rand balefires the entire fortress, destroying Graendal. In the aftermath, a concerned Min and Nynaeve tell Cadsuane and the Aiel.",
+            "people": ["Rand", "Nynaeve"],
+            "book": "12",
+            "icon": "Snake-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 261,
+            "date": "",
+            "location": "Natrin's Barrow",
+            "title": "Distinctions",
+            "description": "Graendal, who used Aran'gar and Delana to place the compulsion on Ramsalam, discovered just in time what was about to happen. To make it seem like she was dead, she shielded Delana and her fellow Chosen. She escaped through a gateway, leaving them to die.",
+            "people": [],
+            "book": "13",
+            "icon": "Snake-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 262,
+            "date": "",
+            "location": "Jehannah road Perrin",
+            "title": "Questions of Leadership",
+            "description": "Perrin's army meets the Whitecloaks under leadership of Galad, who have taken some of Perrin's people hostage. The armies prepare to fight, but Perrin and Galad agree to meet first.",
+            "people": ["Perrin"],
+            "book": "13",
+            "icon": "Wolf-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 263,
+            "date": "",
+            "location": "Dorlan",
+            "title": "Old Advice",
+            "description": "Gawyn finally makes up his mind about where his loyalties lie and leaves the White Tower to join Egwene's rebel army.",
+            "people": [],
+            "book": "12",
+            "icon": "Wheel-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 264,
+            "date": "",
+            "location": "Tar Valon",
+            "title": "In the White Tower",
+            "description": "Egwene is summoned to attend another dinner with Elaida and five other Sitters. She and Elaida argue, and Elaida attacks her with the Power. Egwene is taken away to a cell.",
+            "people": ["Egwene"],
+            "book": "12",
+            "icon": "Flame-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 265,
+            "date": "",
+            "location": "Jehannah road Perrin",
+            "title": "Parley",
+            "description": "When Galad meets Perrin, they clash wills. Perrin agrees to a trial of his murder of the whitecloaks from when he was fleeing the Two Tivers. When Galad, prepares to leave, he recognizes Maighdin as Morgase.",
+            "people": ["Perrin"],
+            "book": "13",
+            "icon": "Wheel-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 266,
+            "date": "",
+            "location": "Bandar Eban",
+            "title": "Before the Stone of Tear",
+            "description": "Rand and his forces leave Arad Doman and Travel to Tear. As they are leaving, Rand is told all the food in the city has spoiled. He leaves anyway. In Tear, he orders Bashere to find out where the Borderland rulers are camped.",
+            "people": ["Rand", "Nynaeve"],
+            "book": "12",
+            "icon": "Wheel-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 267,
+            "date": "",
+            "location": "Tar Valon",
+            "title": "A Visit from Verin Sedai",
+            "description": "Verin reveals she is Black Ajah, and that she has taken poison. Before she dies, she gives Egwene her research on the Black Ajah. She also warns Egwene of Mesaana's presence in the Tower.",
+            "people": ["Egwene"],
+            "book": "12",
+            "icon": "Aessedai-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 268,
+            "date": "",
+            "location": "Tar Valon",
+            "title": "The Tower Shakes",
+            "description": "The Seanchan raid the white tower, using their raken and to'raken. The White Tower is completely unprepared, and many Aes Sedai are taken captive. Egwene leads a group of novices in the fighting, and fetches Vora's sa'angreal to unleash her power upon the flying seanchan beasts, bringing many of them down. In the chaos, Elaida is taken by the Seanchan and made a damane.",
+            "people": ["Egwene"],
+            "book": "12",
+            "icon": "Seanchan-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 269,
+            "date": "",
+            "location": "Tar Valon",
+            "title": "Sealed to the Flame",
+            "description": "Egwene uses Verin's list to catch many of the back ajah in the rebel camp. After the tower accepts her as the amyrlin, she is formally raised by them. Once in the tower, the Aes Sedai are unified again and Egwene again uses Verin's list, now for the tower Aes Sedai",
+            "people": ["Egwene"],
+            "book": "12",
+            "icon": "Flame-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 270,
+            "date": "",
+            "location": "Tear",
+            "title": "The One He Lost",
+            "description": "Tam is brought to Rand by Cadsuane. Their talk leads to a confrontation and Rand almost kills Tam. Once he realises what he is doing, he travels away to Ebou Dar to finish the Seanchan once and for all.",
+            "people": ["Rand"],
+            "book": "12",
+            "icon": "Wheel-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 271,
+            "date": "",
+            "location": "Ebou Dar",
+            "title": "Just Another Man",
+            "description": "Near Ebou Dar, Rand stays the night with some tinkers. In the morning he goes into Ebou Dar meaning to kill all of the Seanchan. In the city however, he finds a peaceful and ordered life. This makes him change his plans, and he travels to Dragonmount.",
+            "people": ["Rand"],
+            "book": "12",
+            "icon": "Wheel-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 272,
+            "date": "",
+            "location": "Caemlyn",
+            "title": "Into the Void",
+            "description": "Mat lays a trap for the gholam in Caemlyn. Because he cannot directly kill the gholam, he uses Elayne's copy foxheads to force the gholam off of a skimming platform to fall endlessly into the void.",
+            "people": ["Mat"],
+            "book": "13",
+            "icon": "Dice-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 273,
+            "date": "",
+            "location": "Dragonmount",
+            "title": "Veins of Gold",
+            "description": "Rand sits on the top of Dragonmount and finally realises that he should not be as hard as he is trying to be, living with no emotion. It is his love for the people he cares about that gives him a reason to do what he must do. He destroys the male Choedan Kal, the sun breaks through the clouds and Rand laughs again for the first time in far too long.",
+            "people": ["Rand"],
+            "book": "12",
+            "icon": "Dragon-icon.svg"
+        },
+        {
+            "type": "meta",
+            "date": "",
+            "title": "13 - Towers of Midnight",
+            "book": "13",
+            "image": "DKSweet-covers/Wheel-of-Time-DKS-Towers-of-Midnight.jpg",
+            "imageArtist": "Darrell K. Sweet",
+            "imageSource": "https://www.tor.com/2012/04/20/a-darrell-k-sweet-wheel-of-time-tribute-including-a-memory-of-light-sketch/"
+        },
+        {
+            "type": "major",
+			"id": 274,
+            "date": "",
+            "location": "Dragonmount",
+            "title": "Men Dream Here",
+            "description": "Perrin sees a reflection of Rand in the Wolf Dream. There is a large gathering of wolves to witness the event. When Rand overcomes the darkness, the wolves howl in victory: the Last Hunt has come.",
+            "people": ["Rand", "Perrin"],
+            "book": "13",
+            "icon": "Wolf-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 275,
+            "date": "",
+            "location": "Tear",
+            "title": "Use a Pebble",
+            "description": "Nynaeve finds a way to heal the madness caused by the Dark One's taint.",
+            "people": ["Nynaeve"],
+            "book": "13",
+            "icon": "Aessedai-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 276,
+            "date": "",
+            "location": "Jehannah road Perrin",
+            "title": "Judgment",
+            "description": "Perrin is found guilty of the murder of the whitecloaks. However, Galad agrees to let his punishment wait until the end of the Last Battle.",
+            "people": ["Perrin"],
+            "book": "13",
+            "icon": "Wolf-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 277,
+            "date": "",
+            "location": "Tar Valon",
+            "title": "A Choice",
+            "description": "Nynaeve is tested to officially be Aes Sedai. The testing is made much harder than it should have been, and after some controversy she is raised to be Aes Sedai. Immediately she finds Myrelle and takes Lan's bond from her.",
+            "people": ["Nynaeve", "Lan"],
+            "book": "13",
+            "icon": "Star-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 278,
+            "date": "",
+            "location": "Tar Valon",
+            "title": "The Amyrlin's Anger",
+            "description": "Rand visits Egwene in the White Tower. He tells her that he intends to break the seals to the Dark One's prison in one month, and invites her to the Field of Merrilor to discuss his plans the day before.",
+            "people": ["Rand", "Egwene"],
+            "book": "13",
+            "icon": "Flame-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 279,
+            "date": "",
+            "location": "Tar Valon",
+            "title": "An Invitation",
+            "description": "Egwene meets with some windfinders and Aiel Wise Ones to propose a cooperation between the organisations. She also uses this meeting to bait Mesaana and the Black Ajah.",
+            "people": ["Egwene"],
+            "book": "13",
+            "icon": "Flame-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 280,
+            "date": "",
+            "location": "Tar Valon",
+            "title": "Darkness in the Tower",
+            "description": "Perrin takes the dreamspike to Tar Valon and fights slayer, while coming across Egwene who is fighting the Black Ajah there. Perrin uses a nightmare to destroy the Dreamspike, and Egwene uses the power of the dream world to turn Mesaana into a simpleton.",
+            "people": ["Egwene", "Perrin"],
+            "book": "13",
+            "icon": "Wheel-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 281,
+            "date": "",
+            "location": "Tar Valon",
+            "title": "Wounds",
+            "description": "When Egwene wakes up, she finds that Gawyn is badly hurt, having saved her life from three Seanchan bloodknives who were left behind after the raid. She bonds him as her warder.",
+            "people": ["Egwene"],
+            "book": "13",
+            "icon": "Wheel-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 282,
+            "date": "",
+            "location": "Perrin near Whitebridge",
+            "title": "A Making",
+            "description": "Perrin turns to the smithy to find clarity. Neald assists him in making a great power-wrought hammer, which Perrin calls Mah'alleinir: He Who Soars.",
+            "people": ["Perrin"],
+            "book": "13",
+            "icon": "Wolf-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 283,
+            "date": "",
+            "location": "Whitecloak ambush",
+            "title": "An Unexpected Ally",
+            "description": "Perrin sves the whitecloaks from a big trolloc ambush, and offers to take them to the last battle, if they will accept his command. Galad accepts, and names Perrin's punishment from the trial, a blood price for the families and to fight in the Last Battle.",
+            "people": ["Perrin"],
+            "book": "13",
+            "icon": "Cotl-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 284,
+            "date": "",
+            "location": "Tear",
+            "title": "For What Has Been Wrought",
+            "description": "Rand returns to Tear and apologizes to Tam. He tells Darlin to mobilize his forces and pardons Cadsuane.",
+            "people": ["Rand"],
+            "book": "13",
+            "icon": "Wheel-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 285,
+            "date": "",
+            "location": "Perrin near Whitebridge",
+            "title": "A Reunion",
+            "description": "Mat comes to Perrin's camp to talk and warn Perrin about possible assassins. Together, they go to Caemlyn.",
+            "people": ["Mat", "Perrin"],
+            "book": "13",
+            "icon": "Wheel-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 286,
+            "date": "",
+            "location": "Bandar Eban",
+            "title": "Return to Bandar Eban",
+            "description": "Rand returns to Bander Eban and returns order there.",
+            "people": ["Rand"],
+            "book": "13",
+            "icon": "Dragon-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 287,
+            "date": "",
+            "location": "Caemlyn",
+            "title": "A Teaching Chamber",
+            "description": "Perrin and Elayne meet to talk about Perrin naming himself a Lord. Eventually they come to an agreement making Perrin High Lord, steward of the Dragon's seat in Andor, the Two Rivers.",
+            "people": ["Perrin"],
+            "book": "13",
+            "icon": "Andoran-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 288,
+            "date": "",
+            "location": "Maradon",
+            "title": "A Storm of Light",
+            "description": "When Ituralde is fighting in the city killing as many trollocs as possible, the situation seems hopeless. Then Rand appears, talks with Ituralde and travels to north of the city. He completely annihilates the trolloc army, but warns that he can not do something like that again because the direct confrontation must happen at Shayol Ghul at the right time.",
+            "people": ["Rand"],
+            "book": "13",
+            "icon": "Dragon-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 289,
+            "date": "",
+            "location": "The Tower of Ghenjei",
+            "title": "The Light of the World",
+            "description": "Mat, Thom and Noal go into the Tower of Ghenjei to rescue Moiraine. In an agreement with the Eelfinn, Mat agrees to give them his left yee in exchange for Moiraine.",
+            "people": ["Mat", "Thom", "Moiraine"],
+            "book": "13",
+            "icon": "Finn-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 290,
+            "date": "",
+            "location": "The Tower of Ghenjei",
+            "title": "The One Left Behind",
+            "description": "When the party tries to leave, they discover the trick of the Eelfinn. While the Eelfinn agreed to let them go, the Aelfinn did not. In a chaotic flight, Noal sacrifices himself to let the others escape and tells them he is the legendary Jain Farstrider.",
+            "people": ["Mat", "Thom", "Moiraine"],
+            "book": "13",
+            "icon": "Wheel-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 291,
+            "date": "",
+            "location": "Outside Far Madding",
+            "title": "A Testing",
+            "description": "Rand meets with the borderland rulers. He coerces them into swearing allegiance to him, because if they do not they will not fight in the last battle.",
+            "people": ["Rand"],
+            "book": "13",
+            "icon": "Dragon-icon.svg"
+        },
+        {
+            "type": "meta",
+            "date": "",
+            "title": "14 - A Memory of Light",
+            "book": "14",
+            "image": "DKSweet-covers/Darrell-Sweet_Memory-of-Light_sketch.jpg",
+            "imageArtist": "Darrell K. Sweet",
+            "imageSource": "https://www.tor.com/2012/04/20/a-darrell-k-sweet-wheel-of-time-tribute-including-a-memory-of-light-sketch/"
+        },
+        {
+            "type": "major",
+			"id": 292,
+            "date": "",
+            "location": "Caemlyn",
+            "title": "By Grace and Banners Fallen",
+            "description": "Trollocs flood through the waygate in Caemlyn, destroying the city. Talmanes and the Band of the Red Hand manage to save the Dragons.",
+            "people": [],
+            "book": "14",
+            "icon": "Fang-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 293,
+            "date": "",
+            "location": "Merrilor",
+            "title": "To Require a Boon",
+            "description": "Rand meets with Egwene and the rulers of all the nations and outlines his Dragon’s Peace. When agreement seems far off and tensions rise, Moiraine enters the tent.",
+            "people": ["Rand", "Egwene", "Perrin", "Moiraine"],
+            "book": "14",
+            "icon": "Staff-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 294,
+            "date": "",
+            "location": "Merrilor",
+            "title": "A Knack",
+            "description": "Finally a plan is agreed upon, and the coalition decides to send help to Lan, who is fighting at the Gap. There will be four battlefields, with a great commander leading each army.",
+            "people": ["Rand", "Egwene", "Perrin", "Moiraine"],
+            "book": "14",
+            "icon": "Wheel-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 295,
+            "date": "",
+            "location": "Elayne's tent north Caemlyn",
+            "title": "To Die Well",
+            "description": "Rand has dinner with Elayne near Caemlyn and gives her a Seed which can be used to create new angreal. She gives him a dagger ter'angreal to hide him from the Shadow.",
+            "people": ["Rand"],
+            "book": "14",
+            "icon": "Dragon-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 296,
+            "date": "",
+            "location": "Lan's camp Shienar",
+            "title": "King of no Nation",
+            "description": "In Lan's tent in Shienar, Rand gives him two crowns. One for him and one for Nynaeve. When Rand joins the fighting, Taim and other dreadlords immediately turn on him and he retreats.",
+            "people": ["Rand", "Lan"],
+            "book": "14",
+            "icon": "Lans_helmet-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 297,
+            "date": "",
+            "location": "Ebou Dar",
+            "title": "Just Another Sell-sword",
+            "description": "Mat returns to Ebou Dar and saves Tuon from an assasination attempt by a Gray Man.",
+            "people": ["Mat"],
+            "book": "14",
+            "icon": "Dice-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 298,
+            "date": "",
+            "location": "Merrilor",
+            "title": "What Must Be Done",
+            "description": "Perrin visits Rand to ask him to make a gateway so he can enter the wolf dream in the flesh. Perrin and Gaul enter and start to track down Slayer.",
+            "people": ["Rand", "Perrin"],
+            "book": "14",
+            "icon": "Wolf-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 299,
+            "date": "",
+            "location": "Black Tower",
+            "title": "Moonhunter",
+            "description": "Perrin travels to the Black Tower to get the Dreampsike away from there and force Slayer to come to him. He meets Lanfear, who tries to get him to work together with her but he refuses.",
+            "people": ["Perrin"],
+            "book": "14",
+            "icon": "Wolf-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 300,
+            "date": "",
+            "location": "Black Tower",
+            "title": "A Matter of Gateways",
+            "description": "Logain is rescued by Androl, Pevara and others while Taim and his Dreadlords are trying to Turn him to the shadow.",
+            "people": [],
+            "book": "14",
+            "icon": "Wheel-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 301,
+            "date": "",
+            "location": "Ebou Dar",
+            "title": "Older, More Weathered",
+            "description": "Rand meets with Mat and Tuon in Ebou Dar. Tuon signs the Dragon’s Peace and the Seanchan join the Last Battle.",
+            "people": ["Rand", "Mat"],
+            "book": "14",
+            "icon": "Seanchan-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 302,
+            "date": "",
+            "location": "Tar Valon",
+            "title": "A Ribbon",
+            "description": "When Rand travels to the White Tower to give Egwene a ribbon, he discovers that the shadow has stolen the seals to the Dark One's prison.",
+            "people": ["Rand", "Egwene"],
+            "book": "14",
+            "icon": "Wheel-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 303,
+            "date": "",
+            "location": "Kandor battlefield",
+            "title": "The Wyld",
+            "description": "Demandred, as Bao the Wyld, leads the Sharans into battle completely destroying the white tower’s camp at the kandor battlefield.",
+            "people": ["Egwene"],
+            "book": "14",
+            "icon": "Snake-icon.svg",
+            "sponsor": "Shendla"
+        },
+        {
+            "type": "major",
+			"id": 304,
+            "date": "",
+            "location": "Shayol Ghul",
+            "title": "Into Thakan'dar",
+            "description": "Rand travels to Shayol Ghul and enters the mountain, beginning the Last Battle against the dark one.",
+            "people": ["Rand", "Nynaeve", "Moiraine", "Thom"],
+            "book": "14",
+            "icon": "Wheel-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 305,
+            "date": "",
+            "location": "Shayol Ghul",
+            "title": "Quick Fragments",
+            "description": "Perrin stops Slayer from killing Rand and places the Dreamspike in Shayol Ghul so there is only one way in.",
+            "people": ["Perrin"],
+            "book": "14",
+            "icon": "Wolf-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 306,
+            "date": "",
+            "location": "Battlefield Cairhien",
+            "title": "Considerations",
+            "description": "Near Cairhien, Elayne’s army defeats an army of Trollocs only to discover a second army is much closer than they thought, as the scouts they had were not used by Davram Bashere. Elayne relieves him of his duty as commander, suspecting him to be a darkfriend.",
+            "people": [],
+            "book": "14",
+            "icon": "Wheel-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 307,
+            "date": "",
+            "location": "Battlefield Shienar",
+            "title": "The Loss of a Hill",
+            "description": "Lan discovers a plot involving the great captain Agelmar Jagad to trap the armies of the borderlanders while they are retreating from the Gap, and relieves Agelmar Jagad of his duty as commander.",
+            "people": ["Lan"],
+            "book": "14",
+            "icon": "Lans_helmet-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 308,
+            "date": "",
+            "location": "Battlefield Cairhien",
+            "title": "The Guardians",
+            "description": "On the brink of defeat, Elayne's army is rescued by the arrival of Logain and the asha’man.",
+            "people": [],
+            "book": "14",
+            "icon": "Wheel-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 309,
+            "date": "",
+            "location": "Kandor battlefield",
+            "title": "The Way of the Predator",
+            "description": "Perrin discovers that Graendal is using tel'aran'rhiod to use Compulsion on each of the great captains",
+            "people": ["Perrin"],
+            "book": "14",
+            "icon": "Wolf-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 310,
+            "date": "",
+            "location": "Kandor battlefield",
+            "title": "Soe'feia",
+            "description": "Tuon discovers that Min can see visions, and appoints her as her Truthspeaker.",
+            "people": [],
+            "book": "14",
+            "icon": "Seanchan-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 311,
+            "date": "",
+            "location": "Kandor battlefield",
+            "title": "A Tempest of Water",
+            "description": "Realising that Gareth Bryne is under compulsion, Egwene surrenders command of her armies to the one man she knows can not be under compulsion because of his fox head: Matrim Cauthon.",
+            "people": ["Egwene", "Mat"],
+            "book": "14",
+            "icon": "Dice-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 312,
+            "date": "",
+            "location": "Kandor battlefield",
+            "title": "A Yellow Flower-Spider",
+            "description": "Mat decides to let all the forces of the light retreat to a central battlefield, back to where it all began: the field of Merrilor.",
+            "people": ["Mat"],
+            "book": "14",
+            "icon": "Dice-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 313,
+            "date": "",
+            "location": "Blight Horn of Valere",
+            "title": "The Prince's Tabac",
+            "description": "The transport of the Horn of Valere goes horribly wrong, when a bubble of evil causes them to enter a gateway to the blight. Faile sees shayol ghul in the distance and decides to travel to their armies there.",
+            "people": [],
+            "book": "14",
+            "icon": "Valere-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 314,
+            "date": "",
+            "location": "Sea of Storms",
+            "title": "Storm in the Sea of Storms",
+            "description": "Perrin is gravely injured in a fight with Slayer.",
+            "people": ["Perrin"],
+            "book": "14",
+            "icon": "Fang-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 315,
+            "date": "",
+            "location": "Merrilor",
+            "title": "The Smith's Apprentice",
+            "description": "Perrin manages to leave tel'aran'rhiod at the field of Merrilor and is found by Master Luhhan.",
+            "people": ["Perrin"],
+            "book": "14",
+            "icon": "Wolf-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 316,
+            "date": "",
+            "location": "Shayol Ghul",
+            "title": "Unchangeable Things",
+            "description": "Nynaeve finds Alanna in the Pit of Doom and realizes she has to heal her to prevent her bond with Rand from driving him mad as she dies, but cannot use the one power as she is linked with Rand. She starts using her old school herbs.",
+            "people": ["Nynaeve"],
+            "book": "14",
+            "icon": "Aessedai-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 317,
+            "date": "",
+            "location": "Shayol Ghul",
+            "title": "The Last Battle",
+            "description": "Rand battles the Dark One and challenges him, saying the dark one can only win if he breaks the will of the people, and that will never happen.",
+            "people": ["Rand"],
+            "book": "14",
+            "icon": "Dragon-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 318,
+            "date": "",
+            "location": "Merrilor",
+            "title": "The Last Battle",
+            "description": "In a long fight against the Shadow’s best general Demandred, Mat knows he must lose graciously to draw the enemy in for a trap.",
+            "people": ["Mat"],
+            "book": "14",
+            "icon": "Dice-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 319,
+            "date": "",
+            "location": "Merrilor",
+            "title": "The Shadow's Dragon",
+            "description": "Gawyn tries to kill Demandred, who is annihilating enormous numbers of the light’s forces with Balefire. He fails in his attempt and eventually dies, filling Egwene who lost her warder with grief.",
+            "people": ["Egwene"],
+            "book": "14",
+            "icon": "Snake-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 320,
+            "date": "",
+            "location": "Merrilor",
+            "title": "Baiting the Trap",
+            "description": "Tuon uses an assasination attempt on her, which kills Siuan, to start Mat’s gamble. She withdraws all of the Seanchan forces.",
+            "people": ["Mat"],
+            "book": "14",
+            "icon": "Seanchan-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 321,
+            "date": "",
+            "location": "Merrilor",
+            "title": "The Shadow's Dragon",
+            "description": "Galad fights Demandred with the Foxhead given by Mat but does not manage to kill him. When Logain also attacks Demandred, Galad is brought away to Mayene while Demandred is distracted. Logain does not manage to kill Demandred, but he does escape.",
+            "people": [],
+            "book": "14",
+            "icon": "Cotl-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 322,
+            "date": "",
+            "location": "Merrilor",
+            "title": "The Flame of Tar Valon",
+            "description": "Egwene manages to find an answer to the balefire the Shadow has been using. In an amazing self-sacrifice she overdraws the one power to restore balance and kill Mazrim Taim and hundreds of the enemy Sharan channelers.",
+            "people": ["Egwene"],
+            "book": "14",
+            "icon": "Flame-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 323,
+            "date": "",
+            "location": "Merrilor",
+            "title": "The Last King of Malkier",
+            "description": "Lan personally fights Demandred. He finally manages to kill him by Sheathing the Sword, saying “I didn’t come here to win, I came here to kill you”.",
+            "people": ["Lan"],
+            "book": "14",
+            "icon": "Lans_helmet-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 324,
+            "date": "",
+            "location": "Merrilor",
+            "title": "A Gambler from the Two Rivers",
+            "description": "With the enemy having lost their best general, Mat's plan succeeds. The enemy moves in, Mat divides their forces and with the return of the Seanchan and Olver vlowing the Horn of Valere, the army is crushed. Moghedien is captured and taken as a damane.",
+            "people": ["Mat"],
+            "book": "14",
+            "icon": "Dice-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 325,
+            "date": "",
+            "location": "Shayol Ghul",
+            "title": "Unraveling",
+            "description": "Aviendha travels with Graendal in a gateway. There she tries to unravel the gateway and in the explosion graendal's compulsion lands on herself.",
+            "people": [],
+            "book": "14",
+            "icon": "Aiel-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 326,
+            "date": "",
+            "location": "Shayol Ghul",
+            "title": "Heroes of the Horn",
+            "description": "Mat takes Olver to Thakan'Dar where the Heroes of the Horn join the fight against the Shadowspawn.",
+            "people": ["Mat"],
+            "book": "14",
+            "icon": "Valere-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 327,
+            "date": "",
+            "location": "Shayol Ghul",
+            "title": "Wolfbrother",
+            "description": "Perrin manages to defeat Slayer at last and leads the wolves, along with wolves called by the Horn of Valere, against the Shadow's darkhounds.",
+            "people": ["Perrin"],
+            "book": "14",
+            "icon": "Wolf-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 328,
+            "date": "",
+            "location": "Shayol Ghul",
+            "title": "Tendrils of Mist",
+            "description": "Fain has joined the battlefield looking for Rand, but Mat slips in between his mist to which he is immune because of his relation with the dagger and kills him.",
+            "people": ["Mat"],
+            "book": "14",
+            "icon": "Dice-icon.svg"
+        },
+        {
+            "type": "major",
+			"id": 329,
+            "date": "",
+            "location": "Shayol Ghul",
+            "title": "A Brilliant Lance",
+            "description": "Learning from Lews Therin's mistakes, Rand uses saidin, saidar and even the true power through Moridin and Callandor to seal the bore again. Logain breaks the seals of the old prison, and the Dark One is imprisoned once again.",
+            "people": ["Rand"],
+            "book": "14",
+            "icon": "Dragon-icon.svg"
+        }
+	]
+}

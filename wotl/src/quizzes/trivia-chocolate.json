@@ -1,0 +1,106 @@
+{
+    "type": "score",
+    "title": "Chocola Trivia Quiz",
+    "titleImageSource": "chocolate.jpg",
+    "endMessageBad": "Volgende keer beter! Misschien eerst nog wat meer chocola eten.",
+    "endMessageGood": "Goed gedaan! Jij bent duidelijk een grote fan van chocola.",
+    "endMessagePerfect": "Perfect! Jij bent een expert op het gebied van chocola!",
+    "questions": [
+        {
+            "question": "Waar worden de meeste Cacaobonen gegroeid?",
+            "titleImage": true,
+            "titleImageSource": "cacao_plantage.jpg",
+            "images": false,
+            "options": [
+                "Centraal Amerika",
+                "West Afrika",
+                "Azië"
+            ],
+            "answer": "West Afrika",
+            "explanation": "In West Afrika wordt bijna twee derde van de cacao van de wereld geproduceerd. Bijna de helft hiervan komt uit Ivoorkust!"
+        },
+        {
+            "question": "Waar of niet waar: De Azteken gebruikten cacao bonen als munteenheid.",
+            "titleImage": false,
+            "images": false,
+            "options": [
+                "Waar",
+                "Niet Waar"
+            ],
+            "answer": "Waar",
+            "explanation": "De Azteken dachten dat chocola magische krachten had, bijvoorbeeld dat het hen sterker maakte!"
+        },
+        {
+            "question": "Welke chocola-snack was in de tweede wereldoorlog ontwikkeld zodat soldaten chocola konden eten zonder dat het smelt?",
+            "images": true,
+            "options": [
+                {
+                    "value": "Chocolate Chip koekjes",
+                    "imageSource": "cc_cookie.jpg"
+                },
+                {
+                    "value": "Brownies",
+                    "imageSource": "brownies.jpg"
+                },
+                {
+                    "value": "M&Ms",
+                    "imageSource": "m&ms.jpg"
+                },
+                {
+                    "value": "KitKat",
+                    "imageSource": "kitkat.jpg"
+                }
+            ],
+            "answer": "M&Ms",
+            "explanation": "M&Ms werden in 1941 voor dit doel ontwikkeld."
+        },
+        {
+            "question": "In welke andere landen kan je hagelslag verkrijgen?",
+            "titleImage": true,
+            "titleImageSource": "Hagelslag.jpg",
+            "images": false,
+            "options": [
+                "België, Indonesië en Suriname",
+                "België en Zwitserland",
+                "Zwitserland, Suriname en Brazilië",
+                "Suriname en Sint Maarten"
+            ],
+            "answer": "België, Indonesië en Suriname",
+            "explanation": ""
+        },
+        {
+            "question": "Welke componist schreef een stuk over chocola?",
+            "images": true,
+            "options": [
+                {
+                    "value": "Beethoven",
+                    "imageSource": "beethoven.jpg"
+                },
+                {
+                    "value": "Mozart",
+                    "imageSource": "mozart.jpg"
+                },
+                {
+                    "value": "Chopin",
+                    "imageSource": "chopin.jpg"
+                }
+            ],
+            "answer": "Mozart",
+            "explanation": "In zijn opera Cosi Fan Tutte, Despina, het dienstmeisje, is woedend dat zij nog nooit de warme chocolademelk heeft geproefd die zij moet bereiden voor de vrouw voor wie ze werkt. Ze besluit uit protest het zelf ook te drinken."
+        },
+        {
+            "question": "In welk land wordt het meeste chocolade per persoon gegeten?",
+            "titleImage": false,
+            "images": false,
+            "options": [
+                "België",
+                "Verenigde Staten",
+                "Zwitserland",
+                "Nederland",
+                "Frankrijk"
+            ],
+            "answer": "Zwitserland",
+            "explanation": "In zwitserland wordt het meeste chocola gegeten per persoon. Chocola werd in 1875 geïntroduceerd in Zwitserland."
+        }
+    ]
+}

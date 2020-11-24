@@ -1,0 +1,149 @@
+{
+    "type": "score",
+    "title": "Wheel of Time Trivia - Aes Sedai Level",
+    "titleImageSource": "path-of-daggers.jpg",
+    "titleImageCredit": "https://www.barnesandnoble.com/blog/sci-fi-fantasy/wp-content/uploads/sites/4/2018/02/wot5.jpg",
+    "titleImageArtist": "Darrell K. Sweet",
+    "endMessageBad": "The Wheel weaves as the Wheel wills, better luck on the next turning!",
+    "endMessageGood": "Good job!",
+    "endMessagePerfect": "Perfect! A True Wheel of Time expert!",
+    "questions": [
+        {
+            "question": "Near which Cairhienin village does Rand first (unknowingly) encounter one of the Choedan Kal?",
+            "titleImage": true,
+            "titleImageSource": "Male_Choedan_Kal.jpg",
+            "titleImageCredit": "https://www.pinterest.com/pin/137148751139005414/",
+            "titleImageArtist": "Gal Or",
+            "images": false,
+            "options": [
+                "Medo",
+                "Tremalking",
+                "Dumai's Wells",
+                "Tremonsien"
+            ],
+            "answer": "Tremonsien",
+            "explanation": "Rand stumbles upon an excavation in progress while on his way to Cairhien and feels drawn to the huge statue."
+        },
+        {
+            "question": "Which of these is the flag of Arafel?",
+            "images": true,
+            "showValues": false,
+            "options": [
+                {
+                    "value": "Arafel",
+                    "imageSource": "flags/Arafel.jpg",
+                    "imageCredit": "https://vignette.wikia.nocookie.net/wot/images/3/33/Arafel_Flag.JPG/revision/latest?cb=20100107021446",
+                    "imageArtist": "Todd Cameron Hamilton"
+                },
+                {
+                    "value": "Kandor",
+                    "imageSource": "flags/Kandor.jpg",
+                    "imageCredit": "https://vignette.wikia.nocookie.net/wot/images/1/1e/Kandor_Banner.JPG/revision/latest?cb=20100107032247",
+                    "imageArtist": "Todd Cameron Hamilton"
+                },
+                {
+                    "value": "Shienar",
+                    "imageSource": "flags/Shienar.jpg",
+                    "imageCredit": "https://vignette.wikia.nocookie.net/wot/images/7/7f/Shienar_Flag.JPG/revision/latest?cb=20100107034028",
+                    "imageArtist": "Todd Cameron Hamilton"
+                },
+                {
+                    "value": "Saldaea",
+                    "imageSource": "flags/Saldaea.jpg",
+                    "imageCredit": "https://vignette.wikia.nocookie.net/wot/images/4/49/Saldaea_Banner.JPG/revision/latest?cb=20100107033643",
+                    "imageArtist": "Todd Cameron Hamilton"
+                }
+            ],
+            "answer": "Arafel",
+            "explanation": ""
+        },
+        {
+            "question": "What is the name of the sa'angreal Egwene uses in the Last Battle?",
+            "titleImage": true,
+            "titleImageSource": "EgweneBattle.jpg",
+            "titleImageCredit": "https://wot.fandom.com/wiki/Vora%27s_sa%27angreal",
+            "titleImageArtist": "Todd Lockwood",
+            "images": false,
+            "options": [
+                "Choedan Kal",
+                "Sakarnen",
+                "Vora's sa'angreal"
+            ],
+            "answer": "Vora's sa'angreal",
+            "explanation": "Vora's sa'angreal is the most powerful female sa'angreal in possesion of the White Tower. In the image, Egwene is depicted using it against the Seanchan when they raided the Tower."
+        },
+        {
+            "question": "Who said this: \"In wars, boy, fools kill other fools for foolish causes.\"?",
+            "images": true,
+            "showValues": true,
+            "options": [
+                {
+                    "value": "Lan Mandragoran",
+                    "imageSource": "character-portraits/Lan.jpg",
+                    "imageCredit": "https://vignette.wikia.nocookie.net/wot/images/e/ea/Lan_saliba.jpg/revision/latest?cb=20091219034741",
+                    "imageArtist": "Jeremy Saliba"
+                },
+                {
+                    "value": "Thom Merrilin",
+                    "imageSource": "character-portraits/Thom.png",
+                    "imageCredit": "https://vignette.wikia.nocookie.net/wot/images/2/20/Thom.png/revision/latest?cb=20090804062307",
+                    "imageArtist": "Jeremy Saliba"
+                },
+                {
+                    "value": "Moiraine Damodred",
+                    "imageSource": "character-portraits/Moiraine.jpg",
+                    "imageCredit": "https://wot.fandom.com/wiki/Moiraine_Damodred?file=Moiraine_Damodred.JPG",
+                    "imageArtist": "Dan Dos Santos"
+                }
+            ],
+            "answer": "Thom Merrilin",
+            "explanation": "He says this in the beginning of The Eye of the World to Mat."
+        },
+        {
+            "question": "Who does Rand see while in the glass columns of Rhuidean?",
+            "titleImage": false,
+            "images": false,
+            "options": [
+                "Couladin",
+                "Suladric",
+                "Bendhuin",
+                "Muradin"
+            ],
+            "answer": "Muradin",
+            "explanation": "Rand sees Couladin's brother Muradin while in the columns. When Rand returns while Muradin did not, Couladin accuses Rand of murdering him."
+        },
+        {
+            "question": "Who saves Rand while he is fighting Sammael in Shadar Logoth?",
+            "images": true,
+            "showValues": true,
+            "options": [
+                {
+                    "value": "Moridin",
+                    "imageSource": "character-portraits/Moridin.jpg",
+                    "imageCredit": "https://vignette.wikia.nocookie.net/wot/images/6/6e/MoridinandtheFisher.JPG/revision/latest?cb=20180708235709",
+                    "imageArtist": "Unknown"
+                },
+                {
+                    "value": "Logain Ablar",
+                    "imageSource": "character-portraits/Logain.jpg",
+                    "imageCredit": "https://wot-tidbits.tumblr.com/post/188007747265/updated-logain-by-ariel-burgess-updated-cadsuane",
+                    "imageArtist": "Ariel Burgess"
+                },
+                {
+                    "value": "Matrim Cauthon",
+                    "imageSource": "character-portraits/mat.png",
+                    "imageCredit": "https://wot.fandom.com/wiki/Matrim_Cauthon?file=Avendesora.png",
+                    "imageArtist": "Sam Weber"
+                },
+                {
+                    "value": "Nynaeve al'Meara",
+                    "imageSource": "character-portraits/Nynaeve.jpg",
+                    "imageCredit": "https://vignette.wikia.nocookie.net/wot/images/0/09/Wot-_nynaeve.jpg/revision/latest?cb=20160605154102",
+                    "imageArtist": "Jeremy Saliba"
+                }
+            ],
+            "answer": "Moridin",
+            "explanation": "In the fight his and Rand's streams of balefire crossed, forming a connection between them."
+        }
+    ]
+}

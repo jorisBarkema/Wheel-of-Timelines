@@ -1,0 +1,132 @@
+{
+    "type": "score",
+    "title": "Wheel of Time Trivia - Novice Level",
+    "titleImageSource": "01-The-Eye-of-the-World-outside-640x470.jpg",
+    "titleImageCredit": "https://cdn.arstechnica.net/wp-content/uploads/2016/04/01-The-Eye-of-the-World-outside-640x470.jpg",
+    "titleImageArtist": "Darrell K. Sweet",
+    "endMessageBad": "The Wheel weaves as the Wheel wills, better luck on the next turning!",
+    "endMessageGood": "Good job!",
+    "endMessagePerfect": "Perfect! A True Wheel of Time expert!",
+    "questions": [
+        {
+            "question": "Who used to work at a forge before the adventure began?",
+            "images": true,
+            "showValues": true,
+            "options": [
+                {
+                    "value": "Matrim Cauthon",
+                    "imageSource": "character-portraits/mat.png",
+                    "imageCredit": "https://wot.fandom.com/wiki/Matrim_Cauthon?file=Avendesora.png",
+                    "imageArtist": "Sam Weber"
+                },
+                {
+                    "value": "Perrin Aybarra",
+                    "imageSource": "character-portraits/perrin.jpg",
+                    "imageCredit": "https://wallhere.com/en/wallpaper/1029172",
+                    "imageArtist": "Unknown"
+                }
+            ],
+            "answer": "Perrin Aybarra",
+            "explanation": "Before leaving Emond's field, Perrin was apprenticed to the village smith Master Luhan."
+        },
+        {
+            "question": "Which Aes Sedai Ajah is in charge of finding men who can channel?",
+            "titleImage": false,
+            "images": false,
+            "options": [
+                "Yellow Ajah",
+                "Blue Ajah",
+                "Green Ajah",
+                "Red Ajah"
+            ],
+            "answer": "Red Ajah",
+            "explanation": "The Red Ajah is dedicated to prevent wrong and dangerous use of the One Power, in particular men who can channel."
+        },
+        {
+            "question": "Who does Rand meet in the library of The Queen's Blessing in Caemlyn?",
+            "images": true,
+            "showValues": true,
+            "options": [
+                {
+                    "value": "Min",
+                    "imageSource": "character-portraits/Min.jpg",
+                    "imageCredit": "https://vignette.wikia.nocookie.net/wot/images/6/6e/Min.JPG/revision/latest?cb=20100322232727",
+                    "imageArtist": "Ron Rousselle"
+                },
+                {
+                    "value": "Loial",
+                    "imageSource": "character-portraits/Loial.jpg",
+                    "imageCredit": "https://wot.fandom.com/wiki/Treesinging?file=Treesinging.jpg",
+                    "imageArtist": "Ken Walker"
+                },
+                {
+                    "value": "Logain",
+                    "imageSource": "character-portraits/Logain.jpg",
+                    "imageCredit": "https://wot-tidbits.tumblr.com/post/188007747265/updated-logain-by-ariel-burgess-updated-cadsuane",
+                    "imageArtist": "Ariel Burgess"
+                }
+            ],
+            "answer": "Loial",
+            "explanation": "Rand first meets Loial in the library of inn The Queen's Blessing, after which Loial helps them navigate the Ways"
+        },
+        {
+            "question": "Which city is this?",
+            "titleImage": true,
+            "titleImageSource": "Tar_Valon.jpg",
+            "titleImageCredit": "https://vignette.wikia.nocookie.net/wot/images/4/44/Tar_Valon.jpg",
+            "titleImageArtist": "Mike S. Miller",
+            "images": false,
+            "options": [
+                "Caemlyn",
+                "Tar Valon",
+                "Cairhien",
+                "Tear"
+            ],
+            "answer": "Tar Valon",
+            "explanation": "Tar Valon is located on an island and is home to the White Tower."
+        },
+        {
+            "question":"What is the name of the prophecied sword stored in the Stone of Tear?",
+            "titleImage": true,
+            "titleImageSource": "Callandor.jpg",
+            "titleImageCredit": "https://bookstr.com/wp-content/uploads/2019/05/62d52a73f3a660038eef3cb504574661-1024x704.jpg",
+            "titleImageArtist": "Darrell K. Sweet",
+            "images": false,
+            "options": [
+                "Muramasa",
+                "Excalibur",
+                "Durandal",
+                "Callandor"
+            ],
+            "answer": "Callandor",
+            "explanation": "The fall of the Stone and the taking of Callandor were two of the major signs that the Dragon was reborn."
+        },
+        {
+            "question": "Who is the Dragon Reborn?",
+            "images": true,
+            "showValues": true,
+            "options": [
+                {
+                    "value": "Rand al'Thor",
+                    "imageSource": "character-portraits/rand-crown-of-swords.jpg",
+                    "imageCredit": "https://twitter.com/artarielb",
+                    "imageArtist": "Ariel Burgess"
+                },
+                {
+                    "value": "Matrim Cauthon",
+                    "imageSource": "character-portraits/mat.png",
+                    "imageCredit": "https://wot.fandom.com/wiki/Matrim_Cauthon?file=Avendesora.png",
+                    "imageArtist": "Sam Weber"
+                },
+                {
+                    "value": "Perrin Aybarra",
+                    "imageSource": "character-portraits/perrin.jpg",
+                    "imageCredit": "https://wallhere.com/en/wallpaper/1029172",
+                    "imageArtist": "Unknown"
+                }
+            ],
+            "answer": "Rand al'Thor",
+            "explanation": "Rand is the Dragon Reborn, the reincarnated spirit of Lews Therin Telamon"
+        }
+    ]
+}

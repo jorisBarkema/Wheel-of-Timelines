@@ -1,0 +1,39 @@
+{
+    "type": "score",
+    "title": "Could you survive in the Aiel Waste?",
+    "titleImageSource": "quizzes/aiel-waste/group-aiel.jpg",
+    "titleImageCredit": "https://vignette.wikia.nocookie.net/wot/images/9/9f/Jeremy_Saliba_aiel_take_2.jpg/revision/latest?cb=20091219033003",
+    "endMessageBad": "Luckily for you, unlike in the Three-fold land, there are second chances here!",
+    "endMessageGood": "Well done! You would definitely survive in the Three-fold Land.",
+    "endMessagePerfect": "Perfect! You could be a Wise one or Clan chief!",
+    "questions": [
+        {
+            "question": "What is the name of the scarf the Aiel wear to hide their face when fighting?",
+            "titleImage": true,
+            "titleImageSource": "quizzes/aiel-waste/VeiledAiel.jpg",
+            "titleImageCredit": "https://vignette.wikia.nocookie.net/wot/images/2/2e/VeiledAiel.JPG/revision/latest?cb=20190321020300",
+            "images": false,
+            "options": [
+                "Nakai",
+                "Shoufa",
+                "Bandana",
+                "Daryne"
+            ],
+            "answer": "Shoufa",
+            "explanation": "Rand sees the origins of the modern Aiel and the Shoufa in his visions of the past in the glass columns in Rhuidean."
+        },
+        {
+            "question": "At the time of the main story, how many Aiel clans are there?",
+            "titleImage": false,
+            "images": false,
+            "options": [
+                "10",
+                "11",
+                "12",
+                "13"
+            ],
+            "answer": "12",
+            "explanation": "There used to be 13 Aiel clans, but the Jenn Aiel who continued to follow the Way of the Leaf, went extinct."
+        }
+    ]
+}

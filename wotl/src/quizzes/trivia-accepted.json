@@ -1,0 +1,159 @@
+{
+    "type": "score",
+    "title": "Wheel of Time Trivia - Accepted Level",
+    "titleImageSource": "teotw-alt.jpg",
+    "titleImageCredit": "https://www.slashfilm.com/the-wheel-of-time-tv-series-director-uta-briesewitz/",
+    "titleImageArtist": "Darrell K. Sweet",
+    "endMessageBad": "The Wheel weaves as the Wheel wills, better luck on the next turning!",
+    "endMessageGood": "Good job!",
+    "endMessagePerfect": "Perfect! A True Wheel of Time expert!",
+    "questions": [
+        {
+            "question": "In which city are the headquarters of the Children of the Light?",
+            "titleImage": true,
+            "titleImageSource": "locations/Amador.jpg",
+            "titleImageCredit": "https://www.reddit.com/r/WoT/comments/e5ofu2/fortress_of_the_light/",
+            "titleImageArtist": "u/aeddub",
+            "images": false,
+            "options": [
+                "Amador",
+                "Ebou Dar",
+                "Illian",
+                "Tanchico"
+            ],
+            "answer": "Amador",
+            "explanation": "The Fortress of the Light is located in Amador, from where the Children rule Amadicia in all but name."
+        },
+        {
+            "question": "Which Forsaken visits Lews Therin Telamon in the prologue of the first book?",
+            "images": true,
+            "showValues": true,
+            "options": [
+                {
+                    "value": "Lanfear",
+                    "imageSource": "character-portraits/Lanfear.jpg",
+                    "imageCredit": "https://vignette.wikia.nocookie.net/wot/images/9/9d/LanfearPortrait.JPG/revision/latest?cb=20190306040729",
+                    "imageArtist": "Ariel Burgess"
+                },
+                {
+                    "value": "Sammael",
+                    "imageSource": "character-portraits/Sammael.jpg",
+                    "imageCredit": "https://vignette.wikia.nocookie.net/wot/images/e/ea/Sammael.JPG/revision/latest/scale-to-width-down/258?cb=20100321210833",
+                    "imageArtist": "Jeremy Saliba"
+                },
+                {
+                    "value": "Ishamael",
+                    "imageSource": "character-portraits/Ishamael.jpg",
+                    "imageCredit": "https://www.deviantart.com/etherealdc/art/Ishamael-The-Forsaken-594616121",
+                    "imageArtist": "EtherealDC"
+                }
+            ],
+            "answer": "Ishamael",
+            "explanation": "The prologue was used as the plot for the infamous tv pilot 'Winter Dragon' which only served to preserve the TV rights and aired in the middle of the night."
+        },
+        {
+            "question": "Where was Rand freed after he was captured by Aes Sedai on Elaida's command?",
+            "titleImage": true,
+            "titleImageSource": "LOC_Ebook_panoramic.png",
+            "titleImageCredit": "https://vignette.wikia.nocookie.net/wot/images/0/0b/LOC_Ebook_panoramic.png/revision/latest?cb=20100302224754",
+            "titleImageArtist": "Greg Manchess",
+            "images": false,
+            "options": [
+                "Tremonsien",
+                "Maerone",
+                "Dumai's Wells",
+                "Imre Stand"
+            ],
+            "answer": "Dumai's Wells",
+            "explanation": "The battle at Dumai's Wells was the first real demonstration of the poewr of the Asha'Man, and a traumatic event for most people involved."
+        },
+        {
+            "question": "Which Aes Sedai was born in Far Madding?",
+            "images": true,
+            "showValues": true,
+            "options": [
+                {
+                    "value": "Moiraine Damodred",
+                    "imageSource": "character-portraits/Moiraine.jpg",
+                    "imageCredit": "https://wot.fandom.com/wiki/Moiraine_Damodred?file=Moiraine_Damodred.JPG",
+                    "imageArtist": "Dan Dos Santos"
+                },
+                {
+                    "value": "Cadsuane Melaidhrin",
+                    "imageSource": "character-portraits/Cadsuane.jpg",
+                    "imageCredit": "https://www.picuki.com/tag/arielburgess",
+                    "imageArtist": "Ariel Burgess"
+                },
+                {
+                    "value": "Siuan Sanche",
+                    "imageSource": "character-portraits/Siuan.jpg",
+                    "imageCredit": "https://wot.fandom.com/wiki/Siuan_Sanche?file=Siuan2.jpg",
+                    "imageArtist": "John Seamas Gallagher"
+                }
+            ],
+            "answer": "Cadsuane Melaidhrin",
+            "explanation": "However, the leaders of Far Madding would rather forget this fact."
+        },
+        {
+            "question": "Which Aiel city do you need to enter to become a Wise One or Clan Chief?",
+            "titleImage": true,
+            "titleImageSource": "Rhuidean.jpg",
+            "titleImageCredit": "https://vignette.wikia.nocookie.net/wot/images/0/00/Rhuidean.jpg/revision/latest?cb=20100326005744",
+            "titleImageArtist": "Steve Snyder",
+            "images": false,
+            "options": [
+                "Rhuidean",
+                "Katar",
+                "Alcair Dal"
+            ],
+            "answer": "Rhuidean",
+            "explanation": "Rhuidean was built by the Jenn Aiel. Avendesora grows at its center and it was enshrouded by mist for centuries."
+        },
+        {
+            "question": "Which of these is the flag of Illian?",
+            "images": true,
+            "showValues": false,
+            "options": [
+                {
+                    "value": "Andor",
+                    "imageSource": "flags/Andor.jpg",
+                    "imageCredit": "https://vignette.wikia.nocookie.net/wot/images/8/82/Andor.JPG/revision/latest?cb=20100107021236",
+                    "imageArtist": "Todd Cameron Hamilton"
+                },
+                {
+                    "value": "Tear",
+                    "imageSource": "flags/Tear.jpg",
+                    "imageCredit": "https://vignette.wikia.nocookie.net/wot/images/d/d8/Tear.JPG/revision/latest?cb=20100111225346",
+                    "imageArtist": "Todd Cameron Hamilton"
+                },
+                {
+                    "value": "Illian",
+                    "imageSource": "flags/Illian.jpg",
+                    "imageCredit": "https://vignette.wikia.nocookie.net/wot/images/0/01/Illian.JPG/revision/latest?cb=20100112044023",
+                    "imageArtist": "Todd Cameron Hamilton"
+                },
+                {
+                    "value": "Cairhien",
+                    "imageSource": "flags/Cairhien.jpg",
+                    "imageCredit": "https://vignette.wikia.nocookie.net/wot/images/e/e8/Cairhien.JPG/revision/latest?cb=20100112044050",
+                    "imageArtist": "Todd Cameron Hamilton"
+                }
+            ],
+            "answer": "Illian",
+            "explanation": "The flag features the famous golden bees of Illian."
+        },
+        {
+            "question": "Which was the last of the current borderland countries to become a borderland country?",
+            "titleImage": false,
+            "images": false,
+            "options": [
+                "Saldaea",
+                "Kandor",
+                "Arafel",
+                "Shienar"
+            ],
+            "answer": "Shienar",
+            "explanation": "Shienar only became a true borderland country after the fall of Malkier."
+        }
+    ]
+}

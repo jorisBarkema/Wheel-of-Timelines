@@ -1,0 +1,124 @@
+{
+    "portraits": {
+        "Rand": {
+            "name": "Rand",
+            "height": 356,
+            "width": 328,
+            "paths": [],
+            "moving": false,
+            "location": {
+                "x": 2573,
+                "y": 2054
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "Mat": {
+            "name": "Mat",
+            "height": 200,
+            "width": 200,
+            "paths": [],
+            "moving": false,
+            "location": {
+                "x": 2597,
+                "y": 2057
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "Perrin": {
+            "name": "Perrin",
+            "height": 230,
+            "width": 230,
+            "paths": [],
+            "moving": false,
+            "location": {
+                "x": 2597,
+                "y": 2057
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "Egwene": {
+            "name": "Egwene",
+            "height": 250,
+            "width": 250,
+            "paths": [],
+            "moving": false,
+            "location": {
+                "x": 2597,
+                "y": 2057
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "Nynaeve": {
+            "name": "Nynaeve",
+            "height": 125,
+            "width": 125,
+            "paths": [],
+            "moving": false,
+            "location": {
+                "x": 2597,
+                "y": 2057
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "Moiraine": {
+            "name": "Moiraine",
+            "height": 113,
+            "width": 113,
+            "paths": [],
+            "moving": false,
+            "location": {
+                "x": 2597,
+                "y": 2057
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "Lan": {
+            "name": "Lan",
+            "height": 522,
+            "width": 522,
+            "paths": [],
+            "moving": false,
+            "location": {
+                "x": 2597,
+                "y": 2057
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "Thom": {
+            "name": "Thom",
+            "height": 200,
+            "width": 200,
+            "paths": [],
+            "moving": false,
+            "location": {
+                "x": 2597,
+                "y": 2057
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    }
+}
