@@ -1,0 +1,268 @@
+{
+    "type": "personality",
+    "title": "Which Ta'veren Are You?",
+    "titleImageSource": "quizzes/whichtaveren/three-taveren.png",
+    "titleImageCredit": "https://wot.fandom.com/wiki/Ta%27veren?file=Ta%27veren.png",
+    "titleImageArtist": "Eric de Mander",
+    "questions": [
+        {
+            "question": "Do you prefer the city or the countryside?",
+            "titleImage": false,
+            "images": true,
+            "showValues": true,
+            "options": [
+                {
+                    "value": "City",
+                    "imageSource": "quizzes/whichtaveren/city.jpg",
+                    "imageCredit": "https://www.pinterest.at/pin/413416440789754911/",
+                    "imageArtist": "Jungyeoll Kim"
+                },
+                {
+                    "value": "Countryside",
+                    "imageSource": "quizzes/whichtaveren/countryside.jpeg",
+                    "imageCredit": "https://image.cookly.me/tr:h-640,w-824,pr-true,rt-auto/tag_images/jumbotron/cookly-countryside-cooking-classes-cover_lRay18H.jpeg",
+                    "imageArtist": "Unknown"
+                }
+            ]
+        },
+        {
+            "question": "Do you consider yourself lazy?",
+            "titleImage": false,
+            "images": false,
+            "options": [
+                "Yes",
+                "No"
+            ]
+        },
+        {
+            "question": "Do you prefer wealth or knowledge?",
+            "titleImage": false,
+            "images": true,
+            "showValues": true,
+            "options": [
+                {
+                    "value": "Wealth",
+                    "imageSource": "quizzes/whichtaveren/wealth.jpg",
+                    "imageCredit": "https://clemensvdlinden.com/wp-content/uploads/2018/12/wealthinequality.jpg",
+                    "imageArtist": "Unknown"
+                },
+                {
+                    "value": "Knowledge",
+                    "imageSource": "quizzes/whichtaveren/knowledge.jpg",
+                    "imageCredit": "https://www.shutterstock.com/g/stevemart",
+                    "imageArtist": "Steve Mart"
+                }
+            ]
+        },
+        {
+            "question": "Do you consider yourself cautious?",
+            "titleImage": false,
+            "images": false,
+            "options": [
+                "Yes",
+                "No"
+            ]
+        },
+        {
+            "question": "Which of these is your spirit animal?",
+            "titleImage": false,
+            "images": true,
+            "showValues": true,
+            "options": [
+                {
+                    "value": "Raven",
+                    "imageSource": "quizzes/whichtaveren/ravens.jpg",
+                    "imageCredit": "https://www.reddit.com/r/drawing/comments/81y8ce/odins_ravens_huginn_muninn/",
+                    "imageArtist": "zsoriel"
+                },
+                {
+                    "value": "Dragon",
+                    "imageSource": "quizzes/whichtaveren/dragon.png",
+                    "imageCredit": "https://www.deviantart.com/norapotwora/art/C-Chinese-dragon-793239561",
+                    "imageArtist": "norapotwora"
+                },
+                {
+                    "value": "Wolf",
+                    "imageSource": "quizzes/whichtaveren/wolf.png",
+                    "imageCredit": "https://pngio.com/images/png-a914514.html",
+                    "imageArtist": "Unknown"
+                }
+            ]
+        },
+        {
+            "question": "Do you like pranks?",
+            "titleImage": false,
+            "images": false,
+            "options": [
+                "Yes",
+                "No"
+            ]
+        },
+        {
+            "question": "What is your general opinion on nobles",
+            "titleImage": false,
+            "images": false,
+            "options": [
+                "All of them lack common sense.",
+                "Like any other group of people, there are bad ones and good ones."
+            ]
+        },
+        {
+            "question": "Which of these images speak to you the most?",
+            "titleImage": false,
+            "images": true,
+            "showValues": false,
+            "options": [
+                {
+                    "value": "Odin",
+                    "imageSource": "quizzes/whichtaveren/Odin.jpg",
+                    "imageCredit": "https://www.viking-store.com/blogs/viking-norse-mythology/valhalla-vikings",
+                    "imageArtist": "Unknown"
+                },
+                {
+                    "value": "Perun",
+                    "imageSource": "quizzes/whichtaveren/perun.jpg",
+                    "imageCredit": "https://www.artstation.com/artwork/ND2eJ",
+                    "imageArtist": "Piotr Słabczyk"
+                },
+                {
+                    "value": "Arthur",
+                    "imageSource": "quizzes/whichtaveren/Arthur.jpg",
+                    "imageCredit": "https://www.deviantart.com/miguelcoimbra/art/Arthur-Pendragon-187771738",
+                    "imageArtist": "Miguel Coimbra"
+                }
+            ]
+        },
+        {
+            "question": "Finally, who is the best at talking with women?",
+            "titleImage": false,
+            "images": false,
+            "options": [
+                "Rand or Mat",
+                "Mat or Perrin",
+                "Perrin or Rand"
+            ]
+        }
+    ],
+    "points": [
+        {
+            "City": {"Rand al'Thor": 1, "Matrim Cauthon": 1},
+            "Countryside": {"Perrin Aybarra": 1}
+        },
+        {
+            "Yes": {"Matrim Cauthon": 1},
+            "No": {"Rand al'Thor": 1, "Perrin Aybarra": 1, "Matrim Cauthon": -1}
+        },
+        {
+            "Wealth": {"Matrim Cauthon": 1},
+            "Knowledge": {"Rand al'Thor": 1}
+        },
+        {
+            "Yes": {"Perrin Aybarra": 1},
+            "No": {"Matrim Cauthon": 1}
+        },
+        {
+            "Raven": {"Matrim Cauthon": 1},
+            "Dragon": {"Rand al'Thor": 1},
+            "Wolf": {"Perrin Aybarra": 1}
+        },
+        {
+            "Yes": {"Matrim Cauthon": 1},
+            "No": {"Matrim Cauthon": -1}
+        },
+        {
+            "All of them lack common sense": {"Matrim Cauthon": 1},
+            "Like any other group, there are bad ones and good ones": {"Rand al'Thor": 1, "Perrin Aybarra": 1}
+        },
+        {
+            "Odin": {"Matrim Cauthon": 1},
+            "Perun": {"Perrin Aybarra": 1},
+            "Arthur": {"Rand al'Thor": 1}
+        },
+        {
+            "Rand or Mat": {"Perrin Aybarra": 1},
+            "Mat or Perrin": {"Rand al'Thor": 1},
+            "Perrin or Rand": {"Matrim Cauthon": 1}
+        }
+    ],
+    "results": {
+        "Matrim Cauthon": {
+            "message": "The gambler and the trickster, you love pranks and always manage to find a game to play in a tavern to earn some extra gold an slip away from your work. Although it may not be obvious at first, you would do anything for your friends and are very loyal.",
+            "image": "character-portraits/mat.png",
+            "imageSource": "https://wot.fandom.com/wiki/Matrim_Cauthon?file=Avendesora.png",
+            "imageArtist": "Sam Weber"
+        },
+        "Rand al'Thor": {
+            "message": "While you are not a prankster yourself, you have no issue going along with them. In order to prepare for your destiny you sought out all of the knowledge you could find, and hope to even leave something behind where people can learn and rebuild after the wars.",
+            "image": "character-portraits/rand-crown-of-swords.jpg",
+            "imageSource": "https://twitter.com/artarielb",
+            "imageArtist": "Ariel Burgess"
+        },
+        "Perrin Aybarra": {
+            "message": "Most at home hard at work in the smithy or somewhere else, you are a cautious and calm person. You like to think everything over before making a decision, but sometimes your friends can drag you along on more impulsive adventures.",
+            "image": "character-portraits/perrin.jpg",
+            "imageSource": "https://wallhere.com/en/wallpaper/1029172",
+            "imageArtist": "Unknown"
+        },
+        "Aginor": {
+            "message": "A world-renowned biologist who works to win the war instead of the battle for the shadow, after joining the Dark One to continue his experiments. Single-handedly responsible for the creation of almost every type of Shadowspawn through genetic experimentation.",
+            "image": "character-portraits/Aginor.jpg",
+            "imageSource": "https://wot.fandom.com/wiki/Aginor?file=Aginor.jpg",
+            "imageArtist": "John Seamas Gallagher"
+        },
+        "Balthamel": {
+            "message": "A historian who loved gambling and women. He joined the shadow for eternal life, and served mainly using his intelligence network and organisational skills.",
+            "image": "character-portraits/Balthamel.jpg",
+            "imageSource": "https://wot.fandom.com/wiki/Balthamel?file=Balthamel.jpg",
+            "imageArtist": "John Seamas Gallagher"
+        },
+        "Asmodean": {
+            "message": "A musician who did not get the recognition he deserved, and thus joined the Dark One to get revenge on his former colleagues.",
+            "image": "character-portraits/Asmodean.jpg",
+            "imageSource": "https://wot.fandom.com/wiki/Asmodean?file=Asmodean.jpg",
+            "imageArtist": "John Seamas Gallagher"
+        },
+        "Be'lal": {
+            "message": "A great swordsman and manipulator. The Dragon always eclipsed him, and he joined the Dark One out of jealousy. His mastery of manipulation earned him the nickname Netweaver.",
+            "image": "character-portraits/Belal.jpg",
+            "imageSource": "https://wot.fandom.com/wiki/Be'lal?file=Belal.jpg",
+            "imageArtist": "John Seamas Gallagher"
+        },
+        "Lanfear": {
+            "message": "The most beautiful woman to walk the earth. She drilled the bore in the Dark One's prison in her lust for power. She loved the dragon, and joined the Dark One after he left her.",
+            "image": "character-portraits/Lanfear.jpg",
+            "imageSource": "https://vignette.wikia.nocookie.net/wot/images/9/9d/LanfearPortrait.JPG/revision/latest?cb=20190306040729",
+            "imageArtist": "Ariel Burgess"
+        },
+        "Semirhage": {
+            "message": "The best healer in the Age of Legends. She loved pain, and gave a little extra to the people she healed. When this was discovered she ran away and joined the Dark One.",
+            "image": "character-portraits/Semirhage.jpg",
+            "imageSource": "https://vignette.wikia.nocookie.net/wot/images/2/27/SemirhagePortrait.JPG/revision/latest?cb=20190309032730",
+            "imageArtist": "Ariel Burgess"
+        },
+        "Mesaana": {
+            "message": "She wanted to be a researcher, but was deemed unfit and became a teacher. After joining the Dark One she turned children against their parents in her schools.",
+            "image": "character-portraits/Mesaana.jpg",
+            "imageSource": "https://vignette.wikia.nocookie.net/wot/images/d/d2/Mesaana.jpg/revision/latest?cb=20091212065906",
+            "imageArtist": "John Seamas Gallagher"
+        },
+        "Graendal": {
+            "message": "An extremely skilled psychologist who lived an unadorned life. She joined the Dark One when she realised the world could not live up to her stanards, and after joining indulged in all of her pleasures.",
+            "image": "character-portraits/Graendal.jpg",
+            "imageSource": "https://wot.fandom.com/wiki/Graendal?file=Graendal.JPG",
+            "imageArtist": "Jeremy Saliba"
+        },
+        "Moghedien": {
+            "message": "Known as the spider, she fights from the shadows. Never one to confront head-on, she gets results by manipulating everyone without them even knowing it.",
+            "image": "character-portraits/Moghedien.jpg",
+            "imageSource": "https://wot.fandom.com/wiki/Moghedien?file=Moghedien.jpg",
+            "imageArtist": "John Seamas Gallagher"
+        },
+        "none of the Forsaken": {
+            "message": "You are much too trusting and humble to be one of the Chosen. You also do not like torture or violence, so maybe a career as a darkfriend is just not for you!",
+            "image": "puppy.png",
+            "imageSource": "https://www.yarrah.com/en/blog/2018/12/10/buying-a-puppy-what-to-look-for/",
+            "imageArtist": "unknown"
+        }
+    }
+}

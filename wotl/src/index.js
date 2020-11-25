@@ -108,7 +108,8 @@ import triviaAesSedai from './quizzes/trivia-aessedai.json';
 //import aielWaste from './quizzes/aiel-waste.json';
 import whosaidit from './quizzes/whosaidit.json';
 import whichForsaken from './quizzes/which-forsaken-are-you.json';
-import dropNation from './quizzes/drop-nations.json' ;
+import whichTaveren from './quizzes/which-taveren-are-you.json';
+//import dropNation from './quizzes/drop-nations.json' ;
 
 import firstBlog from './blogs/first-blog.jsx';
 import makingBlog from './blogs/making-map-blog.jsx';
@@ -144,7 +145,7 @@ let blogposts = [
     }
 ]
 
-let quizzes = [dropNation, whosaidit, whichForsaken, triviaNovice, triviaAccepted, triviaAesSedai];
+let quizzes = [whichTaveren, whosaidit, whichForsaken, triviaNovice, triviaAccepted, triviaAesSedai];
 
 ReactGA.initialize('UA-72578995-3');
 

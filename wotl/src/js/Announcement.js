@@ -11,8 +11,8 @@ function Announcement() {
                     Latest Map Update
                 </h3>
                 <p>
-                    <a style={{color: '#6d7289'}} href="/map">Routes: Crossroads of Twilight</a> <br />
-                    <a style={{color: '#6d7289'}} href="/map">Timeline: Complete!</a> <br />
+                    <a style={{color: '#6d7289'}} href="/map">New map!</a> <br />
+                    <a style={{color: '#6d7289'}} href="/map">Timeline: Complete</a> <br />
                     <a style={{color: '#6d7289'}} href="/map">Locations and Nations Info</a>
                 </p>
             </div>
@@ -22,7 +22,7 @@ function Announcement() {
                     Latest Quizzes
                 </h3>
                 <p>
-                    <a style={{color: '#6d7289'}} href="/quizzes/Can_You_Place_Every_Flag">Can You Place Every Flag?</a> <br />
+                    <a style={{color: '#6d7289'}} href="/quizzes/Which_Ta'veren_Are_You">Which Ta'veren Are You?</a> <br />
                     <a style={{color: '#6d7289'}} href="/quizzes/Which_Forsaken_Are_You">Which Forsaken Are You?</a>
                 </p>
             </div>
