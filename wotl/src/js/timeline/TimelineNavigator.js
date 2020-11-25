@@ -16,20 +16,20 @@ class TimelineNavigator extends React.Component {
 
     render = () => {
 
-        let current_img_src = images('./' + this.getImage(this.state.currentBook));
+        let current_img_src = images('./' + this.getImage(this.state.currentBook)).default;
 
         let next_book = this.getNextVisibleBook()
         let next_img_src = null;
 
         if (next_book !== null) {
-            next_img_src = images('./' + this.getImage(next_book));
+            next_img_src = images('./' + this.getImage(next_book)).default;
         }
 
         let previous_book = this.getPreviousVisibleBook();
         let previous_img_src = null;
 
         if (previous_book !== null) {
-            previous_img_src = images('./' + this.getImage(previous_book));
+            previous_img_src = images('./' + this.getImage(previous_book)).default;
         }
 
         return (

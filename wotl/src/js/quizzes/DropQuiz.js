@@ -63,7 +63,7 @@ class DropQuiz extends Quiz {
 
     render = () => {
 
-        let img_src = images("./" + this.state.titleImageSource);
+        let img_src = images("./" + this.state.titleImageSource).default;
 
         return (
             <div>
@@ -73,7 +73,7 @@ class DropQuiz extends Quiz {
                     <div className="col-xs-12 col-sm-8 content">
                     
                         <div id="title-container">
-                            <img src={images('./banner-quizzes.png')} alt="Wheel of Timelines banner" />
+                            <img src={images('./banner-quizzes.png').default} alt="Wheel of Timelines banner" />
                         </div>
 
                         <div className="inner-content quiz">
@@ -156,7 +156,7 @@ class DropQuiz extends Quiz {
                                                 <URLImage 
                                                     listening={false} 
                                                     enablePerfectDrawing={false} 
-                                                    src={images("./" + this.props.data.dropArea.image)}
+                                                    src={images("./" + this.props.data.dropArea.image).default}
                                                     x={this.props.data.dropArea.offsetx}
                                                     y={this.props.data.dropArea.offsety}
                                                 />
@@ -177,7 +177,7 @@ class DropQuiz extends Quiz {
                                                             <URLImage 
                                                                 listening={false} 
                                                                 enablePerfectDrawing={false} 
-                                                                src={images("./" + question.dropImage)}
+                                                                src={images("./" + question.dropImage).default}
                                                                 x={this.props.data.dropArea.offsetx + question.dropLocationX}
                                                                 y={this.props.data.dropArea.offsety + question.dropLocationY}
                                                                 key={index}
@@ -356,7 +356,7 @@ class DropQuiz extends Quiz {
             <URLImage 
                 name={question.name}
                 opacity={this.questionToOpacity(question)}
-                src={images("./" + question.image)} 
+                src={images("./" + question.image).default} 
                 x={this.getDraggablePositionX(question, index)} 
                 y={this.getDraggablePositionY(question, index)}
                 scaleX={this.state.questionScale}

@@ -36,8 +36,8 @@ class Map extends React.Component {
         
         this.mounted = false;
         
-        this.hd_image = images("./map-v2.png");
-        this.ld_image = images("./map-v2.png");
+        this.hd_image = images("./map-v2.png").default;
+        this.ld_image = images("./map-v2.png").default;
 
         //this.ld_image = images("./Map-LD.jpg");
         //this.map_image = this.hd_image;
@@ -95,8 +95,8 @@ class Map extends React.Component {
 
     render = () => {
 
-        let arrow_left = images("./icons8-arrow-left-64.png");
-        let arrow_right = images("./icons8-arrow-right-64.png");
+        let arrow_left = images("./icons8-arrow-left-64.png").default;
+        let arrow_right = images("./icons8-arrow-right-64.png").default;
 
         // Volledige map in 1 image
         //<URLImage onImageLoaded={() => this.onMapLoaded()} listening={false} enablePerfectDrawing={false} src={this.state.map_image}/>

@@ -14,8 +14,8 @@ class BlogSideNote extends React.Component {
 
     render = () => {
 
-        let info_icon = images('./blog_assets/info-icon.png');
-        let spoiler_icon = images('./blog_assets/spoiler-icon.png');
+        let info_icon = images('./blog_assets/info-icon.png').default;
+        let spoiler_icon = images('./blog_assets/spoiler-icon.png').default;
 
         // <span className="sidenote-icon" onClick={() => this.switchDisplay()}><img src={info_icon} alt="info" /></span>
         return (
@@ -36,7 +36,7 @@ class BlogSideNote extends React.Component {
                             borderRadius: "4px"
                         }}
                     >
-                        <img id="close-image" src={images('./icons8-close-window-52.png')} alt="X" onClick={() => this.switchDisplay()}/>
+                        <img id="close-image" src={images('./icons8-close-window-52.png').default} alt="X" onClick={() => this.switchDisplay()}/>
                         {this.props.children} 
                     </div> : 
                     <img className="sidenote-icon" onClick={() => this.switchDisplay()} src={this.props.spoiler ? spoiler_icon : info_icon} alt="info" />

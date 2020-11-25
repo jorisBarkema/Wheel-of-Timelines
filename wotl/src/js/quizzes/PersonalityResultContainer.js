@@ -8,8 +8,8 @@ class PersonalityResultContainer extends React.Component {
 
     render = () => {
 
-        let restart = images("./icons8-restart-26.png");
-        let img_src = images("./" + this.props.results[this.props.answer].image);
+        let restart = images("./icons8-restart-26.png").default;
+        let img_src = images("./" + this.props.results[this.props.answer].image).default;
         let img_link = this.props.results[this.props.answer].imageSource;
         let img_artist = this.props.results[this.props.answer].imageArtist;
         let message = this.props.results[this.props.answer].message;

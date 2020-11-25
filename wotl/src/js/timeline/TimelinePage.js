@@ -73,7 +73,7 @@ class TimelinePage extends React.Component {
                     <div id="timeline-container" className="col-xs-12 col-md-8 content" style={{paddingBottom: "0px"}}>
 
                         <div id="title-container">
-                            <img src={images('./banner-timeline.png')} alt="Wheel of Timelines banner" />
+                            <img src={images('./banner-timeline.png').default} alt="Wheel of Timelines banner" />
                         </div>
 
                         <div className="inner-content">
@@ -83,7 +83,7 @@ class TimelinePage extends React.Component {
                                     and per person involved for the eight main characters from the start of the series. <br /> 
                                     <br />
                                     If you want to compare the journeys of two (or more) characters, you can split the timeline to show the timeline for two selections of people.
-                                    If you like this website, please support it via <a href="https://www.patreon.com/wheeloftimelines"><img className="inline-img" src={images('./patreon-logo.png')} alt="Patreon" />Patreon</a>,
+                                    If you like this website, please support it via <a href="https://www.patreon.com/wheeloftimelines"><img className="inline-img" src={images('./patreon-logo.png').default} alt="Patreon" />Patreon</a>,
                                     it really makes a difference!<br />
                                     <br />
                                     <b>Note:</b> not all events in the books happen chronologically, so especially in the later books some events of a book may happen before the timeline says that book begins, or after the next book has already begun.
@@ -99,7 +99,7 @@ class TimelinePage extends React.Component {
                                     aria-controls="books-collapse"
                                     aria-expanded={this.state.bookSelectionOpen}
                                 >
-                                    <img className="inline-img" src={images('./icons8-book-stack-52.png')} alt="Books"/> Book Selection
+                                    <img className="inline-img" src={images('./icons8-book-stack-52.png').default} alt="Books"/> Book Selection
                                 </Button>
                                 <Collapse in={this.state.bookSelectionOpen}>
                                     <div id="books-collapse">
@@ -117,7 +117,7 @@ class TimelinePage extends React.Component {
                                     aria-controls="characters-collapse"
                                     aria-expanded={this.state.characterSelectionOpen}
                                 >
-                                    <img className="inline-img" src={images('./icons8-person-48.png')} alt="Characters"/> Character Selection
+                                    <img className="inline-img" src={images('./icons8-person-48.png').default} alt="Characters"/> Character Selection
                                 </Button>
                                 <Collapse in={this.state.characterSelectionOpen}>
                                     <div id="characters-collapse">
@@ -144,7 +144,7 @@ class TimelinePage extends React.Component {
                                     aria-controls="timeline-collapse"
                                     aria-expanded={this.state.timelineSettingsOpen}
                                 >
-                                    <img className="inline-img" src={images('./icons8-timeline-52.png')} alt="Timeline Settings"/> Timeline Settings
+                                    <img className="inline-img" src={images('./icons8-timeline-52.png').default} alt="Timeline Settings"/> Timeline Settings
                                 </Button>
                                 <Collapse in={this.state.timelineSettingsOpen}>
                                     <div id="timeline-collapse">
@@ -175,7 +175,7 @@ class TimelinePage extends React.Component {
                                     onClick={() => this.showNextInvisibleBook()}
                                     disabled={!(this.finalVisibleBook() < 13)}
                                 >
-                                    <img className="inline-img" src={images('./icons8-down-button-64.png')} alt="More"/> Show More
+                                    <img className="inline-img" src={images('./icons8-down-button-64.png').default} alt="More"/> Show More
                                 </Button>
                             </div>
                             

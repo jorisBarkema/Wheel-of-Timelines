@@ -37,7 +37,7 @@ function post() {
             </div>
 
             <div className='blogpost-image-container'>
-                <img src={images('./blog_assets/moiraineteaching.jpg')} alt="Moiraine as Mentor"/>
+                <img src={images('./blog_assets/moiraineteaching.jpg').default} alt="Moiraine as Mentor"/>
                 <p>
                     Moiraine's role as Mentor is to guide the inexperienced Emond's Fielders as they begin their adventure. She also becomes a very literal mentor for Egwene, teaching her to channel the One Power. <a href="https://i.imgur.com/s0EoB8W.jpg">Image source</a> by Lightwaved.
                 </p>
@@ -175,7 +175,7 @@ function post() {
             </div>
 
             <div className='blogpost-image-container'>
-                <img src={images('./blog_assets/faldara.jpg')} alt="The party reaching Fal Dara"/>
+                <img src={images('./blog_assets/faldara.jpg').default} alt="The party reaching Fal Dara"/>
                 <p>
                     The party enterse Fal Dara after having gone through the Ways. This will be their final rest before going through the Ordeal. <a href="https://i.imgur.com/gzkjP6p.jpg">Image source</a> by Lightwaved.
                 </p>

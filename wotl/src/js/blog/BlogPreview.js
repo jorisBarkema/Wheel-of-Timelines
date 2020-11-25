@@ -20,7 +20,7 @@ class BlogPreview extends React.Component {
 
     render = () => {
 
-        let titleImgSrc = images('./' + this.state.titleImage);
+        let titleImgSrc = images('./' + this.state.titleImage).default;
         let className = this.props.last ? "blog-preview last" : "blog-preview";
 
         return (

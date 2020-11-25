@@ -35,7 +35,7 @@ class BlogFooter extends React.Component {
                                     color="primary"
                                     className={'button'}
                                     size="small">
-                                    <img src={images('./icons8-email-send-32.png')} alt="Subscribe to mailing list"/> Subscribe
+                                    <img src={images('./icons8-email-send-32.png').default} alt="Subscribe to mailing list"/> Subscribe
                                 </Button>
                             </div>
                         </div>

@@ -27,7 +27,7 @@ function post() {
             </div>
 
             <div className='blogpost-image-container'>
-                <img src={images('./blog_assets/oldTimelineMap.png')} alt="Screenshot of the old Wheel of Timelines map"/>
+                <img src={images('./blog_assets/oldTimelineMap.png').default} alt="Screenshot of the old Wheel of Timelines map"/>
                 <p>
                     A screenshot of the first version of the timeline map.
                 </p>

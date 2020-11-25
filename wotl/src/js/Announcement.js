@@ -7,7 +7,7 @@ function Announcement() {
         <div id="announcement" className="row">
             <div className="col-12 col-lg-4">
                 <h3>
-                    <img src={images('./icons8-map-marker-52.png')} alt="Map" />
+                    <img src={images('./icons8-map-marker-52.png').default} alt="Map" />
                     Latest Map Update
                 </h3>
                 <p>
@@ -18,7 +18,7 @@ function Announcement() {
             </div>
             <div className="col-12 col-lg-4">
                 <h3>
-                    <img src={images('./icons8-questions-52.png')} alt="Quizzes" />
+                    <img src={images('./icons8-questions-52.png').default} alt="Quizzes" />
                     Latest Quizzes
                 </h3>
                 <p>
@@ -28,7 +28,7 @@ function Announcement() {
             </div>
             <div className="col-12 col-lg-4">
                 <h3>
-                    <img src={images('./icons8-blog-64.png')} alt="Blog" />
+                    <img src={images('./icons8-blog-64.png').default} alt="Blog" />
                     Latest Blog Post
                 </h3>
                 <p>

@@ -7,7 +7,7 @@ class PatreonMenuContainer extends React.Component {
     render = () => {
 
         let id = this.props.first ? "menu-first-container" : "";
-        let patreon_src = images("./become_a_patron_button.png");
+        let patreon_src = images("./become_a_patron_button.png").default;
 
         return (
             <div className="menu-container" id={id}>

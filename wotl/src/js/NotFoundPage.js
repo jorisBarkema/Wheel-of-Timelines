@@ -15,7 +15,7 @@ class NotFoundPage extends React.Component {
                 <MainMenu />
 
                 <div id="title-container">
-                    <img src={images('./banner.png')} alt="Wheel of Timelines banner" />
+                    <img src={images('./banner.png').default} alt="Wheel of Timelines banner" />
                 </div>
 
                 <div id="page-not-found-container">
@@ -28,7 +28,7 @@ class NotFoundPage extends React.Component {
                             color="primary"
                             className={'button'}
                             size="large">
-                            <img src={images('./icons8-email-send-32.png')} alt="Go to homepage"/> Go back to the homepage
+                            <img src={images('./icons8-email-send-32.png').default} alt="Go to homepage"/> Go back to the homepage
                         </Button>
                     </h1>
                 </div>

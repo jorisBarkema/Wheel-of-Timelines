@@ -27,7 +27,7 @@ class PersonalityQuiz extends Quiz {
 
     render = () => {
 
-        let img_src = images("./" + this.state.titleImageSource);
+        let img_src = images("./" + this.state.titleImageSource).default;
         
         let callback = this.handleQuestionAnswered;
 
@@ -51,7 +51,7 @@ class PersonalityQuiz extends Quiz {
                     <div className="col-xs-12 col-sm-8 content">
                     
                         <div id="title-container">
-                            <img src={images('./banner-quizzes.png')} alt="Wheel of Timelines banner" />
+                            <img src={images('./banner-quizzes.png').default} alt="Wheel of Timelines banner" />
                         </div>
 
                         <div className="inner-content">

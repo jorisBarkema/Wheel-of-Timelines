@@ -134,7 +134,7 @@ class MapMenu extends React.Component {
                             <h2>Credits</h2>
 
                             <div className="menu-div">
-                                <p><a href={images("./Map-with-colours.png")}>The full map</a> of the Westlands and the Aiel Waste is available for personal use only</p>
+                                <p><a href={images("./Map-with-colours.png").default}>The full map</a> of the Westlands and the Aiel Waste is available for personal use only</p>
                                 <p>The Westlands portion of the map is based on the map by <a href="https://atlasoficeandfireblog.files.wordpress.com/2016/08/wheel-of-time-colour-map.jpg?w=768">Ellisa Mitchell</a></p>
                                 <p>The Aiel Waste portion of the map is based on the map from <a href="https://atlasoficeandfireblog.wordpress.com/2018/09/23/the-wheel-of-time-atlas-the-aiel-waste/">this article</a></p>
                                 <p>Font of the map: <a href="http://artsyomni.com/hyliaserif/download">Hyliaserif</a> by artsyomni</p>
@@ -152,7 +152,7 @@ class MapMenu extends React.Component {
                         <div className="menu-container" id="menu-first-container">
 
                             <h3>
-                                <img src={images('./icons8-map-marker-grey-52.png')} alt="Map" />
+                                <img src={images('./icons8-map-marker-grey-52.png').default} alt="Map" />
                                 Latest Map Update
                             </h3>
 
@@ -169,7 +169,7 @@ class MapMenu extends React.Component {
                             </div>
 
                             <h2>
-                                <img src={images('./icons8-settings-grey-48.png')} alt="Settings" />
+                                <img src={images('./icons8-settings-grey-48.png').default} alt="Settings" />
                                 Settings
                             </h2>
 
@@ -209,7 +209,7 @@ class MapMenu extends React.Component {
                             </div>
                             
                             <h2>
-                                <img src={images('./icons8-book-stack-52-grey.png')} alt="Book Filters" />
+                                <img src={images('./icons8-book-stack-52-grey.png').default} alt="Book Filters" />
                                 Book Filters
                             </h2>
 
@@ -303,7 +303,7 @@ class MapMenu extends React.Component {
                             </div>
 
                             <h2>
-                                <img src={images('./icons8-person-48-grey.png')} alt="Character Filters" />
+                                <img src={images('./icons8-person-48-grey.png').default} alt="Character Filters" />
                                 Character Filters
                             </h2>
 

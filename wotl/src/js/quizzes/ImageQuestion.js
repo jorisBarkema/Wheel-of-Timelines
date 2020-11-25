@@ -19,9 +19,9 @@ class ImageQuestion extends Question {
                     { this.state.options.map(
                         (option, index) => {
                             
-                            let img_src = images("./" + option.imageSource);
-                            let right_source = images("./right.png");
-                            let wrong_source = images("./wrong.png");
+                            let img_src = images("./" + option.imageSource).default;
+                            let right_source = images("./right.png").default;
+                            let wrong_source = images("./wrong.png").default;
 
                             let column_count = (this.state.options.length % 3 === 0 && this.state.options.length % 2 !== 0) ? 4 : 6;
 

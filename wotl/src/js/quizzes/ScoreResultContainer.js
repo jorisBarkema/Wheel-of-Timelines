@@ -18,9 +18,9 @@ class ScoreResultContainer extends React.Component {
 
     render = () => {
 
-        let restart = images("./icons8-restart-26.png");
-        let back = images("./icons8-back-24.png")
-        let img_src = images("./" + this.state.image);
+        let restart = images("./icons8-restart-26.png").default;
+        let back = images("./icons8-back-24.png").default;
+        let img_src = images("./" + this.state.image).default;
         let message = "Well done!";
 
         let percentage = this.state.score / this.state.total;

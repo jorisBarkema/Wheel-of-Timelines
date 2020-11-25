@@ -24,7 +24,7 @@ class BlogPost extends React.Component {
 
     render = () => {
 
-        let titleImgSrc = images('./' + this.state.titleImage);
+        let titleImgSrc = images('./' + this.state.titleImage).default;
 
         return (
 
@@ -39,7 +39,7 @@ class BlogPost extends React.Component {
                         <div className="col-xs-12 col-sm-8 content">
 
                             <div id="title-container">
-                                <img src={images('./banner-blog.png')} alt="Wheel of Timelines banner" />
+                                <img src={images('./banner-blog.png').default} alt="Wheel of Timelines banner" />
                             </div>
 
                             <div className="inner-content">

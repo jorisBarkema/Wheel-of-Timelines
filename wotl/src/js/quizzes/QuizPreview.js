@@ -17,7 +17,7 @@ class QuizPreview extends React.Component {
 
     render = () => {
 
-        let img_src = images('./' + this.state.image);
+        let img_src = images('./' + this.state.image).default;
         return (
             <div className="col-12 col-md-6">
                 <div className="white-text quiz-preview shadowed" style={{backgroundImage: "url(" + img_src + ")"}}

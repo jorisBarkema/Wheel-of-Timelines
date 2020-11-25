@@ -9,7 +9,7 @@ class LocationContainer extends React.Component {
 
     render = () => {
 
-        let close_icon = images("./icons8-close-window-52.png");
+        let close_icon = images("./icons8-close-window-52.png").default;
 
         let className = isMobile ? "col-12" : "col-4";
 
@@ -20,7 +20,7 @@ class LocationContainer extends React.Component {
                     <div id="location-image" className={className}>
                      
                         <div style={{height: '100%', width: '100%'}}>
-                            <img src={images("./locations/" + locations[this.props.name].image)} alt={this.props.name + " image"} /> <br />
+                            <img src={images("./locations/" + locations[this.props.name].image).default} alt={this.props.name + " image"} /> <br />
                             <span className="credit"><a href={locations[this.props.name].imageSource}>image source</a> by {locations[this.props.name].imageCredit}</span>
                         </div>
                         
@@ -44,7 +44,7 @@ class LocationContainer extends React.Component {
                         return (
                             <div key={index} className="row location-event-container" onClick={() => this.goToEvent(eventpair.number)}>
                                 <div className="col-12 col-md-5 col-xl-3">
-                                    <img src={images("./event-icons/" + eventpair.event.icon)} alt="icon"/>
+                                    <img src={images("./event-icons/" + eventpair.event.icon).default} alt="icon"/>
                                 </div>
                                 <div className="col-12 col-md-7 col-xs-9">
                                     <h3>{eventpair.event.title}</h3>

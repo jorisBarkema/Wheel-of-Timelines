@@ -20,13 +20,13 @@ class ListQuestion extends Question {
 
     render = () => {
 
-        let empty = images("./unanswered-box.png");
-        let wrong = images("./wrong.png");
-        let right = images("./right.png");
-        let answered_image = images("./answered.png");
+        let empty = images("./unanswered-box.png").default;
+        let wrong = images("./wrong.png").default;
+        let right = images("./right.png").default;
+        let answered_image = images("./answered.png").default;
         let img_src = null;
 
-        if (this.state.titleImage) img_src = images("./" + this.state.titleImageSource);
+        if (this.state.titleImage) img_src = images("./" + this.state.titleImageSource).default;
 
         return (
             <div className = "question list-question">

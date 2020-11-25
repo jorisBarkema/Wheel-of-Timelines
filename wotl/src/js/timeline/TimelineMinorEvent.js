@@ -17,7 +17,7 @@ class TimelineMinorEvent extends React.Component {
                     <p>{this.props.event.timeline_one ? this.props.event.description : null}</p>
                 </td>
                 <td>
-                    <img src={images("./Wheel-icon.svg")} alt="Event icon" />
+                    <img src={images("./Wheel-icon.svg").default} alt="Event icon" />
                 </td>
                 <td></td>
                 <td>
@@ -30,7 +30,7 @@ class TimelineMinorEvent extends React.Component {
                     <DateContainer date={this.props.event.date === "" ? "" : this.dateToString(this.props.event.date)} />
                 </td>
                 <td>
-                    <img src={images("./Wheel-icon.svg")} alt="Event icon" />
+                    <img src={images("./Wheel-icon.svg").default} alt="Event icon" />
                 </td>
                 <td></td>
                 <td>

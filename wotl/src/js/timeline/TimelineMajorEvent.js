@@ -19,7 +19,7 @@ class TimelineMajorEvent extends React.Component {
                     <p>{this.props.event.timeline_one ? this.props.event.description : null}</p>
                 </td>
                 <td>
-                    <img src={images("./" + this.props.event.icon)} alt="Event icon" />
+                    <img src={images("./" + this.props.event.icon).default} alt="Event icon" />
                 </td>
                 <td>
                     <h3>{this.props.event.timeline_two ? this.props.event.title : null}</h3>
@@ -34,7 +34,7 @@ class TimelineMajorEvent extends React.Component {
                     <DateContainer date={this.props.event.date === "" ? "" : this.dateToString(this.props.event.date)} />
                 </td>
                 <td>
-                    <img src={images("./" + this.props.event.icon)} alt="Event icon" />
+                    <img src={images("./" + this.props.event.icon).default} alt="Event icon" />
                 </td>
                 <td>
                     <h3>{this.props.event.title}</h3>

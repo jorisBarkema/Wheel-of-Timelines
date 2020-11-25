@@ -34,8 +34,8 @@ class Header extends React.Component {
 
     render = () => {
 
-        let wheel_src = images("./Wheel-icon.svg");
-        let patreon_src = images("./become_a_patron_button.png");
+        let wheel_src = images("./Wheel-icon.svg").default;
+        let patreon_src = images("./become_a_patron_button.png").default;
 
         return (
             <div id="footer" className="card-columns">

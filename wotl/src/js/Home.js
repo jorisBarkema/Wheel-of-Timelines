@@ -43,7 +43,7 @@ class Home extends React.Component {
                         <div className="col-xs-12 col-sm-8 content">
                         
                             <div id="title-container">
-                                <img src={images('./banner.png')} alt="Wheel of Timelines banner" />
+                                <img src={images('./banner.png').default} alt="Wheel of Timelines banner" />
                             </div>
 
                             <div className="inner-content">
@@ -54,7 +54,7 @@ class Home extends React.Component {
 
                                 <div className="home-item">
                                 
-                                    <div className="image shadowed" style={{backgroundImage: "url(" + images('./Map-screenshot.png') + ")", cursor: "pointer"}} onClick={() => navigate('/map')}></div>
+                                    <div className="image shadowed" style={{backgroundImage: "url(" + images('./Map-screenshot.png').default + ")", cursor: "pointer"}} onClick={() => navigate('/map')}></div>
                                     <span className="credit"> </span>
                                     <h2>
                                         <Button
@@ -63,7 +63,7 @@ class Home extends React.Component {
                                             color="primary"
                                             className={'button'}
                                             size="large">
-                                            <img src={images('./icons8-email-send-32.png')} alt="Go to map"/> Visit the Map
+                                            <img src={images('./icons8-email-send-32.png').default} alt="Go to map"/> Visit the Map
                                         </Button>
                                     </h2>
                                 </div>
@@ -80,14 +80,14 @@ class Home extends React.Component {
                                             color="primary"
                                             className={'button'}
                                             size="large">
-                                            <img src={images('./icons8-email-send-32.png')} alt="Go to quizzes" /> Try the Quizzes
+                                            <img src={images('./icons8-email-send-32.png').default} alt="Go to quizzes" /> Try the Quizzes
                                         </Button>
                                     </h2>
                                 </div>
 
                                 <div className="home-item">
                                 
-                                    <div className="image shadowed" style={{backgroundImage: "url(" + images('./timeline-preview.png') + ")", cursor: "pointer"}} onClick={() => navigate('/timeline')}></div>
+                                    <div className="image shadowed" style={{backgroundImage: "url(" + images('./timeline-preview.png').default + ")", cursor: "pointer"}} onClick={() => navigate('/timeline')}></div>
                                     <span className="credit"> </span>
                                     <h2>
                                         <Button
@@ -96,7 +96,7 @@ class Home extends React.Component {
                                             color="primary"
                                             className={'button'}
                                             size="large">
-                                            <img src={images('./icons8-email-send-32.png')} alt="View the timeline"/> View the timeline
+                                            <img src={images('./icons8-email-send-32.png').default} alt="View the timeline"/> View the timeline
                                         </Button>
                                     </h2>
                                 </div>
@@ -113,7 +113,7 @@ class Home extends React.Component {
                                             color="primary"
                                             className={'button'}
                                             size="large">
-                                            <img src={images('./icons8-email-send-32.png')} alt="Go to blog" /> Read the Blog
+                                            <img src={images('./icons8-email-send-32.png').default} alt="Go to blog" /> Read the Blog
                                         </Button>
                                     </h2>
                                 </div>

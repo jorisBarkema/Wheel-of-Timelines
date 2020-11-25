@@ -8,7 +8,7 @@ class EventContainer extends React.Component {
 
     render = () => {
 
-        let icon = images("./" + this.props.event.icon);
+        let icon = images("./" + this.props.event.icon).default;
 
         return (
             <div className={this.posToBSClasses(this.props.pos) + " event-container"}>

@@ -38,7 +38,7 @@ function post() {
             </div>
 
             <div className='blogpost-image-container'>
-                <img src={images('./blog_assets/maps.jpg')} alt="The maps my map is largely based on."/>
+                <img src={images('./blog_assets/maps.jpg').default} alt="The maps my map is largely based on."/>
                 <p>
                 The maps my map is largely based on, merged to overlap correctly. Westlands map by Elissa Mitchell, Aiel Waste map from <a href="https://atlasoficeandfireblog.wordpress.com/2018/09/23/the-wheel-of-time-atlas-the-aiel-waste/">Atlas of Ice and Fire</a>
                 </p>
@@ -72,7 +72,7 @@ function post() {
             </div>
 
             <div className='blogpost-image-container'>
-                <img src={images('./blog_assets/coast-mountains-bw.png')} alt="Mountains and Coast"/>
+                <img src={images('./blog_assets/coast-mountains-bw.png').default} alt="Mountains and Coast"/>
                 <p>
                     Purely the coastline and the mountain ranges already gives a pretty good idea of the layout of the world.
                 </p>
@@ -87,7 +87,7 @@ function post() {
             </div>
 
             <div className='blogpost-image-container'>
-                <img src={images('./blog_assets/no-cities-no-background.png')} alt="Rivers, forest and decorations"/>
+                <img src={images('./blog_assets/no-cities-no-background.png').default} alt="Rivers, forest and decorations"/>
                 <p>
                     There are three major landmarks added on the map, coincidentally all based on hands. I will probably slowly add more, become a patron to let me know which one you would like to see!
                 </p>
@@ -101,7 +101,7 @@ function post() {
             </div>
 
             <div className='blogpost-image-container'>
-                <img src={images('./blog_assets/everything-no-background.png')} alt="Finished no background"/>
+                <img src={images('./blog_assets/everything-no-background.png').default} alt="Finished no background"/>
                 <p>
                     We also fill in the holes in the forests which before this step might have seemed odd. This is the reason that it is recommended to add the forest last!
                 </p>
@@ -122,7 +122,7 @@ function post() {
             </div>
 
             <div className='blogpost-image-container'>
-                <img src={images('./blog_assets/Map-LD.jpg')} alt="Finished"/>
+                <img src={images('./blog_assets/Map-LD.jpg').default} alt="Finished"/>
                 <p>
                     The finished map. A higher resolution version can be found in the menu when you visit the map.
                 </p>
