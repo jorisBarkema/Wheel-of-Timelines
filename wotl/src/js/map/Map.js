@@ -344,7 +344,7 @@ class Map extends React.Component {
                         zoomLevel={zoomLevel}
                         scaleX={tilescale} scaleY={tilescale} 
                         x={256 * tilescale * column} y={256 * tilescale * row}
-                        listening={false} enablePerfectDrawing={false} src={mapTilesDirectory(path)}
+                        listening={false} enablePerfectDrawing={false} src={mapTilesDirectory(path).default}
                     />);
                 } catch(e) {
                     console.log(e);
@@ -478,22 +478,7 @@ class Map extends React.Component {
     handleTouchMove = (e) => {
 
         e.preventDefault();
-        /*
-        if (this.state.dragging) {
-            let dx = (e.touches[0].pageX - this.state.startx) / this.state.scale;
-            let dy = (e.touches[0].pageY - this.state.starty) / this.state.scale;
 
-            let nx = this.state.mapx + dx;
-            let ny = this.state.mapy + dy;
-
-            this.setState({
-                startx: e.touches[0].pageX,
-                starty: e.touches[0].pageY
-            })
-
-            this.moveMapTo(nx, ny);
-        }
-        */
         if (this.state.pinching) {
             let d = Math.hypot(e.touches[0].pageX - e.touches[1].pageX, e.touches[0].pageY - e.touches[1].pageY);
 
@@ -532,19 +517,6 @@ class Map extends React.Component {
         this.handleShowingLocationOrNation(mx, my);
     }
 
-    /*
-    mouseToMapLocation = (e) => {
-        let mapx = -this.state.mapx + e.pageX / this.state.scale;
-        let mapy = -this.state.mapy + e.pageY / this.state.scale;
-
-        //console.log(mapx + ", " + mapy);
-        
-        this.handleShowingLocationOrNation(mapx, mapy);
-
-        return [mapx, mapy];
-    }
-    */
-
     handleShowingLocationOrNation = (x, y) => {
         let name = this.getLocationName(x, y)
         
@@ -563,16 +535,6 @@ class Map extends React.Component {
                 showingLocation: false
             })
         }
-
-        /*
-        Object.keys(nations).map((key) => {
-
-            if (pointInSvgPath(nations[key].border, x, y)) {
-                console.log(key);
-            }
-            return null;
-        })
-        */
        
     }
 
@@ -656,7 +618,7 @@ class Map extends React.Component {
 
     zoomMap = (e) => {
         if (this.state.mouseOverMenu || this.state.mouseOverTimeline) return;
-
+        if (this.stage === null) return;
         
         // Misschien dit omkeren (< naar > en > naar <) als het op mobiel beter is omgekeerd
         // maar zo vind ik het intuitiever met scrollen
@@ -675,17 +637,9 @@ class Map extends React.Component {
         if (newscale > this.state.maxscale) newscale = this.state.maxscale;
         if (newscale < this.state.minscale) newscale = this.state.minscale;
 
+        if (this.stage === null) return;
+        
         let oldscale = this.stage.scaleX();
-
-        /*
-        Stel de scale verandert van oldscale naar newscale, dan moeten we pos.x zo aanpassen naar m dat 
-        Zie getMapPosition voor de formule
-        (x - m) / newscale === (x - pos.x) / oldscale
-        (x - m) * oldscale === (x - pos.x) * newscale
-        x - m === (x - pos.x) * newscale / oldscale
-        m === x - (x - pos.x) * newscale / oldsscale
-
-        */
 
         let pos = this.stage.absolutePosition();
 
