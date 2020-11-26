@@ -116,25 +116,25 @@
             "options": [
                 {
                     "value": "Andor",
-                    "imageSource": "flags/Andor.jpg",
+                    "imageSource": "regions/Andor.jpg",
                     "imageCredit": "https://vignette.wikia.nocookie.net/wot/images/8/82/Andor.JPG/revision/latest?cb=20100107021236",
                     "imageArtist": "Todd Cameron Hamilton"
                 },
                 {
                     "value": "Tear",
-                    "imageSource": "flags/Tear.jpg",
+                    "imageSource": "regions/Tear.jpg",
                     "imageCredit": "https://vignette.wikia.nocookie.net/wot/images/d/d8/Tear.JPG/revision/latest?cb=20100111225346",
                     "imageArtist": "Todd Cameron Hamilton"
                 },
                 {
                     "value": "Illian",
-                    "imageSource": "flags/Illian.jpg",
+                    "imageSource": "regions/Illian.jpg",
                     "imageCredit": "https://vignette.wikia.nocookie.net/wot/images/0/01/Illian.JPG/revision/latest?cb=20100112044023",
                     "imageArtist": "Todd Cameron Hamilton"
                 },
                 {
                     "value": "Cairhien",
-                    "imageSource": "flags/Cairhien.jpg",
+                    "imageSource": "regions/Cairhien.jpg",
                     "imageCredit": "https://vignette.wikia.nocookie.net/wot/images/e/e8/Cairhien.JPG/revision/latest?cb=20100112044050",
                     "imageArtist": "Todd Cameron Hamilton"
                 }

@@ -31,25 +31,25 @@
             "options": [
                 {
                     "value": "Arafel",
-                    "imageSource": "flags/Arafel.jpg",
+                    "imageSource": "regions/Arafel.jpg",
                     "imageCredit": "https://vignette.wikia.nocookie.net/wot/images/3/33/Arafel_Flag.JPG/revision/latest?cb=20100107021446",
                     "imageArtist": "Todd Cameron Hamilton"
                 },
                 {
                     "value": "Kandor",
-                    "imageSource": "flags/Kandor.jpg",
+                    "imageSource": "regions/Kandor.jpg",
                     "imageCredit": "https://vignette.wikia.nocookie.net/wot/images/1/1e/Kandor_Banner.JPG/revision/latest?cb=20100107032247",
                     "imageArtist": "Todd Cameron Hamilton"
                 },
                 {
                     "value": "Shienar",
-                    "imageSource": "flags/Shienar.jpg",
+                    "imageSource": "regions/Shienar.jpg",
                     "imageCredit": "https://vignette.wikia.nocookie.net/wot/images/7/7f/Shienar_Flag.JPG/revision/latest?cb=20100107034028",
                     "imageArtist": "Todd Cameron Hamilton"
                 },
                 {
                     "value": "Saldaea",
-                    "imageSource": "flags/Saldaea.jpg",
+                    "imageSource": "regions/Saldaea.jpg",
                     "imageCredit": "https://vignette.wikia.nocookie.net/wot/images/4/49/Saldaea_Banner.JPG/revision/latest?cb=20100107033643",
                     "imageArtist": "Todd Cameron Hamilton"
                 }

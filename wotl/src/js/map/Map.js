@@ -4,10 +4,18 @@ import { Stage, FastLayer, Circle, Path} from 'react-konva';
 import {Helmet} from 'react-helmet'
 import {isMobile} from 'react-device-detect';
 
+import Cookies from 'universal-cookie';
+
+import Close from '@material-ui/icons/Close';
+import Button from '@material-ui/core/Button';
+import IconButton from '@material-ui/core/IconButton';
+import { Alert } from '@material-ui/lab';
+import Collapse from '@material-ui/core/Collapse';
+
 import MapMenu from './MapMenu.js'
 import EventContainer from './EventContainer.js';
 import LocationContainer from './LocationContainer.js';
-import NationContainer from './NationContainer.js';
+import RegionContainer from './RegionContainer.js';
 import Instructions from './Instructions.js';
 
 import CustomImage from './CustomImage.js';
@@ -16,7 +24,9 @@ import CustomImage from './CustomImage.js';
 
 import {events} from '../../data/events.json';
 import {locations} from '../../data/locations.json';
-import {nations} from '../../data/nations.json';
+import {regions} from '../../data/regions.json';
+
+const cookies = new Cookies();
 
 var images = require.context('../../assets', true);
 var mapTilesDirectory = require.context('../../assets/zoomify-map', true);
@@ -82,11 +92,12 @@ class Map extends React.Component {
             showingTimeline: true,
             showingPortraits: false,
             showingLocation: false,
-            showingNation: false,
-            showingBorders: true,
+            showingRegion: false,
+            showingBorders: false,
             inUniverseDates: false,
             locationName: "",
-            nationName: ""
+            regionName: "",
+            openCookieAlert: true
         };
 
         this.stage = React.createRef();
@@ -103,7 +114,39 @@ class Map extends React.Component {
 
         return (
             <div id="map-main">
-
+                <div id="cookie-popup-container" style={{left: '10%', width: '80%', top: '5px', position: 'fixed', zIndex: 1000}}>
+                    <Collapse in={this.state.openCookieAlert}>
+                        <Alert 
+                            severity="info"
+                            action={
+                                <IconButton
+                                aria-label="close"
+                                color="inherit"
+                                size="small"
+                                onClick={() => {
+                                    this.setState({
+                                        openCookieAlert: false
+                                    })
+                                }}
+                                >
+                                    <Close fontSize="inherit" />
+                                </IconButton>
+                            }
+                        >
+                            Accept cookies to save your settings &amp; filters?
+                            <br />
+                            <Button variant="outlined" color="primary" size="small"
+                                onClick={() => {
+                                    this.setState({
+                                        openCookieAlert: false
+                                    })
+                                }}
+                            >
+                                Accept
+                            </Button>
+                        </Alert>
+                    </Collapse>
+                </div>
                 <Helmet>
                     <title>{"Wheel of Timelines - Map"}</title>
                     <meta name="description" content={"Wheel of Timelines - The biggest Wheel of time map of the westlands, blight and the waste with timeline and character routes"} />
@@ -143,14 +186,17 @@ class Map extends React.Component {
                             {
                                 this.state.showingBorders ? 
                                 (
-                                    Object.keys(nations).map((key, index) => {
-                                        return this.borderToPath(nations[key].border, nations[key].borderColor, nations[key].fillColor, index)
+                                    Object.keys(regions).map((key, index) => {
+                                        if (regions[key].nation) return this.borderToPath(regions[key].border, regions[key].borderColor, regions[key].fillColor, index);
+                                        return null
                                     })
-                                ) : 
-                                (
-                                    this.state.showingNation ? this.borderToPath(nations[this.state.nationName].border, nations[this.state.nationName].borderColor, nations[this.state.nationName].fillColor) : null
-                                )
+                                ) : null
                                 
+                            }
+                        </FastLayer>
+                        <FastLayer>
+                            {
+                                (this.state.showingRegion && (!this.state.showingBorders || !regions[this.state.regionName].nation)) ? this.borderToPath(regions[this.state.regionName].border, regions[this.state.regionName].borderColor, regions[this.state.regionName].fillColor) : null
                             }
                         </FastLayer>
                         <FastLayer>
@@ -162,7 +208,7 @@ class Map extends React.Component {
 
                                     return event.paths.map((path, index) => {
                                         //console.log("returning path with svg: " + path.route);
-                                        //if (!path.visible) return null
+                                        if (!path.visible) return null
                                         return this.eventPathToKonvaPath(path, index);
                                     })
                                 }): null
@@ -174,14 +220,14 @@ class Map extends React.Component {
 
                                     return event.paths.map((path, index) => {
                                         //console.log("returning path with svg: " + path.route);
-                                        //if (!path.visible) return null
+                                        if (!path.visible) return null
                                         return this.eventPathToKonvaCircle(path, index);
                                     })
                                 }): null
                             } 
                         </FastLayer>
                         <FastLayer>
-                            {(this.state.filtered_events.length > 0 && this.state.showingTimeline && !this.state.showingNation && !this.state.showingLocation) ? <Circle listening={false} enablePerfectDrawing={false}  radius={locations[this.state.filtered_events[this.state.eventNumber].location].radius} x={locations[this.state.filtered_events[this.state.eventNumber].location].x} y={locations[this.state.filtered_events[this.state.eventNumber].location].y} 
+                            {(this.state.filtered_events.length > 0 && this.state.showingTimeline && !this.state.showingRegion && !this.state.showingLocation) ? <Circle listening={false} enablePerfectDrawing={false}  radius={locations[this.state.filtered_events[this.state.eventNumber].location].radius} x={locations[this.state.filtered_events[this.state.eventNumber].location].x} y={locations[this.state.filtered_events[this.state.eventNumber].location].y} 
                                 fillRadialGradientStartPoint={{
                                     x: 0,
                                     y: 0
@@ -257,15 +303,15 @@ class Map extends React.Component {
                     ) : null
                 }
                 {
-                    this.state.showingNation ?
+                    this.state.showingRegion ?
                     (
                         <div
                             onMouseOver={() => this.setState({mouseOverTimeline: true})}
                             onMouseLeave={() => this.setState({mouseOverTimeline: false})}
                         >
-                            <NationContainer
-                                name={this.state.nationName} 
-                                onShowingNationChange={() => this.onShowingNationChange()}
+                            <RegionContainer
+                                name={this.state.regionName} 
+                                onShowingRegionChange={() => this.onShowingRegionChange()}
                             />
                         </div>
                     ) : null
@@ -293,7 +339,7 @@ class Map extends React.Component {
 
         this.mounted = true;
 
-        this.mapLookAt(locations["Lugard"].x, locations["Lugard"].y);
+        this.mapLookAt(locations["al'Thor Farm"].x, locations["al'Thor Farm"].y);
         //this.mapLookAt(locations["Amador"].x, locations["Amador"].y);
 
         this.stage.on('dragmove', this.onMoveMap);
@@ -337,19 +383,14 @@ class Map extends React.Component {
 
                 let path = "./" + zoomLevel + "-" + column + "-" + row + ".jpg";
 
-                try {
-                    require.resolveWeak("../../assets/zoomify-map/" + zoomLevel + "-" + column + "-" + row + ".jpg");
-                    tiles.push(<CustomImage
-                        key={path}
-                        zoomLevel={zoomLevel}
-                        scaleX={tilescale} scaleY={tilescale} 
-                        x={256 * tilescale * column} y={256 * tilescale * row}
-                        listening={false} enablePerfectDrawing={false} src={mapTilesDirectory(path).default}
-                    />);
-                } catch(e) {
-                    console.log(e);
-                    return null
-                }
+                require.resolveWeak("../../assets/zoomify-map/" + zoomLevel + "-" + column + "-" + row + ".jpg");
+                tiles.push(<CustomImage
+                    key={path}
+                    zoomLevel={zoomLevel}
+                    scaleX={tilescale} scaleY={tilescale} 
+                    x={256 * tilescale * column} y={256 * tilescale * row}
+                    listening={false} enablePerfectDrawing={false} src={mapTilesDirectory(path).default}
+                />);
                 
                 return null;
             })
@@ -396,15 +437,21 @@ class Map extends React.Component {
 
         let tileSize = tilescale * 256;
 
-        // Do it 100 out of bounds so they load before they are needed
+        // Do it some distance out of bounds so they load before they are needed
         let topLeft = this.getMapPosition(-this.renderDistance, -this.renderDistance);
         let bottomRight = this.getMapPosition(window.innerWidth + this.renderDistance, window.innerHeight + this.renderDistance);
 
-        let rowStart = Math.floor(topLeft[1] / tileSize);
-        let columnStart = Math.floor(topLeft[0] / tileSize);
 
-        let rowEnd = Math.ceil(bottomRight[1] / tileSize);
-        let columnEnd = Math.ceil(bottomRight[0] / tileSize);
+        // The map is 14.800 x 8000
+        // So there are 14.800 / tileSize columns
+        // And 8000 / tileSize rows
+        // Both rounded up, but since 0 is included we can round it down
+
+        let rowStart = Math.max(0, Math.floor(topLeft[1] / tileSize));
+        let columnStart = Math.max(0, Math.floor(topLeft[0] / tileSize));
+
+        let rowEnd = Math.min(Math.floor(8000 / tileSize), Math.ceil(bottomRight[1] / tileSize));
+        let columnEnd = Math.min(Math.floor(14800 / tileSize), Math.ceil(bottomRight[0] / tileSize));
 
         let rows = [];
         for (let i = rowStart; i <= rowEnd; i++) {
@@ -433,7 +480,6 @@ class Map extends React.Component {
 
         this.setState({
             minscale: newminscale,
-            //scale: Math.max(this.state.scale, newminscale)
         })
     }
 
@@ -443,23 +489,10 @@ class Map extends React.Component {
 
         if (e.touches.length === 1) {
 
-            /*
-            this.setState({
-                dragging: true,
-                startx: e.touches[0].pageX,
-                starty: e.touches[0].pageY
-            })
-
-            clearInterval(move_interval);
-
-            this.setState({
-                moving: false
-            })
-            */
             let mapx = -this.state.mapx + e.touches[0].pageX / this.state.scale;
             let mapy = -this.state.mapy + e.touches[0].pageY / this.state.scale;
 
-            this.handleShowingLocationOrNation(mapx, mapy);
+            this.handleShowingLocationOrRegion(mapx, mapy);
         }
         
         if (e.touches.length === 2) {
@@ -514,23 +547,24 @@ class Map extends React.Component {
 
         console.log("map x: " + Math.round(mx) + ", map y: " + Math.round(my));
 
-        this.handleShowingLocationOrNation(mx, my);
+        this.handleShowingLocationOrRegion(mx, my);
     }
 
-    handleShowingLocationOrNation = (x, y) => {
+    handleShowingLocationOrRegion = (x, y) => {
         let name = this.getLocationName(x, y)
         
         if (name !== "") {
             this.startShowingLocation(name);
             this.setState({
-                showingNation: false
+                showingRegion: false
             })
         }
 
-        let nation = this.getNationName(x, y);
+        let region = this.getRegionName(x, y);
 
-        if (nation !== "") {
-            this.startShowingNation(nation);
+        if (region !== "") {
+            console.log("start showing region " + region);
+            this.startShowingRegion(region);
             this.setState({
                 showingLocation: false
             })
@@ -558,24 +592,24 @@ class Map extends React.Component {
         return name
     }
 
-    startShowingNation = (name) => {
+    startShowingRegion = (name) => {
         this.setState({
-            showingNation: true,
-            nationName: name
+            showingRegion: true,
+            regionName: name
         })
     }
 
-    getNationName = (x, y) => {
-        let nation = "";
+    getRegionName = (x, y) => {
+        let region = "";
 
-        for(var key in nations){
-            if (x >= nations[key].hitbox[0] && x <= nations[key].hitbox[2] &&
-                y >= nations[key].hitbox[1] && y <= nations[key].hitbox[3]) {
-                    nation = key;
+        for(var key in regions){
+            if (x >= regions[key].hitbox[0] && x <= regions[key].hitbox[2] &&
+                y >= regions[key].hitbox[1] && y <= regions[key].hitbox[3]) {
+                    region = key;
                 }
         }
 
-        return nation
+        return region
     }
 
     onMoveMap = () => {
@@ -638,7 +672,7 @@ class Map extends React.Component {
         if (newscale < this.state.minscale) newscale = this.state.minscale;
 
         if (this.stage === null) return;
-        
+
         let oldscale = this.stage.scaleX();
 
         let pos = this.stage.absolutePosition();
@@ -713,6 +747,9 @@ class Map extends React.Component {
         //TODO: wat te doen met de lines moeten die nog wel zichtbaar zijn?
         // zo ja, dan gebaseerd op de bookFilterChecks welke wel of niet
 
+        cookies.set('showingTimeline', !this.state.showingTimeline, { path: '/' });
+        console.log(cookies.get('showingTimeline'));
+
         this.setState({
             showingTimeline: !this.state.showingTimeline
         })
@@ -724,9 +761,9 @@ class Map extends React.Component {
         })
     }
 
-    onShowingNationChange = () => {
+    onShowingRegionChange = () => {
         this.setState({
-            showingNation: false
+            showingRegion: false
         })
     }
 
@@ -740,18 +777,29 @@ class Map extends React.Component {
             this.showLinesUntil(this.state.eventNumber);
         }
 
+        cookies.set('showingLines', !this.state.showingLines, { path: '/' });
+        console.log(cookies.get('showingLines'));
+
         this.setState({
             showingLines: !this.state.showingLines
         })
     }
 
     handleNationBordersChange = () => {
+
+        cookies.set('showingBorders', !this.state.showingBorders, { path: '/' });
+        console.log(cookies.get('showingBorders'));
+
         this.setState({
             showingBorders: !this.state.showingBorders
         })
     }
 
     handleDatesChange = () => {
+
+        cookies.set('inUniverseDates', !this.state.inUniverseDates, { path: '/' });
+        console.log(cookies.get('inUniverseDates'));
+
         this.setState({
             inUniverseDates: !this.state.inUniverseDates
         })
@@ -967,6 +1015,9 @@ class Map extends React.Component {
     }
 
     borderToPath = (border, borderColor, fillColor, index) => {
+
+        if (border === undefined || borderColor === undefined || fillColor === undefined) return null;
+
         return <Path
                     x={0}
                     y={0}

@@ -140,9 +140,9 @@ class Header extends React.Component {
                             </div>
                             <div className="col-12 col-lg-6 download-link">
                                 <DownloadLink
-                                    label="nations.json"
-                                    filename="nations.json"
-                                    exportFile={() => JSON.stringify(data("./nations.json"), null, "\t")}
+                                    label="regions.json"
+                                    filename="regions.json"
+                                    exportFile={() => JSON.stringify(data("./regions.json"), null, "\t")}
                                 />
                             </div>
                             <div className="col-12 col-lg-6 download-link">
