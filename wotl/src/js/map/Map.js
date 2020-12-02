@@ -57,6 +57,8 @@ class Map extends React.Component {
         this.image_width = 14800;
         this.image_height = 8000;
 
+        let useCookies = cookies.get('useCookies') === 'true';
+
         this.state = {
             map_image: isMobile ? this.ld_image : this.hd_image,
             currentMapTiles: [],
@@ -71,33 +73,34 @@ class Map extends React.Component {
             eventNumber: 0,
             mouseOverTimeline: false,
             mouseOverMenu: false,
-            bookFilterChecks: [true, true, true, true, true, true, true, true, true, true, true, true, true, true],
+            bookFilterChecks: [0,1,2,3,4,5,6,7,8,9,10,11,12,13].map(x => (useCookies && cookies.get('book'+ x + 'Filter') !== undefined) ? cookies.get('book'+ x + 'Filter') === 'true' : true),
             characterFilterChecks: {
-                "Rand": true,
-                "Perrin": true,
-                "Mat": true,
-                "Egwene": true,
-                "Nynaeve": true,
-                "Moiraine": true,
-                "Lan": true,
-                "Thom": true,
-                "Others": true
+                "Rand": (useCookies && cookies.get('RandFilter') !== undefined) ? cookies.get('RandFilter') === 'true' : true,
+                "Perrin": (useCookies && cookies.get('PerrinFilter') !== undefined) ? cookies.get('PerrinFilter') === 'true' : true,
+                "Mat": (useCookies && cookies.get('MatFilter') !== undefined) ? cookies.get('MatFilter') === 'true' : true,
+                "Egwene": (useCookies && cookies.get('EgweneFilter') !== undefined) ? cookies.get('EgweneFilter') === 'true' : true,
+                "Nynaeve": (useCookies && cookies.get('NynaeveFilter') !== undefined) ? cookies.get('NynaeveFilter') === 'true' : true,
+                "Moiraine": (useCookies && cookies.get('MoiraineFilter') !== undefined) ? cookies.get('MoiraineFilter') === 'true' : true,
+                "Lan": (useCookies && cookies.get('LanFilter') !== undefined) ? cookies.get('LanFilter') === 'true' : true,
+                "Thom": (useCookies && cookies.get('ThomFilter') !== undefined) ? cookies.get('ThomFilter') === 'true' : true,
+                "Others": (useCookies && cookies.get('OthersFilter') !== undefined) ? cookies.get('OthersFilter') === 'true' : true,
             },
+            showingLines: (useCookies && cookies.get('showingLines') !== undefined) ? cookies.get('showingLines') === 'true' : true,
+            showingTimeline: (useCookies && cookies.get('showingTimeline') !== undefined) ? cookies.get('showingTimeline') === 'true' : true,
+            showingBorders: (useCookies && cookies.get('showingBorders') !== undefined) ? cookies.get('showingBorders') === 'true' : false,
+            inUniverseDates: (useCookies && cookies.get('inUniverseDates') !== undefined) ? cookies.get('inUniverseDates') === 'true' : false,
             filtered_events: events.filter(function(val) {
                 return (val.type === "major")
             }),
             handleBookFilterChange: this.handleBookFilterChange.bind(this),
             handleCharacterFilterChange: this.handleCharacterFilterChange.bind(this),
-            showingLines: true,
-            showingTimeline: true,
             showingPortraits: false,
             showingLocation: false,
             showingRegion: false,
-            showingBorders: false,
-            inUniverseDates: false,
             locationName: "",
             regionName: "",
-            openCookieAlert: true
+            answeredCookies: cookies.get('answeredCookies') === 'true',
+            useCookies: useCookies
         };
 
         this.stage = React.createRef();
@@ -115,7 +118,7 @@ class Map extends React.Component {
         return (
             <div id="map-main">
                 <div id="cookie-popup-container" style={{left: '10%', width: '80%', top: '5px', position: 'fixed', zIndex: 1000}}>
-                    <Collapse in={this.state.openCookieAlert}>
+                    <Collapse in={!this.state.answeredCookies}>
                         <Alert 
                             severity="info"
                             action={
@@ -125,8 +128,11 @@ class Map extends React.Component {
                                 size="small"
                                 onClick={() => {
                                     this.setState({
-                                        openCookieAlert: false
+                                        answeredCookies: true
                                     })
+
+                                    cookies.set('answeredCookies', true, { path: '/' });
+                                    cookies.set('useCookies', false, { path: '/' });
                                 }}
                                 >
                                     <Close fontSize="inherit" />
@@ -138,8 +144,11 @@ class Map extends React.Component {
                             <Button variant="outlined" color="primary" size="small"
                                 onClick={() => {
                                     this.setState({
-                                        openCookieAlert: false
+                                        answeredCookies: true
                                     })
+
+                                    cookies.set('answeredCookies', true, { path: '/' });
+                                    cookies.set('useCookies', true, { path: '/' });
                                 }}
                             >
                                 Accept
@@ -363,6 +372,8 @@ class Map extends React.Component {
         this.setState({
             mapHeight: window.innerHeight - offsetHeight
         });
+
+        this.filterEvents(this.state.bookFilterChecks, this.state.characterFilterChecks);
     }
 
     getCurrentMapTiles = () => {
@@ -811,6 +822,8 @@ class Map extends React.Component {
         let newChecks = this.state.characterFilterChecks;
         newChecks[v] = !newChecks[v];
 
+        cookies.set(v + 'Filter', newChecks[v], { path: '/' });
+
         this.filterEvents(this.state.bookFilterChecks, newChecks);
     }
 
@@ -818,6 +831,8 @@ class Map extends React.Component {
         let newChecks = this.state.bookFilterChecks;
         newChecks[v] = !newChecks[v];
         
+        cookies.set('book' + v + 'Filter', newChecks[v], { path: '/' });
+
         this.filterEvents(newChecks, this.state.characterFilterChecks);
     }
 

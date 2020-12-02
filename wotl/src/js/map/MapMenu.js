@@ -4,10 +4,13 @@ import { slide as Menu } from 'react-burger-menu';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Checkbox from '@material-ui/core/Checkbox';
 import Button from '@material-ui/core/Button';
+import Cookies from 'universal-cookie';
 
 import MenuButton from '../MenuButton.js';
 import MenuShareIcons from '../MenuShareIcons.js'
 import PatreonMenuContainer from '../PatreonMenuContainer.js';
+
+const cookies = new Cookies();
 
 var images = require.context('../../assets', true);
 
@@ -16,24 +19,26 @@ class MapMenu extends React.Component {
     constructor(props) {
         super(props);
         //this.handleBookFilterChange = this.handleBookFilterChange.bind(this);
+        
+        let useCookies = cookies.get('useCookies') === 'true';
 
         this.state = {
-            bookFilterChecks: [true, true, true, true, true, true, true, true, true, true, true, true, true, true],
+            bookFilterChecks: [0,1,2,3,4,5,6,7,8,9,10,11,12,13].map(x => (useCookies && cookies.get('book'+ x + 'Filter') !== undefined) ? cookies.get('book'+ x + 'Filter') === 'true' : true),
             characterFilterChecks: {
-                "Rand": true,
-                "Perrin": true,
-                "Mat": true,
-                "Egwene": true,
-                "Nynaeve": true,
-                "Moiraine": true,
-                "Lan": true,
-                "Thom": true,
-                "Others": true
+                "Rand": (useCookies && cookies.get('RandFilter') !== undefined) ? cookies.get('RandFilter') === 'true' : true,
+                "Perrin": (useCookies && cookies.get('PerrinFilter') !== undefined) ? cookies.get('PerrinFilter') === 'true' : true,
+                "Mat": (useCookies && cookies.get('MatFilter') !== undefined) ? cookies.get('MatFilter') === 'true' : true,
+                "Egwene": (useCookies && cookies.get('EgweneFilter') !== undefined) ? cookies.get('EgweneFilter') === 'true' : true,
+                "Nynaeve": (useCookies && cookies.get('NynaeveFilter') !== undefined) ? cookies.get('NynaeveFilter') === 'true' : true,
+                "Moiraine": (useCookies && cookies.get('MoiraineFilter') !== undefined) ? cookies.get('MoiraineFilter') === 'true' : true,
+                "Lan": (useCookies && cookies.get('LanFilter') !== undefined) ? cookies.get('LanFilter') === 'true' : true,
+                "Thom": (useCookies && cookies.get('ThomFilter') !== undefined) ? cookies.get('ThomFilter') === 'true' : true,
+                "Others": (useCookies && cookies.get('OthersFilter') !== undefined) ? cookies.get('OthersFilter') === 'true' : true,
             },
-            showingTimeline: true,
-            showingLines: true,
-            showingBorders: false,
-            inUniverseDates: false,
+            showingLines: (useCookies && cookies.get('showingLines') !== undefined) ? cookies.get('showingLines') === 'true' : true,
+            showingTimeline: (useCookies && cookies.get('showingTimeline') !== undefined) ? cookies.get('showingTimeline') === 'true' : true,
+            showingBorders: (useCookies && cookies.get('showingBorders') !== undefined) ? cookies.get('showingBorders') === 'true' : false,
+            inUniverseDates: (useCookies && cookies.get('inUniverseDates') !== undefined) ? cookies.get('inUniverseDates') === 'true' : false,
             hd: props.hd
         }
     }
