@@ -46,9 +46,6 @@ class Map extends React.Component {
         
         this.mounted = false;
         
-        this.hd_image = images("./map-v2.png").default;
-        this.ld_image = images("./map-v2.png").default;
-
         //this.ld_image = images("./Map-LD.jpg");
         //this.map_image = this.hd_image;
 
@@ -747,7 +744,9 @@ class Map extends React.Component {
 
     skipToEnd = () => {
         this.switchToEvent(this.state.filtered_events.length - 1);
-        this.showLinesUntil(this.state.filtered_events.length - 1);
+        if (this.state.showingLines) {
+            this.showLinesUntil(this.state.filtered_events.length - 1);
+        }
     }
 
     handleTimelineChange = () => {
@@ -974,10 +973,14 @@ class Map extends React.Component {
     }
 
     hideAllLines = () => {
-        this.state.segments.map((segment) => {
-
-            segment.visible = false;
-            return null;
+        this.state.filtered_events.map((event) => {
+            if (event.hasOwnProperty("paths")) {
+                event.paths.map((path) => {
+                    path.visible = false;
+                    return null
+                })
+            }
+            return null
         })
     }
     
@@ -1012,9 +1015,10 @@ class Map extends React.Component {
 
     eventPathToKonvaCircle = (eventPath, index) => {
 
+        let split = eventPath.route.split(" ");
 
-        let x = parseInt(eventPath.route.split(" ")[1]);
-        let y = parseInt(eventPath.route.split(" ")[2]);
+        let x = split[split.length - 2];
+        let y = split[split.length - 1];
 
         //console.log("circle x, y: " + x + ", " + y)
         return <Circle

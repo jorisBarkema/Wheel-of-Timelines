@@ -139,7 +139,7 @@ class MapMenu extends React.Component {
                             <h2>Credits</h2>
 
                             <div className="menu-div">
-                                <p><a href={images("./Map-with-colours.png").default}>The full map</a> of the Westlands and the Aiel Waste is available for personal use only</p>
+                                <p><a href={images("./Map-with-colours.png").default}>The old version of the map</a> of the Westlands and the Aiel Waste is still available. For the full new vesion message me on Patreon, as its filesize is too large to host here.</p>
                                 <p>The Westlands portion of the map is based on the map by <a href="https://atlasoficeandfireblog.files.wordpress.com/2016/08/wheel-of-time-colour-map.jpg?w=768">Ellisa Mitchell</a></p>
                                 <p>The Aiel Waste portion of the map is based on the map from <a href="https://atlasoficeandfireblog.wordpress.com/2018/09/23/the-wheel-of-time-atlas-the-aiel-waste/">this article</a></p>
                                 <p>Font of the map: <a href="http://artsyomni.com/hyliaserif/download">Hyliaserif</a> by artsyomni</p>
@@ -168,7 +168,7 @@ class MapMenu extends React.Component {
                                     Timeline: Complete <br /> 
                                     <br />
                                     To show all the routes<br />
-                                    <span style={{color: "red"}} > <b>Spoilers</b> for filtered selection </span> <br />
+                                    <span style={{color: "red"}} > <b>Spoilers</b> for selected books </span> <br />
                                     <Button onClick={() => this.handleSkipToEnd()} variant="outlined">Skip to end</Button>
                                 </p>
                             </div>
