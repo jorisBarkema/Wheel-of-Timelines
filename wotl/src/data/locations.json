@@ -1617,6 +1617,12 @@
 			"radius": 80,
 			"description": "A small village in the middle of nowhere.",
 			"wikiLink": "https://wot.fandom.com/wiki/Seleisin"
+		},
+		"Samarin": {
+			"x": 2092,
+			"y": 6650,
+			"radius": 120,
+			"description": "The largest Sea Folk Settlement, located on the island of Tremalking: home of the Amayar."
 		}
 	}
 }
