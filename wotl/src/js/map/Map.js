@@ -83,6 +83,8 @@ class Map extends React.Component {
                 "Others": (useCookies && cookies.get('OthersFilter') !== undefined) ? cookies.get('OthersFilter') === 'true' : true,
             },
             showText: (useCookies && cookies.get('showText') !== undefined) ? cookies.get('showText') === 'true' : true,
+            showStedding: (useCookies && cookies.get('showStedding') !== undefined) ? cookies.get('showStedding') === 'true' : false,
+            showPortalStones: (useCookies && cookies.get('showPortalStones') !== undefined) ? cookies.get('showPortalStones') === 'true' : false,
             showingLines: (useCookies && cookies.get('showingLines') !== undefined) ? cookies.get('showingLines') === 'true' : true,
             showingTimeline: (useCookies && cookies.get('showingTimeline') !== undefined) ? cookies.get('showingTimeline') === 'true' : true,
             showingBorders: (useCookies && cookies.get('showingBorders') !== undefined) ? cookies.get('showingBorders') === 'true' : false,
@@ -174,6 +176,10 @@ class Map extends React.Component {
                         onDatesChange = {() => this.handleDatesChange()}
                         showText = {this.state.showText}
                         onShowTextChange = {() => this.handleShowTextChange()}
+                        showStedding = {this.state.showStedding}
+                        onShowSteddingChange = {() => this.handleShowSteddingChange()}
+                        showPortalStones = {this.state.showPortalStones}
+                        onShowPortalStonesChange = {() => this.handleShowPortalStonesChange()}
                         hd = {!isMobile}
                         onDefinitionChange = {() => this.setState({map_image: (this.state.map_image === this.ld_image) ? this.hd_image : this.ld_image})} />
                 </div>
@@ -758,6 +764,25 @@ class Map extends React.Component {
             this.getCurrentMapTiles();
         })
     }
+
+    handleShowSteddingChange = () => {
+
+        if (this.state.useCookies) cookies.set('showStedding', !this.state.showStedding, { path: '/' });
+
+        this.setState({
+            showStedding: !this.state.showStedding
+        })
+    }
+
+    handleShowPortalStonesChange = () => {
+
+        if (this.state.useCookies) cookies.set('showPortalStones', !this.state.showPortalStones, { path: '/' });
+
+        this.setState({
+            showPortalStones: !this.state.showPortalStones
+        })
+    }
+
     handleTimelineChange = () => {
 
 

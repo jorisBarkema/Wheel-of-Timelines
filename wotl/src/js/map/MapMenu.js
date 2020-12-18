@@ -40,7 +40,9 @@ class MapMenu extends React.Component {
             showingBorders: (useCookies && cookies.get('showingBorders') !== undefined) ? cookies.get('showingBorders') === 'true' : false,
             inUniverseDates: (useCookies && cookies.get('inUniverseDates') !== undefined) ? cookies.get('inUniverseDates') === 'true' : false,
             hd: props.hd,
-            showText: props.showText
+            showText: props.showText,
+            showStedding: props.showStedding,
+            showPortalStones: props.showPortalStones
         }
     }
 
@@ -129,6 +131,22 @@ class MapMenu extends React.Component {
         this.props.onShowTextChange();
     }
 
+    handleShowSteddingChange = () => {
+        this.setState({
+            showStedding: !this.state.showStedding
+        })
+
+        this.props.onShowSteddingChange();
+    }
+
+    handleShowPortalStonesChange = () => {
+        this.setState({
+            showPortalStones: !this.state.showPortalStones
+        })
+
+        this.props.onShowPortalStonesChange();
+    }
+
     render = () => {
         return (
             <div>
@@ -194,6 +212,18 @@ class MapMenu extends React.Component {
                                         <Checkbox checked={this.state.showText} onChange={() => this.handleShowTextChange()} color="primary" value="secondary"/>
                                         }
                                         label="Show text"
+                                    />
+                                    <FormControlLabel
+                                        control={
+                                        <Checkbox checked={this.state.showStedding} onChange={() => this.handleShowSteddingChange()} color="primary" value="secondary"/>
+                                        }
+                                        label="Show Stedding"
+                                    />
+                                    <FormControlLabel
+                                        control={
+                                        <Checkbox checked={this.state.showPortalStones} onChange={() => this.handleShowPortalStonesChange()} color="primary" value="secondary"/>
+                                        }
+                                        label="Show portal stones"
                                     />
                                     <FormControlLabel
                                         control={
