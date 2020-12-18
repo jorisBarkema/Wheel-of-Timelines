@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactGA from 'react-ga';
-import { Stage, FastLayer, Circle, Path} from 'react-konva';
+import { Stage, Layer, Circle, Path} from 'react-konva';
 import {Helmet} from 'react-helmet'
 import {isMobile} from 'react-device-detect';
 
@@ -82,6 +82,7 @@ class Map extends React.Component {
                 "Thom": (useCookies && cookies.get('ThomFilter') !== undefined) ? cookies.get('ThomFilter') === 'true' : true,
                 "Others": (useCookies && cookies.get('OthersFilter') !== undefined) ? cookies.get('OthersFilter') === 'true' : true,
             },
+            showText: (useCookies && cookies.get('showText') !== undefined) ? cookies.get('showText') === 'true' : true,
             showingLines: (useCookies && cookies.get('showingLines') !== undefined) ? cookies.get('showingLines') === 'true' : true,
             showingTimeline: (useCookies && cookies.get('showingTimeline') !== undefined) ? cookies.get('showingTimeline') === 'true' : true,
             showingBorders: (useCookies && cookies.get('showingBorders') !== undefined) ? cookies.get('showingBorders') === 'true' : false,
@@ -125,7 +126,8 @@ class Map extends React.Component {
                                 size="small"
                                 onClick={() => {
                                     this.setState({
-                                        answeredCookies: true
+                                        answeredCookies: true,
+                                        useCookies: false
                                     })
 
                                     cookies.set('answeredCookies', true, { path: '/' });
@@ -141,7 +143,8 @@ class Map extends React.Component {
                             <Button variant="outlined" color="primary" size="small"
                                 onClick={() => {
                                     this.setState({
-                                        answeredCookies: true
+                                        answeredCookies: true,
+                                        useCookies: true
                                     })
 
                                     cookies.set('answeredCookies', true, { path: '/' });
@@ -169,6 +172,8 @@ class Map extends React.Component {
                         onLineChange = {() => this.handleLineChange()}
                         onBordersChange = {() => this.handleNationBordersChange()}
                         onDatesChange = {() => this.handleDatesChange()}
+                        showText = {this.state.showText}
+                        onShowTextChange = {() => this.handleShowTextChange()}
                         hd = {!isMobile}
                         onDefinitionChange = {() => this.setState({map_image: (this.state.map_image === this.ld_image) ? this.hd_image : this.ld_image})} />
                 </div>
@@ -180,15 +185,15 @@ class Map extends React.Component {
                         scaleY={0.7} 
                         draggable={true}
                         ref={ref => (this.stage = ref)}>
-                        <FastLayer ref={ref => (this.mapLayer = ref)}>
+                        <Layer ref={ref => (this.mapLayer = ref)} listening={false}>
                             {
                                 this.state.currentMapTiles.map((tile) => {
                                     if (tile.props.zoomLevel === this.state.currentZoomLevel) return tile;
                                     return null
                                 })
                             }
-                        </FastLayer>
-                        <FastLayer>
+                        </Layer>
+                        <Layer listening={false}>
                             {
                                 this.state.showingBorders ? 
                                 (
@@ -199,13 +204,10 @@ class Map extends React.Component {
                                 ) : null
                                 
                             }
-                        </FastLayer>
-                        <FastLayer>
+                            
                             {
                                 (this.state.showingRegion && (!this.state.showingBorders || !regions[this.state.regionName].nation)) ? this.borderToPath(regions[this.state.regionName].border, regions[this.state.regionName].borderColor, regions[this.state.regionName].fillColor) : null
                             }
-                        </FastLayer>
-                        <FastLayer>
                             
                             {
                                 this.mounted ? 
@@ -231,8 +233,7 @@ class Map extends React.Component {
                                     })
                                 }): null
                             } 
-                        </FastLayer>
-                        <FastLayer>
+                            
                             {(this.state.filtered_events.length > 0 && this.state.showingTimeline && !this.state.showingRegion && !this.state.showingLocation) ? <Circle listening={false} enablePerfectDrawing={false}  radius={locations[this.state.filtered_events[this.state.eventNumber].location].radius} x={locations[this.state.filtered_events[this.state.eventNumber].location].x} y={locations[this.state.filtered_events[this.state.eventNumber].location].y} 
                                 fillRadialGradientStartPoint={{
                                     x: 0,
@@ -246,11 +247,7 @@ class Map extends React.Component {
                                 fillRadialGradientEndRadius={locations[this.state.filtered_events[this.state.eventNumber].location].radius}
                                 fillRadialGradientColorStops={[0, "#fff0", 0.2, "#fff0", 0.3, "#f00B", 1, "#f000"]}/> : null
                             }
-                        </FastLayer>
-
-                        {
-                        //<PortraitManager ref="portraitManager"/>
-                        }
+                        </Layer>
                     </Stage>
                 </div>
                 {
@@ -388,16 +385,17 @@ class Map extends React.Component {
 
         rowsAndColumns.rows.map((row) => {
             rowsAndColumns.columns.map((column) => {
+                let textString = this.state.showText ? "text": "notext";
 
-                let path = "./" + zoomLevel + "-" + column + "-" + row + ".jpg";
+                let path = textString + "/" + zoomLevel + "-" + column + "-" + row + ".jpg";
 
-                require.resolveWeak("../../assets/zoomify-map/" + zoomLevel + "-" + column + "-" + row + ".jpg");
+                require.resolveWeak("../../assets/zoomify-map/" + path);
                 tiles.push(<CustomImage
                     key={path}
                     zoomLevel={zoomLevel}
                     scaleX={tilescale} scaleY={tilescale} 
                     x={256 * tilescale * column} y={256 * tilescale * row}
-                    listening={false} enablePerfectDrawing={false} src={mapTilesDirectory(path).default}
+                    listening={false} enablePerfectDrawing={false} src={mapTilesDirectory('./' + path).default}
                 />);
                 
                 return null;
@@ -749,6 +747,17 @@ class Map extends React.Component {
         }
     }
 
+    handleShowTextChange = () => {
+
+        if (this.state.useCookies) cookies.set('showText', !this.state.showText, { path: '/' });
+
+        this.setState({
+            showText: !this.state.showText,
+            currentMapTiles: []
+        }, () => {
+            this.getCurrentMapTiles();
+        })
+    }
     handleTimelineChange = () => {
 
 
@@ -757,7 +766,7 @@ class Map extends React.Component {
         //TODO: wat te doen met de lines moeten die nog wel zichtbaar zijn?
         // zo ja, dan gebaseerd op de bookFilterChecks welke wel of niet
 
-        cookies.set('showingTimeline', !this.state.showingTimeline, { path: '/' });
+        if (this.state.useCookies) cookies.set('showingTimeline', !this.state.showingTimeline, { path: '/' });
         console.log(cookies.get('showingTimeline'));
 
         this.setState({
@@ -787,7 +796,7 @@ class Map extends React.Component {
             this.showLinesUntil(this.state.eventNumber);
         }
 
-        cookies.set('showingLines', !this.state.showingLines, { path: '/' });
+        if (this.state.useCookies) cookies.set('showingLines', !this.state.showingLines, { path: '/' });
         console.log(cookies.get('showingLines'));
 
         this.setState({
@@ -797,7 +806,7 @@ class Map extends React.Component {
 
     handleNationBordersChange = () => {
 
-        cookies.set('showingBorders', !this.state.showingBorders, { path: '/' });
+        if (this.state.useCookies) cookies.set('showingBorders', !this.state.showingBorders, { path: '/' });
         console.log(cookies.get('showingBorders'));
 
         this.setState({
@@ -807,7 +816,7 @@ class Map extends React.Component {
 
     handleDatesChange = () => {
 
-        cookies.set('inUniverseDates', !this.state.inUniverseDates, { path: '/' });
+        if (this.state.useCookies) cookies.set('inUniverseDates', !this.state.inUniverseDates, { path: '/' });
         console.log(cookies.get('inUniverseDates'));
 
         this.setState({
@@ -821,7 +830,7 @@ class Map extends React.Component {
         let newChecks = this.state.characterFilterChecks;
         newChecks[v] = !newChecks[v];
 
-        cookies.set(v + 'Filter', newChecks[v], { path: '/' });
+        if (this.state.useCookies) cookies.set(v + 'Filter', newChecks[v], { path: '/' });
 
         this.filterEvents(this.state.bookFilterChecks, newChecks);
     }
@@ -830,7 +839,7 @@ class Map extends React.Component {
         let newChecks = this.state.bookFilterChecks;
         newChecks[v] = !newChecks[v];
         
-        cookies.set('book' + v + 'Filter', newChecks[v], { path: '/' });
+        if (this.state.useCookies) cookies.set('book' + v + 'Filter', newChecks[v], { path: '/' });
 
         this.filterEvents(newChecks, this.state.characterFilterChecks);
     }

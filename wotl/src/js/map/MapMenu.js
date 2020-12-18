@@ -39,7 +39,8 @@ class MapMenu extends React.Component {
             showingTimeline: (useCookies && cookies.get('showingTimeline') !== undefined) ? cookies.get('showingTimeline') === 'true' : true,
             showingBorders: (useCookies && cookies.get('showingBorders') !== undefined) ? cookies.get('showingBorders') === 'true' : false,
             inUniverseDates: (useCookies && cookies.get('inUniverseDates') !== undefined) ? cookies.get('inUniverseDates') === 'true' : false,
-            hd: props.hd
+            hd: props.hd,
+            showText: props.showText
         }
     }
 
@@ -120,6 +121,14 @@ class MapMenu extends React.Component {
         this.props.onDefinitionChange();
     }
 
+    handleShowTextChange = () => {
+        this.setState({
+            showText: !this.state.showText
+        })
+
+        this.props.onShowTextChange();
+    }
+
     render = () => {
         return (
             <div>
@@ -182,6 +191,12 @@ class MapMenu extends React.Component {
                                 <form>
                                     <FormControlLabel
                                         control={
+                                        <Checkbox checked={this.state.showText} onChange={() => this.handleShowTextChange()} color="primary" value="secondary"/>
+                                        }
+                                        label="Show text"
+                                    />
+                                    <FormControlLabel
+                                        control={
                                         <Checkbox checked={this.state.showingTimeline} onChange={() => this.handleTimelineChange()} color="primary" value="secondary"/>
                                         }
                                         label="Show timeline"
@@ -205,11 +220,11 @@ class MapMenu extends React.Component {
                                         label="Use Westlands Farede calendar"
                                     />
                                     <FormControlLabel
-                                    control={
-                                    <Checkbox checked={this.state.hd} onChange={() => this.handleDefinitionChange()} color="primary" value="secondary"/>
-                                    }
-                                    label="High definition map"
-                                />
+                                        control={
+                                        <Checkbox checked={this.state.hd} onChange={() => this.handleDefinitionChange()} color="primary" value="secondary"/>
+                                        }
+                                        label="High definition map"
+                                    />
                                 </form>
                             </div>
                             
