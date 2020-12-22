@@ -25,6 +25,7 @@ import CustomImage from './CustomImage.js';
 import {events} from '../../data/events.json';
 import {locations} from '../../data/locations.json';
 import {regions} from '../../data/regions.json';
+import {stedding} from '../../data/stedding.json';
 
 const cookies = new Cookies();
 
@@ -53,6 +54,13 @@ class Map extends React.Component {
 
         this.image_width = 14800;
         this.image_height = 8000;
+
+        this.steddingOffsetX = 58;
+        this.steddingOffsetY = 53;
+        this.mountainSteddingOffsetX = 78;
+        this.mountainSteddingOffsetY = 67;
+        this.portalStoneOffsetX = 0;
+        this.portalStoneOffsetY = 0;
 
         let useCookies = cookies.get('useCookies') === 'true';
 
@@ -199,6 +207,19 @@ class Map extends React.Component {
                                 })
                             }
                         </Layer>
+                        
+                        {
+                            this.state.showStedding ? (
+                                <Layer listening={false}>
+                                    {
+                                        Object.keys(stedding).map((key, index) => {
+                                            return this.steddingToImage(stedding[key].x, stedding[key].y, stedding[key].type, index);
+                                        })
+                                    }
+                                </Layer>
+                            ) : null
+                        }
+                        
                         <Layer listening={false}>
                             {
                                 this.state.showingBorders ? 
@@ -484,6 +505,19 @@ class Map extends React.Component {
         else {
             return 4;
         }
+    }
+
+    steddingToImage = (x, y, type, key) => {
+
+        let image = type === "mountain" ?  mapTilesDirectory('./mountain_stedding.png').default : mapTilesDirectory('./stedding.png').default;
+        let ox = type === "mountain" ? this.mountainSteddingOffsetX : this.steddingOffsetX;
+        let oy = type === "mountain" ? this.mountainSteddingOffsetY : this.steddingOffsetY;
+        
+        return (<CustomImage
+            key={key} 
+            x={x - ox} y={y - oy}
+            listening={false} enablePerfectDrawing={false} src={image}
+        />)
     }
 
     onResize = () => {
