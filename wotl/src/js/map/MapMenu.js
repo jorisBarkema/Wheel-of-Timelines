@@ -39,7 +39,10 @@ class MapMenu extends React.Component {
             showingTimeline: (useCookies && cookies.get('showingTimeline') !== undefined) ? cookies.get('showingTimeline') === 'true' : true,
             showingBorders: (useCookies && cookies.get('showingBorders') !== undefined) ? cookies.get('showingBorders') === 'true' : false,
             inUniverseDates: (useCookies && cookies.get('inUniverseDates') !== undefined) ? cookies.get('inUniverseDates') === 'true' : false,
-            hd: props.hd
+            hd: props.hd,
+            showText: props.showText,
+            showStedding: props.showStedding,
+            showPortalStones: props.showPortalStones
         }
     }
 
@@ -120,6 +123,30 @@ class MapMenu extends React.Component {
         this.props.onDefinitionChange();
     }
 
+    handleShowTextChange = () => {
+        this.setState({
+            showText: !this.state.showText
+        })
+
+        this.props.onShowTextChange();
+    }
+
+    handleShowSteddingChange = () => {
+        this.setState({
+            showStedding: !this.state.showStedding
+        })
+
+        this.props.onShowSteddingChange();
+    }
+
+    handleShowPortalStonesChange = () => {
+        this.setState({
+            showPortalStones: !this.state.showPortalStones
+        })
+
+        this.props.onShowPortalStonesChange();
+    }
+
     render = () => {
         return (
             <div>
@@ -182,6 +209,24 @@ class MapMenu extends React.Component {
                                 <form>
                                     <FormControlLabel
                                         control={
+                                        <Checkbox checked={this.state.showText} onChange={() => this.handleShowTextChange()} color="primary" value="secondary"/>
+                                        }
+                                        label="Show text"
+                                    />
+                                    <FormControlLabel
+                                        control={
+                                        <Checkbox checked={this.state.showStedding} onChange={() => this.handleShowSteddingChange()} color="primary" value="secondary"/>
+                                        }
+                                        label="Show Stedding"
+                                    />
+                                    <FormControlLabel
+                                        control={
+                                        <Checkbox checked={this.state.showPortalStones} onChange={() => this.handleShowPortalStonesChange()} color="primary" value="secondary"/>
+                                        }
+                                        label="Show portal stones"
+                                    />
+                                    <FormControlLabel
+                                        control={
                                         <Checkbox checked={this.state.showingTimeline} onChange={() => this.handleTimelineChange()} color="primary" value="secondary"/>
                                         }
                                         label="Show timeline"
@@ -205,11 +250,11 @@ class MapMenu extends React.Component {
                                         label="Use Westlands Farede calendar"
                                     />
                                     <FormControlLabel
-                                    control={
-                                    <Checkbox checked={this.state.hd} onChange={() => this.handleDefinitionChange()} color="primary" value="secondary"/>
-                                    }
-                                    label="High definition map"
-                                />
+                                        control={
+                                        <Checkbox checked={this.state.hd} onChange={() => this.handleDefinitionChange()} color="primary" value="secondary"/>
+                                        }
+                                        label="High definition map"
+                                    />
                                 </form>
                             </div>
                             
