@@ -842,7 +842,7 @@
 						"Mat",
 						"Perrin"
 					],
-					"route": "M 9636 1538 C 9611 1629 9638 1709 9657 1787 C 9658 1793 9663 1795 9675 1792 C 9683 1790 9690 1797 9691 1806 C 9697 1826 9699 1831 9717 1832 C 9728 1833 9736 1840 9739 1875 C 9742 1911 9742 1945 9749 1958",
+					"route": "M 9636 1538 C 9611 1629 9638 1709 9657 1787 C 9658 1793 9663 1795 9675 1792 C 9683 1790 9690 1797 9691 1806 C 9697 1826 9699 1831 9717 1832 C 9728 1833 9736 1840 9739 1875 C 9742 1911 9742 1945 9754 1968",
 					"style": "standard"
 				}
 			]
@@ -909,7 +909,7 @@
 			"type": "major",
 			"id": 31,
 			"date": "6/18/998",
-			"location": "Talidar",
+			"location": "Portal Stone near Talidar",
 			"title": "In the Mirror of Darkness",
 			"description": "Rand, Loial and Hurin find a monument on the field of Talidar depicting an alternate history where the trollocs beat Artur Hawkwing. Rand rescues Selene and uses another portal stone to bring them back to their own world.",
 			"people": [
@@ -922,7 +922,7 @@
 					"people": [
 						"Rand"
 					],
-					"route": "M 9749 1958 C 9782 2018 9750 2112 9756 2197 C 9764 2315 9740 2472 9633 2631",
+					"route": "M 9749 1958 C 9782 2018 9750 2112 9756 2197 C 9764 2315 9740 2472 9633 2631 C 9627 2637 9615 2635 9599 2635",
 					"style": "portalstone"
 				}
 			]
@@ -931,7 +931,7 @@
 			"type": "major",
 			"id": 32,
 			"date": "6/22/998",
-			"location": "Talidar",
+			"location": "Portal Stone near Talidar",
 			"title": "Beneath the Dagger",
 			"description": "Rand's party finds Fain's camp and Rand steals back the dagger and the Horn of Valere.",
 			"people": [
@@ -957,7 +957,7 @@
 					"people": [
 						"Rand"
 					],
-					"route": "M 9633 2631 C 9575 2837 9456 2645 9398 2940 C 9394 3024 9207 3033 9098 3130",
+					"route": "M 9599 2635 C 9575 2837 9456 2645 9398 2940 C 9394 3024 9207 3033 9098 3130",
 					"style": "standard"
 				}
 			]
@@ -1100,7 +1100,7 @@
 			"type": "major",
 			"id": 41,
 			"date": "7/4/998",
-			"location": "Stedding Tsofu",
+			"location": "Portal Stone near Stedding Tsofu",
 			"title": "Stedding Tsofu",
 			"description": "After Machin Shin is once again waiting for them at the waygate at stedding Tsofu, Rand uses another portal stone to travel to Toman's head.",
 			"people": [
@@ -1117,7 +1117,7 @@
 						"Mat",
 						"Perrin"
 					],
-					"route": "M 8825 3570 C 8972 3563 9017 3591 9071 3610",
+					"route": "M 8825 3570 C 8972 3563 9017 3591 9071 3610 C 9093 3620 9122 3631 9142 3645",
 					"style": "standard"
 				}
 			]

@@ -26,6 +26,7 @@ import {events} from '../../data/events.json';
 import {locations} from '../../data/locations.json';
 import {regions} from '../../data/regions.json';
 import {stedding} from '../../data/stedding.json';
+import {portalstones} from '../../data/portalstones.json';
 
 const cookies = new Cookies();
 
@@ -59,8 +60,8 @@ class Map extends React.Component {
         this.steddingOffsetY = 53;
         this.mountainSteddingOffsetX = 78;
         this.mountainSteddingOffsetY = 67;
-        this.portalStoneOffsetX = 0;
-        this.portalStoneOffsetY = 0;
+        this.portalStoneOffsetX = 24;
+        this.portalStoneOffsetY = 38;
 
         let useCookies = cookies.get('useCookies') === 'true';
 
@@ -219,6 +220,18 @@ class Map extends React.Component {
                                     {
                                         Object.keys(stedding).map((key, index) => {
                                             return this.steddingToText(key, stedding[key].x, stedding[key].y, stedding[key].type, index);
+                                        })
+                                    }
+                                </Layer>
+                            ) : null
+                        }
+
+                        {
+                            this.state.showPortalStones ? (
+                                <Layer listening = {false} >
+                                    {
+                                        Object.keys(portalstones).map((key, index) => {
+                                            return this.portalStoneToImage(portalstones[key].x, portalstones[key].y, index);
                                         })
                                     }
                                 </Layer>
@@ -539,6 +552,19 @@ class Map extends React.Component {
             stroke = {'white'}
             strokeWidth = {2}
             fillAfterStrokeEnabled = {true}
+        />)
+    }
+
+    portalStoneToImage = (x, y, key) => {
+        let image = mapTilesDirectory('./portal_stone.png').default;
+
+        let ox = this.portalStoneOffsetX;
+        let oy = this.portalStoneOffsetY;
+        
+        return (<CustomImage
+            key={key} 
+            x={x - ox} y={y - oy}
+            listening={false} enablePerfectDrawing={false} src={image}
         />)
     }
 

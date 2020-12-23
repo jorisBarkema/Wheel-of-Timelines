@@ -165,8 +165,8 @@
 			"hidden": true
 		},
 		"Erinin crossing": {
-			"x": 9749,
-			"y": 1958,
+			"x": 9754,
+			"y": 1968,
 			"radius": 80,
 			"hidden": true
 		},
@@ -225,6 +225,12 @@
 			"description": "On this place, Artur Hawkwing defeated an invasion of Shadowspawn. As a tribute to the fallen soldiers, a monument was placed in the form of a spire with each falllen soldier's name and a hawk on top. However, this monument was torn down by people who wanted to forget Hawkwing's existence.",
 			"wikiLink": "https://wot.fandom.com/wiki/Battle_of_Talidar"
 		},
+		"Portal Stone near Talidar": {
+			"x": 9599,
+			"y": 2635,
+			"radius": 80,
+			"hidden": true
+		},
 		"Tremonsien": {
 			"x": 9027,
 			"y": 3184,
@@ -268,6 +274,12 @@
 			"radius": 80,
 			"description": "An Ogier stedding near the city of Cairhien.",
 			"wikiLink": "https://wot.fandom.com/wiki/Stedding_Tsofu"
+		},
+		"Portal Stone near Stedding Tsofu": {
+			"x": 9142,
+			"y": 3645,
+			"radius": 80,
+			"hidden": true
 		},
 		"Stedding Toman Head": {
 			"x": 3437,
