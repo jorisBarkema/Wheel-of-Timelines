@@ -30,7 +30,7 @@ import {stedding} from '../../data/stedding.json';
 const cookies = new Cookies();
 
 var images = require.context('../../assets', true);
-var mapTilesDirectory = require.context('../../assets/zoomify-map', true);
+var mapTilesDirectory = require.context('../../assets/zoomify-map/text', true);
 
 //const { pointInSvgPath } = require('point-in-svg-path');
 
@@ -358,10 +358,10 @@ class Map extends React.Component {
         window.addEventListener('wheel', this.zoomMap, {passive: true});
         window.addEventListener('resize', this.onResize);
 
-        document.getElementById("map-container").addEventListener('touchstart', this.handleTouchStart, {passive: true});
-        document.getElementById("map-container").addEventListener('touchmove', this.handleTouchMove, {passive: true});
-        document.getElementById("map-container").addEventListener('touchend', this.handleTouchEnd, {passive: true});
-        document.getElementById("map-container").addEventListener('touchleave', this.handleTouchEnd, {passive: true});
+        document.getElementById("map-container").addEventListener('touchstart', this.handleTouchStart);
+        document.getElementById("map-container").addEventListener('touchmove', this.handleTouchMove);
+        document.getElementById("map-container").addEventListener('touchend', this.handleTouchEnd);
+        document.getElementById("map-container").addEventListener('touchleave', this.handleTouchEnd);
         document.getElementById("map-container").addEventListener('touchcancel', this.handleTouchEnd, {passive: true});
 
         // Ik weet niet meer waarom dit er stond?
@@ -417,6 +417,7 @@ class Map extends React.Component {
                 let path = textString + "/" + zoomLevel + "-" + column + "-" + row + ".jpg";
 
                 require.resolveWeak("../../assets/zoomify-map/" + path);
+
                 tiles.push(<CustomImage
                     key={path}
                     zoomLevel={zoomLevel}
@@ -534,11 +535,13 @@ class Map extends React.Component {
         e.preventDefault();
 
         if (e.touches.length === 1) {
+            
+            let pos = this.stage.absolutePosition();
 
-            let mapx = -this.state.mapx + e.touches[0].pageX / this.state.scale;
-            let mapy = -this.state.mapy + e.touches[0].pageY / this.state.scale;
+            let mx = (-pos.x + e.touches[0].pageX) / this.stage.scaleX();
+            let my = (-pos.y + e.touches[0].pageY) / this.stage.scaleY(); 
 
-            this.handleShowingLocationOrRegion(mapx, mapy);
+            this.handleShowingLocationOrRegion(mx, my);
         }
         
         if (e.touches.length === 2) {
@@ -561,11 +564,11 @@ class Map extends React.Component {
         if (this.state.pinching) {
             let d = Math.hypot(e.touches[0].pageX - e.touches[1].pageX, e.touches[0].pageY - e.touches[1].pageY);
 
-            let factor = d / this.state.pinchDistance;
+            let factor = d / (this.state.pinchDistance === 0 ? d : this.state.pinchDistance);
             let centerx = e.touches[0].pageX + (e.touches[1].pageX - e.touches[0].pageX) / 2;
             let centery = e.touches[0].pageY + (e.touches[1].pageY - e.touches[0].pageY) / 2;
 
-            this.zoomMapTo(centerx, centery, this.state.scale * factor);
+            this.zoomMapTo(centerx, centery, this.stage.scaleX() * factor);
 
             this.setState({
                 pinchDistance: d
