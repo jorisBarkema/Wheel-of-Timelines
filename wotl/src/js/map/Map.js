@@ -30,7 +30,7 @@ import {stedding} from '../../data/stedding.json';
 const cookies = new Cookies();
 
 var images = require.context('../../assets', true);
-var mapTilesDirectory = require.context('../../assets/zoomify-map/text', true);
+var mapTilesDirectory = require.context('../../assets/zoomify-map', true);
 
 //const { pointInSvgPath } = require('point-in-svg-path');
 
