@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactGA from 'react-ga';
-import { Stage, Layer, Circle, Path} from 'react-konva';
+import { Stage, Layer, Circle, Path, Text} from 'react-konva';
 import {Helmet} from 'react-helmet'
 import {isMobile} from 'react-device-detect';
 
@@ -140,8 +140,8 @@ class Map extends React.Component {
                                         useCookies: false
                                     })
 
-                                    cookies.set('answeredCookies', true, { path: '/' });
-                                    cookies.set('useCookies', false, { path: '/' });
+                                    cookies.set('answeredCookies', true, { path: '/', maxAge: 31536000 });
+                                    cookies.set('useCookies', false, { path: '/', maxAge: 31536000 });
                                 }}
                                 >
                                     <Close fontSize="inherit" />
@@ -157,8 +157,8 @@ class Map extends React.Component {
                                         useCookies: true
                                     })
 
-                                    cookies.set('answeredCookies', true, { path: '/' });
-                                    cookies.set('useCookies', true, { path: '/' });
+                                    cookies.set('answeredCookies', true, { path: '/', maxAge: 31536000 });
+                                    cookies.set('useCookies', true, { path: '/', maxAge: 31536000 });
                                 }}
                             >
                                 Accept
@@ -214,6 +214,11 @@ class Map extends React.Component {
                                     {
                                         Object.keys(stedding).map((key, index) => {
                                             return this.steddingToImage(stedding[key].x, stedding[key].y, stedding[key].type, index);
+                                        })
+                                    }
+                                    {
+                                        Object.keys(stedding).map((key, index) => {
+                                            return this.steddingToText(key, stedding[key].x, stedding[key].y, stedding[key].type, index);
                                         })
                                     }
                                 </Layer>
@@ -521,6 +526,22 @@ class Map extends React.Component {
         />)
     }
 
+    steddingToText = (name, x, y, type, key) => {
+
+        return (<Text
+            key = {key}
+            text={'Stedding ' + name}
+            x = {x - 60}
+            y = {y + 50}
+            listening = {false} enablePerfectDrawing={false}
+            fontFamily = {'HyliaSerif'}
+            fontSize = {18}
+            stroke = {'white'}
+            strokeWidth = {2}
+            fillAfterStrokeEnabled = {true}
+        />)
+    }
+
     onResize = () => {
 
         let newminscale = Math.max(window.innerWidth / this.image_width,  this.state.mapHeight / this.image_height);
@@ -792,7 +813,7 @@ class Map extends React.Component {
 
     handleShowTextChange = () => {
 
-        if (this.state.useCookies) cookies.set('showText', !this.state.showText, { path: '/' });
+        if (this.state.useCookies) cookies.set('showText', !this.state.showText, { path: '/', maxAge: 31536000 });
 
         this.setState({
             showText: !this.state.showText,
@@ -804,7 +825,7 @@ class Map extends React.Component {
 
     handleShowSteddingChange = () => {
 
-        if (this.state.useCookies) cookies.set('showStedding', !this.state.showStedding, { path: '/' });
+        if (this.state.useCookies) cookies.set('showStedding', !this.state.showStedding, { path: '/', maxAge: 31536000 });
 
         this.setState({
             showStedding: !this.state.showStedding
@@ -813,7 +834,7 @@ class Map extends React.Component {
 
     handleShowPortalStonesChange = () => {
 
-        if (this.state.useCookies) cookies.set('showPortalStones', !this.state.showPortalStones, { path: '/' });
+        if (this.state.useCookies) cookies.set('showPortalStones', !this.state.showPortalStones, { path: '/', maxAge: 31536000 });
 
         this.setState({
             showPortalStones: !this.state.showPortalStones
@@ -828,7 +849,7 @@ class Map extends React.Component {
         //TODO: wat te doen met de lines moeten die nog wel zichtbaar zijn?
         // zo ja, dan gebaseerd op de bookFilterChecks welke wel of niet
 
-        if (this.state.useCookies) cookies.set('showingTimeline', !this.state.showingTimeline, { path: '/' });
+        if (this.state.useCookies) cookies.set('showingTimeline', !this.state.showingTimeline, { path: '/', maxAge: 31536000 });
         console.log(cookies.get('showingTimeline'));
 
         this.setState({
@@ -858,7 +879,7 @@ class Map extends React.Component {
             this.showLinesUntil(this.state.eventNumber);
         }
 
-        if (this.state.useCookies) cookies.set('showingLines', !this.state.showingLines, { path: '/' });
+        if (this.state.useCookies) cookies.set('showingLines', !this.state.showingLines, { path: '/', maxAge: 31536000 });
         console.log(cookies.get('showingLines'));
 
         this.setState({
@@ -868,7 +889,7 @@ class Map extends React.Component {
 
     handleNationBordersChange = () => {
 
-        if (this.state.useCookies) cookies.set('showingBorders', !this.state.showingBorders, { path: '/' });
+        if (this.state.useCookies) cookies.set('showingBorders', !this.state.showingBorders, { path: '/', maxAge: 31536000 });
         console.log(cookies.get('showingBorders'));
 
         this.setState({
@@ -878,7 +899,7 @@ class Map extends React.Component {
 
     handleDatesChange = () => {
 
-        if (this.state.useCookies) cookies.set('inUniverseDates', !this.state.inUniverseDates, { path: '/' });
+        if (this.state.useCookies) cookies.set('inUniverseDates', !this.state.inUniverseDates, { path: '/', maxAge: 31536000 });
         console.log(cookies.get('inUniverseDates'));
 
         this.setState({
@@ -892,7 +913,7 @@ class Map extends React.Component {
         let newChecks = this.state.characterFilterChecks;
         newChecks[v] = !newChecks[v];
 
-        if (this.state.useCookies) cookies.set(v + 'Filter', newChecks[v], { path: '/' });
+        if (this.state.useCookies) cookies.set(v + 'Filter', newChecks[v], { path: '/', maxAge: 31536000 });
 
         this.filterEvents(this.state.bookFilterChecks, newChecks);
     }
@@ -901,7 +922,7 @@ class Map extends React.Component {
         let newChecks = this.state.bookFilterChecks;
         newChecks[v] = !newChecks[v];
         
-        if (this.state.useCookies) cookies.set('book' + v + 'Filter', newChecks[v], { path: '/' });
+        if (this.state.useCookies) cookies.set('book' + v + 'Filter', newChecks[v], { path: '/', maxAge: 31536000 });
 
         this.filterEvents(newChecks, this.state.characterFilterChecks);
     }
@@ -1088,8 +1109,8 @@ class Map extends React.Component {
 
         let split = eventPath.route.split(" ");
 
-        let x = split[split.length - 2];
-        let y = split[split.length - 1];
+        let x = parseInt(split[split.length - 2]);
+        let y = parseInt(split[split.length - 1]);
 
         //console.log("circle x, y: " + x + ", " + y)
         return <Circle

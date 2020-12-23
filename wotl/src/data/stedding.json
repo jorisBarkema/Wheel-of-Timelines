@@ -1,68 +1,68 @@
 {
 	"stedding": {
 		"Cantoine": {
-			"x": 0,
-			"y": 0,
+			"x": 10135,
+			"y": 3821,
 			"type": "mountain"
         },
         "Chanti": {
-			"x": 0,
-			"y": 0,
+			"x": 10273,
+			"y": 4857,
 			"type": "mountain"
         },
         "Daiting": {
-			"x": 0,
-			"y": 0,
+			"x": 9981,
+			"y": 5833,
 			"type": "mountain"
         },
         "Handu": {
-			"x": 0,
-			"y": 0,
+			"x": 10181,
+			"y": 3166,
 			"type": "mountain"
         },
         "Kolomon": {
-			"x": 0,
-			"y": 0,
+			"x": 10065,
+			"y": 5460,
 			"type": "mountain"
         },
         "Lantoine": {
-			"x": 0,
-			"y": 0,
+			"x": 10228,
+			"y": 2186,
 			"type": "mountain"
         },
         "Mashong": {
-			"x": 0,
-			"y": 0,
+			"x": 10089,
+			"y": 2700,
 			"type": "mountain"
         },
         "Qichen": {
-			"x": 0,
-			"y": 0,
+			"x": 10256,
+			"y": 1413,
 			"type": "mountain"
         },
         "Sanshen": {
-			"x": 0,
-			"y": 0,
+			"x": 10199,
+			"y": 1615,
 			"type": "mountain"
         },
         "Shangtai": {
-			"x": 0,
-			"y": 0,
+			"x": 10085,
+			"y": 6127,
 			"type": "mountain"
         },
         "Sintiang": {
-			"x": 0,
-			"y": 0,
+			"x": 10170,
+			"y": 2395,
 			"type": "mountain"
         },
         "Taijing": {
-			"x": 0,
-			"y": 0,
+			"x": 10297,
+			"y": 3845,
 			"type": "mountain"
         },
         "Yongen": {
-			"x": 0,
-			"y": 0,
+			"x": 10209,
+			"y": 4476,
 			"type": "mountain"
         },
         "Yontiang": {
@@ -71,89 +71,89 @@
 			"type": "mountain"
         },
         "Janshin": {
-			"x": 0,
-			"y": 0,
-			"type": ""
+			"x": 8951,
+			"y": 5634,
+			"type": "hill"
         },
         "Nurshang": {
-			"x": 0,
-			"y": 0,
-			"type": ""
+			"x": 9030,
+			"y": 2447,
+			"type": "hill"
         },
         "Tsofu": {
-			"x": 0,
-			"y": 0,
-			"type": ""
+			"x": 9072,
+			"y": 3611,
+			"type": "hill"
         },
         "Chosium": {
-			"x": 0,
-			"y": 0,
-			"type": ""
+			"x": 5883,
+			"y": 2276,
+			"type": "hill"
         },
         "Jongai": {
-			"x": 0,
-			"y": 0,
-			"type": ""
+			"x": 5821,
+			"y": 1613,
+			"type": "hill"
         },
         "Saishen": {
-			"x": 0,
-			"y": 0,
-			"type": ""
+			"x": 5516,
+			"y": 1958,
+			"type": "hill"
         },
         "Chiantal": {
-			"x": 0,
-			"y": 0,
-			"type": ""
+			"x": 7805,
+			"y": 1588,
+			"type": "hill"
         },
         "Shanjing": {
-			"x": 0,
-			"y": 0,
-			"type": ""
+			"x": 8297,
+			"y": 1905,
+			"type": "hill"
         },
         "Tanhal": {
-			"x": 0,
-			"y": 0,
-			"type": ""
+			"x": 8946,
+			"y": 1482,
+			"type": "hill"
         },
         "Sholoon": {
-			"x": 0,
-			"y": 0,
-			"type": ""
+			"x": 9040,
+			"y": 1972,
+			"type": "hill"
         },
         "Feindu": {
-			"x": 0,
-			"y": 0,
-			"type": ""
+			"x": 7300,
+			"y": 2486,
+			"type": "mountain"
         },
         "Jentoine": {
-			"x": 0,
-			"y": 0,
-			"type": ""
+			"x": 7591,
+			"y": 2792,
+			"type": "mountain"
         },
         "Shajin": {
-			"x": 0,
-			"y": 0,
-			"type": ""
+			"x": 7102,
+			"y": 2250,
+			"type": "mountain"
         },
         "Leitiang": {
-			"x": 0,
-			"y": 0,
-			"type": ""
+			"x": 6382,
+			"y": 2144,
+			"type": "hill"
         },
         "Shamendar": {
-			"x": 0,
-			"y": 0,
-			"type": ""
+			"x": 6707,
+			"y": 2266,
+			"type": "hill"
         },
         "Taishin": {
-			"x": 0,
-			"y": 0,
-			"type": ""
+			"x": 6540,
+			"y": 2648,
+			"type": "hill"
         },
         "Tsochan": {
-			"x": 0,
-			"y": 0,
-			"type": ""
+			"x": 5980,
+			"y": 2835,
+			"type": "hill"
         },
         "Mintai": {
 			"x": 4229,
@@ -206,14 +206,14 @@
 			"type": "hill"
         },
         "Chandar": {
-			"x": 0,
-			"y": 0,
-			"type": ""
+			"x": 6883,
+			"y": 898,
+			"type": "hill"
         },
         "Sherandu": {
-			"x": 0,
-			"y": 0,
-			"type": ""
+			"x": 6181,
+			"y": 593,
+			"type": "hill"
         }
     }
 }
