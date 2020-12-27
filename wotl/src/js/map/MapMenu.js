@@ -42,7 +42,8 @@ class MapMenu extends React.Component {
             hd: props.hd,
             showText: props.showText,
             showStedding: props.showStedding,
-            showPortalStones: props.showPortalStones
+            showPortalStones: props.showPortalStones,
+            showRivers: props.showRivers
         }
     }
 
@@ -135,7 +136,7 @@ class MapMenu extends React.Component {
         this.setState({
             showStedding: !this.state.showStedding
         })
-
+        
         this.props.onShowSteddingChange();
     }
 
@@ -145,6 +146,14 @@ class MapMenu extends React.Component {
         })
 
         this.props.onShowPortalStonesChange();
+    }
+
+    handleShowRiversChange = () => {
+        this.setState({
+            showRivers: !this.state.showRivers
+        })
+
+        this.props.onShowRiversChange();
     }
 
     render = () => {
@@ -224,6 +233,12 @@ class MapMenu extends React.Component {
                                         <Checkbox checked={this.state.showPortalStones} onChange={() => this.handleShowPortalStonesChange()} color="primary" value="secondary"/>
                                         }
                                         label="Show portal stones"
+                                    />
+                                    <FormControlLabel
+                                        control={
+                                        <Checkbox checked={this.state.showRivers} onChange={() => this.handleShowRiversChange()} color="primary" value="secondary"/>
+                                        }
+                                        label="Show river names"
                                     />
                                     <FormControlLabel
                                         control={

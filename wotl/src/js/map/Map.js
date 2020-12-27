@@ -27,6 +27,8 @@ import {locations} from '../../data/locations.json';
 import {regions} from '../../data/regions.json';
 import {stedding} from '../../data/stedding.json';
 import {portalstones} from '../../data/portalstones.json';
+import {rivers} from '../../data/rivers.json';
+
 
 const cookies = new Cookies();
 
@@ -94,6 +96,7 @@ class Map extends React.Component {
             showText: (useCookies && cookies.get('showText') !== undefined) ? cookies.get('showText') === 'true' : true,
             showStedding: (useCookies && cookies.get('showStedding') !== undefined) ? cookies.get('showStedding') === 'true' : false,
             showPortalStones: (useCookies && cookies.get('showPortalStones') !== undefined) ? cookies.get('showPortalStones') === 'true' : false,
+            showRivers: (useCookies && cookies.get('showRivers') !== undefined) ? cookies.get('showRivers') === 'true' : false,
             showingLines: (useCookies && cookies.get('showingLines') !== undefined) ? cookies.get('showingLines') === 'true' : true,
             showingTimeline: (useCookies && cookies.get('showingTimeline') !== undefined) ? cookies.get('showingTimeline') === 'true' : true,
             showingBorders: (useCookies && cookies.get('showingBorders') !== undefined) ? cookies.get('showingBorders') === 'true' : false,
@@ -189,6 +192,8 @@ class Map extends React.Component {
                         onShowSteddingChange = {() => this.handleShowSteddingChange()}
                         showPortalStones = {this.state.showPortalStones}
                         onShowPortalStonesChange = {() => this.handleShowPortalStonesChange()}
+                        showRivers = {this.state.showRivers}
+                        onShowRiversChange = {() => this.handleShowRiversChange()}
                         hd = {!isMobile}
                         onDefinitionChange = {() => this.setState({map_image: (this.state.map_image === this.ld_image) ? this.hd_image : this.ld_image})} />
                 </div>
@@ -232,6 +237,18 @@ class Map extends React.Component {
                                     {
                                         Object.keys(portalstones).map((key, index) => {
                                             return this.portalStoneToImage(portalstones[key].x, portalstones[key].y, index);
+                                        })
+                                    }
+                                </Layer>
+                            ) : null
+                        }
+
+{
+                            this.state.showRivers ? (
+                                <Layer listening = {false} >
+                                    {
+                                        Object.keys(rivers).map((key, index) => {
+                                            return this.riverToImage(key, rivers[key].x, rivers[key].y, index);
                                         })
                                     }
                                 </Layer>
@@ -568,6 +585,23 @@ class Map extends React.Component {
         />)
     }
 
+    riverToImage = (name, x, y, key) => {
+        
+        return (<Text
+            key = {key}
+            text={name}
+            x = {x}
+            y = {y}
+            listening = {false} enablePerfectDrawing={false}
+            fontFamily = {'HyliaSerif'}
+            fontSize = {24}
+            fill={'rgb(24, 7, 107)'}
+            stroke = {'white'}
+            strokeWidth = {2}
+            fillAfterStrokeEnabled = {true}
+        />)
+    }
+
     onResize = () => {
 
         let newminscale = Math.max(window.innerWidth / this.image_width,  this.state.mapHeight / this.image_height);
@@ -864,6 +898,15 @@ class Map extends React.Component {
 
         this.setState({
             showPortalStones: !this.state.showPortalStones
+        })
+    }
+
+    handleShowRiversChange = () => {
+
+        if (this.state.useCookies) cookies.set('showRivers', !this.state.showRivers, { path: '/', maxAge: 31536000 });
+
+        this.setState({
+            showRivers: !this.state.showRivers
         })
     }
 
