@@ -1,0 +1,193 @@
+{
+    "type": "personality",
+    "title": "Which Ta'veren Are You?",
+    "titleImageSource": "quizzes/whichtaveren/three-taveren.png",
+    "titleImageCredit": "https://wot.fandom.com/wiki/Ta%27veren?file=Ta%27veren.png",
+    "titleImageArtist": "Eric de Mander",
+    "questions": [
+        {
+            "question": "What do you enjoy most on a day at the beach?",
+            "titleImage": false,
+            "images": false,
+            "options": [
+                "Swimming in the sea",
+                "Building a sandcastle"
+            ]
+        },
+        {
+            "question": "Of these professions in the criminal justice system, which would you prefer?",
+            "titleImage": false,
+            "images": false,
+            "options": [
+                "Detective",
+                "Mortician",
+                "Forensic Scientist",
+                "Lawyer"
+            ]
+        },
+        {
+            "question": "Which image speaks to you the most?",
+            "titleImage": false,
+            "images": false,
+            "options": [
+                "Earth",
+                "Sea",
+                "Fantasy",
+                "Brains",
+                "Traveling",
+                "Sky"
+            ]
+        },
+        {
+            "question": "Which of these is your favorite avatar character?",
+            "titleImage": false,
+            "images": false,
+            "options": [
+                "Aang",
+                "Katara",
+                "Sokka",
+                "Toph"
+            ]
+        },
+        {
+            "question": "If you could travel in time, would you go to the future or the past?",
+            "titleImage": false,
+            "images": false,
+            "options": [
+                "Future",
+                "Past"
+            ]
+        },
+        {
+            "question": "Which TV-show do you prefer?",
+            "titleImage": false,
+            "images": false,
+            "options": [
+                "Sherlock",
+                "Game of Thrones",
+                "The Mandalorian",
+                "Dark",
+                "House"
+            ]
+        },
+        {
+            "question": "Which TV-show do you prefer?",
+            "titleImage": false,
+            "images": false,
+            "options": [
+                "Penicillin",
+                "Airplanes",
+                "The Compass",
+                "Steam Engines"
+            ]
+        },
+        {
+            "question": "On your free day, would you rather",
+            "titleImage": false,
+            "images": false,
+            "options": [
+                "Read a book or watch a movie",
+                "Explore something new",
+                "Go indoor skydiving"
+            ]
+        }
+    ],
+    "points": [
+        {
+            "Swimming in the sea": {"Cloud Dancing": 1},
+            "Building a sandcastle": {"Earth Singing": 1}
+        },
+        {
+            "Detective": {"Reading Residues": 1, "Foretelling": 1},
+            "Mortician": {"Healing": 1},
+            "Forensic Scientist": {"Reading Residues": 1},
+            "Lawyer": {"Foretelling": 1}
+        },
+        {
+            "Earth": {"Earth Singing": 1},
+            "Sea": {"Cloud Dancing": 1},
+            "Fantasy": {"Dreamwalking": 1},
+            "Brains": {"Foretelling": 1},
+            "Traveling": {"Traveling and Skimming": 1},
+            "Sky": {"Air Control": 1}
+        },
+        {
+            "Aang": {"Air Control": 1, "Dreamwalking": 1},
+            "Katara": {"Healing": 1},
+            "Sokka": {"Reading Residues": 1},
+            "Toph": {"Earth Singing": 1}
+        },
+        {
+            "Future": {"Foretelling": 1, "Dreamwalking": 1},
+            "Past": {"Foretelling": -1}
+        },
+        {
+            "Sherlock": {"Reading Residues": 1},
+            "Game of Thrones": {"Dreamwalking": 1},
+            "The Mandalorian": {"Traveling and Skimming": 1},
+            "Dark": {"Foretelling": 1},
+            "House": {"Healing": 1}
+        },
+        {
+            "Penicillin": {"Healing": 1},
+            "Airplanes": {"Traveling and Skimming": 1},
+            "The Compass": {"Cloud Dancing": 1},
+            "Steam Engines": {"Air Control": 1}
+        },
+        {
+            "Read a book or watch a movie": {"Dreamwalking": 1},
+            "Explore something new": {"Traveling and Skimming": 1},
+            "Go indoor skydiving": {"Air Control": 1}
+        }
+    ],
+    "results": {
+        "Healing": {
+            "message": "Healing",
+            "image": "character-portraits/mat.png",
+            "imageSource": "https://wot.fandom.com/wiki/Matrim_Cauthon?file=Avendesora.png",
+            "imageArtist": "Sam Weber"
+        },
+        "Cloud Dancing": {
+            "message": "cloud dancing",
+            "image": "character-portraits/mat.png",
+            "imageSource": "https://wot.fandom.com/wiki/Matrim_Cauthon?file=Avendesora.png",
+            "imageArtist": "Sam Weber"
+        },
+        "Foretelling": {
+            "message": "foretelling",
+            "image": "character-portraits/mat.png",
+            "imageSource": "https://wot.fandom.com/wiki/Matrim_Cauthon?file=Avendesora.png",
+            "imageArtist": "Sam Weber"
+        },
+        "Dreamwalking": {
+            "message": "dreamwalking",
+            "image": "character-portraits/mat.png",
+            "imageSource": "https://wot.fandom.com/wiki/Matrim_Cauthon?file=Avendesora.png",
+            "imageArtist": "Sam Weber"
+        },
+        "Earth Singing": {
+            "message": "earth singing",
+            "image": "character-portraits/mat.png",
+            "imageSource": "https://wot.fandom.com/wiki/Matrim_Cauthon?file=Avendesora.png",
+            "imageArtist": "Sam Weber"
+        },
+        "Air Control": {
+            "message": "air control",
+            "image": "character-portraits/mat.png",
+            "imageSource": "https://wot.fandom.com/wiki/Matrim_Cauthon?file=Avendesora.png",
+            "imageArtist": "Sam Weber"
+        },
+        "Reading Residues": {
+            "message": "reading residues",
+            "image": "character-portraits/mat.png",
+            "imageSource": "https://wot.fandom.com/wiki/Matrim_Cauthon?file=Avendesora.png",
+            "imageArtist": "Sam Weber"
+        },
+        "Traveling and Skimming": {
+            "message": "traveling and skimming",
+            "image": "character-portraits/mat.png",
+            "imageSource": "https://wot.fandom.com/wiki/Matrim_Cauthon?file=Avendesora.png",
+            "imageArtist": "Sam Weber"
+        }
+    }
+}
