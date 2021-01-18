@@ -18,7 +18,11 @@ def take_quiz(quiz):
     result = {}
 
     for i in range(len(quiz['questions'])):
-        options = quiz['questions'][i]['options']
+        if not quiz['questions'][i]['images']:
+            options = quiz['questions'][i]['options']
+        else:
+            options = [x['value'] for x in quiz['questions'][i]['options']]
+        
         points = quiz['points'][i]
 
         number = random.randint(0, len(options) - 1)

@@ -7,8 +7,9 @@ import QuizPreview from './quizzes/QuizPreview.js';
 import BlogPreview from './blog/BlogPreview.js';
 import Announcement from './Announcement.js';
 
-import whichTaveren from '../quizzes/which-taveren-are-you.json';
+//import whichTaveren from '../quizzes/which-taveren-are-you.json';
 import whichforsaken from '../quizzes/which-forsaken-are-you.json';
+import whichTalent from '../quizzes/which-talent.json';
 
 //import posts from './assets/blogposts.json';
 
@@ -70,7 +71,7 @@ class Home extends React.Component {
 
                                 <div className="home-item">
                                     <div className="row">
-                                        <QuizPreview data={whichTaveren}/>
+                                        <QuizPreview data={whichTalent}/>
                                         <QuizPreview data={whichforsaken}/>
                                     </div>
                                     <h2>

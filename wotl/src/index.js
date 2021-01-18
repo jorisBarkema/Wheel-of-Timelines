@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import {useRoutes} from 'hookrouter';
 import ReactGA from 'react-ga';
 
+import {config} from './config.json';
+
 import './fonts/HyliaSerifBeta-Regular.otf'
 
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
@@ -110,6 +112,7 @@ import whosaidit from './quizzes/whosaidit.json';
 import whichForsaken from './quizzes/which-forsaken-are-you.json';
 import whichTaveren from './quizzes/which-taveren-are-you.json';
 //import dropNation from './quizzes/drop-nations.json' ;
+import whichTalent from './quizzes/which-talent.json';
 
 import firstBlog from './blogs/first-blog.jsx';
 import makingBlog from './blogs/making-map-blog.jsx';
@@ -145,10 +148,9 @@ let blogposts = [
     }
 ]
 
-let quizzes = [whichTaveren, whosaidit, whichForsaken, triviaNovice, triviaAccepted, triviaAesSedai];
+let quizzes = [whichTalent, whichTaveren, whosaidit, whichForsaken, triviaNovice, triviaAccepted, triviaAesSedai];
 
-ReactGA.initialize('UA-72578995-3');
-
+ReactGA.initialize(config['GA']);
 
 const routes = {
     "/": () => <Page title="Wheel of Timelines" description="Wheel of Timelines - The best Wheel of time map with timeline, plus quizzes and a blog!" element={<Home />} />,

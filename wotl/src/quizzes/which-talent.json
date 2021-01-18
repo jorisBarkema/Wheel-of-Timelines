@@ -1,17 +1,28 @@
 {
     "type": "personality",
-    "title": "Which Ta'veren Are You?",
-    "titleImageSource": "quizzes/whichtaveren/three-taveren.png",
-    "titleImageCredit": "https://wot.fandom.com/wiki/Ta%27veren?file=Ta%27veren.png",
-    "titleImageArtist": "Eric de Mander",
+    "title": "Which Talent Would You Have?",
+    "titleImageSource": "quizzes/whichtalent/dreamwalking-image.jpg",
+    "titleImageCredit": "https://aminoapps.com/c/pagans-witches/page/item/dreamwalking/r082_1PmIqIxe02rgbZK15oPPGe2PXRqJrN",
+    "titleImageArtist": "Unknown",
     "questions": [
         {
             "question": "What do you enjoy most on a day at the beach?",
             "titleImage": false,
-            "images": false,
+            "images": true,
+            "showValues": true,
             "options": [
-                "Swimming in the sea",
-                "Building a sandcastle"
+                {
+                    "value": "Swimming in the sea",
+                    "imageSource": "quizzes/whichtalent/swimming-in-sea.jpg",
+                    "imageCredit": "https://safertourism.org.uk/travel-tips/beach-swimming-sea/",
+                    "imageArtist": "Imgorthand"
+                },
+                {
+                    "value": "Building a sandcastle",
+                    "imageSource": "quizzes/whichtalent/sandcastle.jpg",
+                    "imageCredit": "https://www.redbookmag.com/life/mom-kids/g119/sand-castle-building-tips/?slide=1",
+                    "imageArtist": "Robin Lehr"
+                }
             ]
         },
         {
@@ -28,25 +39,77 @@
         {
             "question": "Which image speaks to you the most?",
             "titleImage": false,
-            "images": false,
+            "images": true,
+            "showValues": false,
             "options": [
-                "Earth",
-                "Sea",
-                "Fantasy",
-                "Brains",
-                "Traveling",
-                "Sky"
+                {
+                    "value": "Earth",
+                    "imageSource": "quizzes/whichtalent/earth-metal.jpg",
+                    "imageCredit": "https://www.wallpaperflare.com/stone-ore-red-stones-black-stone-red-and-black-stones-containing-the-minerals-of-the-stone-wallpaper-wnmao",
+                    "imageArtist": "Wallpaperflare"
+                },
+                {
+                    "value": "Sea",
+                    "imageSource": "quizzes/whichtalent/ocean.jpg",
+                    "imageCredit": "https://www.nationalgeographic.org/encyclopedia/ocean/",
+                    "imageArtist": "National Geographic"
+                },
+                {
+                    "value": "Fantasy",
+                    "imageSource": "quizzes/whichtalent/fantasy-world.jpg",
+                    "imageCredit": "https://audiojungle.net/item/fantasy-world/23000159",
+                    "imageArtist": "Unknown"
+                },
+                {
+                    "value": "Intelligence",
+                    "imageSource": "quizzes/whichtalent/intelligence.png",
+                    "imageCredit": "https://bernardmarr.com/default.asp?contentID=1831",
+                    "imageArtist": "Unknown"
+                },
+                {
+                    "value": "Traveling",
+                    "imageSource": "quizzes/whichtalent/traveling.jpg",
+                    "imageCredit": "https://www.forbes.com/sites/johnnyjet/2017/10/23/ten-tips-for-traveling-alone/",
+                    "imageArtist": "DEPOSITPHOTOS"
+                },
+                {
+                    "value": "Sky",
+                    "imageSource": "quizzes/whichtalent/sky.webp",
+                    "imageCredit": "https://resilientblog.co/inspirational/quotes-about-the-sky/",
+                    "imageArtist": "Unknown"
+                }
             ]
         },
         {
-            "question": "Which of these is your favorite avatar character?",
+            "question": "Which of these is your favorite Avatar: The Last Airbender character?",
             "titleImage": false,
-            "images": false,
+            "images": true,
+            "showValues": true,
             "options": [
-                "Aang",
-                "Katara",
-                "Sokka",
-                "Toph"
+                {
+                    "value": "Aang",
+                    "imageSource": "quizzes/whichtalent/aang.png",
+                    "imageCredit": "https://avatar.fandom.com/wiki/Aang_(pilot)",
+                    "imageArtist": "Nickelodeon"
+                },
+                {
+                    "value": "Katara",
+                    "imageSource": "quizzes/whichtalent/katara.png",
+                    "imageCredit": "https://avatar.fandom.com/wiki/Katara",
+                    "imageArtist": "Nickelodeon"
+                },
+                {
+                    "value": "Sokka",
+                    "imageSource": "quizzes/whichtalent/sokka.png",
+                    "imageCredit": "https://avatar.fandom.com/wiki/Sokka",
+                    "imageArtist": "Nickelodeon"
+                },
+                {
+                    "value": "Toph",
+                    "imageSource": "quizzes/whichtalent/toph.png",
+                    "imageCredit": "https://avatar.fandom.com/wiki/Toph_Beifong",
+                    "imageArtist": "Nickelodeon"
+                }
             ]
         },
         {
@@ -61,24 +124,71 @@
         {
             "question": "Which TV-show do you prefer?",
             "titleImage": false,
-            "images": false,
+            "images": true,
+            "showValues": true,
             "options": [
-                "Sherlock",
-                "Game of Thrones",
-                "The Mandalorian",
-                "Dark",
-                "House"
+                {
+                    "value": "Sherlock",
+                    "imageSource": "quizzes/whichtalent/sherlock.jpg",
+                    "imageCredit": "https://www.bbc.co.uk/programmes/b018ttws",
+                    "imageArtist": "BBC"
+                },
+                {
+                    "value": "Game of Thrones",
+                    "imageSource": "quizzes/whichtalent/got.webp",
+                    "imageCredit": "https://binge.com.au/shows/show-game-of-thrones!1446",
+                    "imageArtist": "HBO"
+                },
+                {
+                    "value": "The Mandalorian",
+                    "imageSource": "quizzes/whichtalent/mandalorian.jpg",
+                    "imageCredit": "https://www.imdb.com/title/tt8111088/",
+                    "imageArtist": "Disney+"
+                },
+                {
+                    "value": "Dark",
+                    "imageSource": "quizzes/whichtalent/dark.png",
+                    "imageCredit": "https://dark.netflix.io/en",
+                    "imageArtist": "Netflix"
+                },
+                {
+                    "value": "House",
+                    "imageSource": "quizzes/whichtalent/house.webp",
+                    "imageCredit": "https://www.tallengestore.com/products/love-sucks-house-md-art-by-anna-kay-posters",
+                    "imageArtist": "FOX"
+                }
             ]
         },
         {
-            "question": "Which TV-show do you prefer?",
+            "question": "Which of these inventions do you think is the most important?",
             "titleImage": false,
-            "images": false,
+            "images": true,
+            "showValues": true,
             "options": [
-                "Penicillin",
-                "Airplanes",
-                "The Compass",
-                "Steam Engines"
+                {
+                    "value": "Penicillin",
+                    "imageSource": "quizzes/whichtalent/penicillin.jpg",
+                    "imageCredit": "https://www.verywellhealth.com/cephalosporins-and-penicillin-allergy-83072",
+                    "imageArtist": "Gilbert Laurie"
+                },
+                {
+                    "value": "Airplane",
+                    "imageSource": "quizzes/whichtalent/airplane.jpg",
+                    "imageCredit": "https://petapixel.com/2012/12/18/the-story-behind-the-iconic-photograph-of-the-first-flight-of-an-airplane/#:~:text=Back%20on%20December%2017th%2C%201903,the%20Wright%20brothers'%20first%20flight.",
+                    "imageArtist": "John Thomas Daniels Jr."
+                },
+                {
+                    "value": "Compass",
+                    "imageSource": "quizzes/whichtalent/compass.jpg",
+                    "imageCredit": "https://www.technologynetworks.com/neuroscience/news/unique-neuron-study-identifies-the-compass-of-the-brain-330322",
+                    "imageArtist": "Pixabay"
+                },
+                {
+                    "value": "Steam Engine",
+                    "imageSource": "quizzes/whichtalent/steamengine.jpg",
+                    "imageCredit": "https://en.wikipedia.org/wiki/Steam_engine",
+                    "imageArtist": "Unknown"
+                }
             ]
         },
         {
@@ -107,7 +217,7 @@
             "Earth": {"Earth Singing": 1},
             "Sea": {"Cloud Dancing": 1},
             "Fantasy": {"Dreamwalking": 1},
-            "Brains": {"Foretelling": 1},
+            "Intelligence": {"Foretelling": 1},
             "Traveling": {"Traveling and Skimming": 1},
             "Sky": {"Air Control": 1}
         },
@@ -130,9 +240,9 @@
         },
         {
             "Penicillin": {"Healing": 1},
-            "Airplanes": {"Traveling and Skimming": 1},
-            "The Compass": {"Cloud Dancing": 1},
-            "Steam Engines": {"Air Control": 1}
+            "Airplane": {"Traveling and Skimming": 1},
+            "Compass": {"Cloud Dancing": 1},
+            "Steam Engine": {"Air Control": 1}
         },
         {
             "Read a book or watch a movie": {"Dreamwalking": 1},
@@ -142,52 +252,52 @@
     ],
     "results": {
         "Healing": {
-            "message": "Healing",
-            "image": "character-portraits/mat.png",
-            "imageSource": "https://wot.fandom.com/wiki/Matrim_Cauthon?file=Avendesora.png",
-            "imageArtist": "Sam Weber"
+            "message": "",
+            "image": "quizzes/whichtalent/healing.jpg",
+            "imageSource": "https://wot.fandom.com/wiki/Healing?file=Healing.jpg",
+            "imageArtist": "Mike S. Miller"
         },
         "Cloud Dancing": {
             "message": "cloud dancing",
-            "image": "character-portraits/mat.png",
-            "imageSource": "https://wot.fandom.com/wiki/Matrim_Cauthon?file=Avendesora.png",
-            "imageArtist": "Sam Weber"
+            "image": "quizzes/whichtalent/",
+            "imageSource": "",
+            "imageArtist": ""
         },
         "Foretelling": {
             "message": "foretelling",
-            "image": "character-portraits/mat.png",
-            "imageSource": "https://wot.fandom.com/wiki/Matrim_Cauthon?file=Avendesora.png",
-            "imageArtist": "Sam Weber"
+            "image": "quizzes/whichtalent/",
+            "imageSource": "",
+            "imageArtist": ""
         },
         "Dreamwalking": {
             "message": "dreamwalking",
-            "image": "character-portraits/mat.png",
-            "imageSource": "https://wot.fandom.com/wiki/Matrim_Cauthon?file=Avendesora.png",
-            "imageArtist": "Sam Weber"
+            "image": "quizzes/whichtalent/",
+            "imageSource": "",
+            "imageArtist": ""
         },
         "Earth Singing": {
             "message": "earth singing",
-            "image": "character-portraits/mat.png",
-            "imageSource": "https://wot.fandom.com/wiki/Matrim_Cauthon?file=Avendesora.png",
-            "imageArtist": "Sam Weber"
+            "image": "quizzes/whichtalent/",
+            "imageSource": "",
+            "imageArtist": ""
         },
         "Air Control": {
             "message": "air control",
-            "image": "character-portraits/mat.png",
-            "imageSource": "https://wot.fandom.com/wiki/Matrim_Cauthon?file=Avendesora.png",
-            "imageArtist": "Sam Weber"
+            "image": "quizzes/whichtalent/",
+            "imageSource": "",
+            "imageArtist": ""
         },
         "Reading Residues": {
             "message": "reading residues",
-            "image": "character-portraits/mat.png",
-            "imageSource": "https://wot.fandom.com/wiki/Matrim_Cauthon?file=Avendesora.png",
-            "imageArtist": "Sam Weber"
+            "image": "quizzes/whichtalent/",
+            "imageSource": "",
+            "imageArtist": ""
         },
         "Traveling and Skimming": {
             "message": "traveling and skimming",
-            "image": "character-portraits/mat.png",
-            "imageSource": "https://wot.fandom.com/wiki/Matrim_Cauthon?file=Avendesora.png",
-            "imageArtist": "Sam Weber"
+            "image": "quizzes/whichtalent/",
+            "imageSource": "",
+            "imageArtist": ""
         }
     }
 }

@@ -26,12 +26,12 @@ class PersonalityResultContainer extends React.Component {
 
                 <div className="row">
                     <div id="message-container" className="col-12 col-md-6">
-                        <h1>You are {this.props.answer}</h1>
+                        <h1>{this.props.answer}</h1>
                         <p>{message}</p>
                         <MenuShareIcons shareMessage="Share this quiz"/>
                     </div>
                     <div className="col-12 col-md-6">
-                        <div id="image-container" className="image-top-background" style={{backgroundImage: "url(" + img_src + ")"}} />
+                        <div id="image-container" className="image-full-background" style={{backgroundImage: "url(" + img_src + ")"}} />
                         <span className="credit"><a href={img_link}>image source</a> by {img_artist} </span>
                     </div>
                 </div>
