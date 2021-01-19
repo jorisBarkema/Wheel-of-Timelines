@@ -5,6 +5,7 @@ class Quiz extends React.Component {
         super(props);
         this.state = {
             title: props.data.title,
+            startMessage: props.data.hasOwnProperty('startMessage') ? props.data.startMessage : null,
             questions: props.data.questions,
             titleImageSource: props.data.titleImageSource,
             titleImageCredit: props.data.titleImageCredit,

@@ -22,6 +22,7 @@ function Announcement() {
                     Latest Quizzes
                 </h3>
                 <p>
+                    <a style={{color: '#6d7289'}} href="/quizzes/Which_Talent_Would_You_Have">Which Talent Would You Have?</a> <br />
                     <a style={{color: '#6d7289'}} href="/quizzes/Which_Ta'veren_Are_You">Which Ta'veren Are You?</a> <br />
                     <a style={{color: '#6d7289'}} href="/quizzes/Which_Forsaken_Are_You">Which Forsaken Are You?</a>
                 </p>

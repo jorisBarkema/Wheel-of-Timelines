@@ -1,0 +1,304 @@
+{
+    "type": "personality",
+    "title": "Which Talent Would You Have?",
+    "startMessage": "SPOILER WARNING! The result for this quiz is a talent present in the Wheel of Time books. If you have not read all of the books yet, the result may be a Talent which is revealed later in the books." ,
+    "titleImageSource": "quizzes/whichtalent/dreamwalking-image.jpg",
+    "titleImageCredit": "https://aminoapps.com/c/pagans-witches/page/item/dreamwalking/r082_1PmIqIxe02rgbZK15oPPGe2PXRqJrN",
+    "titleImageArtist": "Unknown",
+    "questions": [
+        {
+            "question": "What do you enjoy most on a day at the beach?",
+            "titleImage": false,
+            "images": true,
+            "showValues": true,
+            "options": [
+                {
+                    "value": "Swimming in the sea",
+                    "imageSource": "quizzes/whichtalent/swimming-in-sea.jpg",
+                    "imageCredit": "https://safertourism.org.uk/travel-tips/beach-swimming-sea/",
+                    "imageArtist": "Imgorthand"
+                },
+                {
+                    "value": "Building a sandcastle",
+                    "imageSource": "quizzes/whichtalent/sandcastle.jpg",
+                    "imageCredit": "https://www.redbookmag.com/life/mom-kids/g119/sand-castle-building-tips/?slide=1",
+                    "imageArtist": "Robin Lehr"
+                }
+            ]
+        },
+        {
+            "question": "Of these professions in the criminal justice system, which would you prefer?",
+            "titleImage": false,
+            "images": false,
+            "options": [
+                "Detective",
+                "Mortician",
+                "Forensic Scientist",
+                "Lawyer"
+            ]
+        },
+        {
+            "question": "Which image speaks to you the most?",
+            "titleImage": false,
+            "images": true,
+            "showValues": false,
+            "options": [
+                {
+                    "value": "Earth",
+                    "imageSource": "quizzes/whichtalent/earth-metal.jpg",
+                    "imageCredit": "https://www.wallpaperflare.com/stone-ore-red-stones-black-stone-red-and-black-stones-containing-the-minerals-of-the-stone-wallpaper-wnmao",
+                    "imageArtist": "Wallpaperflare"
+                },
+                {
+                    "value": "Sea",
+                    "imageSource": "quizzes/whichtalent/ocean.jpg",
+                    "imageCredit": "https://www.nationalgeographic.org/encyclopedia/ocean/",
+                    "imageArtist": "National Geographic"
+                },
+                {
+                    "value": "Fantasy",
+                    "imageSource": "quizzes/whichtalent/fantasy-world.jpg",
+                    "imageCredit": "https://audiojungle.net/item/fantasy-world/23000159",
+                    "imageArtist": "Unknown"
+                },
+                {
+                    "value": "Intelligence",
+                    "imageSource": "quizzes/whichtalent/intelligence.png",
+                    "imageCredit": "https://bernardmarr.com/default.asp?contentID=1831",
+                    "imageArtist": "Unknown"
+                },
+                {
+                    "value": "Traveling",
+                    "imageSource": "quizzes/whichtalent/traveling.jpg",
+                    "imageCredit": "https://www.forbes.com/sites/johnnyjet/2017/10/23/ten-tips-for-traveling-alone/",
+                    "imageArtist": "DEPOSITPHOTOS"
+                },
+                {
+                    "value": "Sky",
+                    "imageSource": "quizzes/whichtalent/sky.webp",
+                    "imageCredit": "https://resilientblog.co/inspirational/quotes-about-the-sky/",
+                    "imageArtist": "Unknown"
+                }
+            ]
+        },
+        {
+            "question": "Which of these is your favorite Avatar: The Last Airbender character?",
+            "titleImage": false,
+            "images": true,
+            "showValues": true,
+            "options": [
+                {
+                    "value": "Aang",
+                    "imageSource": "quizzes/whichtalent/aang.png",
+                    "imageCredit": "https://avatar.fandom.com/wiki/Aang_(pilot)",
+                    "imageArtist": "Nickelodeon"
+                },
+                {
+                    "value": "Katara",
+                    "imageSource": "quizzes/whichtalent/katara.png",
+                    "imageCredit": "https://avatar.fandom.com/wiki/Katara",
+                    "imageArtist": "Nickelodeon"
+                },
+                {
+                    "value": "Sokka",
+                    "imageSource": "quizzes/whichtalent/sokka.png",
+                    "imageCredit": "https://avatar.fandom.com/wiki/Sokka",
+                    "imageArtist": "Nickelodeon"
+                },
+                {
+                    "value": "Toph",
+                    "imageSource": "quizzes/whichtalent/toph.png",
+                    "imageCredit": "https://avatar.fandom.com/wiki/Toph_Beifong",
+                    "imageArtist": "Nickelodeon"
+                }
+            ]
+        },
+        {
+            "question": "If you could travel in time, would you go to the future or the past?",
+            "titleImage": false,
+            "images": false,
+            "options": [
+                "Future",
+                "Past"
+            ]
+        },
+        {
+            "question": "Which TV-show do you prefer?",
+            "titleImage": false,
+            "images": true,
+            "showValues": true,
+            "options": [
+                {
+                    "value": "Sherlock",
+                    "imageSource": "quizzes/whichtalent/sherlock.jpg",
+                    "imageCredit": "https://www.bbc.co.uk/programmes/b018ttws",
+                    "imageArtist": "BBC"
+                },
+                {
+                    "value": "Game of Thrones",
+                    "imageSource": "quizzes/whichtalent/got.webp",
+                    "imageCredit": "https://binge.com.au/shows/show-game-of-thrones!1446",
+                    "imageArtist": "HBO"
+                },
+                {
+                    "value": "The Mandalorian",
+                    "imageSource": "quizzes/whichtalent/mandalorian.jpg",
+                    "imageCredit": "https://www.imdb.com/title/tt8111088/",
+                    "imageArtist": "Disney+"
+                },
+                {
+                    "value": "Dark",
+                    "imageSource": "quizzes/whichtalent/dark.png",
+                    "imageCredit": "https://dark.netflix.io/en",
+                    "imageArtist": "Netflix"
+                },
+                {
+                    "value": "House",
+                    "imageSource": "quizzes/whichtalent/house.webp",
+                    "imageCredit": "https://www.tallengestore.com/products/love-sucks-house-md-art-by-anna-kay-posters",
+                    "imageArtist": "FOX"
+                }
+            ]
+        },
+        {
+            "question": "Which of these inventions do you think is the most important?",
+            "titleImage": false,
+            "images": true,
+            "showValues": true,
+            "options": [
+                {
+                    "value": "Penicillin",
+                    "imageSource": "quizzes/whichtalent/penicillin.jpg",
+                    "imageCredit": "https://www.verywellhealth.com/cephalosporins-and-penicillin-allergy-83072",
+                    "imageArtist": "Gilbert Laurie"
+                },
+                {
+                    "value": "Airplane",
+                    "imageSource": "quizzes/whichtalent/airplane.jpg",
+                    "imageCredit": "https://petapixel.com/2012/12/18/the-story-behind-the-iconic-photograph-of-the-first-flight-of-an-airplane/#:~:text=Back%20on%20December%2017th%2C%201903,the%20Wright%20brothers'%20first%20flight.",
+                    "imageArtist": "John Thomas Daniels Jr."
+                },
+                {
+                    "value": "Compass",
+                    "imageSource": "quizzes/whichtalent/compass.jpg",
+                    "imageCredit": "https://www.technologynetworks.com/neuroscience/news/unique-neuron-study-identifies-the-compass-of-the-brain-330322",
+                    "imageArtist": "Pixabay"
+                },
+                {
+                    "value": "Steam Engine",
+                    "imageSource": "quizzes/whichtalent/steamengine.jpg",
+                    "imageCredit": "https://en.wikipedia.org/wiki/Steam_engine",
+                    "imageArtist": "Unknown"
+                }
+            ]
+        },
+        {
+            "question": "On your free day, would you rather",
+            "titleImage": false,
+            "images": false,
+            "options": [
+                "Read a book or watch a movie",
+                "Explore something new",
+                "Go indoor skydiving"
+            ]
+        }
+    ],
+    "points": [
+        {
+            "Swimming in the sea": {"Cloud Dancing": 1},
+            "Building a sandcastle": {"Earth Singing": 1}
+        },
+        {
+            "Detective": {"Reading Residues": 1, "Foretelling": 1},
+            "Mortician": {"Healing": 1},
+            "Forensic Scientist": {"Reading Residues": 1},
+            "Lawyer": {"Foretelling": 1}
+        },
+        {
+            "Earth": {"Earth Singing": 1},
+            "Sea": {"Cloud Dancing": 1},
+            "Fantasy": {"Dreamwalking": 1},
+            "Intelligence": {"Foretelling": 1},
+            "Traveling": {"Traveling and Skimming": 1},
+            "Sky": {"Air Control": 1}
+        },
+        {
+            "Aang": {"Air Control": 1, "Dreamwalking": 1},
+            "Katara": {"Healing": 1},
+            "Sokka": {"Reading Residues": 1},
+            "Toph": {"Earth Singing": 1}
+        },
+        {
+            "Future": {"Foretelling": 1, "Dreamwalking": 1},
+            "Past": {"Foretelling": -1}
+        },
+        {
+            "Sherlock": {"Reading Residues": 1},
+            "Game of Thrones": {"Dreamwalking": 1},
+            "The Mandalorian": {"Traveling and Skimming": 1},
+            "Dark": {"Foretelling": 1},
+            "House": {"Healing": 1}
+        },
+        {
+            "Penicillin": {"Healing": 1},
+            "Airplane": {"Traveling and Skimming": 1},
+            "Compass": {"Cloud Dancing": 1},
+            "Steam Engine": {"Air Control": 1}
+        },
+        {
+            "Read a book or watch a movie": {"Dreamwalking": 1},
+            "Explore something new": {"Traveling and Skimming": 1},
+            "Go indoor skydiving": {"Air Control": 1}
+        }
+    ],
+    "results": {
+        "Healing": {
+            "message": "While most people who can channel can Heal to some degree, you are exceptionally good at it. With your Talent you save people who otherwise would have died, and fix disabilities that were thought to be unfixable.",
+            "image": "quizzes/whichtalent/healing.jpg",
+            "imageSource": "https://wot.fandom.com/wiki/Healing?file=Healing.jpg",
+            "imageArtist": "Mike S. Miller"
+        },
+        "Cloud Dancing": {
+            "message": "Cloud Dancing is the Talent to influence the weather. It is most well known because of the Windfinders of the Sea Folk, who use it to make their ships sail faster than otherwise possible. Controlling the weather is very difficult, as a small deviation can have major unintended consequences.",
+            "image": "quizzes/whichtalent/clouddancing.jpg",
+            "imageSource": "https://wot.fandom.com/wiki/Windfinder?file=Windfinder_rpg.jpg",
+            "imageArtist": "Michael Dubisch"
+        },
+        "Foretelling": {
+            "message": "You may not know when the next Foretelling will occur, but one thing is certain. What is foretold will come to pass, whether you want it to or not. Knowing the future can be amazing, but be careful not to let your assumptions lead you astray.",
+            "image": "quizzes/whichtalent/foretelling.jpg",
+            "imageSource": "https://wot.fandom.com/wiki/Foretelling?file=Gitara_Moroso.jpg",
+            "imageArtist": "Mike S. Miller, Etienne St Laurent"
+        },
+        "Dreamwalking": {
+            "message": "The legendary World of Dreams is just another place to go for you. Dreamwalking is not directly related to channeling, and in the dream world your imagination is more powerful than any weave.",
+            "image": "quizzes/whichtalent/dreamwalking-talent.jpg",
+            "imageSource": "https://wot.fandom.com/wiki/Tel%27aran%27rhiod?file=Tel%27aran%27rhiod.JPG",
+            "imageArtist": "Rebecca Guay"
+        },
+        "Earth Singing": {
+            "message": "You are exceptional at any weaves involving earth. Earth is everywhere, and whether to create or destroy, with this Talent you can work it like no other.",
+            "image": "quizzes/whichtalent/earth-metal.jpg",
+            "imageSource": "https://www.wallpaperflare.com/stone-ore-red-stones-black-stone-red-and-black-stones-containing-the-minerals-of-the-stone-wallpaper-wnmao",
+            "imageArtist": "Wallpaperflare"
+        },
+        "Air Control": {
+            "message": "You are exceptional at any weaves involving air. Air is everywhere, and whether to create or destroy, with this Talent you can work it like no other.",
+            "image": "quizzes/whichtalent/air_control.jpg",
+            "imageSource": "https://wot.fandom.com/wiki/One_Power?file=Verin_Mathwin_Aes_Sedai.jpg",
+            "imageArtist": "Benjamin Roque"
+        },
+        "Reading Residues": {
+            "message": "While it may not seem as impressive as predicting the future, reading the past can be just as useful. Recreating weaves, finding out which weave was performed or even telling where a Gateway led to, knowing the past can be just as impactful as knowing the future.",
+            "image": "quizzes/whichtalent/residues.jpg",
+            "imageSource": "https://wot.fandom.com/wiki/Weave?file=Past_weave.jpg",
+            "imageArtist": "Rebecca Guay"
+        },
+        "Traveling and Skimming": {
+            "message": "Instant transportation to wherever you want, whenever you want. With this talent, you will never have to travel again when you don't want to. Especially in a pre-industrial world, this is hugely important.",
+            "image": "quizzes/whichtalent/traveling_talent.jpg",
+            "imageSource": "https://wot.fandom.com/wiki/Traveling?file=Traveling.jpg",
+            "imageArtist": "Chase Conley, Nicolas Chapuis‎"
+        }
+    }
+}

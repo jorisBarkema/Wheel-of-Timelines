@@ -203,66 +203,6 @@
             "image": "character-portraits/perrin.jpg",
             "imageSource": "https://wallhere.com/en/wallpaper/1029172",
             "imageArtist": "Unknown"
-        },
-        "Aginor": {
-            "message": "A world-renowned biologist who works to win the war instead of the battle for the shadow, after joining the Dark One to continue his experiments. Single-handedly responsible for the creation of almost every type of Shadowspawn through genetic experimentation.",
-            "image": "character-portraits/Aginor.jpg",
-            "imageSource": "https://wot.fandom.com/wiki/Aginor?file=Aginor.jpg",
-            "imageArtist": "John Seamas Gallagher"
-        },
-        "Balthamel": {
-            "message": "A historian who loved gambling and women. He joined the shadow for eternal life, and served mainly using his intelligence network and organisational skills.",
-            "image": "character-portraits/Balthamel.jpg",
-            "imageSource": "https://wot.fandom.com/wiki/Balthamel?file=Balthamel.jpg",
-            "imageArtist": "John Seamas Gallagher"
-        },
-        "Asmodean": {
-            "message": "A musician who did not get the recognition he deserved, and thus joined the Dark One to get revenge on his former colleagues.",
-            "image": "character-portraits/Asmodean.jpg",
-            "imageSource": "https://wot.fandom.com/wiki/Asmodean?file=Asmodean.jpg",
-            "imageArtist": "John Seamas Gallagher"
-        },
-        "Be'lal": {
-            "message": "A great swordsman and manipulator. The Dragon always eclipsed him, and he joined the Dark One out of jealousy. His mastery of manipulation earned him the nickname Netweaver.",
-            "image": "character-portraits/Belal.jpg",
-            "imageSource": "https://wot.fandom.com/wiki/Be'lal?file=Belal.jpg",
-            "imageArtist": "John Seamas Gallagher"
-        },
-        "Lanfear": {
-            "message": "The most beautiful woman to walk the earth. She drilled the bore in the Dark One's prison in her lust for power. She loved the dragon, and joined the Dark One after he left her.",
-            "image": "character-portraits/Lanfear.jpg",
-            "imageSource": "https://vignette.wikia.nocookie.net/wot/images/9/9d/LanfearPortrait.JPG/revision/latest?cb=20190306040729",
-            "imageArtist": "Ariel Burgess"
-        },
-        "Semirhage": {
-            "message": "The best healer in the Age of Legends. She loved pain, and gave a little extra to the people she healed. When this was discovered she ran away and joined the Dark One.",
-            "image": "character-portraits/Semirhage.jpg",
-            "imageSource": "https://vignette.wikia.nocookie.net/wot/images/2/27/SemirhagePortrait.JPG/revision/latest?cb=20190309032730",
-            "imageArtist": "Ariel Burgess"
-        },
-        "Mesaana": {
-            "message": "She wanted to be a researcher, but was deemed unfit and became a teacher. After joining the Dark One she turned children against their parents in her schools.",
-            "image": "character-portraits/Mesaana.jpg",
-            "imageSource": "https://vignette.wikia.nocookie.net/wot/images/d/d2/Mesaana.jpg/revision/latest?cb=20091212065906",
-            "imageArtist": "John Seamas Gallagher"
-        },
-        "Graendal": {
-            "message": "An extremely skilled psychologist who lived an unadorned life. She joined the Dark One when she realised the world could not live up to her stanards, and after joining indulged in all of her pleasures.",
-            "image": "character-portraits/Graendal.jpg",
-            "imageSource": "https://wot.fandom.com/wiki/Graendal?file=Graendal.JPG",
-            "imageArtist": "Jeremy Saliba"
-        },
-        "Moghedien": {
-            "message": "Known as the spider, she fights from the shadows. Never one to confront head-on, she gets results by manipulating everyone without them even knowing it.",
-            "image": "character-portraits/Moghedien.jpg",
-            "imageSource": "https://wot.fandom.com/wiki/Moghedien?file=Moghedien.jpg",
-            "imageArtist": "John Seamas Gallagher"
-        },
-        "none of the Forsaken": {
-            "message": "You are much too trusting and humble to be one of the Chosen. You also do not like torture or violence, so maybe a career as a darkfriend is just not for you!",
-            "image": "puppy.png",
-            "imageSource": "https://www.yarrah.com/en/blog/2018/12/10/buying-a-puppy-what-to-look-for/",
-            "imageArtist": "unknown"
         }
     }
 }
