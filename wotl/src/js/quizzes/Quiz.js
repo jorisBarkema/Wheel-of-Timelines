@@ -2,13 +2,10 @@ import React from 'react';
 
 class Quiz extends React.Component {
     constructor(props) {
-
-        console.log(props.data);
-
         super(props);
         this.state = {
             title: props.data.title,
-            startMessage: props.data.hasOwnProperty('startMessage') ? props.data.startMessage : null, //this.props.event.hasOwnProperty("sponsor")
+            startMessage: props.data.hasOwnProperty('startMessage') ? props.data.startMessage : null,
             questions: props.data.questions,
             titleImageSource: props.data.titleImageSource,
             titleImageCredit: props.data.titleImageCredit,

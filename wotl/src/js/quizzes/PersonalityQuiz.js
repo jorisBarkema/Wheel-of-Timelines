@@ -42,7 +42,6 @@ class PersonalityQuiz extends Quiz {
             }
         )
         
-        console.log(this.state.startMessage);
         return (
             <div>
                 <MainMenu />
