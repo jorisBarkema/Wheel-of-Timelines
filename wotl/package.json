@@ -7,7 +7,7 @@
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.2.2",
-    "axios": "^0.21.0",
+    "axios": "^0.21.1",
     "bootstrap": "^4.5.3",
     "hookrouter": "^1.2.3",
     "konva": "^7.2.0",
@@ -24,9 +24,11 @@
     "react-konva": "^17.0.0-0",
     "react-scripts": "4.0.1",
     "react-share": "^4.3.1",
+    "source-map-explorer": "^2.5.2",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
