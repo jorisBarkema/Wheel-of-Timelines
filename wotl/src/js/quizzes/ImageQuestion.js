@@ -42,7 +42,7 @@ class ImageQuestion extends Question {
                     )}
                 </div>
                 <div>
-                    {this.state.answered ? <Explanation index={this.state.index} answer={this.state.answer} explanation={this.state.explanation}/> : null}
+                {(this.state.answered && this.props.type === "score") ? <Explanation index={this.state.index} answer={this.state.answer} explanation={this.state.explanation}/> : null}
                 </div>
             </div>
         )

@@ -41,7 +41,8 @@ class PersonalityQuiz extends Quiz {
                 }
             }
         )
-
+        
+        console.log(this.state.startMessage);
         return (
             <div>
                 <MainMenu />
@@ -60,6 +61,14 @@ class PersonalityQuiz extends Quiz {
                                     <h1>{this.state.title}</h1>
                                 </div>
                                 <span className="credit"><a href={this.state.titleImageCredit}>image source</a> by {this.state.titleImageArtist} </span>
+
+                                {
+                                    (this.state.startMessage != null) ?
+                                    (<div className="textblock">
+                                        <p>{this.state.startMessage}</p>
+                                    </div>) : null
+                                }
+
                                 { question_components}
                                 {this.state.done ? <PersonalityResultContainer answer={this.state.answer} points={this.state.points} results={this.state.results} messages={{"bad": this.state.endMessageBad, "good": this.state.endMessageGood, "perfect":this.state.endMessagePerfect}} image={this.state.titleImageSource}/> : null}
                             </div>

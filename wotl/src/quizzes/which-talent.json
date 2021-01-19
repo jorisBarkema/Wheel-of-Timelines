@@ -1,6 +1,7 @@
 {
     "type": "personality",
     "title": "Which Talent Would You Have?",
+    "startMessage": "SPOILER WARNING! The result for this quiz is a talent present in the Wheel of Time books. If you have not read all of the books yet, the result may be a Talent which is revealed later in the books." ,
     "titleImageSource": "quizzes/whichtalent/dreamwalking-image.jpg",
     "titleImageCredit": "https://aminoapps.com/c/pagans-witches/page/item/dreamwalking/r082_1PmIqIxe02rgbZK15oPPGe2PXRqJrN",
     "titleImageArtist": "Unknown",
@@ -252,52 +253,52 @@
     ],
     "results": {
         "Healing": {
-            "message": "",
+            "message": "While most people who can channel can Heal to some degree, you are exceptionally good at it. With your Talent you save people who otherwise would have died, and fix disabilities that were thought to be unfixable.",
             "image": "quizzes/whichtalent/healing.jpg",
             "imageSource": "https://wot.fandom.com/wiki/Healing?file=Healing.jpg",
             "imageArtist": "Mike S. Miller"
         },
         "Cloud Dancing": {
-            "message": "cloud dancing",
-            "image": "quizzes/whichtalent/",
-            "imageSource": "",
-            "imageArtist": ""
+            "message": "Cloud Dancing is the Talent to influence the weather. It is most well known because of the Windfinders of the Sea Folk, who use it to make their ships sail faster than otherwise possible. Controlling the weather is very difficult, as a small deviation can have major unintended consequences.",
+            "image": "quizzes/whichtalent/clouddancing.jpg",
+            "imageSource": "https://wot.fandom.com/wiki/Windfinder?file=Windfinder_rpg.jpg",
+            "imageArtist": "Michael Dubisch"
         },
         "Foretelling": {
-            "message": "foretelling",
-            "image": "quizzes/whichtalent/",
-            "imageSource": "",
-            "imageArtist": ""
+            "message": "You may not know when the next Foretelling will occur, but one thing is certain. What is foretold will come to pass, whether you want it to or not. Knowing the future can be amazing, but be careful not to let your assumptions lead you astray.",
+            "image": "quizzes/whichtalent/foretelling.jpg",
+            "imageSource": "https://wot.fandom.com/wiki/Foretelling?file=Gitara_Moroso.jpg",
+            "imageArtist": "Mike S. Miller, Etienne St Laurent"
         },
         "Dreamwalking": {
-            "message": "dreamwalking",
-            "image": "quizzes/whichtalent/",
-            "imageSource": "",
-            "imageArtist": ""
+            "message": "The legendary World of Dreams is just another place to go for you. Dreamwalking is not directly related to channeling, and in the dream world your imagination is more powerful than any weave.",
+            "image": "quizzes/whichtalent/dreamwalking-talent.jpg",
+            "imageSource": "https://wot.fandom.com/wiki/Tel%27aran%27rhiod?file=Tel%27aran%27rhiod.JPG",
+            "imageArtist": "Rebecca Guay"
         },
         "Earth Singing": {
-            "message": "earth singing",
-            "image": "quizzes/whichtalent/",
-            "imageSource": "",
-            "imageArtist": ""
+            "message": "You are exceptional at any weaves involving earth. Earth is everywhere, and whether to create or destroy, with this Talent you can work it like no other.",
+            "image": "quizzes/whichtalent/earth-metal.jpg",
+            "imageSource": "https://www.wallpaperflare.com/stone-ore-red-stones-black-stone-red-and-black-stones-containing-the-minerals-of-the-stone-wallpaper-wnmao",
+            "imageArtist": "Wallpaperflare"
         },
         "Air Control": {
-            "message": "air control",
-            "image": "quizzes/whichtalent/",
-            "imageSource": "",
-            "imageArtist": ""
+            "message": "You are exceptional at any weaves involving air. Air is everywhere, and whether to create or destroy, with this Talent you can work it like no other.",
+            "image": "quizzes/whichtalent/air_control.jpg",
+            "imageSource": "https://wot.fandom.com/wiki/One_Power?file=Verin_Mathwin_Aes_Sedai.jpg",
+            "imageArtist": "Benjamin Roque"
         },
         "Reading Residues": {
-            "message": "reading residues",
-            "image": "quizzes/whichtalent/",
-            "imageSource": "",
-            "imageArtist": ""
+            "message": "While it may not seem as impressive as predicting the future, reading the past can be just as useful. Recreating weaves, finding out which weave was performed or even telling where a Gateway led to, knowing the past can be just as impactful as knowing the future.",
+            "image": "quizzes/whichtalent/residues.jpg",
+            "imageSource": "https://wot.fandom.com/wiki/Weave?file=Past_weave.jpg",
+            "imageArtist": "Rebecca Guay"
         },
         "Traveling and Skimming": {
-            "message": "traveling and skimming",
-            "image": "quizzes/whichtalent/",
-            "imageSource": "",
-            "imageArtist": ""
+            "message": "Instant transportation to wherever you want, whenever you want. With this talent, you will never have to travel again when you don't want to. Especially in a pre-industrial world, this is hugely important.",
+            "image": "quizzes/whichtalent/traveling_talent.jpg",
+            "imageSource": "https://wot.fandom.com/wiki/Traveling?file=Traveling.jpg",
+            "imageArtist": "Chase Conley, Nicolas Chapuis‎"
         }
     }
 }

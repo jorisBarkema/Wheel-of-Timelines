@@ -31,7 +31,7 @@ class PersonalityResultContainer extends React.Component {
                         <MenuShareIcons shareMessage="Share this quiz"/>
                     </div>
                     <div className="col-12 col-md-6">
-                        <div id="image-container" className="image-full-background" style={{backgroundImage: "url(" + img_src + ")"}} />
+                        <div id="image-container" className="image-contained-background" style={{backgroundImage: "url(" + img_src + ")"}} />
                         <span className="credit"><a href={img_link}>image source</a> by {img_artist} </span>
                     </div>
                 </div>
