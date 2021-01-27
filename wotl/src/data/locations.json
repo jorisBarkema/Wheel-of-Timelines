@@ -92,8 +92,8 @@
 			"hidden": true
 		},
 		"Abandoned stedding": {
-			"x": 6479,
-			"y": 3860,
+			"x": 6908,
+			"y": 4281,
 			"radius": 100,
 			"description": "An abandoned stedding where the ancient conqueror Artur Hawkwing wanted to build a city safe from the One Power. Before it could be finished however, he was killed. All that remains of the plans is a part of a massive statue sticking out of the ground."
 		},
@@ -105,8 +105,8 @@
 			"wikiLink": "https://wot.fandom.com/wiki/Market_Sheran"
 		},
 		"Rescue site": {
-			"x": 7084,
-			"y": 4155,
+			"x": 7228,
+			"y": 4350,
 			"radius": 80,
 			"hidden": true
 		},
@@ -957,14 +957,14 @@
 			"wikiLink": "https://wot.fandom.com/wiki/Choedan_Kal"
 		},
 		"Ice meeting place": {
-			"x": 6605,
-			"y": 5198,
+			"x": 6902,
+			"y": 4780,
 			"radius": 80,
 			"hidden": true
 		},
 		"Camp near ice": {
-			"x": 6602,
-			"y": 5273,
+			"x": 6865,
+			"y": 4784,
 			"radius": 80,
 			"hidden": true
 		},
@@ -1430,8 +1430,8 @@
 			"wikiLink": "https://wot.fandom.com/wiki/Darluna"
 		},
 		"Maseen": {
-			"x": 4221,
-			"y": 2859,
+			"x": 4217,
+			"y": 2808,
 			"radius": 80,
 			"description": "A village in Arad Doman.",
 			"wikiLink": "https://wot.fandom.com/wiki/Maseen"

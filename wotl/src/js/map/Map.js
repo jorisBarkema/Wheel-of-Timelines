@@ -1042,13 +1042,16 @@ class Map extends React.Component {
             })
         })
 
-        if (filtered_events.length === 0) return;
+        //console.log(filtered_events);
+        //console.log(filtered_events.length);
 
-        if (this.state.showingLines) {
-            this.showLinesUntil(0)
-        }
-
-        this.mapLookAt(locations[filtered_events[0].location].x, locations[filtered_events[0].location].y);
+        if (filtered_events.length !== 0) {
+            if (this.state.showingLines) {
+                this.showLinesUntil(0)
+            }
+    
+            this.mapLookAt(locations[filtered_events[0].location].x, locations[filtered_events[0].location].y);
+        } 
 
         this.setState({
             filtered_events: filtered_events

@@ -156,13 +156,13 @@
 			"type": "hill"
         },
         "Mintai": {
-			"x": 4229,
-			"y": 2976,
-			"type": "hill"
+			"x": 4108,
+			"y": 2963,
+			"type": "mountain"
         },
         "Wenchen": {
-			"x": 4529,
-			"y": 2470,
+			"x": 4369,
+			"y": 2915,
 			"type": "hill"
         },
         "Chinden": {

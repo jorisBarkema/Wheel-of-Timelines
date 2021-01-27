@@ -2,10 +2,10 @@
 	"regions": {
 		"Andor": {
 			"hitbox": [
-				6722,
-				4243,
-				6985,
-				4315
+				6880,
+				4074,
+				7157,
+				4152
 			],
 			"nation": true,
 			"description": "Andor is the largest, and also the oldest, nation in the Westlands. After the demise of Artur Hawkwing, a line of queens steadily increased Andor's reach from its capital Caemlyn. Andor's flag is a white lion, and the queen wears the Rose Crown on the Lion Throne.",
