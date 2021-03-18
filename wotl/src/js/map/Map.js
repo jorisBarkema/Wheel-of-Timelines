@@ -78,7 +78,7 @@ class Map extends React.Component {
             dragging: false,
             pinching: false,
             pinchDistance: 0,
-            eventNumber: 0,
+            eventNumber: (useCookies && cookies.get('previousSessionEvent') !== undefined) ? parseInt(cookies.get('previousSessionEvent')) : 0,
             mouseOverTimeline: false,
             mouseOverMenu: false,
             bookFilterChecks: [0,1,2,3,4,5,6,7,8,9,10,11,12,13].map(x => (useCookies && cookies.get('book'+ x + 'Filter') !== undefined) ? cookies.get('book'+ x + 'Filter') === 'true' : true),
@@ -404,9 +404,6 @@ class Map extends React.Component {
 
         this.mounted = true;
 
-        this.mapLookAt(locations["al'Thor Farm"].x, locations["al'Thor Farm"].y);
-        //this.mapLookAt(locations["Amador"].x, locations["Amador"].y);
-
         this.stage.on('dragmove', this.onMoveMap);
 
         this.stage.on('dragstart', () => {
@@ -430,6 +427,8 @@ class Map extends React.Component {
         });
 
         this.filterEvents(this.state.bookFilterChecks, this.state.characterFilterChecks);
+
+        this.switchToEvent(this.state.eventNumber);
     }
 
     getCurrentMapTiles = () => {
@@ -1070,6 +1069,7 @@ class Map extends React.Component {
             nn++;
         }
 
+        /*
         if (this.state.showingLines) {
             // Going back
             if (nn < this.state.eventNumber) {
@@ -1094,7 +1094,8 @@ class Map extends React.Component {
                 }
             }
         }
-        
+        */
+
         // As of now, this happens before the update has been fully updated, so the result is wrong.
         // However, setting the state in the componentDidUpdate leads to infinite recursion.
 
@@ -1122,6 +1123,11 @@ class Map extends React.Component {
     }
 
     switchToEvent = (number) => {
+
+        if (this.state.showingLines) {
+            this.showLinesUntil(number);
+        }
+
         this.setState({
             eventNumber: number
         }, () => {
@@ -1133,6 +1139,8 @@ class Map extends React.Component {
             })
 
             this.animateMapLookAt(locations[this.state.filtered_events[number].location].x, locations[this.state.filtered_events[number].location].y);
+
+            cookies.set('previousSessionEvent', number, { path: '/', maxAge: 31536000 });
         })
     }
 
@@ -1150,6 +1158,22 @@ class Map extends React.Component {
     
     showLinesUntil = (n) => {
 
+        for(let i = 0; i < this.state.filtered_events.length; i++) {
+            if (this.state.filtered_events[i].hasOwnProperty("paths")) {
+                if (i <= n) {
+                    this.state.filtered_events[i].paths.map((path) => {
+                        path.visible = true;
+                        return null;
+                    });
+                } else {
+                    this.state.filtered_events[i].paths.map((path) => {
+                        path.visible = false;
+                        return null;
+                    });
+                }
+            }
+        }
+        /*
         for(let i = 0; i < n; i++) {
             if (this.state.filtered_events[i].hasOwnProperty("paths")) {
                 this.state.filtered_events[i].paths.map((path) => {
@@ -1158,6 +1182,7 @@ class Map extends React.Component {
                 })
             }
         }
+        */
     }
     
     eventPathToKonvaPath = (eventPath, index) => {
