@@ -79,6 +79,7 @@ class Map extends React.Component {
             pinching: false,
             pinchDistance: 0,
             eventNumber: (useCookies && cookies.get('previousSessionEvent') !== undefined) ? parseInt(cookies.get('previousSessionEvent')) : 0,
+            openEventAlert: false,
             mouseOverTimeline: false,
             mouseOverMenu: false,
             bookFilterChecks: [0,1,2,3,4,5,6,7,8,9,10,11,12,13].map(x => (useCookies && cookies.get('book'+ x + 'Filter') !== undefined) ? cookies.get('book'+ x + 'Filter') === 'true' : true),
@@ -167,6 +168,27 @@ class Map extends React.Component {
                             >
                                 Accept
                             </Button>
+                        </Alert>
+                    </Collapse>
+                    <Collapse in={this.state.openEventAlert}>
+                        <Alert 
+                            severity="error"
+                            action={
+                                <IconButton
+                                aria-label="close"
+                                color="inherit"
+                                size="small"
+                                onClick={() => {
+                                    this.setState({
+                                        openEventAlert: false
+                                    });
+                                }}
+                                >
+                                    <Close fontSize="inherit" />
+                                </IconButton>
+                            }
+                        >
+                            Could not go to event because it has been filtered out in the settings menu.
                         </Alert>
                     </Collapse>
                 </div>
@@ -426,8 +448,13 @@ class Map extends React.Component {
             mapHeight: window.innerHeight - offsetHeight
         });
 
-        this.filterEvents(this.state.bookFilterChecks, this.state.characterFilterChecks);
+        let url_string = window.location.href;
+        let url = new URL(url_string);
+        let event_parameter = url.searchParams.get("event");
+        let event_id = event_parameter === null ? null : parseInt(event_parameter);
 
+        this.filterEvents(this.state.bookFilterChecks, this.state.characterFilterChecks, event_id);
+        
         this.switchToEvent(this.state.eventNumber);
     }
 
@@ -995,7 +1022,7 @@ class Map extends React.Component {
         this.filterEvents(newChecks, this.state.characterFilterChecks);
     }
 
-    filterEvents = (bookFilters, characterFilters) => {
+    filterEvents = (bookFilters, characterFilters, redirect_event = null) => {
 
         let filtered_events = events.filter(function(val) {
             return (val.type === "major")
@@ -1038,7 +1065,21 @@ class Map extends React.Component {
             this.setState({
                 mapHeight: window.innerHeight - tlh,
                 minscale: Math.max(window.innerWidth / this.image_width, (window.innerHeight - tlh) / this.image_height),
-            })
+            });
+
+            if (redirect_event !== null) {
+                let event_index = this.getEventIndexByID(redirect_event);
+
+                if (event_index === -1) {
+                    //console.log("Tried switching to event which is filtered out");
+                    this.setState({
+                        openEventAlert: true
+                    });
+                } else {
+                    this.switchToEvent(event_index);
+                }
+                
+            }
         })
 
         //console.log(filtered_events);
@@ -1055,6 +1096,18 @@ class Map extends React.Component {
         this.setState({
             filtered_events: filtered_events
         })
+    }
+
+    getEventIndexByID = (n) => {
+        let r = -1;
+
+        for(let i = 0; i < this.state.filtered_events.length; i++) {
+            if (this.state.filtered_events[i].id === n) {
+                return i;
+            }
+        }
+
+        return r;
     }
 
     switchEvent = (direction) => {

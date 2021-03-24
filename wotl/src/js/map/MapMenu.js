@@ -200,7 +200,7 @@ class MapMenu extends React.Component {
                             <div className="update-container menu-div">
                                 <p>
                                     <b>Timeline status</b> <br />
-                                    Routes: The Fires of Heaven <br />
+                                    Routes: Complete <br />
                                     Timeline: Complete <br /> 
                                     <br />
                                     To show all the routes<br />
