@@ -5,6 +5,8 @@ import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Checkbox from '@material-ui/core/Checkbox';
 import Button from '@material-ui/core/Button';
 import Cookies from 'universal-cookie';
+import IconButton from '@material-ui/core/IconButton';
+import AssignmentIcon from '@material-ui/icons/Assignment';
 
 import MenuButton from '../MenuButton.js';
 import MenuShareIcons from '../MenuShareIcons.js'
@@ -43,7 +45,8 @@ class MapMenu extends React.Component {
             showText: props.showText,
             showStedding: props.showStedding,
             showPortalStones: props.showPortalStones,
-            showRivers: props.showRivers
+            showRivers: props.showRivers,
+            lastCopiedEvent: -1
         }
     }
 
@@ -157,6 +160,7 @@ class MapMenu extends React.Component {
     }
 
     render = () => {
+
         return (
             <div>
                 <div className="left-menu">
@@ -168,6 +172,34 @@ class MapMenu extends React.Component {
                         <MenuButton text="Timeline" link="/timeline"></MenuButton>
 
                         <MenuShareIcons shareMessage="Share this website!"/>
+
+                        <div className="menu-container">
+                            <p>Or share this position of the timeline by copying a link to the current event</p>
+
+                            <IconButton color="primary" aria-label="share link"
+                            onClick={() => {
+                                //setClipboard('https://wheeloftimelines.com/map?event=' + props.getCurrentEventId());
+                                const copyToClipboard = (str) => {
+                                    const el = document.createElement('textarea');
+                                    el.value = str;
+                                    document.body.appendChild(el);
+                                    el.select();
+                                    document.execCommand('copy');
+                                    document.body.removeChild(el);
+                                };
+
+                                copyToClipboard('https://wheeloftimelines.com/map?event=' + this.props.getCurrentEventId());
+                                
+                                this.setState({
+                                    lastCopiedEvent: this.props.getCurrentEventId()
+                                });
+
+                            }}>
+                                <AssignmentIcon />
+                            </IconButton>
+
+                            {this.state.lastCopiedEvent === this.props.getCurrentEventId()? "Copied!" : "Copy link"} 
+                        </div>
 
                         <PatreonMenuContainer />
 

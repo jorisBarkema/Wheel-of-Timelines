@@ -217,7 +217,9 @@ class Map extends React.Component {
                         showRivers = {this.state.showRivers}
                         onShowRiversChange = {() => this.handleShowRiversChange()}
                         hd = {!isMobile}
-                        onDefinitionChange = {() => this.setState({map_image: (this.state.map_image === this.ld_image) ? this.hd_image : this.ld_image})} />
+                        onDefinitionChange = {() => this.setState({map_image: (this.state.map_image === this.ld_image) ? this.hd_image : this.ld_image})}
+                        getCurrentEventId = {() => this.state.filtered_events[this.state.eventNumber].id}
+                    />
                 </div>
                 
                 <div id="map-container" style={{cursor: this.state.dragging ? "grabbing" : "grab"}}>

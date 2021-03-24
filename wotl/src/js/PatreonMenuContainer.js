@@ -11,9 +11,8 @@ class PatreonMenuContainer extends React.Component {
 
         return (
             <div className="menu-container" id={id}>
-                <h2>{this.props.shareMessage}</h2>
+                <h2>Support the website</h2>
                 <div className="menu-div">
-                    <h2>Support the website</h2>
                     <a href="https://www.patreon.com/wheeloftimelines?fan_landing=true" target="_blank" rel="noopener noreferrer"><img id="patreon" src={patreon_src} alt="Wheel of Time"></img></a>
                 </div>
             </div>
