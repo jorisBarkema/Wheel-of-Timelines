@@ -94,15 +94,15 @@ class Header extends React.Component {
                 <div className="card">
                     <h1>Patrons</h1>
                     <div className="row">
-                        <Patron name="Don Singles"/>
-                        <Patron name="Scott Therens"/>
                         <Patron name="Tommi Murto"/>
                         <Patron name="Lauren from Unraveling the Pattern"/>
-                        <Patron name="Konstantin Ivanov"/>
-                        <Patron name="Kim"/>
                         <Patron name="Ned Winand"/>
-                        <Patron name="Tyhjyys Rules"/>
                         <Patron name="Old Greg"/>
+                        <Patron name="Connie Dudden"/>
+                        <Patron name="Katie Cadena"/>
+                        <Patron name="The Cringy Creeper"/>
+                        <Patron name="Scoty Stobbe"/>
+                        <Patron name="Mandy Christensen"/>
                     </div>
                 </div>
 

@@ -95,6 +95,7 @@ class Map extends React.Component {
                 "Others": (useCookies && cookies.get('OthersFilter') !== undefined) ? cookies.get('OthersFilter') === 'true' : true,
             },
             showText: (useCookies && cookies.get('showText') !== undefined) ? cookies.get('showText') === 'true' : true,
+            showNextEvent: (useCookies && cookies.get('showNextEvent') !== undefined) ? cookies.get('showNextEvent') === 'true' : false,
             showStedding: (useCookies && cookies.get('showStedding') !== undefined) ? cookies.get('showStedding') === 'true' : false,
             showPortalStones: (useCookies && cookies.get('showPortalStones') !== undefined) ? cookies.get('showPortalStones') === 'true' : false,
             showRivers: (useCookies && cookies.get('showRivers') !== undefined) ? cookies.get('showRivers') === 'true' : false,
@@ -210,6 +211,8 @@ class Map extends React.Component {
                         onDatesChange = {() => this.handleDatesChange()}
                         showText = {this.state.showText}
                         onShowTextChange = {() => this.handleShowTextChange()}
+                        showNextEvent = {this.state.showNextEvent}
+                        onShowNextEventChange = {() => this.handleShowNextEventChange()}
                         showStedding = {this.state.showStedding}
                         onShowSteddingChange = {() => this.handleShowSteddingChange()}
                         showPortalStones = {this.state.showPortalStones}
@@ -218,7 +221,7 @@ class Map extends React.Component {
                         onShowRiversChange = {() => this.handleShowRiversChange()}
                         hd = {!isMobile}
                         onDefinitionChange = {() => this.setState({map_image: (this.state.map_image === this.ld_image) ? this.hd_image : this.ld_image})}
-                        getCurrentEventId = {() => this.state.filtered_events[this.state.eventNumber].id}
+                        getCurrentEventId = {() => this.getCurrentEvent() === null ? 0 : this.getCurrentEvent().id}
                     />
                 </div>
                 
@@ -344,7 +347,7 @@ class Map extends React.Component {
                     
                         {
                             this.state.eventNumber > 0 ? 
-                            <EventContainer event={this.state.filtered_events[this.state.eventNumber - 1]} opacity={0.5} pos="side" inUniverseDates={this.state.inUniverseDates} /> : 
+                            <EventContainer event={this.getEventByNumber(this.state.eventNumber - 1)} opacity={0.5} pos="side" inUniverseDates={this.state.inUniverseDates} /> : 
                             <Instructions />
                         }
 
@@ -354,7 +357,7 @@ class Map extends React.Component {
                                 <img src={arrow_left} alt="Previous event" opacity={this.state.eventNumber > 1 ? 1 : 0.5} />
                             </div> : <div className="col-1"></div>
                         }
-                        <EventContainer event={this.state.filtered_events[this.state.eventNumber]} opacity={1} pos="center" inUniverseDates={this.state.inUniverseDates} />
+                        <EventContainer event={this.getCurrentEvent()} opacity={1} pos="center" inUniverseDates={this.state.inUniverseDates} />
                         
                         {
                             (this.state.eventNumber + 1) < this.state.filtered_events.length ?
@@ -364,7 +367,7 @@ class Map extends React.Component {
                         }
                         {
                             (this.state.eventNumber + 1) < this.state.filtered_events.length ? 
-                            <EventContainer event={this.state.filtered_events[this.state.eventNumber + 1]} opacity={0.5} pos="side" inUniverseDates={this.state.inUniverseDates} /> : 
+                            <EventContainer event={this.getEventByNumber(this.state.eventNumber + 1)} opacity={0.5} pos="side" inUniverseDates={this.state.inUniverseDates} blurred={!this.state.showNextEvent}/> : 
                             <div className="d-none d-sm-block col-sm-3 event-container"></div>
                         }
                     </div> : 
@@ -458,6 +461,18 @@ class Map extends React.Component {
         this.filterEvents(this.state.bookFilterChecks, this.state.characterFilterChecks, event_id);
         
         this.switchToEvent(this.state.eventNumber);
+    }
+
+    getCurrentEvent = () => {
+        return this.getEventByNumber(this.state.eventNumber);
+    }
+
+    getEventByNumber = (n) => {
+
+        if (this.state.filtered_events.length === 0) return null;
+        if (this.state.filtered_events.length + 1 < n) return this.state.filtered_events[this.state.filtered_events.length - 1];
+
+        return this.state.filtered_events[n];
     }
 
     getCurrentMapTiles = () => {
@@ -911,6 +926,15 @@ class Map extends React.Component {
         })
     }
 
+    handleShowNextEventChange = () => {
+
+        if (this.state.useCookies) cookies.set('showNextEvent', !this.state.showNextEvent, { path: '/', maxAge: 31536000 });
+
+        this.setState({
+            showNextEvent: !this.state.showNextEvent
+        })
+    }
+
     handleShowSteddingChange = () => {
 
         if (this.state.useCookies) cookies.set('showStedding', !this.state.showStedding, { path: '/', maxAge: 31536000 });
@@ -1124,33 +1148,6 @@ class Map extends React.Component {
             nn++;
         }
 
-        /*
-        if (this.state.showingLines) {
-            // Going back
-            if (nn < this.state.eventNumber) {
-
-                // Going back, the old path needs to be hidden
-                if (this.state.filtered_events[this.state.eventNumber].hasOwnProperty("paths")) {
-                    this.state.filtered_events[this.state.eventNumber].paths.map((path) => {
-                        path.visible = false;
-                        return null
-                    })
-                }
-            }
-
-            // Going forward
-            else {
-                console.log(this.state.filtered_events[nn].paths);
-                if (this.state.filtered_events[nn].hasOwnProperty("paths")) {
-                    this.state.filtered_events[nn].paths.map((path) => {
-                        path.visible = true;
-                        return null
-                    })
-                }
-            }
-        }
-        */
-
         // As of now, this happens before the update has been fully updated, so the result is wrong.
         // However, setting the state in the componentDidUpdate leads to infinite recursion.
 
@@ -1228,22 +1225,10 @@ class Map extends React.Component {
                 }
             }
         }
-        /*
-        for(let i = 0; i < n; i++) {
-            if (this.state.filtered_events[i].hasOwnProperty("paths")) {
-                this.state.filtered_events[i].paths.map((path) => {
-                    path.visible = true;
-                    return null
-                })
-            }
-        }
-        */
     }
     
     eventPathToKonvaPath = (eventPath, index) => {
-        //let pos = this.stage.absolutePosition();
-
-        //console.log(eventPath);
+        
         return <Path
             x={0}
             y={0}

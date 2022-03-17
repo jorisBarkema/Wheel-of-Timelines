@@ -43,6 +43,7 @@ class MapMenu extends React.Component {
             inUniverseDates: (useCookies && cookies.get('inUniverseDates') !== undefined) ? cookies.get('inUniverseDates') === 'true' : false,
             hd: props.hd,
             showText: props.showText,
+            showNextEvent: props.showNextEvent,
             showStedding: props.showStedding,
             showPortalStones: props.showPortalStones,
             showRivers: props.showRivers,
@@ -133,6 +134,14 @@ class MapMenu extends React.Component {
         })
 
         this.props.onShowTextChange();
+    }
+
+    handleShowNextEventChange = () => {
+        this.setState({
+            showNextEvent: !this.state.showNextEvent
+        })
+
+        this.props.onShowNextEventChange();
     }
 
     handleShowSteddingChange = () => {
@@ -253,6 +262,12 @@ class MapMenu extends React.Component {
                                         <Checkbox checked={this.state.showText} onChange={() => this.handleShowTextChange()} color="primary" value="secondary"/>
                                         }
                                         label="Show text"
+                                    />
+                                    <FormControlLabel
+                                        control={
+                                        <Checkbox checked={this.state.showNextEvent} onChange={() => this.handleShowNextEventChange()} color="primary" value="secondary"/>
+                                        }
+                                        label="Show next event in timeline"
                                     />
                                     <FormControlLabel
                                         control={

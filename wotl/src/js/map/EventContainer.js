@@ -11,7 +11,7 @@ class EventContainer extends React.Component {
         let icon = images("./" + this.props.event.icon).default;
 
         return (
-            <div className={this.posToBSClasses(this.props.pos) + " event-container"}>
+            <div className={this.posToBSClasses(this.props.pos) + " event-container" + (this.props.blurred ? " blurred" : "")}>
 
                 {
                     (this.props.event.hasOwnProperty("sponsor")) ? 

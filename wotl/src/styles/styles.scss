@@ -571,6 +571,8 @@ h2 {
 #map-main {
     background-color: $middleBackground;
     overflow-x: hidden;
+    overflow-y: hidden;
+    height: 100vh;
 }
 
 .map-info {
@@ -696,6 +698,14 @@ h2 {
             width: 100%;
         }
     }
+}
+
+.blurred {
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
 }
 
 .event-container {
