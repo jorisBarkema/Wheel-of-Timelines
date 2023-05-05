@@ -222,3 +222,10 @@ ReactDOM.render(
         </BrowserRouter>
     </div>
   , document.getElementById('root'));
+
+  // TODOs
+  // - maak de rest van de normale reoutes af
+  // kijk hoe ik een array aan routes kan toevoegen
+  // Fix alle errors van webpack imports
+  // Fix alle images met require()
+  // pas patrons aan
