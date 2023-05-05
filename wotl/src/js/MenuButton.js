@@ -1,5 +1,5 @@
 import React from 'react';
-import { navigate } from "hookrouter";
+import { withRouter  } from 'react-router-dom';
 
 class MenuButton extends React.Component {
 
@@ -14,11 +14,11 @@ class MenuButton extends React.Component {
     render = () => {
         return (
             <div className="menu-button"
-            onClick={() => navigate(this.state.link)}>
+            onClick={() => this.props.history.push(this.state.link)}>
                 <span>{this.state.text}</span>
             </div>
         )
     }
 }
 
-export default MenuButton;
+export default withRouter(MenuButton);

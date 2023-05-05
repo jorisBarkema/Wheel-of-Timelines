@@ -11,7 +11,7 @@ import TimelineNavigator from './TimelineNavigator.js';
 import Collapse from 'react-bootstrap/Collapse';
 import Button from 'react-bootstrap/Button';
 
-import {events as events_data} from '../../data/events.json';
+import events from '../../data/events.json';
 
 //var timeline_events = events;
 
@@ -228,7 +228,7 @@ class TimelinePage extends React.Component {
             characterChecksTwo = checks;
         }
 
-        let result = events_data.map(function(val){ 
+        let result = events.map(function(val){ 
             if (bookChecks[parseInt(val.book) - 1]) {
                 return val;
             }
