@@ -2,7 +2,7 @@ import React from 'react';
 import ReactGA from 'react-ga';
 import { Stage, Layer, Circle, Path, Text} from 'react-konva';
 import {Helmet} from 'react-helmet'
-import {isMobile} from 'react-device-detect';
+import {ConsoleView, isMobile} from 'react-device-detect';
 
 import Cookies from 'universal-cookie';
 
@@ -22,13 +22,19 @@ import CustomImage from './CustomImage.js';
 
 //import PortraitManager from './PortraitManager.js';
 
-import events from '../../data/events.json';
-import locations from '../../data/locations.json';
-import regions from '../../data/regions.json';
-import stedding from '../../data/stedding.json';
-import portalstones from '../../data/portalstones.json';
-import rivers from '../../data/rivers.json';
+import eventsData from '../../data/events.json';
+import locationsData from '../../data/locations.json';
+import regionsData from '../../data/regions.json';
+import steddingData from '../../data/stedding.json';
+import portalstonesData from '../../data/portalstones.json';
+import riversData from '../../data/rivers.json';
 
+let events = eventsData.events;
+let locations = locationsData.locations;
+let regions = regionsData.regions
+let stedding = steddingData.stedding;
+let portalstones = portalstonesData.portalstones;
+let rivers = riversData.rivers;
 
 const cookies = new Cookies();
 
@@ -501,7 +507,7 @@ class Map extends React.Component {
                     zoomLevel={zoomLevel}
                     scaleX={tilescale} scaleY={tilescale} 
                     x={256 * tilescale * column} y={256 * tilescale * row}
-                    listening={false} enablePerfectDrawing={false} src={mapTilesDirectory('./' + path).default}
+                    listening={false} enablePerfectDrawing={false} src={mapTilesDirectory('./' + path)}
                 />);
                 
                 return null;
