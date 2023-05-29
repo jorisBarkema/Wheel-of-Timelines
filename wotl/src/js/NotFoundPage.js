@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from '@material-ui/core/Button';
-import { navigate } from "hookrouter";
+import { withRouter  } from 'react-router-dom';
 
 import MainMenu from './MainMenu.js'
 
@@ -22,7 +22,7 @@ class NotFoundPage extends React.Component {
                     <h1>404: Page not found</h1>
                     <p>The requested page does not exist</p>
 
-                    <h1 onClick={() => navigate('/')}>
+                    <h1 onClick={() => this.props.history.push('/')}>
                         <Button
                             variant="contained"
                             color="primary"
@@ -38,4 +38,4 @@ class NotFoundPage extends React.Component {
     }
 }
 
-export default NotFoundPage;
+export default withRouter(NotFoundPage);

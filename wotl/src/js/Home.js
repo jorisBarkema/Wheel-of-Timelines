@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from '@material-ui/core/Button';
-import { navigate } from "hookrouter";
+import { withRouter } from 'react-router-dom';
 
 import MainMenu from './MainMenu.js';
 import QuizPreview from './quizzes/QuizPreview.js';
@@ -27,12 +27,10 @@ let latestPost = {
 
 latestPost.link = '/blog/' + latestPost.title.replace(/ /g, "_");
 
-var images = require.context('../assets', true);
-
 class Home extends React.Component {
 
     render = () => {
-
+        
         return (
             <div>
                 <MainMenu />
@@ -44,7 +42,7 @@ class Home extends React.Component {
                         <div className="col-xs-12 col-sm-8 content">
                         
                             <div id="title-container">
-                                <img src={images('./banner.png').default} alt="Wheel of Timelines banner" />
+                                <img src={require('../assets/banner.png')} alt="Wheel of Timelines banner" />
                             </div>
 
                             <div className="inner-content">
@@ -54,17 +52,16 @@ class Home extends React.Component {
                                 </div>    
 
                                 <div className="home-item">
-                                
-                                    <div className="image shadowed" style={{backgroundImage: "url(" + images('./Map-screenshot.png').default + ")", cursor: "pointer"}} onClick={() => navigate('/map')}></div>
+                                    <div className="image shadowed" style={{backgroundImage: "url(images/Map-screenshot.png)", cursor: "pointer"}} onClick={() => this.props.history.push('/map')}></div>
                                     <span className="credit"> </span>
                                     <h2>
                                         <Button
-                                            onClick={() => navigate('/map')}
+                                            onClick={() => this.props.history.push('/map')}
                                             variant="contained"
                                             color="primary"
                                             className={'button'}
                                             size="large">
-                                            <img src={images('./icons8-email-send-32.png').default} alt="Go to map"/> Visit the Map
+                                            <img src={require('../assets/icons8-email-send-32.png')} alt="Go to map"/> Visit the Map
                                         </Button>
                                     </h2>
                                 </div>
@@ -76,28 +73,28 @@ class Home extends React.Component {
                                     </div>
                                     <h2>
                                         <Button
-                                            onClick={() => navigate('/quizzes')}
+                                            onClick={() => this.props.history.push('/quizzes')}
                                             variant="contained"
                                             color="primary"
                                             className={'button'}
                                             size="large">
-                                            <img src={images('./icons8-email-send-32.png').default} alt="Go to quizzes" /> Try the Quizzes
+                                            <img src={require('../assets/icons8-email-send-32.png')} alt="Go to quizzes" /> Try the Quizzes
                                         </Button>
                                     </h2>
                                 </div>
 
                                 <div className="home-item">
                                 
-                                    <div className="image shadowed" style={{backgroundImage: "url(" + images('./timeline-preview.png').default + ")", cursor: "pointer"}} onClick={() => navigate('/timeline')}></div>
+                                    <div className="image shadowed" style={{backgroundImage: "url(images/timeline-preview.png)", cursor: "pointer"}} onClick={() => this.props.history.push('/timeline')}></div>
                                     <span className="credit"> </span>
                                     <h2>
                                         <Button
-                                            onClick={() => navigate('/timeline')}
+                                            onClick={() => this.props.history.push('/timeline')}
                                             variant="contained"
                                             color="primary"
                                             className={'button'}
                                             size="large">
-                                            <img src={images('./icons8-email-send-32.png').default} alt="View the timeline"/> View the timeline
+                                            <img src={require('../assets/icons8-email-send-32.png')} alt="View the timeline"/> View the timeline
                                         </Button>
                                     </h2>
                                 </div>
@@ -109,12 +106,12 @@ class Home extends React.Component {
                                     </div>
                                     <h2>
                                         <Button
-                                            onClick={() => navigate('/blog')}
+                                            onClick={() => this.props.history.push('/blog')}
                                             variant="contained"
                                             color="primary"
                                             className={'button'}
                                             size="large">
-                                            <img src={images('./icons8-email-send-32.png').default} alt="Go to blog" /> Read the Blog
+                                            <img src={require('../assets/icons8-email-send-32.png')} alt="Go to blog" /> Read the Blog
                                         </Button>
                                     </h2>
                                 </div>
@@ -128,4 +125,4 @@ class Home extends React.Component {
     }
 }
 
-export default Home
+export default withRouter(Home)

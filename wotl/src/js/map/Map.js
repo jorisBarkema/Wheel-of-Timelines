@@ -22,12 +22,12 @@ import CustomImage from './CustomImage.js';
 
 //import PortraitManager from './PortraitManager.js';
 
-import {events} from '../../data/events.json';
-import {locations} from '../../data/locations.json';
-import {regions} from '../../data/regions.json';
-import {stedding} from '../../data/stedding.json';
-import {portalstones} from '../../data/portalstones.json';
-import {rivers} from '../../data/rivers.json';
+import events from '../../data/events.json';
+import locations from '../../data/locations.json';
+import regions from '../../data/regions.json';
+import stedding from '../../data/stedding.json';
+import portalstones from '../../data/portalstones.json';
+import rivers from '../../data/rivers.json';
 
 
 const cookies = new Cookies();

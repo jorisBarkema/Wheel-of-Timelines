@@ -1,5 +1,5 @@
 import React from 'react';
-import { navigate } from "hookrouter";
+import { withRouter  } from 'react-router-dom';
 
 import DateContainer from '../DateContainer.js'
 
@@ -24,7 +24,7 @@ class BlogPreview extends React.Component {
         let className = this.props.last ? "blog-preview last" : "blog-preview";
 
         return (
-            <div className={className} onClick={() => navigate(this.state.link)}>
+            <div className={className} onClick={() => this.props.history.push(this.state.link)}>
                 <div className="row">
                     <div className="col-12 col-md-4 preview-image" style={{backgroundImage: "url(" + titleImgSrc + ")"}}>
                     </div>
@@ -38,4 +38,4 @@ class BlogPreview extends React.Component {
     }
 }
 
-export default BlogPreview
+export default withRouter(BlogPreview)

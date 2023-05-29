@@ -1,5 +1,5 @@
 import React from 'react';
-import { navigate } from "hookrouter";
+import { withRouter  } from 'react-router-dom';
 
 var images = require.context('../../assets', true);
 
@@ -21,7 +21,7 @@ class QuizPreview extends React.Component {
         return (
             <div className="col-12 col-md-6">
                 <div className="white-text quiz-preview shadowed" style={{backgroundImage: "url(" + img_src + ")"}}
-                     onClick={() => navigate(this.state.link)}>
+                     onClick={() => this.props.history.push(this.state.link)}>
                     <h1>{this.state.title}</h1>
                 </div>
                 <span className="credit"><a href={this.state.credit}>image source</a> by {this.state.artist}</span>
@@ -30,4 +30,4 @@ class QuizPreview extends React.Component {
     }
 }
 
-export default QuizPreview;
+export default withRouter(QuizPreview)

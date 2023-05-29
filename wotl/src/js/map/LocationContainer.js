@@ -1,7 +1,7 @@
 import React from 'react';
 import {isMobile} from 'react-device-detect';
 
-import {locations} from '../../data/locations.json';
+import locations from '../../data/locations.json';
 
 var images = require.context('../../assets', true);
 
